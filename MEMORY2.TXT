@@ -1,0 +1,12 @@
+bytu k dispozici.  Jestlize budes hru hrat bez dostatku
+pameti, bude se chovat nekorektne.  Muzes snizit pametove
+naroky o 40,000 bytu spustenim programu INSTALL.EXE
+a zvolit NO SOUND CARD, nebo muzes zvysit dostupnou
+pamet na svem pocitaci odinstalovanim TSR (rezidentnich)
+programu, nebo je muzes nahrat do vyssi pameti.
+
+Soubory AUTOEXEC.TXT a CONFIG.TXT jsou ukazky, souboru
+AUTOEXEC.BAT a CONFIG.SYS, ktere muzes pouzit k vytvoreni
+minimalni nutne konfigurace tveho pocitace.
+
+Zmackni nejakou klavesu pro pokracovani, nebo ESC k navratu do DOSu.

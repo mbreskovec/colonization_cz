@@ -1,0 +1,105 @@
+;
+;       COLONIZATION Game Menu
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       prelozil !! CORWIN !!
+
+@GAME
+~HRA
+  Herni nastaveni
+  Nastaveni zprav o koloniich
+  Nastaveni zvuku
+  Vyber hudby
+  Ulozit Hru
+  Nahrat Hru
+  VYHLASIT NEZAVISLOST
+  Skoncit
+  Odchod do systemu
+
+@VIEW
+~POHLED
+  Jednotka na tahu (~M)
+  Zobrazit ~Vlastnosti
+  ~Evropsky status
+  Najit kolonii
+  Zoom In#   ~Z
+  Zoom Out   ~X
+  Zoom Level 120 x 96
+  Zoom Level #60 x 48
+  Zoom Level #30 x 24
+  Zoom Level #15 x 12
+  Ukaz skryty teren (~H)
+  Vystredit pohled (~C)
+
+@ORDERS
+~ROZKAZY
+  ~Aktivovat jednotku
+  Cekat na dalsi jednotku (~W)
+  Opevnit (~F)
+  Opevnit (~F)
+  Hlidka (~S)
+  Postavit kolonii (~B)
+  Pripojit se ke kolonii (~B)
+  Vymytit les (~P)
+  Vytvorit ~pole
+  Postavit cestu (~R)
+  Na~lozit naklad
+  Vylozit naklad (~U)
+  Znicit (~P)
+  Jdi do pristavu (~G)
+  Jdi do kolonie (~G)
+  Zacni obchodni cestu (~T)
+  Nav~rat do Evropy
+  Bez prikazu (~s~p~a~c~e~ bar)
+  H~odit naklad pres palubu
+  Rozpustit jednotku (~s~h~i~f~t~-~D)
+
+@REPORTS
+~ZPRAVY
+  ~F~1 Informace o terenu
+  ~F~2 Nabozensky poradce
+  ~F~3 Kontinentalni Kongres
+  ~F~4 Pracovni poradce
+  ~F~5 Ekonomicky poradce
+  ~F~6 Poradce pro kolonie
+  ~F~7 Namorni poradce
+  ~F~8 Poradce pro zahranicni veci
+  ~F~9 Indiansky poradce
+  ~F~1~0 Colonization skore
+
+
+@TRADE
+~OBCHOD
+  Upravit obchodni cestu
+  Vytvorit obchodni cestu
+  Zrusit obchodni cestu
+
+@CUP
+~CHEAT
+  ~F~0~1 Vytvorit jednotku
+  ~F~0~2 Nastaveni hry
+  ~F~0~4 Odkryt mapu
+  ~F~0~5 Vyber lidskeho hrace
+  ~F~0~6 Zabit indiany
+  ~F~0~7 Vyhlaseni revoluce
+  Test Hudby
+  Stav pameti
+  ~F~0~8 Ukaz strategii
+  ~F~0~9 Ukaz kolonie
+  ~F~0~1~0 Testovaci rutina
+
+@PEDIA
+~COLONIZOPEDIA
+  Typy nakladu
+  Typy jednotek
+  Typy terenu
+  Dovednosti kolonistu
+  Budovy v koloniich
+  Otcove pokroku
+  Ruzne
+  Kompletni
+
+@END
