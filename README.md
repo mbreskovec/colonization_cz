@@ -4,7 +4,7 @@
 - e-mail: michal@breskovec.cz
 - web: https://mujkoutek.cz/
 
-Překlad vznikal před více jak 20 lety a drobnou korekturou prošel v roce 2004. Pokud najdete chybu, nebo překlep, neváhejte mě prosím kontaktovat.
+Překlad vznikal v letech 1997 a 1998, drobnou korekturou prošel koncem roku 2004. Pokud najdete chybu, nebo překlep, neváhejte mě prosím kontaktovat.
 
 ## Instalace
 
