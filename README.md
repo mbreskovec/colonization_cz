@@ -135,7 +135,7 @@ Znaky s diakritikou ve zdrojovém překladu, s kódováním třeba v UTF-8, je n
 
 Například pomocí textového editoru [Vim](https://www.vim.org/) je možné udělat to takto, v "*Insert*" módu stisknout ```Ctrl+V```, napsat číslo ASCII kódu, třeba "**17**" pro "**č**" a stiknout ```Enter```.
 
-####Nahrazení všech znaků v celém textu lze takto
+#### Nahrazení všech znaků v celém textu lze takto
 
 Ujistěte se, že nemáte aktivované ignorování velikosti písma, aby nedošlo nahrazení velkých písmen s diakritikou malými písmeny a obráceně:
 
