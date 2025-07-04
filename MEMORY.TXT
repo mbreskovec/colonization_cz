@@ -1,5 +1,0 @@
-
-COLONIZATION - Nedostatek pameti!
-
-Colonization potrebuje pro sve spusteni 575,000 bytu
-volne pameti.  Nyni je k dispozici jen

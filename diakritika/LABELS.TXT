@@ -1,0 +1,298 @@
+;
+;       COLONIZATION Label Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@INFO
+Tah:
+Lokace:
+S:
+S:
+
+@MISC
+
+
+Konec kola
+Nic
+Expert
+Pluji do
+Piplouvajc z
+Nyn pijd do
+Dokuje v
+Piplouv`
+Pluje do
+`dn lod v pstavu
+ek` na pevoz
+(Cena:
+)
+Rozval. Ztrac. msta
+.5
+Divoina
+Pevnina
+z
+`dn n`klad pipraven k peprav!
+`dn voln n`kladov prostory!
+`dn n`klad na palub!
+Nakl`d`n
+Vykl`d`n
+do
+v
+Misie
+Misie
+ZPRVA INDINSKHO PORADCE
+ZPRVA NBOENSKHO PORADCE
+Cesta
+Nic
+jen
+Pokrauj v tahu.
+Zoom do kolonie.
+
+AKTIVITY KONTINENTLNHO KONGRESU
+Nyn diskutuj:
+Znepokojeni kvli
+Jezero
+vozy
+dr
+Poaduje
+(ZRUIT SPECIALIZACI)
+St`da kon
+OK
+prod`v`
+pro
+ZPRVA PRACOVNHO PORADCE
+ZPRVA EKONOMICKHO PORADCE
+ZPRVA PORADCE PRO KOLONIE
+ZPRVA NMONHO PORADCE
+Mimo mapu (Evropa)
+Na map
+V kolonich
+(Klikni na poloku pro piblen)
+K
+Tun
+Zlata
+Voln moe
+Lo
+N`klad
+Lokace
+Msto uren
+Veter`n
+Ostlen
+Uen
+Poaduje:
+Rebel
+Kr`lovsk
+Sentiment
+Popularita kr`le
+por`ka
+por`ky
+BOJOV ANALZA
+nava
+ton bonus
+Pepad
+Tern
+Kolonie
+Opevnn`
+panlsk bonus
+Zor`no
+Nechr`nn` artilerie
+Expedin vojsko
+Rebelov
+Kr`lovt
+Z`leitosti
+Otcov zakladatel
+Drake
+(drba budov)
+DRBA CELKEM
+ZPRVA PORADCE PRO ZAHRANIN VCI
+
+Kolonie
+Populace
+Prmrn` kolonie
+Vojensk` mocnost
+N`mon mocnost
+Obchodn lostvo
+V`lka
+Mr
+Poradce
+Bombardovat
++ Vce +
+a
+minul
+COLONIZATION ENCYKLOPEDIE
+(Vce)
+(Exit)
+Intervenn vojsko
+Dal jedn`n Kontinent`lnho kongresu
+Intervence
+COLONIZATION SKRE
+Oban
+Nez`vislost
+Vesnice vyp`leny
+Vyhl`en
+Dosaen
+Zahranin uzn`n
+Celkov skre
+Stromy
+(Mimo kolonii)
+Poaduj
+Nabzej
+SKRE DOKONENO
+DOKONENO
+dorazil do
+Artilerie vs. Pepaden
+Vyhynuli
+Bojkot
+Nepokoje kr`lovskch
+Nepokoje rebel
+Kontinent`ln kongres
+Prod`no
+Koupeno
+za
+$/tuna
+Cena
+% Da
+Net
+Brzk` Revoluce
+pedchoz n`rody
+Mnostv zem
+Typ zem
+Teplota
+Klimat
+M`lo
+Stedn
+Hodn
+Souostrov
+Norm`ln
+Kontinenty
+Chladno
+Mrn`
+Horko
+Such
+Norm`ln
+Vlhk
+PIZPSOBIT NOV SVT
+Po dokonen klikni zde
+Vyber
+Stupe obtnosti
+Stupe
+Nejleh
+Lehk
+Stedn
+Tk
+Nejt
+Vyber
+Evropskou mocnost
+Mocnost
+Imigrace
+Spolupr`ce
+Dobv`n
+Obchod
+Ryba
+s
+Boj
+tok
+N`kladn prostory
+Tah
+Pole
+eka
+Pobe
+Cena tahu
+Obrann nebo pepadov bonus
+Pedpoklad
+(F1 pro N`povdu)
+(Staeni z Novho svta)
+Voln
+COLONIZATION S	 SLVY
+do
+L.P.
+Prezident
+Gener`l, Kontinent`ln arm`da
+Vdce
+Skre
+Colonization_Hodnocen
+Prim`rn
+Pokozen
+Tisk
+Nabdka/cena
+Popt`vka/cena
+Zoom do Evropy.
+Evropsk obchod
+N`klad v pstavu
+Vojensk pos`dky
+Synov svobody
+Exit
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+
+
+@ROUTE
+UPRAVIT OBCHODN TRASU
+Jmno trasy:
+Typ trasy:
+Mosk`
+Pozemn
+Cl
+Vyloit n`klad
+Naloit n`klad
+(Smazat cl)
+
+@CMISC
+Sklize / Zdroje
+Ptomn jednotky
+Udlat
+
+@CTITLE
+Pop:
+Zlato:
+KOUPIT
+ZMNIT
+Vyber poloku k postaven
+(`dn` produkce)
+(Vce)
+Tah)
+Vyber profesi pro
+Da:
+
+@CMESSAGE
+koupeno za
+prod`no za
+pesunuto do
+. Cena:
+Nen msto pro
+Nic k peprav
+Nedostatek
+naplnit n`kladov prostor!
+pli drah!
+Ne
+v n`kladovm prostoru!
+Nic k pevozu!
+za
+Nakupuji
+Prod`v`m
+Nakl`d`m
+Vykl`d`m
+% Da:
+. Net:
+
+@EUROLABEL
+NBOR
+NKUP
+VYKOLIT
+x
+

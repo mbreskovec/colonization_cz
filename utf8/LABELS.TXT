@@ -1,0 +1,298 @@
+;
+;       COLONIZATION Label Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@INFO
+Tahů:
+Lokace:
+S:
+S:
+
+@MISC
+
+
+Konec kola
+Nic
+Expert
+Pluji do
+Připlouvající z
+Nyní přijíždí do
+Dokuje v
+Připlouvá
+Pluje do
+Žádné lodě v přístavu
+Čeká na převoz
+(Cena:
+)
+Rozval. Ztrac. města
+.5
+Divočina
+Pevnina
+z
+Žádný náklad připravený k přepravě!
+Žádné volné nákladové prostory!
+Žádný náklad na palubě!
+Nakládání
+Vykládání
+do
+v
+Misie
+Misie
+ZPRÁVA INDIÁNSKÉHO PORADCE
+ZPRÁVA NÁBOŽENSKÉHO PORADCE
+Cesta
+Nic
+jen
+Pokračuj v tahu.
+Zoom do kolonie.
+
+AKTIVITY KONTINENTÁLNÍHO KONGRESU
+Nyní diskutují:
+Znepokojeni kvůli
+Jezero
+vozy
+drží
+Požaduje
+(ZRUŠIT SPECIALIZACI)
+Stáda koní
+OK
+prodává
+pro
+ZPRÁVA PRACOVNÍHO PORADCE
+ZPRÁVA EKONOMICKÉHO PORADCE
+ZPRÁVA PORADCE PRO KOLONIE
+ZPRÁVA NÁMOŘNÍHO PORADCE
+Mimo mapu (Evropa)
+Na mapě
+V koloniích
+(Klikni na položku pro přiblížení)
+K
+Tun
+Zlata
+Volné moře
+Loď
+Náklad
+Lokace
+Místo určení
+Veterán
+Ostřílený
+Učený
+Požaduje:
+Rebel
+Královský
+Sentiment
+Popularita krále
+porážka
+porážky
+BOJOVÁ ANALÝZA
+Únava
+Útočný bonus
+Přepad
+Terén
+Kolonie
+Opevněná
+Španělský bonus
+Zoráno
+Nechráněná artilerie
+Expediční vojsko
+Rebelové
+Královští
+Záležitosti
+Otcové zakladatelé
+Drake
+(Údržba budov)
+ÚDRŽBA CELKEM
+ZPRÁVA PORADCE PRO ZAHRANIČNÍ VĚCI
+
+Kolonie
+Populace
+Průměrná kolonie
+Vojenská mocnost
+Námořní mocnost
+Obchodní loďstvo
+Válka
+Mír
+Poradce
+Bombardovat
++ Více +
+a
+minulý
+COLONIZATION ENCYKLOPEDIE
+(Více)
+(Exit)
+Intervenční vojsko
+Další jednání Kontinentálního kongresu
+Intervence
+COLONIZATION SKÓRE
+Občané
+Nezávislost
+Vesnice vypáleny
+Vyhlášen
+Dosažen
+Zahraniční uznání
+Celkové skóre
+Stromy
+(Mimo kolonii)
+Požadují
+Nabízejí
+SKÓRE DOKONČENO
+DOKONČENO
+dorazil do
+Artilerie vs. Přepadení
+Vyhynuli
+Bojkot
+Nepokoje královských
+Nepokoje rebelů
+Kontinentální kongres
+Prodáno
+Koupeno
+za
+$/tuna
+Cena
+% Daň
+Net
+Brzká Revoluce
+předchozí národy
+Množství země
+Typ země
+Teplota
+Klimat
+Málo
+Středně
+Hodně
+Souostroví
+Normální
+Kontinenty
+Chladno
+Mírná
+Horko
+Suchý
+Normální
+Vlhký
+PŘIZPŮSOBIT NOVÝ SVĚT
+Po dokončení klikni zde
+Vyber
+Stupeň obtížnosti
+Stupeň
+Nejlehčí
+Lehký
+Střední
+Těžký
+Nejtěžší
+Vyber
+Evropskou mocnost
+Mocnost
+Imigrace
+Spolupráce
+Dobývání
+Obchod
+Ryba
+s
+Boj
+Útok
+Nákladní prostory
+Tahů
+Pole
+Řeka
+Pobřeží
+Cena tahu
+Obranný nebo přepadový bonus
+Předpoklad
+(F1 pro Nápovědu)
+(Staženi z Nového světa)
+Volný
+COLONIZATION SÍŇ SLÁVY
+do
+L.P.
+Prezident
+Generál, Kontinentální armáda
+Vůdce
+Skóre
+Colonization_Hodnocení
+Primární
+Poškozený
+Tisk
+Nabídka/cena
+Poptávka/cena
+Zoom do Evropy.
+Evropský obchod
+Náklad v přístavu
+Vojenské posádky
+Synové svobody
+Exit
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+
+
+@ROUTE
+UPRAVIT OBCHODNÍ TRASU
+Jméno trasy:
+Typ trasy:
+Mořská
+Pozemní
+Cíl
+Vyložit náklad
+Naložit náklad
+(Smazat cíl)
+
+@CMISC
+Sklizeň / Zdroje
+Přítomné jednotky
+Udělat
+
+@CTITLE
+Pop:
+Zlato:
+KOUPIT
+ZMĚNIT
+Vyber položku k postavení
+(Žádná produkce)
+(Více)
+Tahů)
+Vyber profesi pro
+Daň:
+
+@CMESSAGE
+koupeno za
+prodáno za
+přesunuto do
+. Cena:
+Není místo pro
+Nic k přepravě
+Nedostatek
+naplnit nákladový prostor!
+příliš drahé!
+Ne
+v nákladovém prostoru!
+Nic k převozu!
+za
+Nakupuji
+Prodávám
+Nakládám
+Vykládám
+% Daň:
+. Net:
+
+@EUROLABEL
+NÁBOR
+NÁKUP
+VYŠKOLIT
+x
+

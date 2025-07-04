@@ -1,0 +1,31 @@
+;
+;       COLONIZATION Colonizopedia Data
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@WOODCUT
+NOVY SVET
+OBJEVENI NOVEHO SVETA
+STAVBA KOLONIE
+SETKANI S DOMORODCI
+AZTECKA RISE
+NAROD INKU
+OBJEVENI PACIFICKEHO OCEANU
+VSTUP DO INDIANSKE VESNICE
+FONTANA MLADI
+NAKLAD Z NOVEHO SVETA
+PRIVITANI PRATELSKYMI EVROPANY
+VYPALENA KOLONIE
+KOLONIE BYLA ZNICENA
+INDIANSKY VPAD
+woodcut 14
+woodcut 15
+woodcut 16

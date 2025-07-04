@@ -1,0 +1,5 @@
+
+COLONIZATION Memory Warning!
+
+Colonization normally requires 575,000 bytes of free memory
+in order to play.  At the moment, your machine has only

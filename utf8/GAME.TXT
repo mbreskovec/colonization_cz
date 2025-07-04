@@ -1,0 +1,3385 @@
+;
+;       COLONIZATION Game Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+
+@DOS
+@default=2
+Odchod do systému?
+
+Ano
+Ne
+
+@DOSYES
+Odchod do systému?
+
+Ano
+Ne
+
+@RETIRE
+@default=2
+Určitě chceš skončit?
+
+Ano
+Ne
+
+
+@BEGINMENU
+@width=160
+@y=91
+@smallfont
+{COLONIZATION} verze %STRING0 -- %STRING1
+@options
+Začít hru v NOVÉM SVĚTĚ
+Začít hru v AMERICE
+PŘIZPŮSOBIT Nový svět
+Nahrát hru
+Zobrazit síň slávy
+
+
+@GAMEOPTIONS
+@width=190
+@checkbox
+Herní nastavení
+@options
+Ukazuj tahy ~Indiánů
+Ukazuj tahy ostatních (~F)
+Rychlý pohyb na mapě (~S)
+Kon~ec kola
+~Autoukládání
+Bojová analýza (~C)
+Poh~yblivé vlny na vodě
+~Tutoriál nápověda
+
+@COLONYOPTIONS
+@width=220
+@checkbox
+Nastavení zpráv o koloniích
+@options
+Jména na {budovách}
+Jména na {nákladu} a {terénu}
+Zprávy o ukončení {školení} kolonisty
+Zprávy o nedostatku {jídla}
+Zprávy o nedostatku {materiálu}
+Zprávy o nedostatku {nářadí} pro produkci
+Zprávy o {nedostatečné} vládě
+Zprávy o {nových nákladech} zboží
+Zprávy o stavu {Zvonů svobody}
+Zprávy o {převaze rebelů}
+
+@SOUNDOPTIONS
+@width=190
+@checkbox
+Nastavení zvuku
+@options
+Hud~ba na pozadí
+Hudba při akcích (~E)
+~Zvukové efekty  (~S)
+
+@SAVEGAME
+@width=190
+Vyber pozici pro uložení
+
+@SAVEGOOD
+@width=190
+%STRING1 uložena jako %STRING0.
+
+@SAVEERROR
+@width=190
+Chyba při ukládání hry %STRING0.
+
+@LOADGAME
+@width=190
+Vyber hru pro nahrání
+
+@LOADGOOD
+@width=190
+Nahrání %STRING0 bylo úspěšné.
+
+@LOADNOT
+@width=190
+%STRING0 není platný uložený soubor.
+
+@LOADOLD
+@width=190
+%STRING0 je zastaralý uložený soubor.
+
+@LOADSIZE
+@width=190
+%STRING0 nemá platnou velikost mapy.
+Nebude nahrán.
+
+@LOADERROR
+@width=190
+Chyba při nahrávání hry %STRING0.
+
+
+@PICKNATION
+@default=1
+Vyber Evropskou mocnost
+
+Anglie
+Francie
+Španělsko
+Holandsko
+
+
+@DIFFICULTY
+@width=190
+Vyber Stupeň obtížnosti
+
+Objevitel
+Průzkumník
+Conquistador
+Guvernér
+Místokrál
+
+
+@LEADERNAME
+@width=300
+^^Prosím, zadej své jméno.
+_
+_
+@options
+______________________
+
+
+@FINDCITY
+@width=190
+Kde kruci je . . .
+
+Kolonie:
+
+@NOCITY
+@width=190
+"%STRING0" nebyla nalezena.
+
+@@smallfont
+
+@VICEROY
+@width=78
+@x=232
+@y=21
+^
+^^Léta Páně
+^^1492
+^
+^^U audience s
+^^Králem %COUNTRY
+^
+"Pro větší slávu %COUNTRY,
+ti udělujeme titul místokrále Nové země.
+Jdi a prozkoumej nové pevniny, osídli
+je a šiř slávu svou a slávu
+svého národa."
+
+
+@VICEROY2
+@width=78
+@x=232
+@y=21
+^
+^^Léta Páně
+^^1492
+^
+^^U audience s
+^^místodržícím
+^
+"Pro větší slávu %COUNTRY,
+ti udělujeme titul místokrále Nové země.
+Jdi a prozkoumej nové pevniny, osídli
+je a šiř slávu svou a slávu
+svého národa."
+
+
+@@VICEROY
+@@width=200
+@^^Léta Páně %YEAR
+@^^Audience u krále %COUNTRY
+@^^_
+@"Pro větší slávu %COUNTRY, ti udělujeme
+@^_titul {Místokrál Nového světa}. Jdi,
+@^_prozkoumej a osídli tuto novou zemi. Osídli ji
+@^_pro větší slávu svou
+@^_a slávu svého národa."
+
+@LANDHO
+@width=190
+@default=America
+Země na obzoru!  Vaše Excelence, jak chcete
+nazvat tuto novou zemi?
+
+Jméno:
+
+@COLONY
+Jak máme pojmenovat tuto kolonii?
+
+Jméno:
+
+@RENAMECOLONY
+Jak máme přejmenovat tuto kolonii?
+
+Jméno:
+
+@LANDFALL
+@default=1
+@width=190
+Vaše Excelence, měli bychom se vylodit,
+máme opustit loď?
+
+Zůstaňte na lodi
+Vyloďte se
+
+@LANDFALL2
+@default=1
+@width=190
+Naše loď nemůže plout po této řece,
+Vaše Excelence.  Měli bychom se vylodit,
+máme opustit loď?
+
+Zůstaňte na lodi
+Vyloďte se
+
+@ONLYPIO
+@width=120
+Tuto funkci mohou vykonávat jen
+{průkopníci}.
+
+@ONLYCOL
+@width=120
+Tuto funkci mohou vykonávat jen
+{kolonisté}.
+
+@SHIPCOMBAT
+@width=190
+Na nepřátelské lodě mohou útočit
+jen {Korzáři} a {Fregaty}.
+
+@SHIPLAKE
+@width=190
+Na {jezero} nemůže loď vyplout.
+
+@LANDFIRST
+@width=190
+Pozemní jednotky nemohou přímo z paluby lodi vstoupit na území
+obsazené nepřáteli.  Musíš je nejdřív vyložit
+na prázdném, nebo přátelskou jednotkou obsazeném území.
+
+@SEACOLONY
+@width=140
+Možná tě to překvapí, ale kolonie nelze
+zakládat na moři.
+
+@NOPORT
+@width=190
+Toto území nemá přístup k {oceánu},
+Vaše Excelence.  Jestliže zde vybudujete {kolonii},
+budeme muset k transportu zboží do {přístavu} použít
+{přepravní vozy}, které postavíme v
+nějaké kolonii.
+
+"Och, na to jsem zapomněl."
+"A to je přesně to, co chci."
+
+@BUILT
+@width=140
+V kolonii %STRING0 byl postaven {%STRING1}.
+
+@FULL
+@width=190
+Kolonie {%STRING0} je {přeplněna}, Vaše
+Excelence.
+Bude lepší pro tyto emigranty najít
+jinou kolonii.
+
+
+@NOTEACHER
+@width=190
+Jedině kolonisté, kteří jsou v dané profesi mistry, mohou vyučovat ostatní.
+
+@NEEDCOLLEGE
+@width=190
+Pokud chceš v této kolonii vyučovat profesi ({%STRING0}),
+musíš vybudovat {vysokou školu}.
+
+@NEEDUNIVERSITY
+@width=190
+Pokud chceš v této kolonii vyučovat profesi ({%STRING0}),
+musíš vybudovat {univerzitu}.
+
+@TRAINFAIL
+@width=190
+V {%STRING0} máme {učitele}, ale všichni kolonisté
+v této kolonii jsou již v nějakém oboru experty. 
+Specializaci některého z kolonistů můžeš zrušit tak,
+že na něj na obrazovce kolonie klikneš myší a v menu
+zvolíš "{Zrušit specializaci}".
+
+@TRAINCRIMINAL
+@width=190
+V {%STRING0} se, díky vzdělání, stal ze {zločince}
+{smluvní sluha}.
+
+@TRAININDENTURED
+@width=190
+V {%STRING0} se, díky vzdělání, stal ze {smluvního sluhy}
+{volný kolonista}.
+
+@TRAINPROFESSION
+@width=190
+{Kolonista} v {%STRING0} byl vyškolen ve speciální
+profesi {%STRING1}.
+
+
+@SIEGE
+@width=190
+Kolonie je v {obležení}, nepřátelské bojové jednotky
+v této oblasti nyní přečíslují naše.  Než bude obležení
+prolomeno, mohou zde být vytvářeny pouze jednotky
+Voják a Dragoun.
+
+
+@ABANDON
+@width=190
+@default=2
+Vaše Excelence, máme {opustit} naši kolonii %STRING0
+a všechno, co jsme zde vybudovali?
+
+Ano, to by bylo dobré.
+Nikdy! To by byla hloupost.
+
+
+@ABANDON2
+@width=190
+@default=2
+Vaše Excelence, máme {opustit} naši kolonii %STRING0
+a všechno, co jsme zde vybudovali?
+Jestliže nebudeme mít po roce 1600 žádné kolonie,
+král Vás odvolá z funkce!
+
+Ano, to by bylo dobré.
+Nikdy! To by byla hloupost.
+
+
+@SAILHOME
+@width=190
+@default=1
+Máme vyplout na {volné moře}, Vaše
+Excelence?  Máme plout do Evropy?
+
+Ano, bez meškání.
+Ne, zůstaňte v těchto vodách.
+
+@SAILAWAY
+@width=190
+@default=1
+Máme plout do {Nového světa},
+Vaše Excelence?
+
+Ano, bez meškání.
+Ne, zůstaňte v přístavu.
+
+@SAILPORT
+@width=190
+@default=1
+Vyber cílový přístav:
+
+@TRAVELPLACE
+@width=190
+@default=1
+Vyber cílovou kolonii:
+
+
+@UNREST
+@width=190
+@default=1
+V %COUNTRY jsou náboženské nepokoje, díky tomu se zvyšuje
+emigrace.  V %STRING0 jsou dostupní kolonisté ({%STRING1}).
+
+@RECRUIT
+@width=190
+Následující jedinci nás doprovodí do Nového
+světa, pokud zaplatíme jejich přepravu,
+která stojí ({%NUMBER0 zlata}).
+Koho najmeme?
+
+@RECRUITCHOOSE
+@width=220
+Náboženské nepokoje v %COUNTRY jsou důvodem zvýšené
+emigrace.  V %STRING0 jsou připravení kolonisté
+a chtějí nás následovat do Nového světa, kde hledají
+náboženskou svobodu. Koho najmeš?
+
+
+@RECRUIT2
+@width=190
+Následující speciální profese jsou dostupné
+mezi %STRING0. Koho najmeš?
+
+
+@KINGRECRUIT
+@width=190
+@smallfont
+{Královská univerzita} pro nás zajistí specialisty.
+Kterou specializaci potřebuješ?
+
+
+@PURCHASE
+@width=190
+Následující věci jsou k dispozici.  Kterou koupíš?
+
+@SCHOOL1
+@width=190
+Vaše Excelence, ve {škole} může učit jen {jeden}
+učitel.
+
+@COLLEGE2
+@width=190
+Vaše Excelence, na {střední škole} mohou učit jen {dva}
+učitelé.
+
+@UNIV3
+@width=190
+Vaše Excelence, na {univerzitě} mohou učit jen {tři}
+učitelé.
+
+@NODOCKS
+@width=190
+Vaše Excelence, v této kolonii nemůžeme rybařit,
+dokud nepostavíme {doky}.
+
+@CARGOREADY0
+@width=190
+Vaše Excelence, v {%STRING0} je připraven nový náklad {%STRING1}.
+
+@CARGOREADY1
+@width=190
+Vaše Excelence, v {%STRING0} je připraven nový náklad {%STRING1}.
+%STRING0 nemá pro %STRING1 ({%NUMBER0}) dostatek místa ve skladu.
+Měl byste v této kolonii zvážit stavbu většího {skladiště}.
+
+
+@CARGOREADY2
+@width=190
+Vaše Excelence, v {%STRING0} je připraven nový náklad {%STRING1}.
+%STRING0 nemá pro %STRING1 ({%NUMBER0}) dostatek místa ve skladu.
+
+
+@LUMBER
+@width=190
+Vaše Excelence, v {%STRING0} není žádné {dřevo}.  Naši
+tesaři nemohou pokračovat ve své práci, dokud nějaké
+nenajdete.
+
+@COTTON
+@width=190
+Vaše Excelence, v {%STRING0} není žádná {bavlna}.  Naši
+tkalci nemohou pokračovat ve své práci, dokud nějakou
+nenajdete.
+
+@TOBACCO
+@width=190
+Vaše Excelence, v {%STRING0} není žádný {tabák}.  Naši
+doutníkáři nemohou pokračovat ve své práci, dokud
+nějaký nenajdete.
+
+@CANESUGAR
+@width=190
+Vaše Excelence, v {%STRING0} není žádný {cukr}.  Naši
+lihovarníci nemohou pokračovat ve své práci, dokud
+nějaký nenajdete.
+
+@FURS
+@width=190
+Vaše Excelence, v {%STRING0} nejsou žádné {kožešiny}.
+Naši kožešníci nemohou pokračovat ve své práci, dokud
+nějaké nenajdete.
+
+@ORE
+@width=190
+Vaše Excelence, v {%STRING0} není žádná {železná ruda}.
+Naši kováři nemohou pokračovat ve své práci, dokud 
+nějakou nenajdete.
+
+@TOOLS
+@width=190
+Vaše Excelence, v {%STRING0} není žádné {nářadí}.
+Naši zbrojaři nemohou pokračovat ve své práci, dokud
+nějaké nenajdete.
+
+
+@FOOD1
+@width=190
+Vaše Excelence, zásoby jídla v {%STRING0} jsou
+vyčerpány!
+
+@FOOD2
+@width=190
+Vaše Excelence, zásoby jídla v {%STRING0} jsou
+vyčerpány!  Přichází {zima}
+a my můžeme {vyhladovět} ke smrti!
+
+@VANISH
+@width=190
+Vaše Excelence!  Naše kolonie {%STRING0}
+zmizela!  Kolonisté {vyhladověli}
+ke smrti.
+
+@STARVE1
+@width=190
+Vaše Excelence, v kolonii {%STRING0} už není žádné jídlo!
+V tomto drsném zimním počasí bylo mnoho kolonistů {vyhladověno}
+k smrti.
+
+@STARVE2
+@width=190
+Vaše Excelence, v kolonii {%STRING0} už není žádné jídlo!
+Kolonisté jsou {vyhladovělí} k smrti a může to být horší,
+zima přichází.
+
+@FOODLOW
+@width=190
+Vaše Excelence, v kolonii {%STRING0} se rychle spotřebovávají
+jejich zásoby jídla.  Máme tam jen {%NUMBER0 jídla}.
+Musíme mít jídlo pro zimní měsíce.
+
+@SPOIL1
+@width=190
+V kolonii {%STRING0} byla překročena kapacita skladiště a
+{%NUMBER0} tun {%STRING1} bude vyhozeno. Větší {skladiště} by mohlo
+pojmout dalších {100} tun tohoto nákladu.
+
+@SPOIL2
+@width=190
+V kolonii {%STRING0} byla překročena kapacita skladiště.
+Nějaký náš náklad bude vyhozen.
+Větší {skladiště} by mohlo pojmout dalších {100} tun tohoto nákladu.
+
+@SPOIL3
+@width=190
+V kolonii {%STRING0} byla překročena kapacita skladiště.
+{%NUMBER0} tun {%STRING1} bude vyhozeno.
+
+@SPOIL4
+@width=190
+V kolonii {%STRING0} byla překročena kapacita skladiště.
+Nějaký náš náklad bude vyhozen.
+
+
+@BUYME0
+@width=160
+Cena za dokončení %STRING0: %NUMBER0$.
+^Poklad: %NUMBER1$.
+
+@BUYME1
+@width=160
+@default=1
+Cena za dokončení %STRING0: %NUMBER0$.
+^Poklad: %NUMBER1$.
+
+Nedám ani halíř.
+Dokončit.
+
+
+@DEFOREST
+@width=160
+Odlesnění nedaleko %STRING0.
+
+@DEPLETION
+@width=160
+Důl vytěžen u %STRING0.
+
+@UNITFLAG
+@width=160
+Flags chyba jednotky (%NUMBER0, %NUMBER1) (%STRING0).
+
+@COLONYFLAG
+@width=160
+Flags chyba kolonie.
+
+@LOSTCITY0
+@width=190
+Které z těchto osob najmeme?
+
+@LOSTCITY1
+@width=190
+Objevili jsme {Fontánu mládí}!  Fámy letí Evropou a imigranti
+se hrnou do přístavu, aby v Novém Světě hledali věčné mládí!
+
+@LOSTCITY2
+@width=190
+Našel jsi jedno ze {Sedmi zlatých měst Ciboly}!  Poklad vykopaný
+z ruin města má hodnotu {%NUMBER1$}!  K odvezení pokladu zpět
+do Evropy potřebuješ {galeonu}!
+
+@LOSTCITY3
+@width=190
+Našel jsi ruiny ztracené civilizace.  Nalezené zlato a artefakty
+mají cenu {%NUMBER0$}.
+
+@LOSTCITY4
+@width=190
+Tvoje expedice narazila na posvátný pohřební pahorek.
+
+"Hledejte poklad!"
+"Stůjte, to je posvátná půda indiánů!"
+
+
+@SCREWED
+@width=190
+"Toto je starodávné pohřební místo našich
+{%STRING0} otců!  Neoprávněně jsi vstoupil
+na naše svaté místo.  Teď musíš zemřít!"
+
+@BURIAL1
+@width=190
+Pahorek je studený a prázdný.
+
+@BURIAL2
+@width=190
+Našel jsi tretky za {%NUMBER0$}.
+
+@BURIAL3
+@width=190
+Našel jsi neuvěřitelný poklad za {%NUMBER1$}!
+K jeho přepravě zpět do Evropy
+musíš mít {galeonu}!
+
+
+@LOSTCITY5
+@width=190
+Tvá expedice zmizela beze stopy!
+
+@LOSTCITY6
+@width=190
+V rozvalinách jsi nic nenašel.
+
+
+@LOSTCITY7
+@width=190
+Tvoje expedice vstoupila do vesnice malého,
+přátelského kmene.  Náčelník ti daruje {%NUMBER0$}.
+
+
+@LOSTCITY8
+@width=190
+"Jsi neoprávněně blízko naší {%STRING0} svatyně!  Kmen
+%STRING0 je maximálně znepokojen!"
+
+
+@LOSTCITY9
+@width=190
+Stojíte na místě neúspěšné farmářské kolonie. 
+Přeživší zakladatelé kolonie, výměnou za tolik
+potřebné zásoby, slibují věrnost %STRING0.
+
+
+@SNEAK
+@width=190
+Zákeřný útok zrádných {%STRING0}!
+
+
+@CANCELPEACE
+@width=190
+{%STRING0} ukončil mírová jednání s {%STRING1}.
+
+@SIGNTREATY
+@width=190
+{%STRING0} a {%STRING1} vyhlásili mírová jednání.
+
+@DECLAREWAR
+@width=190
+{%STRING0} a {%STRING1} jsou nyní ve válce.
+
+
+@HAVETREATY
+@width=190
+"Vaše Excelence, ohlásili jsme mírová 
+jednání s {%STRING0}."
+
+Zrušit akci.
+Skončit jednání.
+
+
+@WHACKINDIANS
+@width=190
+Vaše Excelence, máme zaútočit na {%STRING0}?
+
+Ano
+Ne
+
+@VILLAGEHAPPY
+@width=190
+Tvoje expedice dosáhla %STRING0 patřící {%STRING1}.
+Obyvatelé pokojně pracují na okolních polích.
+{Šťastně} na vás mávají.
+
+@VILLAGESAVAGE
+@width=190
+Tvoje expedice dosáhla %STRING0 patřící {%STRING1}.
+Obyvatelé jsou zaměstnaní na okolních polích.
+{Šťastně} na vás mávají, ale všimnete
+si skalpů teatrálně rozvěšených po okolních
+stromech.
+
+@VILLAGEMEDIUM
+@width=190
+Tvoje expedice dosáhla %STRING0 patřící {%STRING1}.
+Obyvatelé jsou zaměstnaní na okolních polích.
+Malé skupinky bojovníků cvičí {lukostřelbu}
+a zamračeně a {podezřívavě} vás sledují.
+
+@VILLAGEBAD
+@width=190
+Tvoje expedice dosáhla %STRING0 patřící {%STRING1}.
+Tlupa {bojovníků} se na vás krvežíznivě dívá.
+Ostatní obyvatelé nejsou nikde vidět.
+
+@VILLAGEWAR
+@width=190
+Tvoje expedice dosáhla %STRING0 patřící {%STRING1}.
+Kolekce skalpů teatrálně visí na okolních stromech.
+Z vesnice slyšíte zlověstný zvuk {válečných bubnů}.
+
+@INDIANWELCOME
+@width=190
+"Kmen {%STRING0} vás vítá.
+Jsme slavný národ s {%NUMBER0 %STRING1}.
+Na počest našeho přátelství vám šlechetně
+darujeme zemi, kterou právě zabíráte.
+Přijímáte tuto smlouvu a budete
+s námi žít v míru, jako bratři?"
+
+Ano
+Ne
+
+@INDIANBOW
+@width=190
+"Kmen {%STRING0} se sklání před {%STRING1} silou.
+Jako tribut vaší velikosti vám věnujeme všechnu zem,
+kterou právě zabíráte."
+
+@INDIANTREATY
+@width=190
+"Kmen {%STRING0} se sklání před {%STRING1} silou.
+Jako tribut vaší velikosti vám věnujeme všechnu
+zem, kterou právě zabíráte. Přijímáte tuto
+smlouvu a budete s námi žít v míru,
+bok po boku?"
+
+Ano
+Ne
+
+@INDIANHELLO1
+@width=190
+"Kmen {%STRING0} vítá důstojné {%STRING1}
+z {%STRING2}."
+
+@INDIANHELLO2
+@width=190
+"Kmen {%STRING0} zdraví nejukrutnější {%STRING1}
+z {%STRING2}."
+
+@INDIANPEACE
+@width=190
+"{%STRING0} vítají mír s našimi bratry
+{%STRING1}.  Pojďte s námi vykouřit dýmku
+míru a oslavme tak naše věčné přátelství."
+
+@INDIANCOME
+@width=190
+"Doufáme, že brzy {navštívíte} %STRING0 vesnice,
+podělíte se o znalosti a pošlete své
+{přepravní vozy} obchodovat."
+
+@INDIANSHUN
+@width=190
+"Teď vás mocní {%STRING0} nemilosrdně smetou do moře.
+Připravte se na VÁLKU!"
+
+
+@INDIANWAGONS
+@width=190
+"{%STRING0} osadníci se dopustili strašného
+ničení {%STRING1} země a %STRING1 lidu.  
+Proto požadujeme všech {%NUMBER0} kusů 
+{%STRING2} v těchto vozech jako reparaci."
+
+Předejte to.
+Vozy do kruhu.
+
+@INDIANCITY
+@width=190
+"{%STRING0} osadníci se dopustili strašného
+ničení {%STRING1} země a %STRING1 lidu.
+Proto požadujeme {%NUMBER0 %STRING2}
+ze skladů kolonie jako reparace."
+
+Muži na palisády.
+Předejte to.
+
+
+@INDIANGOLD
+@width=190
+"{%STRING0} lidé volají po spravedlnosti.
+Žádáme {%NUMBER0$} jako reparaci."
+
+"Nikdy, nepřistoupím na vyděračství!"
+"Rád zaplatím {%NUMBER0$}."
+
+
+@INDIANSLAVES
+@width=190
+Vystrašený dav {%STRING0} přichází do %STRING1 misie jako {konvertité}.
+
+@INDIANSCONVERT
+@width=190
+"Moudrost vašich misionářů několik z nás přesvědčila,
+aby se připojili k vaší kolonii 
+v {%STRING0} a žili s vámi jako {konvertité}."
+
+@INDIANGIVEFOOD
+@width=190
+"{%STRING0} vidí, že vaše zásoby jídla v tomto období
+jsou nedostatečné.  Nicméně, naše vlastní žně byly hojné
+a přicházíme se s vámi štědře podělit o naši úrodu.
+Nabízíme vám darem {%NUMBER0 jídla}, jako stvrzení 
+věčného míru mezi našimi lidmi.  Pojďme jíst společně
+a vzdejme díky za naše štěstí."
+
+@INDIANGIVESTUFF
+@width=190
+"Kmen {%STRING0} je potěšen pokrokem
+v sousedských vztazích s {%STRING1}.  
+Z vděčnosti za mír mezi našimi lidmi
+vám přicházíme nabídnout {%NUMBER0 %STRING2}."
+
+@INDIANCOMMENT
+@width=190
+Kmen {%STRING0} je potěšen, když vidí prosperitu našich
+sousedu {%STRING1}.  Přesto jsme znepokojeni z toho,
+že vaše kolonie začínají hospodařit na území blízko
+našich osad.
+
+@INDIANBEGFOOD
+@width=190
+"Na kmen {%STRING0} padly tvrdé časy, nemáme dost jídla, 
+abychom přežili toto období.  Naši bratři z {%STRING1},
+podělíte se s námi o svou štědrou sklizeň nyní,
+v době naší nouze?"
+
+"Omlouváme se, ale museli jsme dát úřadům."
+"Na důkaz přátelství vám darujeme {%NUMBER0} z našich {%NUMBER1} zásob jídla."
+
+@INDIANWAR
+@width=190
+"My, {%STRING0}, jsme zkoušeli žít s vámi v míru,
+ale vaše provokace jsou netolerovatelné.
+Vaše zločiny volají po pomstě--připravte se na VÁLKU!"
+
+@INDIANGRUDGE
+@width=190
+Národ {%STRING0} svolal Válečnou Radu!
+%STRING1 vstoupili do Války o nezávislost na straně krále!
+Král souhlasil s poskytnutím mušket a koni pro %STRING0.
+
+@INDIANLAND
+@width=190
+"Uloupili jste území kmene {%STRING0}.
+Trpělivě vás žádáme, abyste okamžitě odešli."
+
+"Dobrá, budeme respektovat vaše přání."
+"Nabízíme vám za tuto zemi {%NUMBER1$}."
+"Ale vy se mýlíte, toto je teď NAŠE území!"
+
+@INDIANROAD
+@width=190
+"Velmi se obáváme, že stavba {cesty}
+v těchto místech ohrozí přežití kmene {%STRING0}.  
+Trpělivě vás žádáme, abyste stavbu zastavili."
+
+"V tom případě zde cestu nepostavíme, přátelé."
+"Jako kompenzaci vám nabízíme {%NUMBER1$}."
+"Je nám líto, ale tato cesta je nezbytná."
+
+@INDIANFOREST
+@width=190
+"Tento les a tvorové, kteří v něm žijí,
+jsou důležití pro přežití kmene {%STRING0}.
+Trpělivě vás žádáme, abyste ho neničili."
+
+"Nechť tedy tyto stromy stojí navždy, přátelé."
+"Jako kompenzaci vám nabízíme {%NUMBER1$}."
+"Dřeeeeeeevvvvvvóóóóóóóóóóóó!"
+
+@INDIANFOREST2
+@width=190
+"Tento les a tvorové, kteří v něm žijí,
+jsou důležití pro přežití kmene {%STRING0}.
+Vaše kolonie {%STRING1} do něj nyní zasahuje.
+Trpělivě vás žádáme, abyste ho neničili."
+
+@INDIANBRIBE
+@width=190
+"Dobrá, stahujeme naši námitku."
+
+@NOPLOW
+@width=190
+Tato země je již {obdělaná}.
+
+@NOROAD
+@width=190
+Tady již {cesta} je,
+Vaše Excelence.
+
+@VIOLATE
+@width=190
+{%STRING0} narušili {%STRING1} teritorium nedaleko {%STRING2}!
+Kolonisté jsou pobouřeni!
+
+@HALF
+@width=190
+Vaše Excelence, tito muži jsou unaveni.
+Pokud jim nařídíme zaútočit v tomto kole,
+budou bojovat s {%NUMBER0/3 silou}.
+
+"Přesto zaútočit!"
+"Nechte je odpočinout."
+
+
+@NOLOOT
+@width=190
+{%STRING0} vypálili {%STRING1 %STRING2}!
+Domorodci v panice utekli!
+
+@LOOT
+@width=190
+{%STRING0} vyplenili a vypálili {%STRING1 %STRING2}!  Domorodci
+v panice utekli! Hodnota pokladu získaného z ruin je {%NUMBER0$}!
+K převozu zlata zpět do Evropy je nezbytná {Galeona}!
+
+@LOOT2
+@width=190
+{%STRING0} vypálili {%STRING1 %STRING2}!  Domorodci v panice utekli!
+
+@LOOTCASH
+@width=190
+{%STRING0} flotila naložená pokladem {%NUMBER0$}, dorazila do %STRING1!
+Koruna si bere podíl {%NUMBER1%%}.  {%NUMBER2$} zvětšilo %STRING0 poklad.
+
+@LOOTFOREIGN
+@width=190
+Vyzvědačská zpráva: {%STRING0} flotila naložená pokladem {%NUMBER0$},
+připluje do %STRING1.  %STRING0 král bude spokojený s kořistí.
+
+@LOOTCAPTURE
+@width=190
+{%STRING1} UKOŘISTILI {%STRING0} poklad v ceně {%NUMBER0$}!
+
+@WAGONCAPTURE
+@width=190
+{%STRING1} UKOŘISTILI {%STRING0} přepravní vůz!
+
+@COLONISTCAPTURE
+@width=190
+{%STRING1} UKOŘISTILI {%STRING0} kolonisty!
+
+@COLONISTCAPTURE2
+@width=190
+{%STRING1} UKOŘISTILI {%STRING0} kolonisty!
+Vojáci ztrácejí status Veterána.
+
+@CARGOCAPTURE
+@width=190
+{%STRING2 %STRING3} ukořistil {%STRING0} náklad {%NUMBER0 %STRING1}!
+
+@DEMOTE
+@width=190
+{%STRING0 %STRING1} poražen!  Jednotka byla vrácena do stavu {%STRING2}.
+
+@SHIPDAMAGE
+@width=190
+{%STRING0 %STRING1} poškozena!  Loď se vrací do {%STRING2} na opravu.
+
+@SHIPSUNK
+@width=190
+%STRING2 %STRING3 {potopila %STRING0 %STRING1}!
+
+
+@RAIDNOTHING
+@width=190
+V {%STRING1} byl odražen nájezd {%STRING0}!
+Kolonisté jásají!
+
+
+@RAIDWREAK
+@width=190
+Vyzvědačská zpráva: {%STRING0} vpád!  Zchladili si žáhu
+zpustošením {%STRING3} kolonie {%STRING1}.
+
+
+@RAIDSTORES
+@width=190
+{%STRING0} vpád!  Zaútočili na sklady v {%STRING1}!
+Velké množství {%STRING2} bylo ukradeno.  Kolonisté jsou pobouřeni!
+
+
+@RAIDBURN
+@width=190
+{%STRING0} vpád!  Vypálili budovy v {%STRING1}!
+{%STRING2} zničen.  Kolonisté požadují okamžitou pomstu!
+
+@RAIDSCALP
+@width=190
+{%STRING0} vpád!  Indiáni v {%STRING1} ukořistili skalpy!
+Kolonisté volají po pomstě!
+
+@RAIDSHIP
+@width=190
+{%STRING0} vpád!  Napadli přistav v {%STRING1}!
+{%STRING2} poškozena.  Kolonisté jsou zděšení!
+
+@RAIDGOLD
+@width=190
+{%STRING0} vpád!  Uchvátili pokladnu v {%STRING1}!
+Obchodníci hovoří o ukradení {%NUMBER0$}.  Kolonisté jsou rozzuření!
+
+@MISSION0
+@width=190
+Založena misie %STRING0 %STRING1 - %STRING2, %NUMBER0.
+Pro {%STRING3} je příchod nového náboženství kuriozita.
+
+@MISSION1
+@width=190
+Založena misie %STRING0 %STRING1 - %STRING2, %NUMBER0.
+{%STRING3} jsou {obezřetní}.
+
+@MISSION2
+@width=190
+Založena misie %STRING0 %STRING1 - %STRING2, %NUMBER0.
+{%STRING3} jsou {uražení}.
+
+@MISSION3
+@width=190
+Založena misie %STRING0 %STRING1 - %STRING2, %NUMBER0.
+{%STRING3} reagují {nepřátelsky}.
+
+@HERESY0
+@width=190
+{%STRING0 misionáři} označili {%STRING1} za kacíře.
+{%STRING2} věřící podpálili %STRING1 misii a postavili
+novou %STRING0 misii!
+
+@HERESY1
+@width=190
+{%STRING0 misionáři} označili {%STRING1} za kacíře.
+Loajální {%STRING2} uctívači upálili %STRING0 
+misionáře na hranici!
+
+@INDIANBURN
+@width=190
+{%STRING0} zapálili {%STRING1} misii!  Církevní úřady
+jsou pobouřeny!
+
+@INDIANWIN0
+@width=190
+{%STRING0} přepadli {%STRING1 %STRING2} nedaleko %STRING3!
+
+@INDIANWIN1
+@width=190
+{%STRING0} přepadli {%STRING1 %STRING2} nedaleko %STRING3!
+%STRING4 hordami byly ukradeny {muškety}!
+
+@INDIANWIN2
+@width=190
+{%STRING0} přepadli {%STRING1 %STRING2} nedaleko %STRING3!
+%STRING4 hordami byly ukradeny {koně}!
+
+
+@INDIANLOSE
+@width=190
+{%STRING1 %STRING2} %STRING4 {%STRING0} nedaleko %STRING3!
+
+@INDIANWINCOLONY
+@width=190
+{%STRING0} zmasakrovali {%STRING1} kolonisty v {%STRING3}!
+{%STRING2} umírají při odrážení útoku.
+
+@INDIANWINCOLONY2
+@width=190
+Vyzvědačská zpráva: {%STRING0} zmasakrovali {%STRING1} kolonisty v {%STRING3}.
+%STRING1 guvernér plánuje protiopatření.
+
+@INDIANBURNCOLONY
+@width=190
+{%STRING0} zmasakrovali {%STRING1} kolonisty v {%STRING3}!
+Kolonie byla srovnána se zemí!  Král požaduje
+vysvětlení!
+
+@INDIANBURNCOLONY2
+@width=190
+Vyzvědačská zpráva: {%STRING0} vypálili {%STRING1} kolonii {%STRING3}.
+%STRING1 guvernér slíbil pomstu.
+
+@INDIANSURPRISE
+@width=190
+{%STRING0} udělali překvapivý vpád nedaleko {%STRING1}! 
+Kolonisté jsou vystrašeni.  %STRING2 popírá svou účast.
+
+@CAPTURED
+@width=190
+{%STRING0} pochodují do {%STRING2}!
+{%NUMBER0$} uloupeno!
+
+@CAPTURED2
+@width=190
+Vyzvědačská zpráva: {%STRING0} pochodují do {%STRING2}.
+
+@CAPTURED3
+@width=190
+{%STRING0} pochodují do {%STRING2}!
+
+@BURNED
+@width=190
+{%STRING0} do základu vypálili {%STRING3}!
+Kolonisté v panice utekli!  Král požaduje
+vysvětlení!
+
+@BURNED2
+@width=190
+Kolonie {%STRING3} byla srovnána se zemí.
+{%STRING1} guvernér připravuje odvetu.
+
+@BURNED3
+@width=190
+Vyzvědačská zpráva: {%STRING0} vypálili {%STRING1} kolonii {%STRING3}.
+%STRING1 guvernér připravuje odvetu.
+
+
+@EUROPEWIN
+@width=190
+{%STRING0} %STRING4 {%STRING1 %STRING2} nedaleko %STRING3!
+
+@EUROPELOSE
+@width=190
+{%STRING1 %STRING2} %STRING4 {%STRING0} nedaleko %STRING3!
+
+@WAREHOUSEFULL
+@width=190
+Vaše Excelence, skladiště v {%STRING0} již obsahuje
+{%NUMBER0} jednotek {%STRING1} a může obsahovat pouze
+{%NUMBER1} jednotek.  Pokud přidáme dalších {%NUMBER2}
+jednotek, některé %STRING1 budou {ztraceny}!
+
+Nepřichází v úvahu.
+Vyložte {%STRING1} jakkoliv.
+
+@EXTORTSTUFF
+@width=190
+"Mocný %STRING0, skláníme se před mocí tvých divných zbraní.
+Pokorní a mírumilovní {%STRING1} rádi doručí {%NUMBER0
+%STRING2} do {%STRING3} v naději, že nás ušetříš hněvu
+svých strašných bojovníků."
+
+@EXTORTPOOR
+@width=190
+"Mocný %STRING0, třeseme se před tebou.  Běda, my pokorní
+a mírumilovní {%STRING1} bohužel nemáme žádné dary, hodné
+tvé velikosti.  Doufáme, že budeš milosrdný a ušetříš nás."
+
+@EXTORTLAUGH
+@width=190
+"Smějeme se vaší plané hrozbě.  Nepokoušejte naši trpělivost,
+{%STRING0} bojovnici jsou známí svou zuřivostí v době války."
+
+@EXTORTNO
+@width=190
+"Musíš si o nás myslet, že jsme velmi pošetilí, %STRING0 %STRING1.
+{%STRING2} se nenechají vtáhnout do vašich klamů a zrady."
+
+@TOONEAR
+@width=190
+Vaše Excelence, tato země je příliš blízko k {%STRING0},
+zde nelze postavit novou kolonii.
+
+@TOONEARBUILD
+@width=190
+Vaše Excelence, v přilehlém poli byl již projekt stavby
+nové kolonie zahájen.
+
+@TOOMOUNTAIN
+@width=190
+Vaše Excelence, kolonie nemohou být budovány
+v {horách}.
+
+@DONTKNOWSHIPS
+@width=190
+Nejdříve musíme kontaktovat indiány na zemi, Excelence."
+
+@MADATSHIPS
+@width=190
+"{%STRING0} lidé nevěří mužům na tvé lodi.
+Proto si s vámi nyní nepřejeme obchodovat.
+Pokud se přiblížíte k našim břehům,
+budete potrestáni."
+
+@MADATWAGONS
+@width=190
+"Kvůli zvěrstvům, které jste spáchali na
+{%STRING0} lidech, si s vámi nepřejeme obchodovat."
+
+@GRUDGEWAGONS
+@width=190
+Navzdory zvěrstvům, kterých jste se dopustili na
+{%STRING0} lidech, neochotně přijímáme vaše vozy."
+
+@CONFISCATE
+@width=190
+"Kvůli zvěrstvům, která jste spáchali na
+{%STRING0} lidech, zabavujeme všechny
+{%STRING1} v tomto voze."
+
+
+@CHIEFHOWDY
+@width=190
+"Vítejte cestovatelé.  Jsme mírumilovná vesnice
+známá pro naše {%STRING0}.  Pokud nám dovezete nějaké
+špatně dostupné {%STRING1}, budeme s vámi rádi obchodovat.
+Dobře bychom vám zaplatili také za {%STRING2}
+nebo {%STRING3}.
+
+@CHIEFGUIDES
+@width=190
+"Srdečně vás vítáme v naší %STRING1.
+Podle starých příběhů vám máme pomoci,
+proto vám {%STRING0} poskytnou {průvodce},
+kteří vám pomohou přejít naše území."
+
+@CHIEFAREA
+@width=190
+"{%STRING0} jsou potěšeni vaší návštěvou,
+cestovatelé z daleka.  Pojďte si sednout k ohni
+a my vám povíme příběhy o {sousedních zemích}."
+
+@CHIEFGIFT
+@width=190
+"{%STRING0} vítají vyslance kmene {%STRING1}.
+Prosím, vezměte tyto cenné korále (v hodnotě {%NUMBER0$})
+zpět k vašemu náčelníkovi, jako nabídku míru."
+
+@CHIEFBORED
+@width=190
+"{%STRING0} jsou vždy potěšeni návštěvou {%STRING1}
+cestovatelů."
+
+@CHIEFKILL
+@width=190
+"Porušili jste posvátné tabu kmene {%STRING0}!
+Nyní vás přivážeme jako terč, pro náš výcvik střelby."
+
+
+
+@KILLWAGONS
+@width=190
+Vaše Excelence! Náš {přepravní vůz} 
+zmizel bez stopy na {%STRING0} území.
+
+@TRADE0
+@width=190
+"Vidíme, že jste přivezli k obchodování
+nějaké %STRING0 {%STRING1}.  Nabízíme vám
+výměnu za {%NUMBER0$}."
+
+"Vděčně přijímáme {%NUMBER0$}."
+"Férovější cena bude {%NUMBER1$}."
+"Ne, nechte si %STRING1 jako náš {dar}."
+"Nepřichází v úvahu."
+
+@TRADE1
+@width=190
+"Vaše smlouvání zkouší naši trpělivost,
+ale pokusíme se zvýšit svoji nabídku
+za vaše {%STRING1} na {%NUMBER0$}."
+
+"Vděčně přijímáme {%NUMBER0$}."
+"Férovější cena bude {%NUMBER1$}."
+"Nepřichází v úvahu."
+
+@BADCARGO
+@width=190
+"Máme dostatek {%STRING0}
+a nepotřebujeme teď další.  Vraťte se k nám,
+pokud budete mít na prodej něco jiného.
+Potřebujeme {%STRING1} a {%STRING2}.
+Využili bychom i {%STRING3}."
+
+@BADHAGGLE0
+@width=190
+"Naše trpělivost s vaším smlouváním právě došla.
+Již dále nechceme vaše bezcenné {%STRING1}.
+Vraťte se k nám, až budete mít na prodej něco jiného."
+
+@BADHAGGLE1
+@width=190
+"Musíme vám sdělit, že už dále nechceme vaše
+{%STRING0}.  Vraťte se k nám, až budete mít 
+na prodej něco jiného."
+
+@BADHAGGLE2
+@width=190
+"Naše trpělivost s vaším smlouváním právě došla.
+Nic neprodáte, dokud nám nedovezete něco
+hodnotného."
+
+@BADHAGGLE3
+@width=190
+"Jak jsme řekli, nic u nás neprodáte,
+dokud nám nedovezete něco opravdu hodnotného."
+
+@BRING
+@width=190
+"Potřebujeme {%STRING0} a {%STRING1}.
+Možná nějaké přivezete, až k nám přijdete obchodovat příště.
+Dokonce by se hodily i nějaké {%STRING2}."
+
+@DEFICIT
+@width=190
+"Protože jste nepřivezli žádné obchodní zboží,
+nebudeme s vámi obchodovat."
+
+@BUYWHICH
+@width=190
+"Můžeme vám prodat {%STRING0}, {%STRING1} a {%STRING2}.
+Co byste si přáli koupit?"
+
+"{%STRING0}."
+"{%STRING1}."
+"{%STRING2}."
+"Právě teď nic, děkujeme."
+
+@TRADEWHICH
+@width=190
+Vaše Excelence, který náklad nabídneme k prodeji?
+
+@BUY0
+@width=190
+"Výměnou za {%NUMBER0$} naplníme váš {%STRING1}
+s {%NUMBER2 %STRING0}.  Je to přijatelné?"
+
+"Rádi zaplatíme {%NUMBER0$} (z {%NUMBER3$})."
+"Férovější cena bude {%NUMBER1$}."
+"Nepřichází v úvahu."
+
+@BUY1
+@width=190
+"Jsme unavení vaším neustálým smlouváním.  Výměnou
+za {%NUMBER0$} naplníme váš {%STRING1}
+s {%NUMBER2 %STRING0}.  Je to přijatelné?"
+
+"Rádi zaplatíme {%NUMBER0$} (z {%NUMBER3$})."
+"Férovější cena bude {%NUMBER1$}."
+"Nepřichází v úvahu."
+
+@NOTENOUGH
+@width=190
+"Škoda, vaše hotovost ({%NUMBER0$}) není dostatečná,
+ke splnění vašeho slibu."
+
+@LEARNMASTER
+@width=190
+"Jsme rádi, že mezi námi bude žít mistr {%STRING1}.  
+Nové dovednosti však můžeme učit jen kolonisty, 
+kteří ještě žádné nemají.
+Pošlete nám nějaké {smluvní sluhy}, 
+nebo {volné kolonisty} a my je vyškolíme."
+
+@LEARNCRIMINAL
+@width=190
+"Vaše špatné mravy nás uráží a pochybujeme,
+že někdy budete něco víc, než jen {obyčejní}
+{zločinci}.  {%STRING0} vás nic nenaučí."
+
+@LEARNALREADY
+@width=190
+"{%STRING0} vesnice již mají s Evropany
+zkušenosti.  Jděte a učte se od jiných,
+jestli chcete, protože už nemáme nic,
+co bychom vás naučili."
+
+@LEARNMAD
+@width=190
+"Vaše špatné mravy nás rozzuřily.  Nerozumíte
+našim způsobům, proto pochybujeme, že se od nás
+něco naučíte.  Ve skutečnosti si přejeme, 
+abyste odešli_._._._vaše přítomnost nás uráží."
+
+@LEARNSLOW
+@width=190
+"Jste nekvalifikovaní, neotesaní a máte problém
+porozumět našim způsobům.  Vidíme pro vás naději,
+ale nemáte důvod tu déle zůstat, ačkoliv v naši
+vesnici jste vítáni.  Možná, že někdy si budeme
+schopni porozumět."
+
+@LEARNSTAY
+@width=190
+"Jste nekvalifikovaní a vaše způsoby jsou 
+zvláštní.  Pokud si to však přejete, my {%STRING0} 
+vám ukážeme, jak se stát mistrem {%STRING1}."
+
+"Pak se chci stát mistrem {%STRING1}."
+"Pravě teď ne, díky."
+
+@LEARNLATER
+@width=190
+"Tedy dobrá.  Možná jindy."
+
+@LEARNDONE
+@width=190
+"Blahopřejeme, mládenče.  Naučil ses {%STRING0}
+způsobům a stal ses mistrem {%STRING1}.
+Doufáme, že budeš tyto znalosti využívat moudře.
+V naší vesnici jste vždy srdečně vítáni ."
+
+@TRADEMANY
+@width=190
+Vaše Excelence, může být vytvořeno jen {%NUMBER0} obchodních tras.
+Pro vytvořeni další obchodní trasy musíte nejdříve některou starou zrušit.
+
+@TRADESTART
+@width=190
+Vyber cílové místo pro %NUMBER0 trasu.
+
+@TRADETYPE
+@width=190
+Má to být {námořní} obchodní trasa, nebo {pozemní} obchodní trasa?
+
+Námořní
+Pozemní
+
+@TRADENAMES
+5
+linka
+převoz
+zásobování
+transport
+triangl
+
+@TRADENAME
+@width=190
+Zadej název této obchodní trasy.
+
+Název:
+
+@TRADENONE
+@width=190
+Zatím nemáme nastaveny žádné obchodní trasy.
+
+@TRADENONE2
+@width=190
+Zatím nemáme nastaveny žádné {%STRING0} obchodní trasy.
+
+@TRADESELECT
+@width=190
+Vyber obchodní trasu:
+
+
+@TRADEDELETE
+@width=190
+Která obchodní trasa má být {zrušena}:
+
+@SUREDELETE
+@width=190
+Jsi si jistý, že chceš {%STRING0} zrušit?
+
+Ano
+Ne
+
+@CARGOLOAD
+@width=120
+Vyber zboží k naložení v {%STRING0}.
+
+@CARGOUNLOAD
+@width=120
+Vyber zboží k vyloženi v {%STRING0}.
+
+@ROUTELOOP
+@width=190
+Vaše Excelence, naše obchodní trasa "{%STRING0}"
+nemá určené cílové místo!
+
+@PISS0
+@width=190
+je kmen {%STRING1} nyní %STRING2 {%STRING3}.
+
+@PISS1
+@width=190
+Protože pokračuješ ve stavbě cesty,
+je kmen {%STRING1} nyní %STRING2 {%STRING3}.
+
+@PISS2
+@width=190
+Protože trváte na zničení lesa,
+je kmen {%STRING1} nyní %STRING2 {%STRING3}.
+
+@PISS3
+@width=190
+Kvůli pokračující práci %STRING0 misionářů,
+je kmen {%STRING1} nyní %STRING2 {%STRING3}.
+
+@PISS4
+@width=190
+Kvůli tomuto nevyprovokovanému útoku,
+je kmen {%STRING1} nyní %STRING2 {%STRING3}.
+
+@PISS5
+@width=190
+Kvůli neustále se zvyšující velikosti populace
+v %STRING0 koloniích, je kmen {%STRING1}
+nyní %STRING2 {%STRING3}.
+
+
+
+
+@KINGNO
+@width=190
+"S vaším úsilím v Novém světě jsme velmi
+nespokojeni.  Proto nyní nehodláme 
+splnit vaši žádost."
+
+
+@KINGFUND
+@width=190
+"Naše královská pokladnice je na pokraji vyčerpání.
+V této chvíli vám můžeme nabídnout pouze {%NUMBER0$}."
+
+"Vděčně přijímáme tento dar."
+"Nevadí."
+
+@KINGLOWER
+@width=190
+"Po pečlivém uvážení, jsme se milostivě rozhodli
+snížit vám daňovou sazbu o {%NUMBER0%%}.  Daňová sazba
+je nyní {%NUMBER1%%}."
+
+@KINGNOTHING
+@width=190
+"I přes vaši opovážlivost, vám nyní nezměníme
+daňovou sazbu.  Můžete však políbit náš
+královský, růžový prsten."
+
+@KINGRAISE
+@width=190
+"Vy si TROUFÁTE požadovat snížení daní?  Po laskavosti,
+jakou vám koruna prokázala?!  Za vaši drzost budeme vybírat 
+daně vyšší o {%NUMBER0%%}.  Daňová sazba je nyní {%NUMBER1%%}."
+
+@KINGTAX
+@width=190
+"Je nezbytné, aby Koruna, za své úsilí ve váš prospěch,
+obdržela řádnou odměnu.  Proto jsme se milostivě rozhodli
+zvýšit vaši daňovou sazbu o {%NUMBER0%%}.
+Daňová sazba je nyní {%NUMBER1%%}.  Pokud si to přejete,
+můžete políbit náš královský, růžový prsten."
+
+@KINGBLESS
+@width=190
+"Máte naše královské požehnání.  Pokud si to přejete,
+můžete políbit náš královský, růžový prsten."
+
+@KINGLAUGH
+@width=190
+"Ha ha ha ha ha ha ha!  Vy ale děláte zábavné žerty!
+Ho ho ho ho ho!  Nezávislost!  Ha ha ha ha ha!"
+
+@KINGWELCOME0
+@width=190
+"Vítej, %STRING0 %STRING1.  Tvé hrdinské činy
+v Novém světě nás velice těší."
+
+@MERCANTILISM
+@width=190
+"Obáváme se, že stavbou {%STRING0} připravíte o zisky
+těžce pracující %STRING1 obchodníky.
+Proto jsme se milostivě rozhodli zvýšit vaši daňovou sazbu
+o {%NUMBER0%%}.  Daňová sazba je nyní {%NUMBER1%%}.  Pokud
+si to přejete, můžete políbit náš královský, růžový prsten."
+
+@PURCHASETAX
+@width=190
+"Když jsme zjistili, jak používáte zdroje Koruny, milostivě jsme se 
+rozhodli zvýšit vaši daňovou sazbu o {%NUMBER0%%}.  Daňová sazba je
+nyní {%NUMBER1%%}.  Teď můžete políbit náš královský, růžový prsten."
+
+@TAXOPTIONS
+Políbit růžový prsten.
+Podpořit '{%STRING3 párty}.'
+
+@TEAPARTY
+@width=220
+{%STRING3 párty}!  Přívrženci nezávislosti v %STRING1 hodili do moře
+{%NUMBER0} tun %STRING0!  Kolonisté nechtějí platit novou daň.
+Parlament oznámil bojkot %STRING0.  Dokud je bojkot v platnosti,
+nemohou být %STRING0 v %STRING2 obchodovány.
+
+@KISSUP
+@width=220
+Vaše Excelence, {%STRING0} jsou nyní pod Parlamentním {bojkotem}.
+Dokud Parlament bojkot neodvolá, nemůžeme s %STRING0 v %STRING1 obchodovat.
+Pro odvolání bojkotu musíme zaplatit daňové nedoplatky ve výši {%NUMBER0$}.
+
+To jsou daně jako před protestem! Nespravedlnost!
+Platím {%NUMBER0$}.
+
+@KISSSORRY
+@width=220
+Bohužel, máme k dispozici pouze {%NUMBER0$}.
+
+@PRICEUP
+@width=190
+Cena {%STRING0} v %STRING1 se zvýšila na {%NUMBER0$}.
+
+@PRICEDOWN
+@width=190
+Cena {%STRING0} v %STRING1 se snížila na {%NUMBER0$}.
+
+@WHICHFREEDOM
+@width=190
+Vaše Excelence, Kontinentální Kongres se bude při dalším zasedání
+rozšiřovat.  Kterého z Otců zakladatelů jmenujeme jeho dalším členem?
+
+@FREEDOM
+@width=190
+%STRING1 Otcové zakladatelé oznámili, že {%STRING0} 
+se připojil ke Kontinentálnímu Kongresu!
+
+@CLAND
+@width=190
+ZEMSKÝ MASIV
+
+Malý
+Normální
+Velký
+
+@CCONT
+@width=190
+FORMA ZEMĚ
+
+Ostrovy
+Normální
+Velké kontinenty
+
+@CTEMP
+@width=190
+TEPLOTA
+
+Chladno
+Mírné podnebí
+Teplo
+
+@CCLIM
+@width=190
+KLIMA
+
+Sucho
+Normální
+Vlhko
+
+@SHIPSLOW
+@width=190
+{%STRING0} postup byl zpomalen přítomností {%STRING1 %STRING2}.
+
+@SHIPRUN
+@width=190
+{%STRING2 %STRING0} unikla kolem {%STRING1 %STRING3}!
+
+@FORTFIRE
+@width=190
+{%STRING0} u {%STRING1} zahájila palbu na {%STRING2 %STRING3}!
+
+@EUROPEARM
+@width=190
+Nastavení Evropského doku:
+
+@EUROPESHIPCLICK
+@width=190
+Nastavení Evropského přístavu pro {%STRING0}:
+
+@ARMOPTIONS
+Nenastupovat na další loď.
+Nalodit se na příští loď.
+Přesunout na začátek přístavu.
+Vyzbrojit {mušketami} (stojí {%NUMBER0$}).
+Prodat {muškety} (výdělek {%NUMBER0$}).
+Vybavit {nářadím} (stojí {%NUMBER1$}).
+Prodat {nářadí} (výdělek {%NUMBER1$}).
+Vybavit {koňmi} (stojí {%NUMBER2$}).
+Prodat {koně} (výdělek {%NUMBER2$}).
+Vysvětit na {misionáře}.
+Ukončit status {misionáře}.
+Beze změn.
+
+@COLONYUNIT
+@width=190
+Nastavení pro {%STRING0%STRING1}:
+
+@UNITOPTIONS
+Přesunout na začátek.
+Zrušit příkaz.
+Hlídka / Nalodit.
+Opevnit.
+Beze změn.
+
+@SHIPOPTIONS
+Přesunout na začátek.
+Zrušit příkaz.
+Hlídka.
+Zakotvit v přístavu ("Opevnit").
+Vyložit všechen náklad.
+Beze změn.
+
+@EUROPESHIPOPTIONS
+Přesunout na začátek.
+Plout do Nového světa.
+Vyložit všechen náklad.
+Beze změn.
+
+
+@KINGFRIGATE
+@width=190
+"%STRING0 %STRING1, všimli jsme si, že v našich 
+obchodníh vodách loupí nepřátelská válečná loď.
+Máme poslat {fregatu} z %STRING2 válečného námořnictva,
+aby vám pomohla?"
+
+"Ano, obávám se, že je to nezbytné."
+"Ne, postaráme se o svoji dostatečnou ochranu sami."
+
+@KINGGALLEON2
+@width=220
+"%STRING0 %STRING1, jsme velmi spokojeni s množstvím 
+kořisti získané vašimi conquistadory v Novém světě.
+Běda, všimli jsme si, že ve své flotile nemáte
+{galeonu}, která by tento úžasný poklad dopravila domů
+do %STRING2.  Pokud si to přejete, dopravíme váš poklad
+domů na naší královské galeoně, ihned, jakmile naši
+odhadci spočítají řádný podíl pro Korunu."
+
+"Dobře, ať si král ponechá spravedlivý podíl."
+"Ne, to bych raději {políbil} váš královský, růžový prsten."
+
+@KINGGALLEON3
+@width=220
+"%STRING0 %STRING1, jsme velmi spokojeni s množstvím 
+kořisti získané vašimi conquistadory v Novém světě.
+Nechceme, abyste v otázce dopravy tohoto  úžasného pokladu
+domů do %STRING2 jednal roztržitě.  Pokud si to přejete,
+dopravíme váš poklad domů na naší královské galeoně,
+{bez zvláštního příplatku}.  Tedy poté, až si naši odhadci 
+vezmou podíl, který se rovná daňové sazbě ({%NUMBER0%%})."
+
+"Dobře, ať si král ponechá spravedlivý podíl."
+"Ne, to bych raději {políbil} váš královský, růžový prsten."
+
+
+@CASHTREASURE
+@width=220
+Poklad byl prodán zahraničním agentům za {%NUMBER0$}.
+
+@USEDUPTOOLS
+@width=190
+Naši {průkopníci} byli po spotřebování všeho
+{nářadí} vráceni do stavu {kolonista}.
+
+@EVASIVE
+@width=190
+{%STRING0 %STRING1} se vyhnula {%STRING2 %STRING3}.
+
+@KINGMERCY
+@width=190
+"%STRING0 %STRING1, ve světle nešťastné ztráty naší královské
+{%STRING2} jednotky, jsme se milostivě rozhodli snížit vaši
+daňovou sazbu o {%NUMBER0%%}.  Daňová sazba je nyní {%NUMBER1%%}.
+Pokud chcete, můžete políbit náš královský, růžový prsten."
+
+
+@KINGNEWWAR
+@width=190
+"%STRING0 %STRING1, arogantní postoj {%STRING2} nás
+posílil v rozhodnutí {vyhlásit jim válku}.  Proto je zrušena
+vaše mírová smlouva a nařizujeme vám uštědřit jim lekci 
+v chování.  Poskytneme vám na to z královské pokladnice
+{%NUMBER0$} a také {%NUMBER1} jednotek našich {vojáků veteránů},
+aby vám asistovali ve vašem tažení.
+Pokud chcete, můžete políbit náš královský, růžový prsten."
+
+
+@KINGVICTORY
+@width=190
+"%STRING0 %STRING1, jako oslavu našeho nedávného vítězství
+nad %STRING2, jsme se velkodušně rozhodli SNÍŽIT vaši
+daňovou sazbu o {%NUMBER0%%}.  Daňová sazba je nyní {%NUMBER1%%}.
+Pokud chcete, můžete políbit náš královský, růžový prsten."
+
+@KINGWIFE
+@width=190
+"%STRING0 %STRING1, na počest naší nedávné svatby s
+naší %STRING2 ženou, jsme se milostivě rozhodli zvýšit vaši 
+daňovou sazbu o {%NUMBER0%%}.  Daňová sazba je nyní {%NUMBER1%%}.
+Pokud chcete, můžete políbit náš královský, růžový prsten."
+
+@KINGWAR
+@width=190
+"%STRING0 %STRING1, kvůli nedávnému vývoji naší války
+s %STRING2, jsme se milostivě rozhodli zvýšit vaši daňovou
+sazbu o {%NUMBER0%%}.  Daňová sazba je nyní {%NUMBER1%%}.
+Pokud chcete, můžete políbit náš královský, růžový prsten."
+
+@KINGNAVACT
+@width=190
+"%STRING0 %STRING1, znepokojuje nás, že Koruna nedostává 
+náležitý podíl z příjmů z Nového světa.  Proto jsme se
+rozhodli vydat nový {Navigační dekret}. Zvyšujeme vaši
+daňovou sazbu o {%NUMBER0%%}.  Daňová sazba je nyní {%NUMBER1%%}.
+Pokud chcete, můžete políbit náš královský, růžový prsten."
+
+@KINGSTAMPACT
+@width=190
+"%STRING0 %STRING1, nevděčný postoj kolonistů v {%STRING2} 
+nás činí nešťastným.  Proto jsme se rozhodli naučit je 
+řádnému respektu k jejich panovníkovi novým {Kolkovým dekretem}.
+Daňová sazba se zvyšuje o {%NUMBER0%%}.  Daňová sazba je nyní {%NUMBER1%%}.
+Pokud chcete, můžete políbit náš královský, růžový prsten."
+
+@COUNTRIES
+Svatá říše římská
+Portugalci
+Osmanští Turkové
+Berberští piráti
+Rusko
+Prusko
+Švédsko
+Německo
+
+@ORDINAL
+první
+druhý
+třetí
+čtvrtý
+pátý
+šestý
+sedmý
+osmý
+devátý
+desátý
+jedenáctý
+dvanáctý
+třináctý
+čtrnáctý
+patnáctý
+šestnáctý
+sedmnáctý
+osmnáctý
+devatenáctý
+dvacátý
+dvacátý první
+dvacátý druhý
+dvacátý třetí
+dvacátý čtvrtý
+dvacátý pátý
+dvacátý šestý
+dvacátý sedmý
+dvacátý osmý
+dvacátý devátý
+třicátý
+
+@NEEDTOOLS
+@width=190
+{%STRING1}, ve výstavbě v {%STRING0},
+potřebuje na dokončení {%NUMBER0 nářadí}.
+V %STRING0 je k dispozici jen {%NUMBER1} nářadí.
+
+@NEEDTOOLS0
+@width=190
+{%STRING1}, ve výstavbě v {%STRING0},
+potřebuje na dokončení {%NUMBER0 nářadí}.
+Bohužel, v %STRING0 žádné nářadí není.
+
+
+@ALREADYHAVE
+@width=190
+V {%STRING0} byla nastavena produkce {%STRING1},
+ale stavba je již postavena!
+
+@LOBOTOMIZE
+@width=190
+Jsi si jistý, že chceš {zrušit} kolonistovu specializaci
+({%STRING0}) a udělat z něj obyčejného kolonistu?
+
+Ano
+Ne
+
+
+
+@NATION0A
+@width=300
+^^ANGLIE
+^^_
+__Období expanze se shodovalo s obdobím {náboženských nepokojů}
+v Anglii.  Anglikánská církev--teoreticky protestantského 
+vyznání, ale udržující mnoho katolických tradic--byla proti
+sérii výzev reformátorů, nebo {Puritánů}, během koloniálního
+období.  Anglická monarchie dala svoji podporu prokatolíkům
+proti různým protestantským frakcím a Anglická občanská
+válka (1640-49) vyústila v popravu Karla I. a období Puritánského
+řádu (1649-60) pod vedením Olivera Cromwella.  S tolika
+náboženskými rozpory, nebyla anglická vláda schopna vynutit
+si ve svých koloniích náboženskou poslušnost.
+Kolonie se staly centry {náboženské svobody} pro skupiny
+(například puritánů, anabaptistů, kvakerů), které čelily 
+ve Starém světě perzekuci.
+
+@NATION0B
+@width=300
+^^ANGLIE
+^^_
+Vzhledem k velké expanzi náboženských imigrantů do anglických
+kolonií, potřebuje hráč za Angličany, pro vytváření imigrantů,
+jen {2/3} normálního počtu "{křížů}".
+
+
+@NATION1A
+@width=300
+^^FRANCIE
+^^_
+__Opozdilec v Novém světě, Francie, zřídila svoji první bezpečnou 
+americkou kolonii v {Kanadě}, podél řeky Sv. Vavřince, kde bylo
+drsné severské podnebí, vhodné spíše pro {obchod s kožešinami},
+než pro velkoplošné zemědělství.
+Francouzi narazili na {indiány od Velkých jezer}, kteří byli
+ideálními partnery pro obchod s kožešinami a s Hurony, Algonkiny
+a ostatními kmeny vytvořili dlouhodobý obchodní vztah.
+Ač se francouzské pevnosti, misie a obchodní stanice v oblasti
+Velkých jezer brzy rozrostly, spojenectví francouzských osadníků
+s místní domorodou populací fungovalo v relativní {harmonii}.
+Ačkoliv tento vztah nebyl zcela bez incidentu, Francouzi byli
+často schopni s domorodci prospěšně spolupracovat.  Tato spolupráce
+byla příležitostně rozšířena i do vojenských sfér.
+
+
+
+@NATION1B
+@width=300
+^^FRANCIE
+^^_
+Vzhledem ke schopnost Francouzů spolupracovat s domorodou populací, 
+způsobují francouzské kolonie a jednotky jen {poloviční poplach} mezi
+indiány než ostatní Evropané.
+
+
+@NATION2A
+@width=300
+^^ŠPANĚLSKO
+^^_
+__V roce 1492, tedy ve stejném roce, kdy Kolumbus objevil Ameriku, 
+dokončili Španělé své, mnoho století trvající, "znovudobytí" Iberského 
+poloostrova z Muslimského područí.  Po tomto vítězství zůstala 
+ve Španělsku generace {válečníků} hledajících cestu pro novou expanzi
+a více než kdy předtím, dychtila přivézt {pohany} ke křesťanství
+ostřím meče.  Nový svět a jeho důvěřiví domorodci poskytli přesně
+tu příležitost a první století historie španělské expanze v Americe
+je historií dobývání, plundrování a destrukce nesčetných amerických
+domorodých civilizací.  Španělé byli prvními Evropany, kteří 
+se setkali s "indiány" a jinak mohutné {aztécké} a {incké} říše
+prokázaly psychologickou nepřipravenost na příchod cizí moci s mušketou
+přes rameno a žíznící po dobývání.  Conquistador {Hernán Cortés}
+přišel do Veracruz v roce 1519 s několika stovkami mužů a během
+dvou let srazil aztécké impérium na kolena.
+
+@NATION2B
+@width=300
+^^ŠPANĚLSKO
+^^_
+Vzhledem ke strategickému překvapení, kterého Španělsko dosáhlo
+u předkolumbovských amerických civilizací, obdrží hráč za Španělsko
+{50%% bojový bonus}, při {útoku na indiánskou vesnici}.
+
+
+@NATION3A
+@width=300
+^^NIZOZEMÍ
+^^_
+__Holandské protestantské provincie získaly nezávislost na katolickém 
+Španělsku během Období expanze.  Přímořská země {rybářů} a {obchodníků},
+holandští Nizozemci, operovali s velkými obchodními a rybářskými flotilami
+v Severním a Baltském moři.  Po dosažení politické nezávislosti na počátku 
+sedmnáctého století, se tento malý národ ocitl v ideální pozici pro rozšíření
+svého {zámořského obchodu} na nové lukrativní trhy na Dálném východě
+a v Novém světě.  Na rozdíl od svých rivalů a někdy nepřátel, Španělů,
+Francouzů a Angličanů, byli Holanďané ovládáni svými obchodníky.
+Toto jedinečné uspořádání je vedlo k zaměření všech aspektů státní
+diplomacie, armády a ekonomických pravidel na {obchodní zájmy}.
+Jejich strategie se ukázala jako velmi úspěšná a holandská ekonomika
+a obchodní flotila expandovaly tak rychle, že ostatní evropské mocnosti
+musely proti Holanďanům přijmout drastická opatření, aby podpořily
+své méně úspěšné podniky.
+
+@NATION3B
+@width=300
+^^NIZOZEMÍ
+^^_
+__Vzhledem k síle holandské ekonomiky a holandského úspěchu
+v námořní dopravě, obchodě a bankovnictví, získává hráč
+za Holandsko bonus při obchodování s Amsterdamem.
+{Ceny zboží} v Amsterdamu {nekolabují} tak rychle, jako
+v jiných Evropských přístavech a {zotavují} se rychleji.
+
+@PICKACARGO
+@width=190
+Které zboží máme ukořistit?
+
+@CUSTOM
+@width=190
+@checkbox
+@smallfont
+Které zboží budeme exportovat v naší {Celnici}?
+
+@CONTINENTAL
+@width=190
+Vaše Excelence, náš {%STRING0 veterán} byl povýšen
+do stavu {Kontinentální armáda}!
+
+@VETERAN
+@width=190
+Vaše Excelence, náš {%STRING0} byl povýšen
+do stavu {veterán}!
+
+@VALOR
+@width=190
+Kvůli své udatnosti v bitvě, byli naši
+{%STRING0} vojáci povýšeni z {%STRING1}
+do stavu {%STRING2}.
+
+@SCOUTCOLONY
+@width=190
+Vaše Excelence, naši {zvědové} dosáhli 
+města {%STRING0}.  Co mají udělat?
+
+Setkat se se starostou
+Infiltrovat kolonii
+Napadnout kolonii
+Nic
+
+@LOSTOURSCOUTS
+@width=190
+Vaše Excelence, {%STRING0} zajali naše {zvědy}
+nedaleko {%STRING1}!
+
+@LOSTTHEIRSCOUTS
+@width=190
+Vaše Excelence, při pokusu infiltrovat {%STRING1}
+jsme zajali skupinu {%STRING0 zvědů}.  Jejich {%NUMBER0 koní}
+bylo přidáno do stájí v kolonii.
+
+
+@HELLOFIRST
+@width=220
+"Buďte zdrávi %STRING0 a vítejte do {%STRING1}.
+Právě jsme zabrali všechnu tuto zemi ve jménu
+{%STRING2} a jsme zde kvůli %STRING3.
+Prosím, nepřekážejte nám v této zbožné misi."
+
+@HELLOUSA
+@width=220
+"Přijměte pozdravy %STRING0, od nově zvolené
+vlády {%STRING1}."
+
+@HELLOAHOY
+@width=220
+"Ahoj %STRING0 a vítejte do {%STRING1}.
+Právě jsme si nárokovali všechny země tohoto moře ve jménu
+{%STRING2} a jsme zde kvůli %STRING3.
+Prosím, nepřekážejte nám v této zbožné misi."
+
+@HELLOMEEK
+@width=220
+"{Mocný} %STRING0, znovu tě vítáme v {%STRING1}.
+Prosím pamatuj si, že jsme všechnu tuto zemi nárokovali
+ve jménu {%STRING2}.  Pokračujeme ve svém úsilí
+%STRING3."
+
+@HELLOMANLY
+@width=220
+"%STRING0.  S {nelibostí} jsme si povšimli, že vaše pokračující
+přítomnost je skvrnou {%STRING1}, kterou jsme nárokovali
+ve jménu {%STRING2}.  Plníme zde úkol pro %STRING3
+a vy nám překážíte na své vlastní {riziko}."
+
+@GREATKINGS
+naší královny a anglikánské církve
+jeho nejvyššího královského veličenstva, krále Ludvíka
+papeže a Španělské koruny
+mistodržícího spojených provincií Nizozemska
+
+@GREATDEEDS
+hledání {náboženské svobody} a službu koruně
+zvětšení {slávy} Francie
+{obracení pohanů} a obohacení našeho panovníka
+vystavění mohutného zámořského {obchodního impéria}
+
+@GREATLEADER
+naší královnu
+našeho krále
+papeže
+našeho místodržícího
+
+@GREATLEADER2
+královna
+král
+papež
+místodržící
+
+@MYLEADER
+král
+král
+král
+místodržící
+
+
+@PIRACY
+@width=220
+"%STRING0 je velmi nespokojen s {%STRING1 piráty},
+číhajícími podél pobřeží %STRING2. {%STRING3},
+aby byli všichni vaši {korzáři} okamžitě staženi."
+
+"Jací piráti? NIKDY bychom netolerovali pirátství!"
+"Dobrá, odešleme své {korzáry} do Evropy."
+
+
+@PIRACYUSA
+@width=220
+"My {%STRING0} nebudeme trpět cizí piráty, kteří škodí
+našim obchodním zájmům. {%STRING3}, aby byli všichni
+vaši {korzáři} okamžitě staženi."
+
+"Jací piráti? NIKDY bychom netolerovali pirátství!"
+"Dobrá, odešleme své {korzáry} do Evropy."
+
+
+@SIEGES
+@width=220
+"%STRING0 je rozrušen velkými %STRING1 jednotkami číhajícími
+kolem našich %STRING2 kolonií. {%STRING3}, aby všechny
+vaše vojenské jednotky byly okamžitě {staženy} od %STRING2 kolonií."
+
+"Naše jednotky chrání platné %STRING1 zájmy a zůstanou zde."
+"Dobrá, {odešleme} naše jednotky do Evropy."
+
+@SIEGESUSA
+@width=220
+"%STRING0 nikdy neuznal právo cizích mocností rozmístit
+velké vojenské síly na této polokouli.  Obzvláště nás
+znepokojují jednotky číhající poblíž našich velkých měst.
+{%STRING3} abyste okamžitě {stáhli} všechny vojenské
+jednotky od našich měst."
+
+"Dobrá, {odešleme} naše jednotky do Evropy."
+"Naše jednotky chrání platné %STRING1 zájmy a zůstanou zde."
+
+
+@MEEKNESS
+Žádáme
+Požadujeme
+
+@HEATHEN
+@width=220
+"Jsme zaneprázdněni podmaňováním pohanského kmene {%STRING1} divochů.
+Spojíte se s námi, jako bratři ve víře, v tomto svatém úkolu?"
+
+"Nikdy! {%STRING0} jsou neškodní a mírumilovní lidé!"
+"Ano! Pojďme dát {%STRING0} pořádnou lekci!"
+
+@HEATHENUSA
+@width=220
+"%STRING0 v současné době přemisťuje 
+členy nebezpečného kmene {%STRING1}
+do vládou spravované rezervace.
+Pomůžete nám v tomto úkolu?"
+
+"Nikdy! To by byl strašný zločin!"
+"Ano, je to zjevně náš osud."
+
+@APOSTATES
+@width=220
+"Všimli jsme si, že jste uzavřeli mírovou smlouvu s těmi
+nelítostnými a kacířskými {%STRING0}.  {%STRING1}, 
+abyste tu smlouvu okamžitě odvolali."
+
+"Nikdy! {%STRING0} jsou naši přátele!"
+"Ano! Pojďme rozdrtit tu {%STRING0} verbež společně!"
+
+
+@APOSTATESUSA
+@width=220
+"Všimli jsme si, že jste uzavřeli mírovou smlouvu s těmi
+imperialistickými {%STRING0} prasaty.  {%STRING1},
+abyste tu smlouvu okamžitě odvolali."
+
+"Nikdy! {%STRING0} jsou naši přátele!"
+"Ano! Pojďme rozdrtit tu {%STRING0} verbež společně!"
+
+
+@TRIBUTE
+@width=220
+"%STRING0 nám nařídil vyhnat všechny {%STRING1} z břehů
+{%STRING2}.  Naše úsilí se však v současné době soustředí
+na závažnější záležitosti a mohli bychom tento pokyn dočasně
+přehlédnout výměnou za 'dar' {%NUMBER0$} pro 'církev'."
+
+"Ani pětník těm kacířským sviním!"
+"Rádi darujeme {%NUMBER0$} na tak ctihodný účel."
+
+
+@TRIBUTEUSA
+@width=220
+"{%STRING0} neuznává právo evropských mocností
+zakládat kolonie na této polokouli.  Jsme však 
+ochotni tuto doktrínu dočasně ignorovat výměnou
+za odškodnění ve výši {%NUMBER0$}."
+
+"To je vydírání a to my netolerujeme."
+"Rádi zaplatíme {%NUMBER0$}."
+
+
+@WANTSTUFF
+@width=260
+"Nelíbí se nám, že nadále poskvrňujete území, které z rozkazu
+%STRING0 právem patří nám.  Požadujeme {%NUMBER0 %STRING1}
+jako reparace."
+
+"Smějeme se vašim planým hrozbám."
+"Rádi se s našimi {%STRING2} bratry rozdělíme o {%NUMBER0 %STRING1}."
+
+
+@WANTSTUFFUSA
+@width=220
+"{%STRING0} neuznává právo evropských mocností zakládat kolonie
+na této polokouli.  Jsme však ochotni tuto doktrínu dočasně
+ignorovat výměnou za {%NUMBER0 %STRING1}."
+
+"Smějeme se vašim planým hrozbám."
+"Rádi se podělíme o {%NUMBER0 %STRING1} s našimi sousedy."
+
+
+@RID
+@width=220
+"Ve jménu {%STRING0} vám nařizujeme okamžitě opustit {%STRING1}.
+Jestli nás neuposlechnete, smeteme vás zpět do moře."
+
+@RIDUSA
+@width=220
+"{%STRING1} vám nařizujeme okamžitě opustit tuto polokouli.
+Jestli nás neuposlechnete, smeteme vás zpět do moře."
+
+
+@WORTHY
+@width=220
+"Ačkoliv nám, z rozkazu %STRING0, všechna tato země spravedlivě náleží,
+navrhujeme vám demarkační {smlouvu}.  Rozdělíme si všechnu tuto
+zemi před Bohem na věčné a nedotknutelné {%STRING1} a {%STRING2}
+sféry vlivu.  Souhlasíte s tímto rozdělením?"
+
+"Ano"
+"Ne"
+
+@GIVECASH
+@width=220
+"Prosím, ušetřete naši pokornou a bezmocnou osadu.
+Pokud na nás nezaútočíte, tak vám dáme {%NUMBER0$}."
+
+"Dobrá, budete ušetřeni."
+"Bohužel, je to boží vůle."
+
+@PEACEMANLY
+@width=220
+"Dobře, nicméně {%STRING0} sféru vlivu bude tvořit {pouze} území,
+které nyní obýváte.  {Zbývající} území budou natrvalo patřit
+{%STRING1}.  Vstup do našich oblastí je pouze na vlastní
+{nebezpečí}."
+
+"Jděte v míru, {%STRING1} bratři."
+"Nejdříve musíte se svými vojáky ustoupit od našich kolonií!"
+"Jak moc si ceníte své mrzké životy, vy pohanské svině?"
+"Navrhujeme alianci."
+
+@PEACEMEEK
+@width=220
+"Výborně, nicméně {%STRING0} sféru vlivu bude tvořit {pouze} území,
+které nyní obýváte.  Půda, kterou obýváme my, bude navždy {%STRING1}.
+Prosím, pamatujte si, že do těchto oblastí nesmíte neoprávněně
+vstupovat."
+
+"Jděte v míru, {%STRING1} bratři."
+"Nejdříve musíte se svými vojáky ustoupit od našich kolonií!"
+"Jak moc si ceníte své mrzké životy, vy pohanské svině?"
+"Navrhujeme alianci."
+
+@OLDPEACEMEEK
+@width=220
+"Vítáme přátelství s našimi {%STRING0} bratry a vašim moudrým
+vůdcem %STRING2 %STRING3.  Společně budeme v Novém světě
+plnit Boží vůli."
+
+"Jděte v míru, {%STRING1} bratři."
+"Nejdříve musíte se svými vojáky ustoupit od našich kolonií!"
+"Jak moc si ceníte své mrzké životy, vy pohanské svině?"
+"Navrhujeme alianci."
+
+@OLDPEACEMANLY
+@width=220
+"Ačkoli {%STRING0} na tuto polokoule nepatří,
+rozhodli jsme se vás v tuto chvíli z Nového světa nevyhánět."
+
+"Jděte v míru, {%STRING1} bratři."
+"Nejdříve musíte se svými vojáky ustoupit od našich kolonií!"
+"Jak moc si ceníte své mrzké životy, vy pohanské svině?"
+"Navrhujeme alianci."
+
+
+@PEACEUSA
+@width=220
+"My {%STRING0} vítáme mír s svými politicky zaostalými
+{%STRING1} sousedy."
+
+"Jděte v míru, {%STRING1} bratři."
+"Nejdříve musíte se svými vojáky ustoupit od našich kolonií!"
+"Jak moc si ceníte své mrzké životy, vy pohanské svině?"
+"Navrhujeme alianci."
+
+
+@NOTWITHDRAW
+@width=220
+"Naše armáda chrání legitimní %STRING0 zájmy
+a zůstanou zde."
+
+@WITHDRAW
+@width=220
+"V zájmu míru svoji armádu stáhneme."
+
+@NOTHINGWITHDRAW
+@width=220
+"Nemáme žádná vojáky u vašich kolonií."
+
+@MAYBEWITHDRAW
+@width=220
+"Naše armáda chrání legitimní %STRING0 zájmy.  Nicméně,
+mohli bychom se stáhnou výměnou za {%NUMBER0$} na pokrytí
+nákladů na demobilizaci."
+
+"Rádi zaplatíme {%NUMBER0$}."
+"Táhněte nebo zhyňte, pohanská prasata!"
+"Och, tak nic."
+
+
+@PROVOKE
+@width=220
+"Už nemůžeme dál tolerovat vaše odporné provokace.  Připravte se na VÁLKU!"
+
+@WARMEEK
+@width=220
+"Nuže dobrá, pak vás tedy, ve jménu %STRING0,
+smeteme z břehů {%STRING1}.  Připravte se na VÁLKU!"
+
+@WARMANLY
+@width=220
+"Vy odmítáte naši šlechetnou nabídku?  Pak vás tedy,
+ve jménu %STRING0, vymažeme z tváře Nového světa.
+Připravte se na VÁLKU!"
+
+@THREATS
+@width=220
+"Smějeme se vašim planým hrozbám."
+
+@GIFTS
+@width=220
+"Výměnou za vaši pokračující toleranci
+vám nabízíme dar {%NUMBER0$}."
+
+@MILITARY
+@width=220
+"Musíte zaútočit na bezvěrce . . ."
+
+@NOCONTACT
+@width=220
+"S {%STRING0} nemáme kontakt."
+
+@ALREADYSMITE
+@width=220
+"S mizernými {%STRING0} jsme již ve válce."
+
+@SMITEINDIANS
+@width=220
+"Výměnou za {%NUMBER0$}, k pokrytí našich nákladů,
+provedeme nelítostný úder proti pohanským {%STRING0},
+
+Zaplatit {%NUMBER0$}.
+Tak nic.
+
+@SMITEEUROPE
+@width=220
+"Nelítostně smeteme kacířské {%STRING0}
+z Nového světa, výměnou za {%NUMBER0$}
+k pokrytí našich nákladů."
+
+Zaplatit {%NUMBER0$}.
+Tak nic.
+
+
+@UNFORTUNATE
+@width=220
+"Bohužel, pokladnice není schopna 
+pokrýt Vaše přehnané sliby."
+
+@MERCENARY
+@width=220
+{%STRING0} vyhlásili {%STRING1} válku.
+
+@SUCCESSION
+@width=220
+Válka o Španělské dědictví v Evropě skončila!
+{%STRING0} zpustošená válkou souhlasí, že podstoupí %STRING1
+ve prospěch {%STRING2}.  Utrechtská smlouva určuje, že všechna 
+{%STRING3} bohatství v Novém světě jsou nyní pod vládou {%STRING2}.
+
+@REBELMAJORITY
+@width=220
+Vaše Excelence, počet přívrženců Synů svobody v {%STRING0} vzrostl
+na %NUMBER0%%.  Většina kolonistů tak podporuje myšlenku nezávislosti
+na %STRING1!  Všichni kolonisté v %STRING0 získávají +1 k jejich
+základním produkčním schopnostem.
+
+@REBELUNANIMOUS
+@width=220
+Vaše Excelence, počet přívrženců Synů svobody v {%STRING0} vzrostl na 100%%.
+Všichni kolonisté tak podporují myšlenku nezávislosti na %STRING1!
+Všichni kolonisté v %STRING0 získávají +2 k jejich základním produkčním
+schopnostem.  Kolonisté zde mohou být také rychleji vzděláváni.
+
+@TORYMINORITY
+@width=220
+Vaše Excelence, počet přívrženců Synů svobody v {%STRING0} klesl ze 100%%
+na %NUMBER0%%.  Někteří kolonisté již nepodporují myšlenku nezávislosti
+na %STRING1.  Kolonisté v %STRING0 získávají jen +1 k jejich 
+základním produkčním schopnostem.
+
+@TORYMAJORITY
+@width=220
+Vaše Excelence, počet přívrženců Synů svobody v {%STRING0} klesl
+na %NUMBER0%%.  Většina kolonistů již nepodporuje myšlenku nezávislosti
+na %STRING1!  Kolonisté v %STRING0 již nemají žádné body navíc k jejich
+základním produkčním schopnostem.
+
+@SONSUP
+@width=220
+Vaše Excelence, počet přívrženců Synů svobody v {%STRING0} vzrostl
+na %NUMBER0%%.  Čím více {Zvonů svobody} naši {státníci} vytvoří,
+tím rychleji poroste počet přívrženců.
+
+@SONSDOWN
+@width=220
+Vaše Excelence, počet přívrženců Synů svobody v {%STRING0} klesl
+na %NUMBER0%%.  Možná bychom tam měli tvořit více {Zvonů svobody}.
+Zvony svobody mohou tvořit {státníci}.  
+{Tiskařství} a {Noviny}, stejně jako vylepšování našich vládních budov
+mohou zvýšit tempo, kterým jsou Zvony svobody generovány.
+
+@REBELUP
+@width=190
+Vaše Excelence, {rebelské} cítění v našich koloniích vzrůstá!
+Už {%NUMBER0%%} naší populace podporuje myšlenku nezávislosti
+na %STRING0.  Jakmile se naši kolonisté začnou cítit více soběstační,
+stanou se také více produktivní.  Kolonie s alespoň {50%%} přívrženců
+Synů svobody dostává {+1} produkční bonus.
+
+@REBELUP50
+@width=190
+Vaše Excelence, {rebelské} cítění v našich koloniích vzrůstá!
+Už {%NUMBER0%%} naší populace podporuje myšlenku nezávislosti
+na %STRING0.  Někteří Otcové zakladatelé si myslí, že bychom
+měli žádat audienci u krále a veřejně vyhlásit nezávislost!
+
+@REBELDOWN
+@width=190
+Vaše Excelence, náklonnost ke {králi} v našich koloniích opět
+vzrůstá.  Jen {%NUMBER0%%} naší populace nyní podporuje myšlenku
+nezávislosti na %STRING0.
+
+@REFIT
+@width=190
+{%STRING0} dokončila opravy v {%STRING1}.
+
+@WELLSEASONED
+@width=190
+Vaše Excelence, naši {zvědové} se zlepšili na {mistrovskou} úroveň.
+
+@KINGBUY
+@width=190
+Král zvyšuje vojenské výdaje.  {%STRING0} byl přidán do
+Královské expediční armády.  Koloniální vůdcové vyhlašují poplach.
+
+@SEIZURE
+@width=190
+{%STRING0} byla zabavena na volném moři Královským námořnictvem!
+
+@SEIZURESEA
+@width=190
+{%STRING0} byla zajata na moři Královským námořnictvem!
+
+@SEIZURELAND
+@width=190
+{%STRING0} byl zajat Královskou armádou!
+
+@INDEPENDENCE
+@width=220
+Kontinentální kongres navrhl {Deklaraci nezávislosti}!
+Odůvodnil ji hrubým zacházením a uzurpátorstvím!  Ultimátum bylo 
+předáno králi!  K potlačení rebelie byla vyslána Expediční armáda!
+Generál %STRING0 volá dobrovolníky do nové Kontinentální armády!
+
+@INVASION
+@width=190
+Královské expediční vojsko přistálo nedaleko {%STRING0}!
+
+@TOOTORY
+@width=190
+Vaše Excelence, jen {%NUMBER0%%} kolonistů podporuje
+hnutí nezávislosti.  Nemůžeme začít vzpouru proti králi,
+dokud {většina} kolonistů není pro nás.
+
+@DECLARE
+@width=190
+Vaše Excelence, máme vyhlásit nezávislost na {%STRING0}?
+To ukončí náš tah a uvrhne nás do války proti našemu králi!
+
+"Nikdy! To by byla velezrada! Ať Bůh ochraňuje krále!"
+"Ano! Dejte mi svobodu, nebo smrt!"
+
+@DEADCONVERTS
+@width=190
+{Konvertovaní} indiáni ztratili víru a vrátili se ke svým kmenům.
+Konvertovaní indiáni, kteří během {osmi kol} od své konverze
+nedorazí do kolonie, odcházejí kvůli ztrátě víry.
+
+@TOOMANYUNITS
+@width=190
+{Jednotka} nemůže být vytvořena, protože byl dosažen maximální počet 
+jednotek ve hře.  Pokud chceš vytvořit novou jednotku, musí být
+některá stará jednotka eliminována.
+
+@TOOMANYCOLONIES
+@width=190
+{Kolonie} nemůže být vytvořena, protože byl dosažen maximální počet
+kolonií ve hře.  Pokud chceš vytvořit novou kolonii, musí být
+některá stará kolonie eliminována.
+
+@PICKMUSIC
+@smallfont
+@width=220
+Vyber skladbu:
+
+"Bird Song"
+"Smoky Tune"
+"Cornwall"
+"Shady Grove"
+"Fiddler's Dance"
+"Jine the Cavalry"
+"Joe Clark"
+"Little Fiddle"
+"Hornpipe"
+"Bonny Morn"
+"Hole In The Wall"
+"Nightingale"
+"Independence Tunes"
+"Military Tunes"
+"Indian Tunes"
+
+@PICKINDEPENDENCE
+@smallfont
+@width=220
+Vyber melodii nezávislosti:
+
+"Love Forever"
+"York Fusiliers"
+"Washington Artillery March"
+"Road to Boston"
+"Independence Way"
+
+@PICKMILITARY
+@smallfont
+@width=220
+Vyber vojenskou melodii:
+
+"The Reveille"
+"Successful Campaign"
+"Morelli's Lesson"
+"To Arms"
+
+@PICKINDIAN
+@smallfont
+@width=220
+Vyber indiánskou melodii:
+
+"Indian Victory"
+"Natives"
+"Tenochtitlan"
+"Pizarro at Cuzco"
+
+
+@UPKEEP
+@width=190
+Vaše Excelence, toto kolo si nemůžeme dovolit zaplatit údržbu všech 
+budov, ve výši ({%NUMBER0$}).  Dokud nezaplatíme {údržbu}, kolonisté 
+v budovách budou pracovat s {poloviční efektivitou}.
+
+@MOBILIZE
+@width=190
+Kontinentální armáda mobilizuje v {%STRING0}!  Naši %STRING1 veteráni
+byli povýšeni do stavu {Kontinentální armáda}.
+
+@MOBILIZE2
+@width=190
+Kontinentální armáda mobilizuje v {%STRING0}!  {%NUMBER0} veteránských
+jednotek bylo povýšeno do stavu {Kontinentální armáda}.
+
+
+@CANTMOBILIZE
+@width=190
+Kontinentální armáda může mobilizovat jen v koloniích,
+které mají k dispozici aspoň {%NUMBER0 mušket}.  Bohužel,
+žádná z našich kolonií nemá k dispozici dostatek mušket
+pro mobilizaci!
+
+@KINGMOBILIZE
+@width=190
+Parlament schválil dodatečné finanční prostředky na potlačení
+revoluce v %STRING0.  V %STRING2 byl mobilizován {%STRING1}.
+
+@EUROPENOTAVAIL
+@width=190
+Po zahájení {Války za nezávislost} již není obrazovka 
+Evropského statusu k dispozici.  Po dobu války
+nemohou do Evropy plout ani lodě.  Kolonie které
+postavily {Celnici} mohou obchodovat s evropskými
+pašeráky.
+
+@FOREIGNNOTAVAIL
+@width=190
+Po zahájení {Války za nezávislost} nejsou dále k dispozici
+zprávy poradce pro zahraniční věci.
+
+@EUROPENOTLEAVE
+@width=190
+Po dobu {Války za nezávislost} nemohou lodě plout do a z Evropy.
+Kolonie které postavily {Celnici} mohou obchodovat s evropskými
+pašeráky.
+
+@NOWARSDURINGREV
+@width=190
+Během {Valky za nezávislost} nemohou být cizí kolonie napadány.
+
+@NOCOLONIESEITHER
+@width=190
+Během {Valky za nezávislost} nemohou být zakládány nové kolonie.
+
+@NOMAYORSDURINGREV
+@width=190
+Během {Valky za nezávislost} se zvědové nemohou setkávat s cizími starosty.
+
+@HOWMUCH1
+@width=190
+Jaké množství {%STRING0} má být naloženo na %STRING1 (0-%NUMBER0).
+
+Množství:
+
+@HOWMUCH2
+@width=190
+Jaké množství {%STRING0} má být vyloženo z %STRING1 do %STRING2 (0-%NUMBER0).
+
+Množství:
+
+@HOWMUCH3
+@width=190
+Jaké množství {%STRING0} má být přesunuto z %STRING1 do %STRING2 (0-%NUMBER0).
+
+Množství:
+
+@HOWMUCH4
+@width=190
+Jaké množství {%STRING0} (v {%NUMBER1$}) má být nakoupeno
+a naloženo na %STRING1 (0-%NUMBER0).
+
+Množství:
+
+@HOWMUCH5
+@width=190
+Jaké množství {%STRING0} (v {%NUMBER1$}) prodat do %STRING2 (0-%NUMBER0).
+
+Množství:
+
+
+@AMBUSHHINT
+@width=220
+Vaše Excelence, královská armáda nemá mnoho zkušeností
+s druhem taktiky, která je nezbytná pro boj v Novém světě.
+Pokud naši vojáci napadnou královské vojáky, dokud nemají
+{žádnou} jednotku ve čtverci kolonie, získáme {přepadový}
+{bonus}, který se rovná obvyklé hodnotě obranného 
+bonusu terénu!
+
+@CONSIDER
+@width=220
+Vaše Excelence, %STRING0 zvažují intervenci proti králi
+na naší straně!  Pokud vytvoříme %NUMBER0 Zvonů svobody,
+tak se s námi spojí.
+
+@INTERVENTION
+@width=220
+{%STRING0} vyhlásili válku proti %STRING1 a připojili
+se k Válce za nezávislost na straně rebelů!  %STRING2 odjel
+kvůli strategickým konzultacím do %STRING3.  %STRING4
+námořnictvo plánuje bombardování opevnění držených králem.
+
+@FRIEND
+Britský generál Cornwallis
+Francouzský generál Lafayette
+Španělský generál
+Holandský admirál de Ruyter
+
+@INTERVENE
+@width=190
+%STRING1 intervenční oddíly dorazily do {%STRING0}!  Místní velitel
+armády rebelů pohostil %STRING1 admirála.
+
+@EXPLOITS
+COLONIZATION HODNOCENÍ: %NUMBER0%%
+Na paměť tvého úmrtí, dali obyvatelé
+%STRING0 tvé jméno . . .
+
+@SCORE
+Infekční chorobě,      %STRING0 horečka
+Bodavému hmyzu,        %STRING0 moucha
+Jedovaté rostlině,     %STRING0 břečťan
+Jedovatému hadovi,     %STRING0 chřestýš
+Věznici,               %STRING0catraz
+Fastfoodovému řetězci, %STRING0's bistro
+Ulici,                 %STRING0 bulvár
+Kytce,                 %STRING0 bodlák
+Škole,                 ZŠ %STRING0
+Jablku,                %STRING0 chutné
+Mostu,                 %STRING0 pamětní most
+Ptákovi,               %STRING0 orel
+Střední škole,         %STRING0 odborné učiliště
+Horskému lvu,          %STRING0 puma
+Prestižní ceně,        %STRING0 medaile cti
+Řece,                  %STRING0 řeka
+Univerzitě,            %STRING0 a Lee univerzita
+Horskému masivu,       %STRING0 hora
+Zátoce,                %STRING0 zátoka
+Fotbalovému mužstvu,   %STRING0 Conquistadoři
+Státu v Unii,          %STRING0 stát
+Hlavnímu městu,        %STRING0 D.C.
+Národu,                %STRING0 republika
+KONTINENTU!,           %STRING0ika
+
+
+@LOSING1
+@width=220
+Královské oddíly ovládají všechny přístavy v %STRING0!
+Kontinentální kongres kapituloval a přijal královy podmínky!
+Kontinentální armáda byla rozpuštěna a královské expediční sbory okupují
+kolonie.  %STRING1 byl zbaven titulu a unikl do {exilu} v %STRING2.
+
+@WARN1
+@width=220
+Vaše Excelence, královská armáda ovládá všechny naše přístavy
+v %STRING0, kromě %NUMBER0!  Pokud si neudržíme kontrolu aspoň 
+nad jedním přístavem, náš obchod bude udušen a budeme se muset vzdát!
+
+
+@LOSING2
+@width=220
+Královské oddíly ovládají všechny kolonie v %STRING0!
+Kontinentální kongres kapituloval a přijal královy podmínky!
+Kontinentální armáda byla rozpuštěna a královské expediční sbory okupují
+kolonie.  %STRING1 byl zbaven titulu a unikl do {exilu} v %STRING2.
+
+@WARN2
+@width=220
+Vaše Excelence, královská armáda ovládá všechny naše kolonie, 
+kromě %NUMBER1!  Musíme ochránit naše zbývající kolonie,
+nebo prohrajeme válku!
+
+
+@LOSING3
+@width=190
+Královské oddíly ovládají přes 90%% populace %STRING0!
+Kontinentální kongres kapituloval a přijal královy podmínky!
+Kontinentální armáda byla rozpuštěna a královské expediční sbory okupují
+kolonie.  %STRING1 byl zbaven titulu a unikl do {exilu} v %STRING2.
+
+@WARN3
+@width=220
+Vaše Excelence, královské oddíly ovládají %NUMBER2%% populace %STRING0.
+Pokud budou ovládat 90%%, Kontinentální kongres nebude schopen
+dále vést válku a budeme se muset vzdát!
+
+@WINNING
+@width=220
+Královské expediční sbory jsou vyhlazeny!  Generál %STRING0
+přijal  {kapitulaci} všech královských oddílů v krátké ceremonii.
+Parlament prohlásil krále za nevhodného k vládě a vyhlásil
+volby k přijetí nezávislosti na %STRING1.  Kontinentální
+kongres prohlásil %STRING0 prvním {prezidentem} nové
+republiky!
+
+@OTHERGRANTED
+@width=220
+Král {%STRING0} podpořil {nezávislost} na %STRING1!
+%STRING2 zvolen prvním prezidentem nové republiky.
+%STRING3 vyhlásil mír se všemi evropskými národy.
+
+
+@OTHERMIGHT
+@width=220
+Vaše Excelence, král {%STRING0} zvažuje udělení nezávislosti
+svým koloniím.  {%NUMBER0} (z %NUMBER1) kolonistů %STRING1
+nyní podporuje nezávislost.  Jakmile podpoří svobodu {%NUMBER2}
+kolonistů, koloniím v %STRING1 bude udělena jejich svoboda
+a stanou se nezávislým národem.
+
+@OTHERLESS
+@width=220
+Vyzvědačská zpráva:  Jen {%NUMBER0} {%STRING1} nyní podporuje
+nezávislost na %STRING0.  Král {%STRING0} jim neudělí svobodu,
+dokud jich nebude {%NUMBER2}.
+
+@SCORED
+@width=220
+Skóre pro tuto hru je nyní kompletní.
+
+To je vše.
+Hrajem dál.
+
+@TORYUPRISING
+@width=220
+U %STRING0 se vzbouřili královští!  Parlament vyzbrojil královskou milici!
+
+@CANNOTATTACK
+@width=190
+Tento typ jednotky nemůže útočit.
+
+@TRADEMERCANTILISM
+@width=190
+"V zájmu {merkantilismu} nám %STRING0 nařídil neobchodovat
+s cizími obchodníky.  Proto vás musíme požádat,
+abyste prosím odešli."
+
+@TRADEATWAR
+@width=190
+Lodě a přepravní vozy nemohou vstoupit do kolonie cizí mocnosti
+se kterou jsme ve válce, nebo jsme s ní nenavázali
+kontakt.
+
+@TRADENOCARGO
+@width=190
+"Nepřivezli jste nic k obchodování.  Prosím, vraťte se zpět,
+až nám budete mít co užitečného nabídnout."
+
+@TRADENOWANT
+@width=190
+"Vašich {%NUMBER0 %STRING0} nás nezaujalo.  Vraťte se zpět,
+až pro nás budete mít něco lepšího."
+
+@TRADEWITH
+@width=190
+"Dáme vám {%NUMBER0 %STRING0} výměnou za %NUMBER1 %STRING1.
+Nebo, pokud se vám to nelíbí, jsme ochotni vám nabídnout {%NUMBER2$}.
+Je to vyhovující?"
+
+"Dobře, dejte nám {%NUMBER0 %STRING0}."
+"Správně, dejte nám {%NUMBER2$}."
+"Máte nás za blázny?"
+
+@EXTINCT
+@width=190
+Kmen %STRING0 byl vyhlazen.
+
+@MERCENARIES
+@width=190
+Král %STRING0 nám nabídl oddíl vycvičených {žoldnéřů}
+(%STRING1),
+výměnou za {%NUMBER0$}.
+
+Ne, děkuji.
+Platím {%NUMBER0$}.
+
+@MERCS
+@width=190
+%STRING1 žoldnéři dorazili do %STRING0.
+
+@OVERBOARD
+@width=190
+Vaše Excelence, který náklad máme hodit přes palubu?
+
+@ALREADYREVOLUTION
+@width=190
+Již bojujeme ve Válce za nezávislost, Excelence.
+
+@SUREDISBAND
+@width=190
+Opravdu {rozpustit} %STRING0?
+
+Ano
+Ne
+
+@NEWCOLONIST
+@width=190
+Populace v %STRING0 vzrostla.  K dispozici je nyní nový kolonista.
+
+@INEFFICIENT
+@width=220
+Vaše Excelence, {%STRING0} má neúčinnou vládu!
+Kolonie, která má {%NUMBER0} nebo více kolonistů kteří
+nejsou přívrženci Synů svobody zaostává ve svém vládním
+rozvoji.  Kolonisté v takových koloniích musí přijmout
+{-1} penalizaci produkce za každých %NUMBER0 přívrženců krále.
+Počet přívrženců Synů svobody v této kolonii můžeme zvýšit produkcí 
+většího množství {Zvonů svobody}.  Penalizaci produkce se můžeme vyhnout
+i odstraněním takového množství kolonistů, aby to vedlo ke snížení počtu
+přívrženců krále pod %NUMBER0.
+
+@EFFICIENT
+@width=190
+Vaše Excelence, v {%STRING0} se zlepšila efektivita vlády.
+Penalizace produkce již nejsou pro kolonisty v %STRING0 v platnosti.
+
+@CLEARCUT
+@width=190
+Průkopníci vykáceli les nedaleko {%STRING0}.  {%NUMBER0 dřeva} bylo
+přidáno do zásob.
+
+@REALLYBUY
+@width=190
+Nakoupit %STRING0 za %NUMBER0$?
+
+Ano
+Ne
+
+@INDIANWARPATH
+@width=190
+"Kmen {%STRING0} je připraven vydat se na válečnou stezku.
+Na koho si přeješ, aby zaútočili?"
+
+@INDIANWARPATH2
+@width=190
+"Rádi smeteme {%STRING0} ze země našich 
+předku výměnou za {%NUMBER0$}."
+
+Zaplatit {%NUMBER0$}.
+Nepřichází v úvahu.
+
+@INDIANWARFARE
+@width=190
+Národ {%STRING0} svolal Válečnou Radu!
+{%STRING1} misionáři podněcují %STRING2 k válce 
+proti {%STRING3}!
+
+
+
+@LOSENOCOLONIES
+@width=190
+"%STRING0 %STRING1.  Naše úsilí v Novém světě se ukázalo 
+neplodným, a proto jsme se rozhodli zbavit vás funkce 
+místokrále.  Můžete, jako vždy, políbit náš královský růžový prsten."
+
+@SOONRETIRING0
+@width=190
+%STRING0 %STRING1 plánuje odejít do důchodu v roce 1800!  Obíhá fáma,
+že by mohl odložit svůj odchod do důchodu, kdyby začala Válka
+za nezávislost.
+
+@SOONRETIRING1
+@width=190
+"Generále %STRING1, lidé jsou z této dlouhé války unaveni.  Pokud
+se nám ji nepodaří ukončit do roku 1850, Kontinentální kongres se bude
+domáhat míru a snažit se obnovit přísahu věrnosti králi."
+
+
+@RETIRING
+@width=220
+%STRING0 %STRING1 odstoupil po uplynuti 300 let loajální služby 
+koruně.  Stárnoucí královský rytíř a místokrál se odebral 
+do důchodu na statek nedaleko %STRING2.
+
+
+@RETIRING2
+@width=220
+Válkou unavený Kontinentální kongres se domáhá míru!  Král přijímá
+kapitulaci od %STRING0 %STRING1, který se odebral do důchodu
+na statek nedaleko %STRING2.
+
+
+@HOWTOWIN
+@width=220
+Vaše Excelence, právě jsme dosáhli velkého vítězství na cestě ke svobodě.
+Za účelem
+porážky královské armády a získání naší nezávislosti, musíme získat 
+zpět {všechny} naše kolonie kontrolované králem a musíme zničit většinu
+jeho pozemních vojsk v Novém světě.
+
+
+@ARTILLERY
+@width=190
+%STRING0 %STRING1 {poškozeno}. Další poškození ho zničí.
+
+@ARTILLERY2
+@width=190
+Poškozené %STRING0 %STRING1 bylo {zničeno}.
+
+
+@TIMECHANGE
+@width=190
+^^Colonization nápověda: Běh času
+^
+V roce 1600 se {běh času} změní z jednoho tahu za rok na
+{dva tahy za rok}.  Od teď bude {jarní} a {podzimní}
+kolo v jednom roce.
+
+
+@TEACHCONVERT
+@width=190
+Konvertovaní indiáni již znají způsoby indiánů.
+
+
+@SOMEBOYCOTT
+@width=190
+Některý náklad nemůže být vyložen, protože byl parlamentem
+bojkotován.  Pokud chcete požádat o zrušení bojkotu,
+klikněte na daný typ nákladu.
+
+@KEEPSTOCKADE
+@width=220
+Pokud jsou postaveny palisády, opevnění, nebo pevnost,
+tak nemůžeme redukovat populaci v kolonii pod {tři}.
+
+@MORETHANTHREE
+@width=220
+Vaše Excelence, nemůžeme mít více než {tři} kolonisty
+v jedné budově.
+
+@LOOTWAGONS
+@width=220
+%STRING0 ukořistili přepravní vůz u %STRING3!
+
+
+@TUTORIAL1
+@width=190
+@x=10
+@y=40
+Vaše Excelence, naše {%STRING0} přepravující průkopníky a vojáky 
+je na otevřeném moři.  Pokud budete navigovat na západ
+({levá šipka}), pravděpodobně najdeme zemi.  Pokud poplujeme
+na východ ({pravá šipka}), dostaneme se zpět do přístavu.
+
+@TUTORIAL2
+@width=190
+Excelence, našli jsme nezmapovanou zemi.  Pro vyložení kolonistů
+na břeh pohněte lodí proti zemi a z menu zvolte '{Vyloďte se}'.
+
+@TUTORIAL3
+@width=190
+Díky hojnosti {%STRING0} v této oblasti je toto místo vynikající pro postavení
+naši první kolonie.  Pro stavbu kolonie, Sire, zmáčkněte klávesu '{B}'.
+
+@TUTORIAL4
+@width=190
+@x=10
+Na {obrazovce kolonie} se můžete rozhodnout, co mají kolonisté v této
+kolonii dělat.  Náš kolonista momentálně produkuje {%STRING0}, ale mohl
+by místo toho produkovat třeba {%STRING1}.  Ke změně jeho povolání klikněte
+myší na kolonistu a objeví se {pracovní menu}, ve kterém můžete zvolit to,
+co má kolonista dělat.  Kolonistu také můžete přetáhnout myší přímo na 
+patřičné políčko, nebo budovu, kde má pracovat.  Pro umístění kolonisty
+mimo kolonii ho přetáhněte na ohradu (na obrázku kolonie vedle vody).
+
+@TUTORIAL5
+@width=220
+Excelence, v docích v {%STRING0} (Evropa) jsou {%STRING1}, kteří jsou
+připraveni připojit se k naší kolonii.  Když pošleme loď, odplují s námi
+a rádi se stanou užitečnými členy naší komunity.
+
+@TUTORIAL6
+@width=220
+Sire, v {%STRING1} máme {%NUMBER0} {%STRING0}.  Když do %STRING1
+pošleme loď, budeme moci tento náklad naložit a odvézt ho do %STRING2
+v Evropě, kde ho můžeme prodat.
+
+@TUTORIAL7
+@width=220
+Vaše Excelence, %STRING0 se rapidně rozrůstá a měli bychom postavit
+{palisádu}, abychom kolonii uchránili před poškozením.  Pro její
+vybudování nejdříve musíme z jednoho našeho kolonisty udělat
+{dřevorubce} a nechat ho těžit {dřevo} v zalesněném
+čtverci.  Potom musíme vytvořit kolonistu {tesaře}, který
+ze dřeva staví budovy.  Nakonec musíme tesaři říct, co má stavět.
+Uděláme to kliknutím na modré tlačítko 'Kladivo', vpravo dole na
+obrazovce.  To nám ukáže, co se právě staví a dovolí nám to změnit,
+pokud si to přejeme.
+
+@TUTORIAL8
+@width=190
+Tento %STRING0 nemá žádnou specializaci.  Pokud ho přesuneme
+do vesnice přátelských domorodců, indiáni ho naučí nějaké
+nové profesi.
+
+@TUTORIAL9
+@width=220
+Toto místo vypadá jako vynikající pro stavbu {cesty}.  Naši
+{průkopníci} ji vybudují, když stisknete klávesu '{R}'.
+Pokud zde cestu vybudujete, zvýší se na tomto políčku produkce 
+kožešin, dřeva, železné rudy a stříbra.  Naše jednotky
+se budou po cestě pohybovat rychleji.
+
+@TUTORIAL10
+@width=220
+Toto místo je vynikající pro {vytvoření pole}, nebo 
+{vykácení lesa}.  Naši {průkopníci} udělají pole,
+když zmáčknete klávesu '{P}'.  Pole zvyšuje produkci jídla,
+tabáku, bavlny a cukru o jeden.  Vykácení {lesa}
+udělá místo pro další zemědělství.
+
+@TUTORIAL11
+@width=220
+Naše {%STRING0} je jednou z našich nejcennějších jednotek.  Můžeme
+ji použít k prozkoumání nezmapovaných končin Nového světa, k dopravě
+našeho zboží domů do %STRING1 na prodej a k přepravě imigrantů
+z Evropy.  Lodí můžete pohybovat pomocí kurzorových šipek, nebo ji 
+můžete poslat do přístavu podle svého výběru zmáčknutím klávesy '{G}'.
+
+@TUTORIAL12
+@width=220
+@y=5
+Vaše Excelence, naše loď připlula do %STRING0 a čeká na náklad!
+Modré boxy na spodku obrazovky jsou naše skladiště, ve kterém
+je  zboží, které máme k dispozici.  Pro naložení nákladu na loď
+použijte myš.  Uchopte zboží ve skladišti a přetáhněte ho do některého
+z boxů na lodi.  Když je loď naložena, vraťte se na hlavní mapu
+(zmáčkni '{ESC}'). Až bude loď na tahu, odešlete ji do Evropy
+zmáčknutím '{G}'.
+
+@TUTORIAL13
+@width=220
+Excelence, naši {průkopníci} dorazili do Nového světa!  Jsou
+připraveni poohlédnout se po dobrém místě pro stavbu naší první
+kolonie.  Zkuste se podívat po místě, kde je hodně jídla a ostatních
+zdrojů.  Naše první kolonie by měla být vybudována blízko oceánu,
+aby jí mohly dosáhnout naše lodě.  Průkopníci jsou běžně vybaveni
+{100 kusy nářadí}, které mohou použít ke kácení lesů,
+vytváření polí a stavění cest.  Pokud budeme chtít později 
+vytvořit další průkopníky, budeme potřebovat nářadí z Evropy,
+nebo nám ho budou muset vyrobit naši kováři.
+
+@TUTORIAL14
+@width=220
+Naši {vojáci} mají dvě použití.  Mohou být použiti k útoku na
+naše nepřátele, ale důležitější je jejich použití k ochraně
+našich vlastních kolonií.  Naši vojáci jsou vyzbrojeni
+{50 mušketami}. Pokud budeme chtít později vytvořit více vojáků,
+budeme potřebovat muškety z Evropy, nebo nám je budou muset
+vyrobit naši zbrojaři.  Naši vojáci budou účinnější,
+když je vybavíme {koňmi}.
+
+@TUTORIAL15
+@width=220
+Vaše Excelence, do {%STRING0} dorazili  noví kolonisté!  Kliknutím
+na kolonii a přetáhnutím kolonisty z "ohrady" na pole nebo budovu,
+z nich můžete udělat obyvatele {%STRING0}.
+
+@TUTORIAL16
+@width=220
+@y=10
+@x=5
+@smallfont
+Pro každou kolonii je důležité vypěstovat dostatek {jídla} k uživení svých
+kolonistů.  Každý kolonista sní {dvě} jednotky jídla za kolo.  Jídlo je
+znázorněno ikonou "kukuřice".  Pokud v každém kole nepěstujete dostatek
+jídla k uživení všech svých kolonistů, část kukuřice v okně kolonistů bude
+pokryta červenými "X".  Chcete-li vypěstovat více jídla, proměňte více
+svých kolonistů ve {farmáře} nebo {rybáře}.  Produktivitu jednotlivých
+farmářů můžete zvýšit tím, že necháte své pionýry {kácet lesy}
+a {vytvářet pole}.
+
+@TUTORIAL17
+@width=300
+@y=10
+@smallfont
+Obrazovka Evropského statusu zobrazuje váš domovský přístav v %STRING0,
+%STRING1.  Jakmile přijedou noví imigranti, budou se řadit v docích a čekat
+na transport do Nového světa.  Nové imigranty můžete naverbovat stisknutím
+tlačítek {Nábor} nebo {Vyškolit}.  Když lodě dorazí do přístavu, jejich
+náklad lze prodat přetažením z nákladových prostor do modrých skladů
+ve spodní části obrazovky.  Náklad lze také zakoupit přetažením ze skladu
+do nákladových prostor lodi.  V polích skladu první číslo označuje
+{nabídkovou cenu}, kterou přístav za daný typ nákladu zaplatí.  Druhé
+číslo označuje {poptávkovou cenu}, pokud byste si chtěli daný náklad
+koupit.  Chcete-li loď poslat zpět do Nového světa, klikněte na ni nebo
+ji přetáhněte do pole "Pluje do %STRING2".
+
+
+@TUTORIAL18
+@width=300
+@y=10
+@smallfont
+Náklad se obvykle nakupuje v jednotkách po 100 kusech.  Když přetahujete
+náklad ze skladu na loď, předpokládá se, že nakládáte 100 kusů.  Protože
+{%STRING0} stojí {%NUMBER0$} za jednotku a my máme pouze {%NUMBER1$} zlata,
+nemůžeme si dovolit 100 kusů.  Pokud chcete na loď naložit nebo vyložit
+méně než 100 kusů nákladu, jednoduše podržte klávesu {SHIFT} a náklad
+přetahujte myší. Poté budete vyzváni k zadání počtu jednotek,
+které chcete koupit.
+
+
+@TUTORIAL19
+@width=190
+{Konvertovaní indiáni} jsou domorodci, kteří se z nějakých  důvodů
+rozhodli k tobě připojit a žít ve tvých koloniích.  Na rozdíl od ostatních
+typů kolonistů {konvertovaní indiáni} nemohou být vyškoleni v nových
+dovednostech.  Na druhou stranu jsou lepší než obyčejní kolonisté,
+ve farmaření, plantážnictví, rybaření a dolování.
+
+
+
+@TUTNOLUMBER
+@width=220
+Vaše excelence, všechny lesy v okolí jsou vykáceny.  Kolonie
+postavená na tomto místě bude mít problém sehnat dostatek
+dřeva pro své tesaře.
+
+Konec akce.
+Stejně ji zde postavte.
+
+
+@TUTNOSPACES
+@width=220
+Vaše Excelence, s tímto polem sousedí jen několik
+produktivních polí.  Kolonie vybudovaná na tomto místě
+může mít nižší potenciál růstu, než doufáme.  Možná
+bychom se měli přesunout na větší plochu?
+
+Konec akce.
+Stejně ji zde postavte.
+
+
+@KINGLOSE
+@width=68
+@x=232
+@y=31
+"V naší neskonalé moudrosti jsme se rozhodli
+nechat vás jít svou vlastí cestou.  Máme daleko
+více zajímavějších záležitostí na vyřízení, než
+jen vaše mizerné kolonisty.  V budoucnu neočekávejte
+naši pomoc, protože nepřijde."
+
+@KINGWIN
+@width=90
+@x=202
+@y=125
+"Jak se dalo očekávat, váš pokus o oddělení
+od %STRING0 se ukázal jako marný.  Vaši
+'cínoví vojáčci' se prostě nemohou rovnat
+naši královské armádě."
+
+
+@DISBANDSHIP
+@width=190
+Nemůžeme zrušit loď na moři, která převáží
+jednotky.
+
+
+@NOMOREWAREHOUSE
+@width=190
+Vaše Excelence, kolonie {%STRING0} je nastavena
+k produkci {rozšířeného skladiště}, ale v kolonii
+může být jen {jedna} tato budova.
+
+@NOMOREWAGONS
+@width=190
+Vaše Excelence, kolonie {%STRING0} je nastavena
+k produkci {přepravního vozu), ale nemůžeme jich
+vyrobit více, než máme kolonií čili ({%NUMBER0}).
+
+
+@BUILD1
+@width=310
+@y=30
+^^Léta Páně tisícího čtyřstého devadesátého-druhého,
+
+@BUILD2
+@width=310
+@y=30
+^^expedice velkého %STRING0,
+^^%STRING1,
+
+@BUILD3
+@width=310
+@y=30
+^^vyplula z %STRING0 na objevitelskou výpravu.
+
+@BUILD4
+@width=310
+@y=30
+^^S pověřením a požehnáním %STRING1 %STRING0,
+
+@BUILD5
+@width=310
+@y=30
+^^k prozkoumávání oceánu,
+
+@BUILD6
+@width=310
+@y=30
+^^k hledání nezmapovaných zemí
+
+@BUILD7
+@width=310
+@y=30
+^^a k zřízení kolonií, pro větší slávu %STRING0.
+
+@BUILD8
+@width=310
+@y=30
+^^Loď s průkopníky a vojáky
+
+@BUILD9
+@width=310
+@y=30
+^^vyplula hledat nový život a nové začátky . . .
+
+@BUILD10
+@width=310
+@y=30
+^^Nový svět!
+
+
+
+
+@END

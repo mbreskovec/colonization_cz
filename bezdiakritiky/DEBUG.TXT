@@ -1,0 +1,207 @@
+;
+;       COLONIZATION Debug System Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@MOTD
+@width=300
+^{COLONIZATION} verze %STRING0 {ALFA} -- %STRING1
+^
+^Fakta k teto verzi:
+^1. Zmenily se vlastnosti nekterych Otcu zakladatelu:
+^____Fugger: Stribro+10 Muskety-5 Naradi-5
+^____Minuit: Vubec nemusite kupovat pudu od Indianu.
+^____Coronado: Uz zadne indianske prepady.
+^____De Soto: Z pruzkumu indianskych rozvalin vzdy neco kapne.
+^____Hudson: Lovci kozesin +100%
+^2. Kolonie nyni pojmou az 32 kolonistu.
+^3. Zoldneri se objevuji ve vetsich a mene castych skupinach.
+^4. Hra pokracuje i pote, co cizi mocnosti ziskaji nezavislost.
+^5. Cim drive ziskate nezavislost, tim vyssi je vase skore.
+^6. Pravidla pro prepadani behem revoluce upravena.
+^7. Pole lesnich/nelesnich zdroju se lisi.
+
+
+@MOTD2
+@width=300
+^^POMOC
+^
+Pokud hrajete {Colonization} ze {site}, nezapomente hru
+ukoncit, nez odejdete od pocitace.  Pokud nechate hru spustenou,
+nekdy zustane soubor otevreny a {zabrani} se zkopirovani
+{nove verze} na sit.  Nyni, kdyz hru hraje tolik lidi mimo
+nasi skupinu, neni vzdy mozne vystopovat osobu,
+ktera soubor nechava otevreny.
+Dekujeme za vasi pomoc!
+
+@MEMORY
+@width=190
+^Dostupna pamet     = %NUMBER0
+^Menu k dispozici   = %NUMBER1
+^Temer k dispozici  = %NUMBER2
+^Dostupny zasobnik  = %NUMBER3
+^PSP na             = %HEX4
+
+@CREATE
+@default=1
+Vyber kterou jednotku vytvorit
+
+Kolonistu
+Prukopnika
+Milici
+Misionare
+Zveda
+Artilerii
+Obchodni vuz
+Poklad
+Lod
+Indiana
+Ozbrojeneho indiana
+Jizdniho indiana
+Jizdniho valecnika
+Jednotku jine zeme
+
+@CREATE2
+@default=1
+Vyber kterou jednotku vytvorit
+
+Kolonistu
+Prukopnika
+Milici
+Misionare
+Zveda
+Artilerii
+Obchodni vuz
+Poklad
+Lod
+{Kontinentalni armadu}
+{Kontinentalni kavalerii}
+{Kralovskou armadu}
+{Kralovskou kavalerii}
+Jednotku jine zeme
+
+@CSHIP
+@default=1
+Vyber kterou lod vytvorit
+
+Karavelu
+Obchodni lod
+Galeonu
+Korzara
+Fregatu
+Man-O-War
+
+@FOREIGN
+Vyber kterou narodnost vytvorit
+
+Anglican
+Francouz
+Spanel
+Holandan
+
+@FOREIGN2
+Vyber ktery typ vytvorit
+
+Rebel
+Loajalista
+
+@SETVIEW
+@width=190
+Vyber pohled
+
+Anglicka mapa
+Francouzska mapa
+Spanelska mapa
+Holandska mapa
+Cela mapa
+Zadny specialni pohled
+
+@SETHUMAN
+@width=190
+Zvol narodnost lidskeho hrace
+
+Anglican
+Francouz
+Spanel
+Holandan
+Zadna
+
+@SETAUTO
+@width=190
+Automaticka hra?
+
+Ano
+Ne
+
+@SETREPORT
+@width=190
+Ci zpravy ukazat?
+
+Anglicke
+Francouzske
+Spanelske
+Holandske
+
+@SETEUROPE
+@width=190
+Ktere mesto ukazat
+
+Londyn
+La Rochelle
+Sevilla
+Amsterdam
+
+@DANGER
+@width=190
+^^NEBEZPECI, WILLE ROBINSONE!
+^
+^^Varovani! %STRING0
+^
+^^Fakt: %NUMBER0 / %NUMBER1 / %NUMBER2
+@END
+
+@BADGUYS
+@width=190
+Chces, aby se tam venku potulovali
+padousi?
+
+To zni skvele! Pojdme to zkusit!
+Radeji ne, mohlo by to bolet.
+
+@SOUND
+@width=190
+@default=0
+Kterou skladbu zahrat #?
+
+Skladba:
+
+@OPTIONS
+@width=220
+@checkbox
+Vyber volby Debug informaci
+
+~Uroven hnevu & napeti
+~Tahy indianske AI 
+~Dodavky a pozadavky (indiani)
+~Planovani AI cizincu
+~Blizke pohyby
+~Vzdaleni pohyby
+~Vsechny pohyby
+
+@FORCED
+@width=190
+Vynutit nezavislost na konci dalsiho tahu.
+
+@TEST
+@width=220
+^Pocet jednotek    = %NUMBER0
+^Pocet kolonii     = %NUMBER1
+       

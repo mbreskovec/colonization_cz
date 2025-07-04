@@ -1,0 +1,207 @@
+;
+;       COLONIZATION Debug System Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@MOTD
+@width=300
+^{COLONIZATION} verze %STRING0 {ALFA} -- %STRING1
+^
+^Fakta k tto verzi:
+^1. Zmnily se vlastnosti nkterch Otc zakladatel:
+^____Fugger: Stbro+10 Mukety-5 N`ad-5
+^____Minuit: Vbec nemuste kupovat pdu od Indi`n.
+^____Coronado: U `dn indi`nsk pepady.
+^____De Soto: Z przkumu indi`nskch rozvalin vdy nco k`pne.
+^____Hudson: Lovci koein +100%
+^2. Kolonie nyn pojmou a 32 kolonist.
+^3. oldni se objevuj ve vtch a mn astch skupin`ch.
+^4. Hra pokrauje i pot, co ciz mocnosti zskaj nez`vislost.
+^5. m dve zsk`te nez`vislost, tm vy je vae skre.
+^6. Pravidla pro pepad`n bhem revoluce upravena.
+^7. Pole lesnch/nelesnch zdroj se li.
+
+
+@MOTD2
+@width=300
+^^POMOC
+^
+Pokud hrajete {Colonization} ze {st}, nezapomete hru
+ukonit, ne odejdete od potae.  Pokud nech`te hru sputnou,
+nkdy zstane soubor oteven a {zabr`n} se zkoprov`n
+{nov verze} na s.  Nyn, kdy hru hraje tolik lid mimo
+nai skupinu, nen vdy mon vystopovat osobu,
+kter` soubor nech`v` oteven.
+Dkujeme za vai pomoc!
+
+@MEMORY
+@width=190
+^Dostupn` pam     = %NUMBER0
+^Menu k dispozici   = %NUMBER1
+^Tm k dispozici  = %NUMBER2
+^Dostupn z`sobnk  = %NUMBER3
+^PSP na             = %HEX4
+
+@CREATE
+@default=1
+Vyber kterou jednotku vytvoit
+
+Kolonistu
+Prkopnka
+Milici
+Mision`e
+Zvda
+Artilerii
+Obchodn vz
+Poklad
+Lo
+Indi`na
+Ozbrojenho indi`na
+Jzdnho indi`na
+Jzdnho v`lenka
+Jednotku jin zem
+
+@CREATE2
+@default=1
+Vyber kterou jednotku vytvoit
+
+Kolonistu
+Prkopnka
+Milici
+Mision`e
+Zvda
+Artilerii
+Obchodn vz
+Poklad
+Lo
+{Kontinent`ln arm`du}
+{Kontinent`ln kavalerii}
+{Kr`lovskou arm`du}
+{Kr`lovskou kavalerii}
+Jednotku jin zem
+
+@CSHIP
+@default=1
+Vyber kterou lo vytvoit
+
+Karavelu
+Obchodn lo
+Galeonu
+Korz`ra
+Fregatu
+Man-O-War
+
+@FOREIGN
+Vyber kterou n`rodnost vytvoit
+
+Anglian
+Francouz
+panl
+Holanan
+
+@FOREIGN2
+Vyber kter typ vytvoit
+
+Rebel
+Loajalista
+
+@SETVIEW
+@width=190
+Vyber pohled
+
+Anglick` mapa
+Francouzsk` mapa
+panlsk` mapa
+Holandsk` mapa
+Cel` mapa
+`dn speci`ln pohled
+
+@SETHUMAN
+@width=190
+Zvol n`rodnost lidskho hr`e
+
+Anglian
+Francouz
+panl
+Holanan
+`dn`
+
+@SETAUTO
+@width=190
+Automatick` hra?
+
+Ano
+Ne
+
+@SETREPORT
+@width=190
+ zpr`vy uk`zat?
+
+Anglick
+Francouzsk
+panlsk
+Holandsk
+
+@SETEUROPE
+@width=190
+Kter msto uk`zat
+
+Londn
+La Rochelle
+Sevilla
+Amsterdam
+
+@DANGER
+@width=190
+^^NEBEZPE, WILLE ROBINSONE!
+^
+^^Varov`n! %STRING0
+^
+^^Fakt: %NUMBER0 / %NUMBER1 / %NUMBER2
+@END
+
+@BADGUYS
+@width=190
+Chce, aby se tam venku potulovali
+padoui?
+
+To zn skvle! Pojme to zkusit!
+Radji ne, mohlo by to bolet.
+
+@SOUND
+@width=190
+@default=0
+Kterou skladbu zahr`t #?
+
+Skladba:
+
+@OPTIONS
+@width=220
+@checkbox
+Vyber volby Debug informac
+
+~rove hnvu & napt
+~Tahy indi`nsk AI 
+~Dod`vky a poadavky (indi`ni)
+~Pl`nov`n AI cizinc
+~Blzk pohyby
+~Vzd`len pohyby
+~Vechny pohyby
+
+@FORCED
+@width=190
+Vynutit nez`vislost na konci dalho tahu.
+
+@TEST
+@width=220
+^Poet jednotek    = %NUMBER0
+^Poet koloni     = %NUMBER1
+       

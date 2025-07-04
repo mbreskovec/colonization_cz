@@ -1,0 +1,207 @@
+;
+;       COLONIZATION Debug System Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+@MOTD
+@width=300
+^{COLONIZATION} Version %STRING0 {ALPHA} -- %STRING1
+^
+^Facts for this version:
+^1. Some founding father powers changed:
+^____Fugger: Silver+10 Muskets-5 Tools-5
+^____Minuit: Don't have to purchase land from indians at all.
+^____Coronado: No more indian ambushes.
+^____De Soto: Goody boxes always yield something.
+^____Hudson: Fur Trappers +100%
+^2. Colonies now hold up to 32 colonists.
+^3. Mercenaries appear in larger, more infrequent, chunks.
+^4. Game continues even after foreign powers gain independence.
+^5. The earlier you gain independence, the higher your score.
+^6. Ambush rules during revolution modified.
+^7. Forest/Nonforest resource squares different.
+
+
+@MOTD2
+@width=300
+^^HELP
+^
+If you are playing {Colonization} from the {network}, please
+be sure to exit from the game before you go off and leave
+your computer.  Leaving the game running sometimes leaves
+a file open and {prevents} a {new version} from being copied onto
+the network.  Now that we have so many people outside of the
+group playing the game, it is not always possible to track down
+the person who is keeping a file open.  Thanks for your help!
+
+@MEMORY
+@width=190
+^Memory Available = %NUMBER0
+^Menu Available   = %NUMBER1
+^Near Available   = %NUMBER2
+^Stack Available  = %NUMBER3
+^PSP at           = %HEX4
+
+@CREATE
+@default=1
+Select Unit To Create
+
+Colonists
+Pioneers
+Militia
+Missionary
+Scout
+Artillery
+Wagon Train
+Treasure
+Ship
+Indian Braves
+Indian Armed Braves
+Indian Horse
+Indian Armed Horse
+Foreign Unit
+
+@CREATE2
+@default=1
+Select Unit To Create
+
+Colonists
+Pioneers
+Militia
+Missionary
+Scout
+Artillery
+Wagon Train
+Treasure
+Ship
+{Continental Army}
+{Cont. Army Cavalry}
+{King's Regulars}
+{King's Cavalry}
+Foreign Unit
+
+
+
+@CSHIP
+@default=1
+Select Ship To Create
+
+Caravel
+Merchantman
+Galleon
+Privateer
+Frigate
+Man-O-War
+
+@FOREIGN
+Select Nationality To Create
+
+English
+French
+Spanish
+Dutch
+
+@FOREIGN2
+Select Type to Create
+
+Rebel
+Loyal
+
+@SETVIEW
+@width=190
+Select Viewpoint
+
+English Map
+French Map
+Spanish Map
+Dutch Map
+Complete Map
+No Special View
+
+@SETHUMAN
+@width=190
+Select Human Nationality
+
+English
+French
+Spanish
+Dutch
+None
+
+@SETAUTO
+@width=190
+Automate game?
+
+Yes
+No
+
+
+@SETREPORT
+@width=190
+View Whose Report?
+
+English
+French
+Spanish
+Dutch
+
+
+@SETEUROPE
+@width=190
+View Which City
+
+London
+La Rochelle
+Seville
+Amsterdam
+
+@DANGER
+@width=190
+^^DANGER, WILL ROBINSON!
+^
+^^Warning! %STRING0
+^
+^^Fact: %NUMBER0 / %NUMBER1 / %NUMBER2
+@END
+
+@BADGUYS
+@width=190
+Do you want the bad guys to be wandering
+around out there?
+
+Sounds cool! Let's try it!
+Better not; might crash.
+
+
+@SOUND
+@width=190
+@default=0
+Play what sound #?
+
+Sound:
+
+@OPTIONS
+@width=220
+@checkbox
+Select Debug Information Options
+
+~Anger & Friction Levels
+~Indian AI movement
+~Supply and Demand (Indians)
+~Foreign AI planning modes
+~Close Moves
+~Far Moves
+~All Movement
+
+@FORCED
+@width=190
+Independence forced at end of next turn.
+
+
+@TEST
+@width=220
+^Number of Units    = %NUMBER0
+^Number of Colonies = %NUMBER1
+

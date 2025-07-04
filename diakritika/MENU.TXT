@@ -1,0 +1,109 @@
+;
+;       COLONIZATION Game Menu
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@GAME
+~HRA
+  Nastaven hry
+  Nastaven zpr`v o kolonich
+  Nastaven zvuku
+  Vbr hudby
+  Uloit Hru
+  Nahr`t Hru
+  VYHLSIT NEZVISLOST
+  Skonit
+  Odchod do systmu
+
+@VIEW
+~POHLED
+  Jednotka na tahu (~M)
+  Zobrazit ~Vlastnosti
+  ~Evropsk status
+  Najt kolonii
+  Zoom In#   ~Z
+  Zoom Out   ~X
+  rove zoomu 120 x 96
+  rove zoomu #60 x 48
+  rove zoomu #30 x 24
+  rove zoomu #15 x 12
+  Uka skryt tern (~H)
+  Vystedit pohled (~C)
+
+@ORDERS
+~ROZKAZY
+  ~Aktivovat jednotku
+  ekat na dal jednotku (~W)
+  Opevnit (~F)
+  Opevnit (~F)
+  Hldka (~S)
+  Postavit kolonii (~B)
+  Pipojit se ke kolonii (~B)
+  Vymtit les (~P)
+  Vytvoit ~pole
+  Postavit cestu (~R)
+  Na~loit n`klad
+  Vyloit n`klad (~U)
+  Zniit (~P)
+  Jdi do pstavu (~G)
+  Jdi do kolonie (~G)
+  Zani obchodn trasu (~T)
+  N`v~rat do Evropy
+  Bez pkazu (~s~p~a~c~e~ bar)
+  H~odit n`klad pes palubu
+  Rozpustit jednotku (~s~h~i~f~t~-~D)
+
+@REPORTS
+~ZPRVY
+  ~F~1 Informace o ternu
+  ~F~2 N`boensk poradce
+  ~F~3 Kontinent`ln Kongres
+  ~F~4 Pracovn poradce
+  ~F~5 Ekonomick poradce
+  ~F~6 Poradce pro kolonie
+  ~F~7 N`mon poradce
+  ~F~8 Poradce pro zahranin vci
+  ~F~9 Poradce pro indi`ny
+  ~F~1~0 Colonization skre
+
+
+@TRADE
+~OBCHOD
+  Upravit obchodn trasu
+  Vytvoit obchodn trasu
+  Zruit obchodn trasu
+
+@CUP
+~CHEAT
+  ~F~0~1 Vytvoit jednotku
+  ~F~0~2 Nastaven hry
+  ~F~0~4 Odkrt mapu
+  ~F~0~5 Vbr lidskho hr`e
+  ~F~0~6 Zabt indi`ny
+  ~F~0~7 Vyhl`en revoluce
+  Test Hudby
+  Stav pamti
+  ~F~0~8 Uka strategii
+  ~F~0~9 Uka kolonie
+  ~F~1~0 Testovac rutina
+
+@PEDIA
+~COLONIZOPEDIA
+  Typy n`kladu
+  Typy jednotek
+  Typy ternu
+  Dovednosti kolonist
+  Budovy v kolonich
+  Otcov zakladatel
+  Rzn
+  Kompletn
+
+@END

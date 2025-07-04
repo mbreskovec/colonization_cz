@@ -1,0 +1,12 @@
+bytes available.  If you play the game without sufficient
+memory, it may malfunction.  You can reduce the memory
+requirements by about 40,000 bytes by running the INSTALL
+program and selecting NO SOUND CARD.  Or, you can increase
+the amount of available memory in your machine by removing
+TSR's and loading DOS high.
+
+The files AUTOEXEC.TXT and CONFIG.TXT are sample 
+AUTOEXEC.BAT and CONFIG.SYS files which you can use
+to create a minimum configuration if necessary.
+
+Press any key to continue or the ESC key to return to DOS.

@@ -1,0 +1,292 @@
+;
+;       COLONIZATION Label Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+@INFO
+Moves:
+Locat:
+With:
+With:
+
+@MISC
+a
+an
+End of Turn
+None
+Expert
+Sailing For
+Inbound From
+Now Arriving In
+Docks At
+Expected Soon
+Bound For
+No Ships In Port
+Awaiting Passage
+(Cost:
+)
+Lost City Rumor
+.5
+Wilderness
+Land
+of the
+No cargo ready for transport!
+No cargo holds available!
+No cargo on board!
+Loading
+Unloading
+onto
+in
+Mission
+Missions
+INDIAN ADVISER REPORT
+RELIGIOUS ADVISER REPORT
+Road
+Nothing
+only
+Continue turn.
+Zoom to colony.
+The
+CONTINENTAL CONGRESS ACTIVITIES
+Now debating:
+Alarmed by
+Lake
+wagons
+holds
+Requires
+(CLEAR SPECIALTY)
+Horse Herds
+OK
+sells
+for
+LABOR ADVISER REPORT
+ECONOMIC ADVISER REPORT
+COLONY ADVISER REPORT
+NAVAL ADVISER REPORT
+Off Mapboard (Europe)
+On Mapboard
+In Colonies
+(Click on item to zoom)
+K
+Tons
+Gold
+High Seas
+Ship
+Cargo
+Location
+Destination
+Veteran
+Seasoned
+Learned
+Ask:
+Rebel
+Tory
+Sentiment
+King's Popularity
+defeat
+defeats
+COMBAT ANALYSIS
+Fatigue
+Attack Bonus
+Ambush
+Terrain
+Colony
+Fortified
+Spain Bonus
+Plowed
+Artillery In Open
+Expeditionary Force
+Rebels
+Tories
+Matters
+Founding Fathers
+Drake
+(Building Upkeep)
+TOTAL UPKEEP
+FOREIGN AFFAIRS REPORT
+'s
+Colonies
+Population
+Average Colony
+Military Power
+Naval Power
+Merchant Marine
+War
+Peace
+Adviser
+Bombard
++ More +
+and
+past
+ENCYCLOPEDIA OF COLONIZATION
+(More)
+(Exit)
+Intervention Force
+Next Continental Congress Session
+Intervention
+COLONIZATION SCORE
+Citizens
+Independence
+Villages Burned
+Declared
+Achieved
+Foreign Recognition
+Total Score
+Trees
+(Outside Colony)
+Asking
+Bidding
+SCORING COMPLETE
+COMPLETE
+arrives in
+Artillery Vs. Raid
+Extinct
+Boycott
+Tory Unrest
+Rebel Unrest
+Continental Congress
+Sold
+Bought
+at
+$/ton
+Price
+% Tax
+Net
+Early Revolution
+prior nations
+Land Mass
+Land Form
+Temperature
+Climate
+Small
+Moderate
+Large
+Archipelago
+Normal
+Continents
+Cool
+Temperate
+Warm
+Arid
+Normal
+Wet
+CUSTOMIZE NEW WORLD
+Click Here When Finished
+Choose
+Difficulty Level
+Level
+Easiest
+Easy
+Moderate
+Tough
+Toughest
+Select
+European Power
+Power
+Immigration
+Cooperation
+Conquest
+Trade
+Fish
+With
+Combat
+Attack
+Cargo Holds
+Moves
+Plow
+River
+Coast
+Move Cost
+Defense or Ambush Bonus
+Prerequisite
+(F1 for Help)
+(Withdrawn from New World)
+Free
+COLONIZATION HALL OF FAME
+to
+A.D.
+President
+General, Continental Army
+Leader
+Score
+Colonization_Rating
+Prime
+Damaged
+Press
+Bid Price
+Ask Price
+Zoom to Europe.
+European Trade
+Cargo in Port
+Military Garrisons
+Sons of Liberty
+Exit
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+
+
+@ROUTE
+EDIT TRADE ROUTE
+Route Name:
+Route Type:
+Sea
+Land
+Destination
+Unload Cargo
+Load Cargo
+(Delete Destination)
+
+@CMISC
+Harvest / Resources
+Units Present
+Make
+
+@CTITLE
+Pop:
+Gold:
+BUY
+CHANGE
+Select An Item To Build
+(No Production)
+(More)
+Turns)
+Select a Profession for
+Tax:
+
+@CMESSAGE
+bought for
+sold for
+moved to
+. Price:
+No room for
+Nothing to transport
+Not enough
+to fill cargo hold!
+too expensive!
+No
+in cargo hold!
+Nothing to transfer!
+at
+Buying
+Selling
+Loading
+Unloading
+% Tax:
+. Net:
+
+@EUROLABEL
+RECRUIT
+PURCHASE
+TRAIN
+x
+

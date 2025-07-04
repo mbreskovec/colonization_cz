@@ -1,0 +1,22 @@
+@echo off
+rem
+rem     Colonization -- Sample minimal AUTOEXEC.BAT
+rem
+
+path c:\windows;c:\dos
+prompt $p$g
+
+rem
+rem     Remove the SMARTDRV line if you still don't
+rem     have enough memory after running this AUTOEXEC.
+rem
+lh SMARTDRV.exe 1024 1024
+
+lh mouse
+
+
+
+
+
+
+

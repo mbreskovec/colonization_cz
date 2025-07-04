@@ -1,0 +1,31 @@
+;
+;       COLONIZATION Colonizopedia Data
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@WOODCUT
+NOV SVT
+OBJEVEN NOVHO SVTA
+STAVBA KOLONIE
+SETKN S DOMORODCI
+AZTCK E
+NROD INK
+OBJEVEN PACIFICKHO OCENU
+VSTUP DO INDINSK VESNICE
+FONTNA MLD
+NKLAD Z NOVHO SVTA
+PIVTN PTELSKMI EVROPANY
+VYPLEN KOLONIE
+KOLONIE BYLA ZNIENA
+INDINSK VPD
+woodcut 14
+woodcut 15
+woodcut 16

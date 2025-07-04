@@ -1,0 +1,104 @@
+;
+;       COLONIZATION Game Menu
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+
+@GAME
+~GAME
+  Game Options
+  Colony Report Options
+  Sound Options
+  Pick Music
+  Save Game
+  Load Game
+  DECLARE INDEPENDENCE
+  Retire
+  Exit to DOS
+
+@VIEW
+~VIEW
+  ~Move Pieces
+  ~View Pieces
+  ~European Status
+  Find Colony
+  Zoom In#   ~Z
+  Zoom Out   ~X
+  Zoom Level 120 x 96
+  Zoom Level #60 x 48
+  Zoom Level #30 x 24
+  Zoom Level #15 x 12
+  Show ~Hidden Terrain
+  ~Center View
+
+@ORDERS
+~ORDERS
+  ~Activate unit
+  ~Wait for next unit
+  ~Fortify
+  ~Fortify
+  ~Sentry
+  ~Build Colony
+  Join Colony (~B)
+  Clear Forest (~P)
+  Plow Fields  (~P)
+  Build ~Road
+  ~Load Cargo
+  ~Unload Cargo
+  ~Pillage
+  ~Go to Port
+  ~Go to Place
+  Begin ~Trade Route
+  ~Return to Europe
+  No Orders (~s~p~a~c~e~ bar)
+  Dump Cargo ~Overboard
+  Disband Unit (~s~h~i~f~t~-~D)
+
+@REPORTS
+~REPORTS
+  ~F~1 Terrain Information
+  ~F~2 Religious Adviser
+  ~F~3 Continental Congress
+  ~F~4 Labor Adviser
+  ~F~5 Economic Adviser
+  ~F~6 Colony Adviser
+  ~F~7 Naval Adviser
+  ~F~8 Foreign Affairs Advisor
+  ~F~9 Indian Adviser
+  ~F~1~0 Colonization Score
+
+
+@TRADE
+~TRADE
+  Edit Trade Route
+  Create Trade Route
+  Delete Trade Route
+
+@CUP
+~CHEAT
+  ~F~0~1 Create Unit
+  ~F~0~2 Debug Info Flags
+  ~F~0~4 Reveal Map
+  ~F~0~5 Set Human Player
+  ~F~0~6 Kill Indians
+  ~F~0~7 Advance Revolution Status
+  Sound Test
+  Memory Check
+  ~F~0~8 Show Strategy
+  ~F~0~9 Show Colony Sites
+  ~F~0~1~0 Test Routine
+
+@PEDIA
+~COLONIZOPEDIA
+  Cargo Types
+  Unit Types
+  Terrain Types
+  Colonist Skills
+  Colony Buildings
+  Founding Fathers
+  Miscellaneous
+  Complete
+
+@END

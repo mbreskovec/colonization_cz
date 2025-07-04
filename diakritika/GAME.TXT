@@ -1,0 +1,3385 @@
+;
+;       COLONIZATION Game Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+
+@DOS
+@default=2
+Odchod do systmu?
+
+Ano
+Ne
+
+@DOSYES
+Odchod do systmu?
+
+Ano
+Ne
+
+@RETIRE
+@default=2
+Urit chce skonit?
+
+Ano
+Ne
+
+
+@BEGINMENU
+@width=160
+@y=91
+@smallfont
+{COLONIZATION} verze %STRING0 -- %STRING1
+@options
+Zat hru v NOVM SVT
+Zat hru v AMERICE
+PIZPSOBIT Nov svt
+Nahr`t hru
+Zobrazit s sl`vy
+
+
+@GAMEOPTIONS
+@width=190
+@checkbox
+Hern nastaven
+@options
+Ukazuj tahy ~Indi`n
+Ukazuj tahy ostatnch (~F)
+Rychl pohyb na map (~S)
+Kon~ec kola
+~Autoukl`d`n
+Bojov` analza (~C)
+Poh~ybliv vlny na vod
+~Tutori`l n`povda
+
+@COLONYOPTIONS
+@width=220
+@checkbox
+Nastaven zpr`v o kolonich
+@options
+Jmna na {budov`ch}
+Jmna na {n`kladu} a {ternu}
+Zpr`vy o ukonen {kolen} kolonisty
+Zpr`vy o nedostatku {jdla}
+Zpr`vy o nedostatku {materi`lu}
+Zpr`vy o nedostatku {n`ad} pro produkci
+Zpr`vy o {nedostaten} vl`d
+Zpr`vy o {novch n`kladech} zbo
+Zpr`vy o stavu {Zvon svobody}
+Zpr`vy o {pevaze rebel}
+
+@SOUNDOPTIONS
+@width=190
+@checkbox
+Nastaven zvuku
+@options
+Hud~ba na pozad
+Hudba pi akcch (~E)
+~Zvukov efekty  (~S)
+
+@SAVEGAME
+@width=190
+Vyber pozici pro uloen
+
+@SAVEGOOD
+@width=190
+%STRING1 uloena jako %STRING0.
+
+@SAVEERROR
+@width=190
+Chyba pi ukl`d`n hry %STRING0.
+
+@LOADGAME
+@width=190
+Vyber hru pro nahr`n
+
+@LOADGOOD
+@width=190
+Nahr`n %STRING0 bylo spn.
+
+@LOADNOT
+@width=190
+%STRING0 nen platn uloen soubor.
+
+@LOADOLD
+@width=190
+%STRING0 je zastaral uloen soubor.
+
+@LOADSIZE
+@width=190
+%STRING0 nem` platnou velikost mapy.
+Nebude nahr`n.
+
+@LOADERROR
+@width=190
+Chyba pi nahr`v`n hry %STRING0.
+
+
+@PICKNATION
+@default=1
+Vyber Evropskou mocnost
+
+Anglie
+Francie
+panlsko
+Holandsko
+
+
+@DIFFICULTY
+@width=190
+Vyber Stupe obtnosti
+
+Objevitel
+Przkumnk
+Conquistador
+Guvernr
+Mstokr`l
+
+
+@LEADERNAME
+@width=300
+^^Prosm, zadej sv jmno.
+_
+_
+@options
+______________________
+
+
+@FINDCITY
+@width=190
+Kde kruci je . . .
+
+Kolonie:
+
+@NOCITY
+@width=190
+"%STRING0" nebyla nalezena.
+
+@@smallfont
+
+@VICEROY
+@width=78
+@x=232
+@y=21
+^
+^^Lta P`n
+^^1492
+^
+^^U audience s
+^^Kr`lem %COUNTRY
+^
+"Pro vt sl`vu %COUNTRY,
+ti udlujeme titul mstokr`le Nov zem.
+Jdi a prozkoumej nov pevniny, osdli
+je a i sl`vu svou a sl`vu
+svho n`roda."
+
+
+@VICEROY2
+@width=78
+@x=232
+@y=21
+^
+^^Lta P`n
+^^1492
+^
+^^U audience s
+^^mstodrcm
+^
+"Pro vt sl`vu %COUNTRY,
+ti udlujeme titul mstokr`le Nov zem.
+Jdi a prozkoumej nov pevniny, osdli
+je a i sl`vu svou a sl`vu
+svho n`roda."
+
+
+@@VICEROY
+@@width=200
+@^^Lta P`n %YEAR
+@^^Audience u kr`le %COUNTRY
+@^^_
+@"Pro vt sl`vu %COUNTRY, ti udlujeme
+@^_titul {Mstokr`l Novho svta}. Jdi,
+@^_prozkoumej a osdli tuto novou zemi. Osdli ji
+@^_pro vt sl`vu svou
+@^_a sl`vu svho n`roda."
+
+@LANDHO
+@width=190
+@default=America
+Zem na obzoru!  Vae Excelence, jak chcete
+nazvat tuto novou zemi?
+
+Jmno:
+
+@COLONY
+Jak m`me pojmenovat tuto kolonii?
+
+Jmno:
+
+@RENAMECOLONY
+Jak m`me pejmenovat tuto kolonii?
+
+Jmno:
+
+@LANDFALL
+@default=1
+@width=190
+Vae Excelence, mli bychom se vylodit,
+m`me opustit lo?
+
+Zstate na lodi
+Vylote se
+
+@LANDFALL2
+@default=1
+@width=190
+Nae lo neme plout po tto ece,
+Vae Excelence.  Mli bychom se vylodit,
+m`me opustit lo?
+
+Zstate na lodi
+Vylote se
+
+@ONLYPIO
+@width=120
+Tuto funkci mohou vykon`vat jen
+{prkopnci}.
+
+@ONLYCOL
+@width=120
+Tuto funkci mohou vykon`vat jen
+{kolonist}.
+
+@SHIPCOMBAT
+@width=190
+Na nep`telsk lod mohou toit
+jen {Korz`i} a {Fregaty}.
+
+@SHIPLAKE
+@width=190
+Na {jezero} neme lo vyplout.
+
+@LANDFIRST
+@width=190
+Pozemn jednotky nemohou pmo z paluby lodi vstoupit na zem
+obsazen nep`teli.  Mus je nejdv vyloit
+na pr`zdnm, nebo p`telskou jednotkou obsazenm zem.
+
+@SEACOLONY
+@width=140
+Mon` t to pekvap, ale kolonie nelze
+zakl`dat na moi.
+
+@NOPORT
+@width=190
+Toto zem nem` pstup k {oce`nu},
+Vae Excelence.  Jestlie zde vybudujete {kolonii},
+budeme muset k transportu zbo do {pstavu} pout
+{pepravn vozy}, kter postavme v
+njak kolonii.
+
+"Och, na to jsem zapomnl."
+"A to je pesn to, co chci."
+
+@BUILT
+@width=140
+V kolonii %STRING0 byl postaven {%STRING1}.
+
+@FULL
+@width=190
+Kolonie {%STRING0} je {peplnna}, Vae
+Excelence.
+Bude lep pro tyto emigranty najt
+jinou kolonii.
+
+
+@NOTEACHER
+@width=190
+Jedin kolonist, kte jsou v dan profesi mistry, mohou vyuovat ostatn.
+
+@NEEDCOLLEGE
+@width=190
+Pokud chce v tto kolonii vyuovat profesi ({%STRING0}),
+mus vybudovat {vysokou kolu}.
+
+@NEEDUNIVERSITY
+@width=190
+Pokud chce v tto kolonii vyuovat profesi ({%STRING0}),
+mus vybudovat {univerzitu}.
+
+@TRAINFAIL
+@width=190
+V {%STRING0} m`me {uitele}, ale vichni kolonist
+v tto kolonii jsou ji v njakm oboru experty. 
+Specializaci nkterho z kolonist me zruit tak,
+e na nj na obrazovce kolonie klikne my a v menu
+zvol "{Zruit specializaci}".
+
+@TRAINCRIMINAL
+@width=190
+V {%STRING0} se, dky vzdl`n, stal ze {zloince}
+{smluvn sluha}.
+
+@TRAININDENTURED
+@width=190
+V {%STRING0} se, dky vzdl`n, stal ze {smluvnho sluhy}
+{voln kolonista}.
+
+@TRAINPROFESSION
+@width=190
+{Kolonista} v {%STRING0} byl vykolen ve speci`ln
+profesi {%STRING1}.
+
+
+@SIEGE
+@width=190
+Kolonie je v {obleen}, nep`telsk bojov jednotky
+v tto oblasti nyn pesluj nae.  Ne bude obleen
+prolomeno, mohou zde bt vytv`eny pouze jednotky
+Voj`k a Dragoun.
+
+
+@ABANDON
+@width=190
+@default=2
+Vae Excelence, m`me {opustit} nai kolonii %STRING0
+a vechno, co jsme zde vybudovali?
+
+Ano, to by bylo dobr.
+Nikdy! To by byla hloupost.
+
+
+@ABANDON2
+@width=190
+@default=2
+Vae Excelence, m`me {opustit} nai kolonii %STRING0
+a vechno, co jsme zde vybudovali?
+Jestlie nebudeme mt po roce 1600 `dn kolonie,
+kr`l V`s odvol` z funkce!
+
+Ano, to by bylo dobr.
+Nikdy! To by byla hloupost.
+
+
+@SAILHOME
+@width=190
+@default=1
+M`me vyplout na {voln moe}, Vae
+Excelence?  M`me plout do Evropy?
+
+Ano, bez mek`n.
+Ne, zstate v tchto vod`ch.
+
+@SAILAWAY
+@width=190
+@default=1
+M`me plout do {Novho svta},
+Vae Excelence?
+
+Ano, bez mek`n.
+Ne, zstate v pstavu.
+
+@SAILPORT
+@width=190
+@default=1
+Vyber clov pstav:
+
+@TRAVELPLACE
+@width=190
+@default=1
+Vyber clovou kolonii:
+
+
+@UNREST
+@width=190
+@default=1
+V %COUNTRY jsou n`boensk nepokoje, dky tomu se zvyuje
+emigrace.  V %STRING0 jsou dostupn kolonist ({%STRING1}).
+
+@RECRUIT
+@width=190
+N`sledujc jedinci n`s doprovod do Novho
+svta, pokud zaplatme jejich pepravu,
+kter` stoj ({%NUMBER0 zlata}).
+Koho najmeme?
+
+@RECRUITCHOOSE
+@width=220
+N`boensk nepokoje v %COUNTRY jsou dvodem zven
+emigrace.  V %STRING0 jsou pipraven kolonist
+a chtj n`s n`sledovat do Novho svta, kde hledaj
+n`boenskou svobodu. Koho najme?
+
+
+@RECRUIT2
+@width=190
+N`sledujc speci`ln profese jsou dostupn
+mezi %STRING0. Koho najme?
+
+
+@KINGRECRUIT
+@width=190
+@smallfont
+{Kr`lovsk` univerzita} pro n`s zajist specialisty.
+Kterou specializaci potebuje?
+
+
+@PURCHASE
+@width=190
+N`sledujc vci jsou k dispozici.  Kterou koup?
+
+@SCHOOL1
+@width=190
+Vae Excelence, ve {kole} me uit jen {jeden}
+uitel.
+
+@COLLEGE2
+@width=190
+Vae Excelence, na {stedn kole} mohou uit jen {dva}
+uitel.
+
+@UNIV3
+@width=190
+Vae Excelence, na {univerzit} mohou uit jen {ti}
+uitel.
+
+@NODOCKS
+@width=190
+Vae Excelence, v tto kolonii nememe rybait,
+dokud nepostavme {doky}.
+
+@CARGOREADY0
+@width=190
+Vae Excelence, v {%STRING0} je pipraven nov n`klad {%STRING1}.
+
+@CARGOREADY1
+@width=190
+Vae Excelence, v {%STRING0} je pipraven nov n`klad {%STRING1}.
+%STRING0 nem` pro %STRING1 ({%NUMBER0}) dostatek msta ve skladu.
+Ml byste v tto kolonii zv`it stavbu vtho {skladit}.
+
+
+@CARGOREADY2
+@width=190
+Vae Excelence, v {%STRING0} je pipraven nov n`klad {%STRING1}.
+%STRING0 nem` pro %STRING1 ({%NUMBER0}) dostatek msta ve skladu.
+
+
+@LUMBER
+@width=190
+Vae Excelence, v {%STRING0} nen `dn {devo}.  Nai
+tesai nemohou pokraovat ve sv pr`ci, dokud njak
+nenajdete.
+
+@COTTON
+@width=190
+Vae Excelence, v {%STRING0} nen `dn` {bavlna}.  Nai
+tkalci nemohou pokraovat ve sv pr`ci, dokud njakou
+nenajdete.
+
+@TOBACCO
+@width=190
+Vae Excelence, v {%STRING0} nen `dn {tab`k}.  Nai
+doutnk`i nemohou pokraovat ve sv pr`ci, dokud
+njak nenajdete.
+
+@CANESUGAR
+@width=190
+Vae Excelence, v {%STRING0} nen `dn {cukr}.  Nai
+lihovarnci nemohou pokraovat ve sv pr`ci, dokud
+njak nenajdete.
+
+@FURS
+@width=190
+Vae Excelence, v {%STRING0} nejsou `dn {koeiny}.
+Nai koenci nemohou pokraovat ve sv pr`ci, dokud
+njak nenajdete.
+
+@ORE
+@width=190
+Vae Excelence, v {%STRING0} nen `dn` {elezn` ruda}.
+Nai kov`i nemohou pokraovat ve sv pr`ci, dokud 
+njakou nenajdete.
+
+@TOOLS
+@width=190
+Vae Excelence, v {%STRING0} nen `dn {n`ad}.
+Nai zbrojai nemohou pokraovat ve sv pr`ci, dokud
+njak nenajdete.
+
+
+@FOOD1
+@width=190
+Vae Excelence, z`soby jdla v {%STRING0} jsou
+vyerp`ny!
+
+@FOOD2
+@width=190
+Vae Excelence, z`soby jdla v {%STRING0} jsou
+vyerp`ny!  Pich`z {zima}
+a my meme {vyhladovt} ke smrti!
+
+@VANISH
+@width=190
+Vae Excelence!  Nae kolonie {%STRING0}
+zmizela!  Kolonist {vyhladovli}
+ke smrti.
+
+@STARVE1
+@width=190
+Vae Excelence, v kolonii {%STRING0} u nen `dn jdlo!
+V tomto drsnm zimnm poas bylo mnoho kolonist {vyhladovno}
+k smrti.
+
+@STARVE2
+@width=190
+Vae Excelence, v kolonii {%STRING0} u nen `dn jdlo!
+Kolonist jsou {vyhladovl} k smrti a me to bt hor,
+zima pich`z.
+
+@FOODLOW
+@width=190
+Vae Excelence, v kolonii {%STRING0} se rychle spotebov`vaj
+jejich z`soby jdla.  M`me tam jen {%NUMBER0 jdla}.
+Musme mt jdlo pro zimn msce.
+
+@SPOIL1
+@width=190
+V kolonii {%STRING0} byla pekroena kapacita skladit a
+{%NUMBER0} tun {%STRING1} bude vyhozeno. Vt {skladit} by mohlo
+pojmout dalch {100} tun tohoto n`kladu.
+
+@SPOIL2
+@width=190
+V kolonii {%STRING0} byla pekroena kapacita skladit.
+Njak n` n`klad bude vyhozen.
+Vt {skladit} by mohlo pojmout dalch {100} tun tohoto n`kladu.
+
+@SPOIL3
+@width=190
+V kolonii {%STRING0} byla pekroena kapacita skladit.
+{%NUMBER0} tun {%STRING1} bude vyhozeno.
+
+@SPOIL4
+@width=190
+V kolonii {%STRING0} byla pekroena kapacita skladit.
+Njak n` n`klad bude vyhozen.
+
+
+@BUYME0
+@width=160
+Cena za dokonen %STRING0: %NUMBER0$.
+^Poklad: %NUMBER1$.
+
+@BUYME1
+@width=160
+@default=1
+Cena za dokonen %STRING0: %NUMBER0$.
+^Poklad: %NUMBER1$.
+
+Ned`m ani hal.
+Dokonit.
+
+
+@DEFOREST
+@width=160
+Odlesnn nedaleko %STRING0.
+
+@DEPLETION
+@width=160
+Dl vyten u %STRING0.
+
+@UNITFLAG
+@width=160
+Flags chyba jednotky (%NUMBER0, %NUMBER1) (%STRING0).
+
+@COLONYFLAG
+@width=160
+Flags chyba kolonie.
+
+@LOSTCITY0
+@width=190
+Kter z tchto osob najmeme?
+
+@LOSTCITY1
+@width=190
+Objevili jsme {Font`nu ml`d}!  F`my let Evropou a imigranti
+se hrnou do pstavu, aby v Novm Svt hledali vn ml`d!
+
+@LOSTCITY2
+@width=190
+Nael jsi jedno ze {Sedmi zlatch mst Ciboly}!  Poklad vykopan
+z ruin msta m` hodnotu {%NUMBER1$}!  K odvezen pokladu zpt
+do Evropy potebuje {galeonu}!
+
+@LOSTCITY3
+@width=190
+Nael jsi ruiny ztracen civilizace.  Nalezen zlato a artefakty
+maj cenu {%NUMBER0$}.
+
+@LOSTCITY4
+@width=190
+Tvoje expedice narazila na posv`tn pohebn pahorek.
+
+"Hledejte poklad!"
+"Stjte, to je posv`tn` pda indi`n!"
+
+
+@SCREWED
+@width=190
+"Toto je starod`vn pohebn msto naich
+{%STRING0} otc!  Neopr`vnn jsi vstoupil
+na nae svat msto.  Te mus zemt!"
+
+@BURIAL1
+@width=190
+Pahorek je studen a pr`zdn.
+
+@BURIAL2
+@width=190
+Nael jsi tretky za {%NUMBER0$}.
+
+@BURIAL3
+@width=190
+Nael jsi neuviteln poklad za {%NUMBER1$}!
+K jeho peprav zpt do Evropy
+mus mt {galeonu}!
+
+
+@LOSTCITY5
+@width=190
+Tv` expedice zmizela beze stopy!
+
+@LOSTCITY6
+@width=190
+V rozvalin`ch jsi nic nenael.
+
+
+@LOSTCITY7
+@width=190
+Tvoje expedice vstoupila do vesnice malho,
+p`telskho kmene.  N`elnk ti daruje {%NUMBER0$}.
+
+
+@LOSTCITY8
+@width=190
+"Jsi neopr`vnn blzko na {%STRING0} svatyn!  Kmen
+%STRING0 je maxim`ln znepokojen!"
+
+
+@LOSTCITY9
+@width=190
+Stojte na mst nespn farm`sk kolonie. 
+Peiv zakladatel kolonie, vmnou za tolik
+potebn z`soby, slibuj vrnost %STRING0.
+
+
+@SNEAK
+@width=190
+Z`ken tok zr`dnch {%STRING0}!
+
+
+@CANCELPEACE
+@width=190
+{%STRING0} ukonil mrov` jedn`n s {%STRING1}.
+
+@SIGNTREATY
+@width=190
+{%STRING0} a {%STRING1} vyhl`sili mrov` jedn`n.
+
+@DECLAREWAR
+@width=190
+{%STRING0} a {%STRING1} jsou nyn ve v`lce.
+
+
+@HAVETREATY
+@width=190
+"Vae Excelence, ohl`sili jsme mrov` 
+jedn`n s {%STRING0}."
+
+Zruit akci.
+Skonit jedn`n.
+
+
+@WHACKINDIANS
+@width=190
+Vae Excelence, m`me zatoit na {%STRING0}?
+
+Ano
+Ne
+
+@VILLAGEHAPPY
+@width=190
+Tvoje expedice dos`hla %STRING0 patc {%STRING1}.
+Obyvatel pokojn pracuj na okolnch polch.
+{astn} na v`s m`vaj.
+
+@VILLAGESAVAGE
+@width=190
+Tvoje expedice dos`hla %STRING0 patc {%STRING1}.
+Obyvatel jsou zamstnan na okolnch polch.
+{astn} na v`s m`vaj, ale vimnete
+si skalp teatr`ln rozvench po okolnch
+stromech.
+
+@VILLAGEMEDIUM
+@width=190
+Tvoje expedice dos`hla %STRING0 patc {%STRING1}.
+Obyvatel jsou zamstnan na okolnch polch.
+Mal skupinky bojovnk cvi {lukostelbu}
+a zamraen a {podezvav} v`s sleduj.
+
+@VILLAGEBAD
+@width=190
+Tvoje expedice dos`hla %STRING0 patc {%STRING1}.
+Tlupa {bojovnk} se na v`s krvezniv dv`.
+Ostatn obyvatel nejsou nikde vidt.
+
+@VILLAGEWAR
+@width=190
+Tvoje expedice dos`hla %STRING0 patc {%STRING1}.
+Kolekce skalp teatr`ln vis na okolnch stromech.
+Z vesnice slyte zlovstn zvuk {v`lench bubn}.
+
+@INDIANWELCOME
+@width=190
+"Kmen {%STRING0} v`s vt`.
+Jsme slavn n`rod s {%NUMBER0 %STRING1}.
+Na poest naeho p`telstv v`m lechetn
+darujeme zemi, kterou pr`v zabr`te.
+Pijm`te tuto smlouvu a budete
+s n`mi t v mru, jako brati?"
+
+Ano
+Ne
+
+@INDIANBOW
+@width=190
+"Kmen {%STRING0} se skl`n ped {%STRING1} silou.
+Jako tribut va velikosti v`m vnujeme vechnu zem,
+kterou pr`v zabr`te."
+
+@INDIANTREATY
+@width=190
+"Kmen {%STRING0} se skl`n ped {%STRING1} silou.
+Jako tribut va velikosti v`m vnujeme vechnu
+zem, kterou pr`v zabr`te. Pijm`te tuto
+smlouvu a budete s n`mi t v mru,
+bok po boku?"
+
+Ano
+Ne
+
+@INDIANHELLO1
+@width=190
+"Kmen {%STRING0} vt` dstojn {%STRING1}
+z {%STRING2}."
+
+@INDIANHELLO2
+@width=190
+"Kmen {%STRING0} zdrav nejukrutnj {%STRING1}
+z {%STRING2}."
+
+@INDIANPEACE
+@width=190
+"{%STRING0} vtaj mr s naimi bratry
+{%STRING1}.  Pojte s n`mi vykouit dmku
+mru a oslavme tak nae vn p`telstv."
+
+@INDIANCOME
+@width=190
+"Douf`me, e brzy {navtvte} %STRING0 vesnice,
+podlte se o znalosti a polete sv
+{pepravn vozy} obchodovat."
+
+@INDIANSHUN
+@width=190
+"Te v`s mocn {%STRING0} nemilosrdn smetou do moe.
+Pipravte se na VLKU!"
+
+
+@INDIANWAGONS
+@width=190
+"{%STRING0} osadnci se dopustili stranho
+nien {%STRING1} zem a %STRING1 lidu.  
+Proto poadujeme vech {%NUMBER0} kus 
+{%STRING2} v tchto vozech jako reparaci."
+
+Pedejte to.
+Vozy do kruhu.
+
+@INDIANCITY
+@width=190
+"{%STRING0} osadnci se dopustili stranho
+nien {%STRING1} zem a %STRING1 lidu.
+Proto poadujeme {%NUMBER0 %STRING2}
+ze sklad kolonie jako reparace."
+
+Mui na palis`dy.
+Pedejte to.
+
+
+@INDIANGOLD
+@width=190
+"{%STRING0} lid volaj po spravedlnosti.
+`d`me {%NUMBER0$} jako reparaci."
+
+"Nikdy, nepistoupm na vydrastv!"
+"R`d zaplatm {%NUMBER0$}."
+
+
+@INDIANSLAVES
+@width=190
+Vystraen dav {%STRING0} pich`z do %STRING1 misie jako {konvertit}.
+
+@INDIANSCONVERT
+@width=190
+"Moudrost vaich mision` nkolik z n`s pesvdila,
+aby se pipojili k va kolonii 
+v {%STRING0} a ili s v`mi jako {konvertit}."
+
+@INDIANGIVEFOOD
+@width=190
+"{%STRING0} vid, e vae z`soby jdla v tomto obdob
+jsou nedostaten.  Nicmn, nae vlastn n byly hojn
+a pich`zme se s v`mi tde podlit o nai rodu.
+Nabzme v`m darem {%NUMBER0 jdla}, jako stvrzen 
+vnho mru mezi naimi lidmi.  Pojme jst spolen
+a vzdejme dky za nae tst."
+
+@INDIANGIVESTUFF
+@width=190
+"Kmen {%STRING0} je poten pokrokem
+v sousedskch vztazch s {%STRING1}.  
+Z vdnosti za mr mezi naimi lidmi
+v`m pich`zme nabdnout {%NUMBER0 %STRING2}."
+
+@INDIANCOMMENT
+@width=190
+Kmen {%STRING0} je poten, kdy vid prosperitu naich
+sousedu {%STRING1}.  Pesto jsme znepokojeni z toho,
+e vae kolonie zanaj hospodait na zem blzko
+naich osad.
+
+@INDIANBEGFOOD
+@width=190
+"Na kmen {%STRING0} padly tvrd asy, nem`me dost jdla, 
+abychom peili toto obdob.  Nai brati z {%STRING1},
+podlte se s n`mi o svou tdrou sklize nyn,
+v dob na nouze?"
+
+"Omlouv`me se, ale museli jsme d`t adm."
+"Na dkaz p`telstv v`m darujeme {%NUMBER0} z naich {%NUMBER1} z`sob jdla."
+
+@INDIANWAR
+@width=190
+"My, {%STRING0}, jsme zkoueli t s v`mi v mru,
+ale vae provokace jsou netolerovateln.
+Vae zloiny volaj po pomst--pipravte se na VLKU!"
+
+@INDIANGRUDGE
+@width=190
+N`rod {%STRING0} svolal V`lenou Radu!
+%STRING1 vstoupili do V`lky o nez`vislost na stran kr`le!
+Kr`l souhlasil s poskytnutm muket a koni pro %STRING0.
+
+@INDIANLAND
+@width=190
+"Uloupili jste zem kmene {%STRING0}.
+Trpliv v`s `d`me, abyste okamit odeli."
+
+"Dobr`, budeme respektovat vae p`n."
+"Nabzme v`m za tuto zemi {%NUMBER1$}."
+"Ale vy se mlte, toto je te NAE zem!"
+
+@INDIANROAD
+@width=190
+"Velmi se ob`v`me, e stavba {cesty}
+v tchto mstech ohroz peit kmene {%STRING0}.  
+Trpliv v`s `d`me, abyste stavbu zastavili."
+
+"V tom ppad zde cestu nepostavme, p`tel."
+"Jako kompenzaci v`m nabzme {%NUMBER1$}."
+"Je n`m lto, ale tato cesta je nezbytn`."
+
+@INDIANFOREST
+@width=190
+"Tento les a tvorov, kte v nm ij,
+jsou dleit pro peit kmene {%STRING0}.
+Trpliv v`s `d`me, abyste ho neniili."
+
+"Nech tedy tyto stromy stoj navdy, p`tel."
+"Jako kompenzaci v`m nabzme {%NUMBER1$}."
+"Deeeeeeevvvvvv!"
+
+@INDIANFOREST2
+@width=190
+"Tento les a tvorov, kte v nm ij,
+jsou dleit pro peit kmene {%STRING0}.
+Vae kolonie {%STRING1} do nj nyn zasahuje.
+Trpliv v`s `d`me, abyste ho neniili."
+
+@INDIANBRIBE
+@width=190
+"Dobr`, stahujeme nai n`mitku."
+
+@NOPLOW
+@width=190
+Tato zem je ji {obdlan`}.
+
+@NOROAD
+@width=190
+Tady ji {cesta} je,
+Vae Excelence.
+
+@VIOLATE
+@width=190
+{%STRING0} naruili {%STRING1} teritorium nedaleko {%STRING2}!
+Kolonist jsou poboueni!
+
+@HALF
+@width=190
+Vae Excelence, tito mui jsou unaveni.
+Pokud jim nadme zatoit v tomto kole,
+budou bojovat s {%NUMBER0/3 silou}.
+
+"Pesto zatoit!"
+"Nechte je odpoinout."
+
+
+@NOLOOT
+@width=190
+{%STRING0} vyp`lili {%STRING1 %STRING2}!
+Domorodci v panice utekli!
+
+@LOOT
+@width=190
+{%STRING0} vyplenili a vyp`lili {%STRING1 %STRING2}!  Domorodci
+v panice utekli! Hodnota pokladu zskanho z ruin je {%NUMBER0$}!
+K pevozu zlata zpt do Evropy je nezbytn` {Galeona}!
+
+@LOOT2
+@width=190
+{%STRING0} vyp`lili {%STRING1 %STRING2}!  Domorodci v panice utekli!
+
+@LOOTCASH
+@width=190
+{%STRING0} flotila naloen` pokladem {%NUMBER0$}, dorazila do %STRING1!
+Koruna si bere podl {%NUMBER1%%}.  {%NUMBER2$} zvtilo %STRING0 poklad.
+
+@LOOTFOREIGN
+@width=190
+Vyzvdask` zpr`va: {%STRING0} flotila naloen` pokladem {%NUMBER0$},
+pipluje do %STRING1.  %STRING0 kr`l bude spokojen s koist.
+
+@LOOTCAPTURE
+@width=190
+{%STRING1} UKOISTILI {%STRING0} poklad v cen {%NUMBER0$}!
+
+@WAGONCAPTURE
+@width=190
+{%STRING1} UKOISTILI {%STRING0} pepravn vz!
+
+@COLONISTCAPTURE
+@width=190
+{%STRING1} UKOISTILI {%STRING0} kolonisty!
+
+@COLONISTCAPTURE2
+@width=190
+{%STRING1} UKOISTILI {%STRING0} kolonisty!
+Voj`ci ztr`cej status Veter`na.
+
+@CARGOCAPTURE
+@width=190
+{%STRING2 %STRING3} ukoistil {%STRING0} n`klad {%NUMBER0 %STRING1}!
+
+@DEMOTE
+@width=190
+{%STRING0 %STRING1} poraen!  Jednotka byla vr`cena do stavu {%STRING2}.
+
+@SHIPDAMAGE
+@width=190
+{%STRING0 %STRING1} pokozena!  Lo se vrac do {%STRING2} na opravu.
+
+@SHIPSUNK
+@width=190
+%STRING2 %STRING3 {potopila %STRING0 %STRING1}!
+
+
+@RAIDNOTHING
+@width=190
+V {%STRING1} byl odraen n`jezd {%STRING0}!
+Kolonist j`saj!
+
+
+@RAIDWREAK
+@width=190
+Vyzvdask` zpr`va: {%STRING0} vp`d!  Zchladili si `hu
+zpustoenm {%STRING3} kolonie {%STRING1}.
+
+
+@RAIDSTORES
+@width=190
+{%STRING0} vp`d!  Zatoili na sklady v {%STRING1}!
+Velk mnostv {%STRING2} bylo ukradeno.  Kolonist jsou poboueni!
+
+
+@RAIDBURN
+@width=190
+{%STRING0} vp`d!  Vyp`lili budovy v {%STRING1}!
+{%STRING2} znien.  Kolonist poaduj okamitou pomstu!
+
+@RAIDSCALP
+@width=190
+{%STRING0} vp`d!  Indi`ni v {%STRING1} ukoistili skalpy!
+Kolonist volaj po pomst!
+
+@RAIDSHIP
+@width=190
+{%STRING0} vp`d!  Napadli pistav v {%STRING1}!
+{%STRING2} pokozena.  Kolonist jsou zden!
+
+@RAIDGOLD
+@width=190
+{%STRING0} vp`d!  Uchv`tili pokladnu v {%STRING1}!
+Obchodnci hovo o ukraden {%NUMBER0$}.  Kolonist jsou rozzuen!
+
+@MISSION0
+@width=190
+Zaloena misie %STRING0 %STRING1 - %STRING2, %NUMBER0.
+Pro {%STRING3} je pchod novho n`boenstv kuriozita.
+
+@MISSION1
+@width=190
+Zaloena misie %STRING0 %STRING1 - %STRING2, %NUMBER0.
+{%STRING3} jsou {obezetn}.
+
+@MISSION2
+@width=190
+Zaloena misie %STRING0 %STRING1 - %STRING2, %NUMBER0.
+{%STRING3} jsou {uraen}.
+
+@MISSION3
+@width=190
+Zaloena misie %STRING0 %STRING1 - %STRING2, %NUMBER0.
+{%STRING3} reaguj {nep`telsky}.
+
+@HERESY0
+@width=190
+{%STRING0 mision`i} oznaili {%STRING1} za kace.
+{%STRING2} vc podp`lili %STRING1 misii a postavili
+novou %STRING0 misii!
+
+@HERESY1
+@width=190
+{%STRING0 mision`i} oznaili {%STRING1} za kace.
+Loaj`ln {%STRING2} uctvai up`lili %STRING0 
+mision`e na hranici!
+
+@INDIANBURN
+@width=190
+{%STRING0} zap`lili {%STRING1} misii!  Crkevn ady
+jsou poboueny!
+
+@INDIANWIN0
+@width=190
+{%STRING0} pepadli {%STRING1 %STRING2} nedaleko %STRING3!
+
+@INDIANWIN1
+@width=190
+{%STRING0} pepadli {%STRING1 %STRING2} nedaleko %STRING3!
+%STRING4 hordami byly ukradeny {mukety}!
+
+@INDIANWIN2
+@width=190
+{%STRING0} pepadli {%STRING1 %STRING2} nedaleko %STRING3!
+%STRING4 hordami byly ukradeny {kon}!
+
+
+@INDIANLOSE
+@width=190
+{%STRING1 %STRING2} %STRING4 {%STRING0} nedaleko %STRING3!
+
+@INDIANWINCOLONY
+@width=190
+{%STRING0} zmasakrovali {%STRING1} kolonisty v {%STRING3}!
+{%STRING2} umraj pi odr`en toku.
+
+@INDIANWINCOLONY2
+@width=190
+Vyzvdask` zpr`va: {%STRING0} zmasakrovali {%STRING1} kolonisty v {%STRING3}.
+%STRING1 guvernr pl`nuje protiopaten.
+
+@INDIANBURNCOLONY
+@width=190
+{%STRING0} zmasakrovali {%STRING1} kolonisty v {%STRING3}!
+Kolonie byla srovn`na se zem!  Kr`l poaduje
+vysvtlen!
+
+@INDIANBURNCOLONY2
+@width=190
+Vyzvdask` zpr`va: {%STRING0} vyp`lili {%STRING1} kolonii {%STRING3}.
+%STRING1 guvernr slbil pomstu.
+
+@INDIANSURPRISE
+@width=190
+{%STRING0} udlali pekvapiv vp`d nedaleko {%STRING1}! 
+Kolonist jsou vystraeni.  %STRING2 popr` svou ast.
+
+@CAPTURED
+@width=190
+{%STRING0} pochoduj do {%STRING2}!
+{%NUMBER0$} uloupeno!
+
+@CAPTURED2
+@width=190
+Vyzvdask` zpr`va: {%STRING0} pochoduj do {%STRING2}.
+
+@CAPTURED3
+@width=190
+{%STRING0} pochoduj do {%STRING2}!
+
+@BURNED
+@width=190
+{%STRING0} do z`kladu vyp`lili {%STRING3}!
+Kolonist v panice utekli!  Kr`l poaduje
+vysvtlen!
+
+@BURNED2
+@width=190
+Kolonie {%STRING3} byla srovn`na se zem.
+{%STRING1} guvernr pipravuje odvetu.
+
+@BURNED3
+@width=190
+Vyzvdask` zpr`va: {%STRING0} vyp`lili {%STRING1} kolonii {%STRING3}.
+%STRING1 guvernr pipravuje odvetu.
+
+
+@EUROPEWIN
+@width=190
+{%STRING0} %STRING4 {%STRING1 %STRING2} nedaleko %STRING3!
+
+@EUROPELOSE
+@width=190
+{%STRING1 %STRING2} %STRING4 {%STRING0} nedaleko %STRING3!
+
+@WAREHOUSEFULL
+@width=190
+Vae Excelence, skladit v {%STRING0} ji obsahuje
+{%NUMBER0} jednotek {%STRING1} a me obsahovat pouze
+{%NUMBER1} jednotek.  Pokud pid`me dalch {%NUMBER2}
+jednotek, nkter %STRING1 budou {ztraceny}!
+
+Nepich`z v vahu.
+Vylote {%STRING1} jakkoliv.
+
+@EXTORTSTUFF
+@width=190
+"Mocn %STRING0, skl`nme se ped moc tvch divnch zbran.
+Pokorn a mrumilovn {%STRING1} r`di doru {%NUMBER0
+%STRING2} do {%STRING3} v nadji, e n`s uet hnvu
+svch stranch bojovnk."
+
+@EXTORTPOOR
+@width=190
+"Mocn %STRING0, teseme se ped tebou.  Bda, my pokorn
+a mrumilovn {%STRING1} bohuel nem`me `dn dary, hodn
+tv velikosti.  Douf`me, e bude milosrdn a uet n`s."
+
+@EXTORTLAUGH
+@width=190
+"Smjeme se va plan hrozb.  Nepokouejte nai trplivost,
+{%STRING0} bojovnici jsou zn`m svou zuivost v dob v`lky."
+
+@EXTORTNO
+@width=190
+"Mus si o n`s myslet, e jsme velmi poetil, %STRING0 %STRING1.
+{%STRING2} se nenechaj vt`hnout do vaich klam a zrady."
+
+@TOONEAR
+@width=190
+Vae Excelence, tato zem je pli blzko k {%STRING0},
+zde nelze postavit novou kolonii.
+
+@TOONEARBUILD
+@width=190
+Vae Excelence, v pilehlm poli byl ji projekt stavby
+nov kolonie zah`jen.
+
+@TOOMOUNTAIN
+@width=190
+Vae Excelence, kolonie nemohou bt budov`ny
+v {hor`ch}.
+
+@DONTKNOWSHIPS
+@width=190
+Nejdve musme kontaktovat indi`ny na zemi, Excelence."
+
+@MADATSHIPS
+@width=190
+"{%STRING0} lid nev mum na tv lodi.
+Proto si s v`mi nyn nepejeme obchodovat.
+Pokud se piblte k naim behm,
+budete potrest`ni."
+
+@MADATWAGONS
+@width=190
+"Kvli zvrstvm, kter jste sp`chali na
+{%STRING0} lidech, si s v`mi nepejeme obchodovat."
+
+@GRUDGEWAGONS
+@width=190
+Navzdory zvrstvm, kterch jste se dopustili na
+{%STRING0} lidech, neochotn pijm`me vae vozy."
+
+@CONFISCATE
+@width=190
+"Kvli zvrstvm, kter` jste sp`chali na
+{%STRING0} lidech, zabavujeme vechny
+{%STRING1} v tomto voze."
+
+
+@CHIEFHOWDY
+@width=190
+"Vtejte cestovatel.  Jsme mrumilovn` vesnice
+zn`m` pro nae {%STRING0}.  Pokud n`m dovezete njak
+patn dostupn {%STRING1}, budeme s v`mi r`di obchodovat.
+Dobe bychom v`m zaplatili tak za {%STRING2}
+nebo {%STRING3}.
+
+@CHIEFGUIDES
+@width=190
+"Srden v`s vt`me v na %STRING1.
+Podle starch pbh v`m m`me pomoci,
+proto v`m {%STRING0} poskytnou {prvodce},
+kte v`m pomohou pejt nae zem."
+
+@CHIEFAREA
+@width=190
+"{%STRING0} jsou poteni va n`vtvou,
+cestovatel z daleka.  Pojte si sednout k ohni
+a my v`m povme pbhy o {sousednch zemch}."
+
+@CHIEFGIFT
+@width=190
+"{%STRING0} vtaj vyslance kmene {%STRING1}.
+Prosm, vezmte tyto cenn kor`le (v hodnot {%NUMBER0$})
+zpt k vaemu n`elnkovi, jako nabdku mru."
+
+@CHIEFBORED
+@width=190
+"{%STRING0} jsou vdy poteni n`vtvou {%STRING1}
+cestovatel."
+
+@CHIEFKILL
+@width=190
+"Poruili jste posv`tn tabu kmene {%STRING0}!
+Nyn v`s piv`eme jako ter, pro n` vcvik stelby."
+
+
+
+@KILLWAGONS
+@width=190
+Vae Excelence! N` {pepravn vz} 
+zmizel bez stopy na {%STRING0} zem.
+
+@TRADE0
+@width=190
+"Vidme, e jste pivezli k obchodov`n
+njak %STRING0 {%STRING1}.  Nabzme v`m
+vmnu za {%NUMBER0$}."
+
+"Vdn pijm`me {%NUMBER0$}."
+"Frovj cena bude {%NUMBER1$}."
+"Ne, nechte si %STRING1 jako n` {dar}."
+"Nepich`z v vahu."
+
+@TRADE1
+@width=190
+"Vae smlouv`n zkou nai trplivost,
+ale pokusme se zvit svoji nabdku
+za vae {%STRING1} na {%NUMBER0$}."
+
+"Vdn pijm`me {%NUMBER0$}."
+"Frovj cena bude {%NUMBER1$}."
+"Nepich`z v vahu."
+
+@BADCARGO
+@width=190
+"M`me dostatek {%STRING0}
+a nepotebujeme te dal.  Vrate se k n`m,
+pokud budete mt na prodej nco jinho.
+Potebujeme {%STRING1} a {%STRING2}.
+Vyuili bychom i {%STRING3}."
+
+@BADHAGGLE0
+@width=190
+"Nae trplivost s vam smlouv`nm pr`v dola.
+Ji d`le nechceme vae bezcenn {%STRING1}.
+Vrate se k n`m, a budete mt na prodej nco jinho."
+
+@BADHAGGLE1
+@width=190
+"Musme v`m sdlit, e u d`le nechceme vae
+{%STRING0}.  Vrate se k n`m, a budete mt 
+na prodej nco jinho."
+
+@BADHAGGLE2
+@width=190
+"Nae trplivost s vam smlouv`nm pr`v dola.
+Nic neprod`te, dokud n`m nedovezete nco
+hodnotnho."
+
+@BADHAGGLE3
+@width=190
+"Jak jsme ekli, nic u n`s neprod`te,
+dokud n`m nedovezete nco opravdu hodnotnho."
+
+@BRING
+@width=190
+"Potebujeme {%STRING0} a {%STRING1}.
+Mon` njak pivezete, a k n`m pijdete obchodovat pt.
+Dokonce by se hodily i njak {%STRING2}."
+
+@DEFICIT
+@width=190
+"Protoe jste nepivezli `dn obchodn zbo,
+nebudeme s v`mi obchodovat."
+
+@BUYWHICH
+@width=190
+"Meme v`m prodat {%STRING0}, {%STRING1} a {%STRING2}.
+Co byste si p`li koupit?"
+
+"{%STRING0}."
+"{%STRING1}."
+"{%STRING2}."
+"Pr`v te nic, dkujeme."
+
+@TRADEWHICH
+@width=190
+Vae Excelence, kter n`klad nabdneme k prodeji?
+
+@BUY0
+@width=190
+"Vmnou za {%NUMBER0$} naplnme v` {%STRING1}
+s {%NUMBER2 %STRING0}.  Je to pijateln?"
+
+"R`di zaplatme {%NUMBER0$} (z {%NUMBER3$})."
+"Frovj cena bude {%NUMBER1$}."
+"Nepich`z v vahu."
+
+@BUY1
+@width=190
+"Jsme unaven vam neust`lm smlouv`nm.  Vmnou
+za {%NUMBER0$} naplnme v` {%STRING1}
+s {%NUMBER2 %STRING0}.  Je to pijateln?"
+
+"R`di zaplatme {%NUMBER0$} (z {%NUMBER3$})."
+"Frovj cena bude {%NUMBER1$}."
+"Nepich`z v vahu."
+
+@NOTENOUGH
+@width=190
+"koda, vae hotovost ({%NUMBER0$}) nen dostaten`,
+ke splnn vaeho slibu."
+
+@LEARNMASTER
+@width=190
+"Jsme r`di, e mezi n`mi bude t mistr {%STRING1}.  
+Nov dovednosti vak meme uit jen kolonisty, 
+kte jet `dn nemaj.
+Polete n`m njak {smluvn sluhy}, 
+nebo {voln kolonisty} a my je vykolme."
+
+@LEARNCRIMINAL
+@width=190
+"Vae patn mravy n`s ur` a pochybujeme,
+e nkdy budete nco vc, ne jen {obyejn}
+{zloinci}.  {%STRING0} v`s nic nenau."
+
+@LEARNALREADY
+@width=190
+"{%STRING0} vesnice ji maj s Evropany
+zkuenosti.  Jdte a ute se od jinch,
+jestli chcete, protoe u nem`me nic,
+co bychom v`s nauili."
+
+@LEARNMAD
+@width=190
+"Vae patn mravy n`s rozzuily.  Nerozumte
+naim zpsobm, proto pochybujeme, e se od n`s
+nco naute.  Ve skutenosti si pejeme, 
+abyste odeli_._._._vae ptomnost n`s ur`."
+
+@LEARNSLOW
+@width=190
+"Jste nekvalifikovan, neotesan a m`te problm
+porozumt naim zpsobm.  Vidme pro v`s nadji,
+ale nem`te dvod tu dle zstat, akoliv v nai
+vesnici jste vt`ni.  Mon`, e nkdy si budeme
+schopni porozumt."
+
+@LEARNSTAY
+@width=190
+"Jste nekvalifikovan a vae zpsoby jsou 
+zvl`tn.  Pokud si to vak pejete, my {%STRING0} 
+v`m uk`eme, jak se st`t mistrem {%STRING1}."
+
+"Pak se chci st`t mistrem {%STRING1}."
+"Prav te ne, dky."
+
+@LEARNLATER
+@width=190
+"Tedy dobr`.  Mon` jindy."
+
+@LEARNDONE
+@width=190
+"Blahopejeme, ml`dene.  Nauil ses {%STRING0}
+zpsobm a stal ses mistrem {%STRING1}.
+Douf`me, e bude tyto znalosti vyuvat moude.
+V na vesnici jste vdy srden vt`ni ."
+
+@TRADEMANY
+@width=190
+Vae Excelence, me bt vytvoeno jen {%NUMBER0} obchodnch tras.
+Pro vytvoeni dal obchodn trasy muste nejdve nkterou starou zruit.
+
+@TRADESTART
+@width=190
+Vyber clov msto pro %NUMBER0 trasu.
+
+@TRADETYPE
+@width=190
+M` to bt {n`mon} obchodn trasa, nebo {pozemn} obchodn trasa?
+
+N`mon
+Pozemn
+
+@TRADENAMES
+5
+linka
+pevoz
+z`sobov`n
+transport
+triangl
+
+@TRADENAME
+@width=190
+Zadej n`zev tto obchodn trasy.
+
+N`zev:
+
+@TRADENONE
+@width=190
+Zatm nem`me nastaveny `dn obchodn trasy.
+
+@TRADENONE2
+@width=190
+Zatm nem`me nastaveny `dn {%STRING0} obchodn trasy.
+
+@TRADESELECT
+@width=190
+Vyber obchodn trasu:
+
+
+@TRADEDELETE
+@width=190
+Kter` obchodn trasa m` bt {zruena}:
+
+@SUREDELETE
+@width=190
+Jsi si jist, e chce {%STRING0} zruit?
+
+Ano
+Ne
+
+@CARGOLOAD
+@width=120
+Vyber zbo k naloen v {%STRING0}.
+
+@CARGOUNLOAD
+@width=120
+Vyber zbo k vyloeni v {%STRING0}.
+
+@ROUTELOOP
+@width=190
+Vae Excelence, nae obchodn trasa "{%STRING0}"
+nem` uren clov msto!
+
+@PISS0
+@width=190
+je kmen {%STRING1} nyn %STRING2 {%STRING3}.
+
+@PISS1
+@width=190
+Protoe pokrauje ve stavb cesty,
+je kmen {%STRING1} nyn %STRING2 {%STRING3}.
+
+@PISS2
+@width=190
+Protoe trv`te na znien lesa,
+je kmen {%STRING1} nyn %STRING2 {%STRING3}.
+
+@PISS3
+@width=190
+Kvli pokraujc pr`ci %STRING0 mision`,
+je kmen {%STRING1} nyn %STRING2 {%STRING3}.
+
+@PISS4
+@width=190
+Kvli tomuto nevyprovokovanmu toku,
+je kmen {%STRING1} nyn %STRING2 {%STRING3}.
+
+@PISS5
+@width=190
+Kvli neust`le se zvyujc velikosti populace
+v %STRING0 kolonich, je kmen {%STRING1}
+nyn %STRING2 {%STRING3}.
+
+
+
+
+@KINGNO
+@width=190
+"S vam silm v Novm svt jsme velmi
+nespokojeni.  Proto nyn nehodl`me 
+splnit vai `dost."
+
+
+@KINGFUND
+@width=190
+"Nae kr`lovsk` pokladnice je na pokraji vyerp`n.
+V tto chvli v`m meme nabdnout pouze {%NUMBER0$}."
+
+"Vdn pijm`me tento dar."
+"Nevad."
+
+@KINGLOWER
+@width=190
+"Po pelivm uv`en, jsme se milostiv rozhodli
+snit v`m daovou sazbu o {%NUMBER0%%}.  Daov` sazba
+je nyn {%NUMBER1%%}."
+
+@KINGNOTHING
+@width=190
+"I pes vai opov`livost, v`m nyn nezmnme
+daovou sazbu.  Mete vak polbit n`
+kr`lovsk, rov prsten."
+
+@KINGRAISE
+@width=190
+"Vy si TROUFTE poadovat snen dan?  Po laskavosti,
+jakou v`m koruna prok`zala?!  Za vai drzost budeme vybrat 
+dan vy o {%NUMBER0%%}.  Daov` sazba je nyn {%NUMBER1%%}."
+
+@KINGTAX
+@width=190
+"Je nezbytn, aby Koruna, za sv sil ve v` prospch,
+obdrela `dnou odmnu.  Proto jsme se milostiv rozhodli
+zvit vai daovou sazbu o {%NUMBER0%%}.
+Daov` sazba je nyn {%NUMBER1%%}.  Pokud si to pejete,
+mete polbit n` kr`lovsk, rov prsten."
+
+@KINGBLESS
+@width=190
+"M`te nae kr`lovsk poehn`n.  Pokud si to pejete,
+mete polbit n` kr`lovsk, rov prsten."
+
+@KINGLAUGH
+@width=190
+"Ha ha ha ha ha ha ha!  Vy ale dl`te z`bavn erty!
+Ho ho ho ho ho!  Nez`vislost!  Ha ha ha ha ha!"
+
+@KINGWELCOME0
+@width=190
+"Vtej, %STRING0 %STRING1.  Tv hrdinsk iny
+v Novm svt n`s velice t."
+
+@MERCANTILISM
+@width=190
+"Ob`v`me se, e stavbou {%STRING0} pipravte o zisky
+tce pracujc %STRING1 obchodnky.
+Proto jsme se milostiv rozhodli zvit vai daovou sazbu
+o {%NUMBER0%%}.  Daov` sazba je nyn {%NUMBER1%%}.  Pokud
+si to pejete, mete polbit n` kr`lovsk, rov prsten."
+
+@PURCHASETAX
+@width=190
+"Kdy jsme zjistili, jak pouv`te zdroje Koruny, milostiv jsme se 
+rozhodli zvit vai daovou sazbu o {%NUMBER0%%}.  Daov` sazba je
+nyn {%NUMBER1%%}.  Te mete polbit n` kr`lovsk, rov prsten."
+
+@TAXOPTIONS
+Polbit rov prsten.
+Podpoit '{%STRING3 p`rty}.'
+
+@TEAPARTY
+@width=220
+{%STRING3 p`rty}!  Pvrenci nez`vislosti v %STRING1 hodili do moe
+{%NUMBER0} tun %STRING0!  Kolonist nechtj platit novou da.
+Parlament ozn`mil bojkot %STRING0.  Dokud je bojkot v platnosti,
+nemohou bt %STRING0 v %STRING2 obchodov`ny.
+
+@KISSUP
+@width=220
+Vae Excelence, {%STRING0} jsou nyn pod Parlamentnm {bojkotem}.
+Dokud Parlament bojkot neodvol`, nememe s %STRING0 v %STRING1 obchodovat.
+Pro odvol`n bojkotu musme zaplatit daov nedoplatky ve vi {%NUMBER0$}.
+
+To jsou dan jako ped protestem! Nespravedlnost!
+Platm {%NUMBER0$}.
+
+@KISSSORRY
+@width=220
+Bohuel, m`me k dispozici pouze {%NUMBER0$}.
+
+@PRICEUP
+@width=190
+Cena {%STRING0} v %STRING1 se zvila na {%NUMBER0$}.
+
+@PRICEDOWN
+@width=190
+Cena {%STRING0} v %STRING1 se snila na {%NUMBER0$}.
+
+@WHICHFREEDOM
+@width=190
+Vae Excelence, Kontinent`ln Kongres se bude pi dalm zased`n
+roziovat.  Kterho z Otc zakladatel jmenujeme jeho dalm lenem?
+
+@FREEDOM
+@width=190
+%STRING1 Otcov zakladatel ozn`mili, e {%STRING0} 
+se pipojil ke Kontinent`lnmu Kongresu!
+
+@CLAND
+@width=190
+ZEMSK MASIV
+
+Mal
+Norm`ln
+Velk
+
+@CCONT
+@width=190
+FORMA ZEM
+
+Ostrovy
+Norm`ln
+Velk kontinenty
+
+@CTEMP
+@width=190
+TEPLOTA
+
+Chladno
+Mrn podneb
+Teplo
+
+@CCLIM
+@width=190
+KLIMA
+
+Sucho
+Norm`ln
+Vlhko
+
+@SHIPSLOW
+@width=190
+{%STRING0} postup byl zpomalen ptomnost {%STRING1 %STRING2}.
+
+@SHIPRUN
+@width=190
+{%STRING2 %STRING0} unikla kolem {%STRING1 %STRING3}!
+
+@FORTFIRE
+@width=190
+{%STRING0} u {%STRING1} zah`jila palbu na {%STRING2 %STRING3}!
+
+@EUROPEARM
+@width=190
+Nastaven Evropskho doku:
+
+@EUROPESHIPCLICK
+@width=190
+Nastaven Evropskho pstavu pro {%STRING0}:
+
+@ARMOPTIONS
+Nenastupovat na dal lo.
+Nalodit se na pt lo.
+Pesunout na za`tek pstavu.
+Vyzbrojit {muketami} (stoj {%NUMBER0$}).
+Prodat {mukety} (vdlek {%NUMBER0$}).
+Vybavit {n`adm} (stoj {%NUMBER1$}).
+Prodat {n`ad} (vdlek {%NUMBER1$}).
+Vybavit {komi} (stoj {%NUMBER2$}).
+Prodat {kon} (vdlek {%NUMBER2$}).
+Vysvtit na {mision`e}.
+Ukonit status {mision`e}.
+Beze zmn.
+
+@COLONYUNIT
+@width=190
+Nastaven pro {%STRING0%STRING1}:
+
+@UNITOPTIONS
+Pesunout na za`tek.
+Zruit pkaz.
+Hldka / Nalodit.
+Opevnit.
+Beze zmn.
+
+@SHIPOPTIONS
+Pesunout na za`tek.
+Zruit pkaz.
+Hldka.
+Zakotvit v pstavu ("Opevnit").
+Vyloit vechen n`klad.
+Beze zmn.
+
+@EUROPESHIPOPTIONS
+Pesunout na za`tek.
+Plout do Novho svta.
+Vyloit vechen n`klad.
+Beze zmn.
+
+
+@KINGFRIGATE
+@width=190
+"%STRING0 %STRING1, vimli jsme si, e v naich 
+obchodnh vod`ch loup nep`telsk` v`len` lo.
+M`me poslat {fregatu} z %STRING2 v`lenho n`monictva,
+aby v`m pomohla?"
+
+"Ano, ob`v`m se, e je to nezbytn."
+"Ne, postar`me se o svoji dostatenou ochranu sami."
+
+@KINGGALLEON2
+@width=220
+"%STRING0 %STRING1, jsme velmi spokojeni s mnostvm 
+koisti zskan vaimi conquistadory v Novm svt.
+Bda, vimli jsme si, e ve sv flotile nem`te
+{galeonu}, kter` by tento asn poklad dopravila dom
+do %STRING2.  Pokud si to pejete, dopravme v` poklad
+dom na na kr`lovsk galeon, ihned, jakmile nai
+odhadci spotaj `dn podl pro Korunu."
+
+"Dobe, a si kr`l ponech` spravedliv podl."
+"Ne, to bych radji {polbil} v` kr`lovsk, rov prsten."
+
+@KINGGALLEON3
+@width=220
+"%STRING0 %STRING1, jsme velmi spokojeni s mnostvm 
+koisti zskan vaimi conquistadory v Novm svt.
+Nechceme, abyste v ot`zce dopravy tohoto  asnho pokladu
+dom do %STRING2 jednal roztrit.  Pokud si to pejete,
+dopravme v` poklad dom na na kr`lovsk galeon,
+{bez zvl`tnho pplatku}.  Tedy pot, a si nai odhadci 
+vezmou podl, kter se rovn` daov sazb ({%NUMBER0%%})."
+
+"Dobe, a si kr`l ponech` spravedliv podl."
+"Ne, to bych radji {polbil} v` kr`lovsk, rov prsten."
+
+
+@CASHTREASURE
+@width=220
+Poklad byl prod`n zahraninm agentm za {%NUMBER0$}.
+
+@USEDUPTOOLS
+@width=190
+Nai {prkopnci} byli po spotebov`n veho
+{n`ad} vr`ceni do stavu {kolonista}.
+
+@EVASIVE
+@width=190
+{%STRING0 %STRING1} se vyhnula {%STRING2 %STRING3}.
+
+@KINGMERCY
+@width=190
+"%STRING0 %STRING1, ve svtle neastn ztr`ty na kr`lovsk
+{%STRING2} jednotky, jsme se milostiv rozhodli snit vai
+daovou sazbu o {%NUMBER0%%}.  Daov` sazba je nyn {%NUMBER1%%}.
+Pokud chcete, mete polbit n` kr`lovsk, rov prsten."
+
+
+@KINGNEWWAR
+@width=190
+"%STRING0 %STRING1, arogantn postoj {%STRING2} n`s
+poslil v rozhodnut {vyhl`sit jim v`lku}.  Proto je zruena
+vae mrov` smlouva a naizujeme v`m utdit jim lekci 
+v chov`n.  Poskytneme v`m na to z kr`lovsk pokladnice
+{%NUMBER0$} a tak {%NUMBER1} jednotek naich {voj`k veter`n},
+aby v`m asistovali ve vaem taen.
+Pokud chcete, mete polbit n` kr`lovsk, rov prsten."
+
+
+@KINGVICTORY
+@width=190
+"%STRING0 %STRING1, jako oslavu naeho ned`vnho vtzstv
+nad %STRING2, jsme se velkodun rozhodli SNIT vai
+daovou sazbu o {%NUMBER0%%}.  Daov` sazba je nyn {%NUMBER1%%}.
+Pokud chcete, mete polbit n` kr`lovsk, rov prsten."
+
+@KINGWIFE
+@width=190
+"%STRING0 %STRING1, na poest na ned`vn svatby s
+na %STRING2 enou, jsme se milostiv rozhodli zvit vai 
+daovou sazbu o {%NUMBER0%%}.  Daov` sazba je nyn {%NUMBER1%%}.
+Pokud chcete, mete polbit n` kr`lovsk, rov prsten."
+
+@KINGWAR
+@width=190
+"%STRING0 %STRING1, kvli ned`vnmu vvoji na v`lky
+s %STRING2, jsme se milostiv rozhodli zvit vai daovou
+sazbu o {%NUMBER0%%}.  Daov` sazba je nyn {%NUMBER1%%}.
+Pokud chcete, mete polbit n` kr`lovsk, rov prsten."
+
+@KINGNAVACT
+@width=190
+"%STRING0 %STRING1, znepokojuje n`s, e Koruna nedost`v` 
+n`leit podl z pjm z Novho svta.  Proto jsme se
+rozhodli vydat nov {Navigan dekret}. Zvyujeme vai
+daovou sazbu o {%NUMBER0%%}.  Daov` sazba je nyn {%NUMBER1%%}.
+Pokud chcete, mete polbit n` kr`lovsk, rov prsten."
+
+@KINGSTAMPACT
+@width=190
+"%STRING0 %STRING1, nevdn postoj kolonist v {%STRING2} 
+n`s in neastnm.  Proto jsme se rozhodli nauit je 
+`dnmu respektu k jejich panovnkovi novm {Kolkovm dekretem}.
+Daov` sazba se zvyuje o {%NUMBER0%%}.  Daov` sazba je nyn {%NUMBER1%%}.
+Pokud chcete, mete polbit n` kr`lovsk, rov prsten."
+
+@COUNTRIES
+Svat` e msk`
+Portugalci
+Osmant Turkov
+Berbert pir`ti
+Rusko
+Prusko
+vdsko
+Nmecko
+
+@ORDINAL
+prvn
+druh
+tet
+tvrt
+p`t
+est
+sedm
+osm
+dev`t
+des`t
+jeden`ct
+dvan`ct
+tin`ct
+trn`ct
+patn`ct
+estn`ct
+sedmn`ct
+osmn`ct
+devaten`ct
+dvac`t
+dvac`t prvn
+dvac`t druh
+dvac`t tet
+dvac`t tvrt
+dvac`t p`t
+dvac`t est
+dvac`t sedm
+dvac`t osm
+dvac`t dev`t
+tic`t
+
+@NEEDTOOLS
+@width=190
+{%STRING1}, ve vstavb v {%STRING0},
+potebuje na dokonen {%NUMBER0 n`ad}.
+V %STRING0 je k dispozici jen {%NUMBER1} n`ad.
+
+@NEEDTOOLS0
+@width=190
+{%STRING1}, ve vstavb v {%STRING0},
+potebuje na dokonen {%NUMBER0 n`ad}.
+Bohuel, v %STRING0 `dn n`ad nen.
+
+
+@ALREADYHAVE
+@width=190
+V {%STRING0} byla nastavena produkce {%STRING1},
+ale stavba je ji postavena!
+
+@LOBOTOMIZE
+@width=190
+Jsi si jist, e chce {zruit} kolonistovu specializaci
+({%STRING0}) a udlat z nj obyejnho kolonistu?
+
+Ano
+Ne
+
+
+
+@NATION0A
+@width=300
+^^ANGLIE
+^^_
+__Obdob expanze se shodovalo s obdobm {n`boenskch nepokoj}
+v Anglii.  Anglik`nsk` crkev--teoreticky protestantskho 
+vyzn`n, ale udrujc mnoho katolickch tradic--byla proti
+srii vzev reform`tor, nebo {Purit`n}, bhem koloni`lnho
+obdob.  Anglick` monarchie dala svoji podporu prokatolkm
+proti rznm protestantskm frakcm a Anglick` obansk`
+v`lka (1640-49) vystila v popravu Karla I. a obdob Purit`nskho
+`du (1649-60) pod vedenm Olivera Cromwella.  S tolika
+n`boenskmi rozpory, nebyla anglick` vl`da schopna vynutit
+si ve svch kolonich n`boenskou poslunost.
+Kolonie se staly centry {n`boensk svobody} pro skupiny
+(napklad purit`n, anabaptist, kvaker), kter elily 
+ve Starm svt perzekuci.
+
+@NATION0B
+@width=300
+^^ANGLIE
+^^_
+Vzhledem k velk expanzi n`boenskch imigrant do anglickch
+koloni, potebuje hr` za Angliany, pro vytv`en imigrant,
+jen {2/3} norm`lnho potu "{k}".
+
+
+@NATION1A
+@width=300
+^^FRANCIE
+^^_
+__Opozdilec v Novm svt, Francie, zdila svoji prvn bezpenou 
+americkou kolonii v {Kanad}, podl eky Sv. Vavince, kde bylo
+drsn seversk podneb, vhodn spe pro {obchod s koeinami},
+ne pro velkoplon zemdlstv.
+Francouzi narazili na {indi`ny od Velkch jezer}, kte byli
+ide`lnmi partnery pro obchod s koeinami a s Hurony, Algonkiny
+a ostatnmi kmeny vytvoili dlouhodob obchodn vztah.
+A se francouzsk pevnosti, misie a obchodn stanice v oblasti
+Velkch jezer brzy rozrostly, spojenectv francouzskch osadnk
+s mstn domorodou populac fungovalo v relativn {harmonii}.
+Akoliv tento vztah nebyl zcela bez incidentu, Francouzi byli
+asto schopni s domorodci prospn spolupracovat.  Tato spolupr`ce
+byla pleitostn rozena i do vojenskch sfr.
+
+
+
+@NATION1B
+@width=300
+^^FRANCIE
+^^_
+Vzhledem ke schopnost Francouz spolupracovat s domorodou populac, 
+zpsobuj francouzsk kolonie a jednotky jen {polovin poplach} mezi
+indi`ny ne ostatn Evropan.
+
+
+@NATION2A
+@width=300
+^^PANLSKO
+^^_
+__V roce 1492, tedy ve stejnm roce, kdy Kolumbus objevil Ameriku, 
+dokonili panl sv, mnoho stolet trvajc, "znovudobyt" Iberskho 
+poloostrova z Muslimskho podru.  Po tomto vtzstv zstala 
+ve panlsku generace {v`lenk} hledajcch cestu pro novou expanzi
+a vce ne kdy pedtm, dychtila pivzt {pohany} ke kesanstv
+ostm mee.  Nov svt a jeho dviv domorodci poskytli pesn
+tu pleitost a prvn stolet historie panlsk expanze v Americe
+je histori dobv`n, plundrov`n a destrukce nesetnch americkch
+domorodch civilizac.  panl byli prvnmi Evropany, kte 
+se setkali s "indi`ny" a jinak mohutn {aztck} a {inck} e
+prok`zaly psychologickou nepipravenost na pchod ciz moci s muketou
+pes rameno a znc po dobv`n.  Conquistador {Hern`n Corts}
+piel do Veracruz v roce 1519 s nkolika stovkami mu a bhem
+dvou let srazil aztck imprium na kolena.
+
+@NATION2B
+@width=300
+^^PANLSKO
+^^_
+Vzhledem ke strategickmu pekvapen, kterho panlsko dos`hlo
+u pedkolumbovskch americkch civilizac, obdr hr` za panlsko
+{50%% bojov bonus}, pi {toku na indi`nskou vesnici}.
+
+
+@NATION3A
+@width=300
+^^NIZOZEM
+^^_
+__Holandsk protestantsk provincie zskaly nez`vislost na katolickm 
+panlsku bhem Obdob expanze.  Pmosk` zem {ryb`} a {obchodnk},
+holandt Nizozemci, operovali s velkmi obchodnmi a ryb`skmi flotilami
+v Severnm a Baltskm moi.  Po dosaen politick nez`vislosti na po`tku 
+sedmn`ctho stolet, se tento mal n`rod ocitl v ide`ln pozici pro rozen
+svho {z`moskho obchodu} na nov lukrativn trhy na D`lnm vchod
+a v Novm svt.  Na rozdl od svch rival a nkdy nep`tel, panl,
+Francouz a Anglian, byli Holanan ovl`d`ni svmi obchodnky.
+Toto jedinen uspo`d`n je vedlo k zamen vech aspekt st`tn
+diplomacie, arm`dy a ekonomickch pravidel na {obchodn z`jmy}.
+Jejich strategie se uk`zala jako velmi spn` a holandsk` ekonomika
+a obchodn flotila expandovaly tak rychle, e ostatn evropsk mocnosti
+musely proti Holananm pijmout drastick` opaten, aby podpoily
+sv mn spn podniky.
+
+@NATION3B
+@width=300
+^^NIZOZEM
+^^_
+__Vzhledem k sle holandsk ekonomiky a holandskho spchu
+v n`mon doprav, obchod a bankovnictv, zsk`v` hr`
+za Holandsko bonus pi obchodov`n s Amsterdamem.
+{Ceny zbo} v Amsterdamu {nekolabuj} tak rychle, jako
+v jinch Evropskch pstavech a {zotavuj} se rychleji.
+
+@PICKACARGO
+@width=190
+Kter zbo m`me ukoistit?
+
+@CUSTOM
+@width=190
+@checkbox
+@smallfont
+Kter zbo budeme exportovat v na {Celnici}?
+
+@CONTINENTAL
+@width=190
+Vae Excelence, n` {%STRING0 veter`n} byl poven
+do stavu {Kontinent`ln arm`da}!
+
+@VETERAN
+@width=190
+Vae Excelence, n` {%STRING0} byl poven
+do stavu {veter`n}!
+
+@VALOR
+@width=190
+Kvli sv udatnosti v bitv, byli nai
+{%STRING0} voj`ci poveni z {%STRING1}
+do stavu {%STRING2}.
+
+@SCOUTCOLONY
+@width=190
+Vae Excelence, nai {zvdov} dos`hli 
+msta {%STRING0}.  Co maj udlat?
+
+Setkat se se starostou
+Infiltrovat kolonii
+Napadnout kolonii
+Nic
+
+@LOSTOURSCOUTS
+@width=190
+Vae Excelence, {%STRING0} zajali nae {zvdy}
+nedaleko {%STRING1}!
+
+@LOSTTHEIRSCOUTS
+@width=190
+Vae Excelence, pi pokusu infiltrovat {%STRING1}
+jsme zajali skupinu {%STRING0 zvd}.  Jejich {%NUMBER0 kon}
+bylo pid`no do st`j v kolonii.
+
+
+@HELLOFIRST
+@width=220
+"Bute zdr`vi %STRING0 a vtejte do {%STRING1}.
+Pr`v jsme zabrali vechnu tuto zemi ve jmnu
+{%STRING2} a jsme zde kvli %STRING3.
+Prosm, nepek`ejte n`m v tto zbon misi."
+
+@HELLOUSA
+@width=220
+"Pijmte pozdravy %STRING0, od nov zvolen
+vl`dy {%STRING1}."
+
+@HELLOAHOY
+@width=220
+"Ahoj %STRING0 a vtejte do {%STRING1}.
+Pr`v jsme si n`rokovali vechny zem tohoto moe ve jmnu
+{%STRING2} a jsme zde kvli %STRING3.
+Prosm, nepek`ejte n`m v tto zbon misi."
+
+@HELLOMEEK
+@width=220
+"{Mocn} %STRING0, znovu t vt`me v {%STRING1}.
+Prosm pamatuj si, e jsme vechnu tuto zemi n`rokovali
+ve jmnu {%STRING2}.  Pokraujeme ve svm sil
+%STRING3."
+
+@HELLOMANLY
+@width=220
+"%STRING0.  S {nelibost} jsme si povimli, e vae pokraujc
+ptomnost je skvrnou {%STRING1}, kterou jsme n`rokovali
+ve jmnu {%STRING2}.  Plnme zde kol pro %STRING3
+a vy n`m pek`te na sv vlastn {riziko}."
+
+@GREATKINGS
+na kr`lovny a anglik`nsk crkve
+jeho nejvyho kr`lovskho velienstva, kr`le Ludvka
+papee a panlsk koruny
+mistodrcho spojench provinci Nizozemska
+
+@GREATDEEDS
+hled`n {n`boensk svobody} a slubu korun
+zvten {sl`vy} Francie
+{obracen pohan} a obohacen naeho panovnka
+vystavn mohutnho z`moskho {obchodnho impria}
+
+@GREATLEADER
+na kr`lovnu
+naeho kr`le
+papee
+naeho mstodrcho
+
+@GREATLEADER2
+kr`lovna
+kr`l
+pape
+mstodrc
+
+@MYLEADER
+kr`l
+kr`l
+kr`l
+mstodrc
+
+
+@PIRACY
+@width=220
+"%STRING0 je velmi nespokojen s {%STRING1 pir`ty},
+hajcmi podl pobe %STRING2. {%STRING3},
+aby byli vichni vai {korz`i} okamit staeni."
+
+"Jac pir`ti? NIKDY bychom netolerovali pir`tstv!"
+"Dobr`, odeleme sv {korz`ry} do Evropy."
+
+
+@PIRACYUSA
+@width=220
+"My {%STRING0} nebudeme trpt ciz pir`ty, kte kod
+naim obchodnm z`jmm. {%STRING3}, aby byli vichni
+vai {korz`i} okamit staeni."
+
+"Jac pir`ti? NIKDY bychom netolerovali pir`tstv!"
+"Dobr`, odeleme sv {korz`ry} do Evropy."
+
+
+@SIEGES
+@width=220
+"%STRING0 je rozruen velkmi %STRING1 jednotkami hajcmi
+kolem naich %STRING2 koloni. {%STRING3}, aby vechny
+vae vojensk jednotky byly okamit {staeny} od %STRING2 koloni."
+
+"Nae jednotky chr`n platn %STRING1 z`jmy a zstanou zde."
+"Dobr`, {odeleme} nae jednotky do Evropy."
+
+@SIEGESUSA
+@width=220
+"%STRING0 nikdy neuznal pr`vo cizch mocnost rozmstit
+velk vojensk sly na tto polokouli.  Obzvl`t n`s
+znepokojuj jednotky hajc pobl naich velkch mst.
+{%STRING3} abyste okamit {st`hli} vechny vojensk
+jednotky od naich mst."
+
+"Dobr`, {odeleme} nae jednotky do Evropy."
+"Nae jednotky chr`n platn %STRING1 z`jmy a zstanou zde."
+
+
+@MEEKNESS
+`d`me
+Poadujeme
+
+@HEATHEN
+@width=220
+"Jsme zanepr`zdnni podmaov`nm pohanskho kmene {%STRING1} divoch.
+Spojte se s n`mi, jako brati ve ve, v tomto svatm kolu?"
+
+"Nikdy! {%STRING0} jsou nekodn a mrumilovn lid!"
+"Ano! Pojme d`t {%STRING0} po`dnou lekci!"
+
+@HEATHENUSA
+@width=220
+"%STRING0 v souasn dob pemisuje 
+leny nebezpenho kmene {%STRING1}
+do vl`dou spravovan rezervace.
+Pomete n`m v tomto kolu?"
+
+"Nikdy! To by byl stran zloin!"
+"Ano, je to zjevn n` osud."
+
+@APOSTATES
+@width=220
+"Vimli jsme si, e jste uzaveli mrovou smlouvu s tmi
+neltostnmi a kacskmi {%STRING0}.  {%STRING1}, 
+abyste tu smlouvu okamit odvolali."
+
+"Nikdy! {%STRING0} jsou nai p`tele!"
+"Ano! Pojme rozdrtit tu {%STRING0} verbe spolen!"
+
+
+@APOSTATESUSA
+@width=220
+"Vimli jsme si, e jste uzaveli mrovou smlouvu s tmi
+imperialistickmi {%STRING0} prasaty.  {%STRING1},
+abyste tu smlouvu okamit odvolali."
+
+"Nikdy! {%STRING0} jsou nai p`tele!"
+"Ano! Pojme rozdrtit tu {%STRING0} verbe spolen!"
+
+
+@TRIBUTE
+@width=220
+"%STRING0 n`m nadil vyhnat vechny {%STRING1} z beh
+{%STRING2}.  Nae sil se vak v souasn dob sousted
+na z`vanj z`leitosti a mohli bychom tento pokyn doasn
+pehldnout vmnou za 'dar' {%NUMBER0$} pro 'crkev'."
+
+"Ani ptnk tm kacskm svinm!"
+"R`di darujeme {%NUMBER0$} na tak ctihodn el."
+
+
+@TRIBUTEUSA
+@width=220
+"{%STRING0} neuzn`v` pr`vo evropskch mocnost
+zakl`dat kolonie na tto polokouli.  Jsme vak 
+ochotni tuto doktrnu doasn ignorovat vmnou
+za odkodnn ve vi {%NUMBER0$}."
+
+"To je vydr`n a to my netolerujeme."
+"R`di zaplatme {%NUMBER0$}."
+
+
+@WANTSTUFF
+@width=260
+"Nelb se n`m, e nad`le poskvrujete zem, kter z rozkazu
+%STRING0 pr`vem pat n`m.  Poadujeme {%NUMBER0 %STRING1}
+jako reparace."
+
+"Smjeme se vaim planm hrozb`m."
+"R`di se s naimi {%STRING2} bratry rozdlme o {%NUMBER0 %STRING1}."
+
+
+@WANTSTUFFUSA
+@width=220
+"{%STRING0} neuzn`v` pr`vo evropskch mocnost zakl`dat kolonie
+na tto polokouli.  Jsme vak ochotni tuto doktrnu doasn
+ignorovat vmnou za {%NUMBER0 %STRING1}."
+
+"Smjeme se vaim planm hrozb`m."
+"R`di se podlme o {%NUMBER0 %STRING1} s naimi sousedy."
+
+
+@RID
+@width=220
+"Ve jmnu {%STRING0} v`m naizujeme okamit opustit {%STRING1}.
+Jestli n`s neuposlechnete, smeteme v`s zpt do moe."
+
+@RIDUSA
+@width=220
+"{%STRING1} v`m naizujeme okamit opustit tuto polokouli.
+Jestli n`s neuposlechnete, smeteme v`s zpt do moe."
+
+
+@WORTHY
+@width=220
+"Akoliv n`m, z rozkazu %STRING0, vechna tato zem spravedliv n`le,
+navrhujeme v`m demarkan {smlouvu}.  Rozdlme si vechnu tuto
+zemi ped Bohem na vn a nedotknuteln {%STRING1} a {%STRING2}
+sfry vlivu.  Souhlaste s tmto rozdlenm?"
+
+"Ano"
+"Ne"
+
+@GIVECASH
+@width=220
+"Prosm, uetete nai pokornou a bezmocnou osadu.
+Pokud na n`s nezatote, tak v`m d`me {%NUMBER0$}."
+
+"Dobr`, budete ueteni."
+"Bohuel, je to bo vle."
+
+@PEACEMANLY
+@width=220
+"Dobe, nicmn {%STRING0} sfru vlivu bude tvoit {pouze} zem,
+kter nyn obv`te.  {Zbvajc} zem budou natrvalo patit
+{%STRING1}.  Vstup do naich oblast je pouze na vlastn
+{nebezpe}."
+
+"Jdte v mru, {%STRING1} brati."
+"Nejdve muste se svmi voj`ky ustoupit od naich koloni!"
+"Jak moc si cente sv mrzk ivoty, vy pohansk svin?"
+"Navrhujeme alianci."
+
+@PEACEMEEK
+@width=220
+"Vborn, nicmn {%STRING0} sfru vlivu bude tvoit {pouze} zem,
+kter nyn obv`te.  Pda, kterou obv`me my, bude navdy {%STRING1}.
+Prosm, pamatujte si, e do tchto oblast nesmte neopr`vnn
+vstupovat."
+
+"Jdte v mru, {%STRING1} brati."
+"Nejdve muste se svmi voj`ky ustoupit od naich koloni!"
+"Jak moc si cente sv mrzk ivoty, vy pohansk svin?"
+"Navrhujeme alianci."
+
+@OLDPEACEMEEK
+@width=220
+"Vt`me p`telstv s naimi {%STRING0} bratry a vaim moudrm
+vdcem %STRING2 %STRING3.  Spolen budeme v Novm svt
+plnit Bo vli."
+
+"Jdte v mru, {%STRING1} brati."
+"Nejdve muste se svmi voj`ky ustoupit od naich koloni!"
+"Jak moc si cente sv mrzk ivoty, vy pohansk svin?"
+"Navrhujeme alianci."
+
+@OLDPEACEMANLY
+@width=220
+"Akoli {%STRING0} na tuto polokoule nepat,
+rozhodli jsme se v`s v tuto chvli z Novho svta nevyh`nt."
+
+"Jdte v mru, {%STRING1} brati."
+"Nejdve muste se svmi voj`ky ustoupit od naich koloni!"
+"Jak moc si cente sv mrzk ivoty, vy pohansk svin?"
+"Navrhujeme alianci."
+
+
+@PEACEUSA
+@width=220
+"My {%STRING0} vt`me mr s svmi politicky zaostalmi
+{%STRING1} sousedy."
+
+"Jdte v mru, {%STRING1} brati."
+"Nejdve muste se svmi voj`ky ustoupit od naich koloni!"
+"Jak moc si cente sv mrzk ivoty, vy pohansk svin?"
+"Navrhujeme alianci."
+
+
+@NOTWITHDRAW
+@width=220
+"Nae arm`da chr`n legitimn %STRING0 z`jmy
+a zstanou zde."
+
+@WITHDRAW
+@width=220
+"V z`jmu mru svoji arm`du st`hneme."
+
+@NOTHINGWITHDRAW
+@width=220
+"Nem`me `dn` voj`ky u vaich koloni."
+
+@MAYBEWITHDRAW
+@width=220
+"Nae arm`da chr`n legitimn %STRING0 z`jmy.  Nicmn,
+mohli bychom se st`hnou vmnou za {%NUMBER0$} na pokryt
+n`klad na demobilizaci."
+
+"R`di zaplatme {%NUMBER0$}."
+"T`hnte nebo zhyte, pohansk` prasata!"
+"Och, tak nic."
+
+
+@PROVOKE
+@width=220
+"U nememe d`l tolerovat vae odporn provokace.  Pipravte se na VLKU!"
+
+@WARMEEK
+@width=220
+"Nue dobr`, pak v`s tedy, ve jmnu %STRING0,
+smeteme z beh {%STRING1}.  Pipravte se na VLKU!"
+
+@WARMANLY
+@width=220
+"Vy odmt`te nai lechetnou nabdku?  Pak v`s tedy,
+ve jmnu %STRING0, vymaeme z tv`e Novho svta.
+Pipravte se na VLKU!"
+
+@THREATS
+@width=220
+"Smjeme se vaim planm hrozb`m."
+
+@GIFTS
+@width=220
+"Vmnou za vai pokraujc toleranci
+v`m nabzme dar {%NUMBER0$}."
+
+@MILITARY
+@width=220
+"Muste zatoit na bezvrce . . ."
+
+@NOCONTACT
+@width=220
+"S {%STRING0} nem`me kontakt."
+
+@ALREADYSMITE
+@width=220
+"S mizernmi {%STRING0} jsme ji ve v`lce."
+
+@SMITEINDIANS
+@width=220
+"Vmnou za {%NUMBER0$}, k pokryt naich n`klad,
+provedeme neltostn der proti pohanskm {%STRING0},
+
+Zaplatit {%NUMBER0$}.
+Tak nic.
+
+@SMITEEUROPE
+@width=220
+"Neltostn smeteme kacsk {%STRING0}
+z Novho svta, vmnou za {%NUMBER0$}
+k pokryt naich n`klad."
+
+Zaplatit {%NUMBER0$}.
+Tak nic.
+
+
+@UNFORTUNATE
+@width=220
+"Bohuel, pokladnice nen schopna 
+pokrt Vae pehnan sliby."
+
+@MERCENARY
+@width=220
+{%STRING0} vyhl`sili {%STRING1} v`lku.
+
+@SUCCESSION
+@width=220
+V`lka o panlsk ddictv v Evrop skonila!
+{%STRING0} zpustoen` v`lkou souhlas, e podstoup %STRING1
+ve prospch {%STRING2}.  Utrechtsk` smlouva uruje, e vechna 
+{%STRING3} bohatstv v Novm svt jsou nyn pod vl`dou {%STRING2}.
+
+@REBELMAJORITY
+@width=220
+Vae Excelence, poet pvrenc Syn svobody v {%STRING0} vzrostl
+na %NUMBER0%%.  Vtina kolonist tak podporuje mylenku nez`vislosti
+na %STRING1!  Vichni kolonist v %STRING0 zsk`vaj +1 k jejich
+z`kladnm produknm schopnostem.
+
+@REBELUNANIMOUS
+@width=220
+Vae Excelence, poet pvrenc Syn svobody v {%STRING0} vzrostl na 100%%.
+Vichni kolonist tak podporuj mylenku nez`vislosti na %STRING1!
+Vichni kolonist v %STRING0 zsk`vaj +2 k jejich z`kladnm produknm
+schopnostem.  Kolonist zde mohou bt tak rychleji vzdl`v`ni.
+
+@TORYMINORITY
+@width=220
+Vae Excelence, poet pvrenc Syn svobody v {%STRING0} klesl ze 100%%
+na %NUMBER0%%.  Nkte kolonist ji nepodporuj mylenku nez`vislosti
+na %STRING1.  Kolonist v %STRING0 zsk`vaj jen +1 k jejich 
+z`kladnm produknm schopnostem.
+
+@TORYMAJORITY
+@width=220
+Vae Excelence, poet pvrenc Syn svobody v {%STRING0} klesl
+na %NUMBER0%%.  Vtina kolonist ji nepodporuje mylenku nez`vislosti
+na %STRING1!  Kolonist v %STRING0 ji nemaj `dn body navc k jejich
+z`kladnm produknm schopnostem.
+
+@SONSUP
+@width=220
+Vae Excelence, poet pvrenc Syn svobody v {%STRING0} vzrostl
+na %NUMBER0%%.  m vce {Zvon svobody} nai {st`tnci} vytvo,
+tm rychleji poroste poet pvrenc.
+
+@SONSDOWN
+@width=220
+Vae Excelence, poet pvrenc Syn svobody v {%STRING0} klesl
+na %NUMBER0%%.  Mon` bychom tam mli tvoit vce {Zvon svobody}.
+Zvony svobody mohou tvoit {st`tnci}.  
+{Tiskastv} a {Noviny}, stejn jako vylepov`n naich vl`dnch budov
+mohou zvit tempo, kterm jsou Zvony svobody generov`ny.
+
+@REBELUP
+@width=190
+Vae Excelence, {rebelsk} ctn v naich kolonich vzrst`!
+U {%NUMBER0%%} na populace podporuje mylenku nez`vislosti
+na %STRING0.  Jakmile se nai kolonist zanou ctit vce sobstan,
+stanou se tak vce produktivn.  Kolonie s alespo {50%%} pvrenc
+Syn svobody dost`v` {+1} produkn bonus.
+
+@REBELUP50
+@width=190
+Vae Excelence, {rebelsk} ctn v naich kolonich vzrst`!
+U {%NUMBER0%%} na populace podporuje mylenku nez`vislosti
+na %STRING0.  Nkte Otcov zakladatel si mysl, e bychom
+mli `dat audienci u kr`le a veejn vyhl`sit nez`vislost!
+
+@REBELDOWN
+@width=190
+Vae Excelence, n`klonnost ke {kr`li} v naich kolonich opt
+vzrst`.  Jen {%NUMBER0%%} na populace nyn podporuje mylenku
+nez`vislosti na %STRING0.
+
+@REFIT
+@width=190
+{%STRING0} dokonila opravy v {%STRING1}.
+
+@WELLSEASONED
+@width=190
+Vae Excelence, nai {zvdov} se zlepili na {mistrovskou} rove.
+
+@KINGBUY
+@width=190
+Kr`l zvyuje vojensk vdaje.  {%STRING0} byl pid`n do
+Kr`lovsk expedin arm`dy.  Koloni`ln vdcov vyhlauj poplach.
+
+@SEIZURE
+@width=190
+{%STRING0} byla zabavena na volnm moi Kr`lovskm n`monictvem!
+
+@SEIZURESEA
+@width=190
+{%STRING0} byla zajata na moi Kr`lovskm n`monictvem!
+
+@SEIZURELAND
+@width=190
+{%STRING0} byl zajat Kr`lovskou arm`dou!
+
+@INDEPENDENCE
+@width=220
+Kontinent`ln kongres navrhl {Deklaraci nez`vislosti}!
+Odvodnil ji hrubm zach`zenm a uzurp`torstvm!  Ultim`tum bylo 
+ped`no kr`li!  K potlaen rebelie byla vysl`na Expedin arm`da!
+Gener`l %STRING0 vol` dobrovolnky do nov Kontinent`ln arm`dy!
+
+@INVASION
+@width=190
+Kr`lovsk expedin vojsko pist`lo nedaleko {%STRING0}!
+
+@TOOTORY
+@width=190
+Vae Excelence, jen {%NUMBER0%%} kolonist podporuje
+hnut nez`vislosti.  Nememe zat vzpouru proti kr`li,
+dokud {vtina} kolonist nen pro n`s.
+
+@DECLARE
+@width=190
+Vae Excelence, m`me vyhl`sit nez`vislost na {%STRING0}?
+To ukon n` tah a uvrhne n`s do v`lky proti naemu kr`li!
+
+"Nikdy! To by byla velezrada! A Bh ochrauje kr`le!"
+"Ano! Dejte mi svobodu, nebo smrt!"
+
+@DEADCONVERTS
+@width=190
+{Konvertovan} indi`ni ztratili vru a vr`tili se ke svm kmenm.
+Konvertovan indi`ni, kte bhem {osmi kol} od sv konverze
+nedoraz do kolonie, odch`zej kvli ztr`t vry.
+
+@TOOMANYUNITS
+@width=190
+{Jednotka} neme bt vytvoena, protoe byl dosaen maxim`ln poet 
+jednotek ve he.  Pokud chce vytvoit novou jednotku, mus bt
+nkter` star` jednotka eliminov`na.
+
+@TOOMANYCOLONIES
+@width=190
+{Kolonie} neme bt vytvoena, protoe byl dosaen maxim`ln poet
+koloni ve he.  Pokud chce vytvoit novou kolonii, mus bt
+nkter` star` kolonie eliminov`na.
+
+@PICKMUSIC
+@smallfont
+@width=220
+Vyber skladbu:
+
+"Bird Song"
+"Smoky Tune"
+"Cornwall"
+"Shady Grove"
+"Fiddler's Dance"
+"Jine the Cavalry"
+"Joe Clark"
+"Little Fiddle"
+"Hornpipe"
+"Bonny Morn"
+"Hole In The Wall"
+"Nightingale"
+"Independence Tunes"
+"Military Tunes"
+"Indian Tunes"
+
+@PICKINDEPENDENCE
+@smallfont
+@width=220
+Vyber melodii nez`vislosti:
+
+"Love Forever"
+"York Fusiliers"
+"Washington Artillery March"
+"Road to Boston"
+"Independence Way"
+
+@PICKMILITARY
+@smallfont
+@width=220
+Vyber vojenskou melodii:
+
+"The Reveille"
+"Successful Campaign"
+"Morelli's Lesson"
+"To Arms"
+
+@PICKINDIAN
+@smallfont
+@width=220
+Vyber indi`nskou melodii:
+
+"Indian Victory"
+"Natives"
+"Tenochtitlan"
+"Pizarro at Cuzco"
+
+
+@UPKEEP
+@width=190
+Vae Excelence, toto kolo si nememe dovolit zaplatit drbu vech 
+budov, ve vi ({%NUMBER0$}).  Dokud nezaplatme {drbu}, kolonist 
+v budov`ch budou pracovat s {polovin efektivitou}.
+
+@MOBILIZE
+@width=190
+Kontinent`ln arm`da mobilizuje v {%STRING0}!  Nai %STRING1 veter`ni
+byli poveni do stavu {Kontinent`ln arm`da}.
+
+@MOBILIZE2
+@width=190
+Kontinent`ln arm`da mobilizuje v {%STRING0}!  {%NUMBER0} veter`nskch
+jednotek bylo poveno do stavu {Kontinent`ln arm`da}.
+
+
+@CANTMOBILIZE
+@width=190
+Kontinent`ln arm`da me mobilizovat jen v kolonich,
+kter maj k dispozici aspo {%NUMBER0 muket}.  Bohuel,
+`dn` z naich koloni nem` k dispozici dostatek muket
+pro mobilizaci!
+
+@KINGMOBILIZE
+@width=190
+Parlament schv`lil dodaten finann prostedky na potlaen
+revoluce v %STRING0.  V %STRING2 byl mobilizov`n {%STRING1}.
+
+@EUROPENOTAVAIL
+@width=190
+Po zah`jen {V`lky za nez`vislost} ji nen obrazovka 
+Evropskho statusu k dispozici.  Po dobu v`lky
+nemohou do Evropy plout ani lod.  Kolonie kter
+postavily {Celnici} mohou obchodovat s evropskmi
+paer`ky.
+
+@FOREIGNNOTAVAIL
+@width=190
+Po zah`jen {V`lky za nez`vislost} nejsou d`le k dispozici
+zpr`vy poradce pro zahranin vci.
+
+@EUROPENOTLEAVE
+@width=190
+Po dobu {V`lky za nez`vislost} nemohou lod plout do a z Evropy.
+Kolonie kter postavily {Celnici} mohou obchodovat s evropskmi
+paer`ky.
+
+@NOWARSDURINGREV
+@width=190
+Bhem {Valky za nez`vislost} nemohou bt ciz kolonie napad`ny.
+
+@NOCOLONIESEITHER
+@width=190
+Bhem {Valky za nez`vislost} nemohou bt zakl`d`ny nov kolonie.
+
+@NOMAYORSDURINGREV
+@width=190
+Bhem {Valky za nez`vislost} se zvdov nemohou setk`vat s cizmi starosty.
+
+@HOWMUCH1
+@width=190
+Jak mnostv {%STRING0} m` bt naloeno na %STRING1 (0-%NUMBER0).
+
+Mnostv:
+
+@HOWMUCH2
+@width=190
+Jak mnostv {%STRING0} m` bt vyloeno z %STRING1 do %STRING2 (0-%NUMBER0).
+
+Mnostv:
+
+@HOWMUCH3
+@width=190
+Jak mnostv {%STRING0} m` bt pesunuto z %STRING1 do %STRING2 (0-%NUMBER0).
+
+Mnostv:
+
+@HOWMUCH4
+@width=190
+Jak mnostv {%STRING0} (v {%NUMBER1$}) m` bt nakoupeno
+a naloeno na %STRING1 (0-%NUMBER0).
+
+Mnostv:
+
+@HOWMUCH5
+@width=190
+Jak mnostv {%STRING0} (v {%NUMBER1$}) prodat do %STRING2 (0-%NUMBER0).
+
+Mnostv:
+
+
+@AMBUSHHINT
+@width=220
+Vae Excelence, kr`lovsk` arm`da nem` mnoho zkuenost
+s druhem taktiky, kter` je nezbytn` pro boj v Novm svt.
+Pokud nai voj`ci napadnou kr`lovsk voj`ky, dokud nemaj
+{`dnou} jednotku ve tverci kolonie, zsk`me {pepadov}
+{bonus}, kter se rovn` obvykl hodnot obrannho 
+bonusu ternu!
+
+@CONSIDER
+@width=220
+Vae Excelence, %STRING0 zvauj intervenci proti kr`li
+na na stran!  Pokud vytvome %NUMBER0 Zvon svobody,
+tak se s n`mi spoj.
+
+@INTERVENTION
+@width=220
+{%STRING0} vyhl`sili v`lku proti %STRING1 a pipojili
+se k V`lce za nez`vislost na stran rebel!  %STRING2 odjel
+kvli strategickm konzultacm do %STRING3.  %STRING4
+n`monictvo pl`nuje bombardov`n opevnn drench kr`lem.
+
+@FRIEND
+Britsk gener`l Cornwallis
+Francouzsk gener`l Lafayette
+panlsk gener`l
+Holandsk admir`l de Ruyter
+
+@INTERVENE
+@width=190
+%STRING1 intervenn oddly dorazily do {%STRING0}!  Mstn velitel
+arm`dy rebel pohostil %STRING1 admir`la.
+
+@EXPLOITS
+COLONIZATION HODNOCEN: %NUMBER0%%
+Na pam tvho mrt, dali obyvatel
+%STRING0 tv jmno . . .
+
+@SCORE
+Infekn chorob,      %STRING0 horeka
+Bodavmu hmyzu,        %STRING0 moucha
+Jedovat rostlin,     %STRING0 bean
+Jedovatmu hadovi,     %STRING0 chest
+Vznici,               %STRING0catraz
+Fastfoodovmu etzci, %STRING0's bistro
+Ulici,                 %STRING0 bulv`r
+Kytce,                 %STRING0 bodl`k
+kole,                 Z %STRING0
+Jablku,                %STRING0 chutn
+Mostu,                 %STRING0 pamtn most
+Pt`kovi,               %STRING0 orel
+Stedn kole,         %STRING0 odborn uilit
+Horskmu lvu,          %STRING0 puma
+Prestin cen,        %STRING0 medaile cti
+ece,                  %STRING0 eka
+Univerzit,            %STRING0 a Lee univerzita
+Horskmu masivu,       %STRING0 hora
+Z`toce,                %STRING0 z`toka
+Fotbalovmu mustvu,   %STRING0 Conquistadoi
+St`tu v Unii,          %STRING0 st`t
+Hlavnmu mstu,        %STRING0 D.C.
+N`rodu,                %STRING0 republika
+KONTINENTU!,           %STRING0ika
+
+
+@LOSING1
+@width=220
+Kr`lovsk oddly ovl`daj vechny pstavy v %STRING0!
+Kontinent`ln kongres kapituloval a pijal kr`lovy podmnky!
+Kontinent`ln arm`da byla rozputna a kr`lovsk expedin sbory okupuj
+kolonie.  %STRING1 byl zbaven titulu a unikl do {exilu} v %STRING2.
+
+@WARN1
+@width=220
+Vae Excelence, kr`lovsk` arm`da ovl`d` vechny nae pstavy
+v %STRING0, krom %NUMBER0!  Pokud si neudrme kontrolu aspo 
+nad jednm pstavem, n` obchod bude uduen a budeme se muset vzd`t!
+
+
+@LOSING2
+@width=220
+Kr`lovsk oddly ovl`daj vechny kolonie v %STRING0!
+Kontinent`ln kongres kapituloval a pijal kr`lovy podmnky!
+Kontinent`ln arm`da byla rozputna a kr`lovsk expedin sbory okupuj
+kolonie.  %STRING1 byl zbaven titulu a unikl do {exilu} v %STRING2.
+
+@WARN2
+@width=220
+Vae Excelence, kr`lovsk` arm`da ovl`d` vechny nae kolonie, 
+krom %NUMBER1!  Musme ochr`nit nae zbvajc kolonie,
+nebo prohrajeme v`lku!
+
+
+@LOSING3
+@width=190
+Kr`lovsk oddly ovl`daj pes 90%% populace %STRING0!
+Kontinent`ln kongres kapituloval a pijal kr`lovy podmnky!
+Kontinent`ln arm`da byla rozputna a kr`lovsk expedin sbory okupuj
+kolonie.  %STRING1 byl zbaven titulu a unikl do {exilu} v %STRING2.
+
+@WARN3
+@width=220
+Vae Excelence, kr`lovsk oddly ovl`daj %NUMBER2%% populace %STRING0.
+Pokud budou ovl`dat 90%%, Kontinent`ln kongres nebude schopen
+d`le vst v`lku a budeme se muset vzd`t!
+
+@WINNING
+@width=220
+Kr`lovsk expedin sbory jsou vyhlazeny!  Gener`l %STRING0
+pijal  {kapitulaci} vech kr`lovskch oddl v kr`tk ceremonii.
+Parlament prohl`sil kr`le za nevhodnho k vl`d a vyhl`sil
+volby k pijet nez`vislosti na %STRING1.  Kontinent`ln
+kongres prohl`sil %STRING0 prvnm {prezidentem} nov
+republiky!
+
+@OTHERGRANTED
+@width=220
+Kr`l {%STRING0} podpoil {nez`vislost} na %STRING1!
+%STRING2 zvolen prvnm prezidentem nov republiky.
+%STRING3 vyhl`sil mr se vemi evropskmi n`rody.
+
+
+@OTHERMIGHT
+@width=220
+Vae Excelence, kr`l {%STRING0} zvauje udlen nez`vislosti
+svm kolonim.  {%NUMBER0} (z %NUMBER1) kolonist %STRING1
+nyn podporuje nez`vislost.  Jakmile podpo svobodu {%NUMBER2}
+kolonist, kolonim v %STRING1 bude udlena jejich svoboda
+a stanou se nez`vislm n`rodem.
+
+@OTHERLESS
+@width=220
+Vyzvdask` zpr`va:  Jen {%NUMBER0} {%STRING1} nyn podporuje
+nez`vislost na %STRING0.  Kr`l {%STRING0} jim neudl svobodu,
+dokud jich nebude {%NUMBER2}.
+
+@SCORED
+@width=220
+Skre pro tuto hru je nyn kompletn.
+
+To je ve.
+Hrajem d`l.
+
+@TORYUPRISING
+@width=220
+U %STRING0 se vzbouili kr`lovt!  Parlament vyzbrojil kr`lovskou milici!
+
+@CANNOTATTACK
+@width=190
+Tento typ jednotky neme toit.
+
+@TRADEMERCANTILISM
+@width=190
+"V z`jmu {merkantilismu} n`m %STRING0 nadil neobchodovat
+s cizmi obchodnky.  Proto v`s musme po`dat,
+abyste prosm odeli."
+
+@TRADEATWAR
+@width=190
+Lod a pepravn vozy nemohou vstoupit do kolonie ciz mocnosti
+se kterou jsme ve v`lce, nebo jsme s n nenav`zali
+kontakt.
+
+@TRADENOCARGO
+@width=190
+"Nepivezli jste nic k obchodov`n.  Prosm, vrate se zpt,
+a n`m budete mt co uitenho nabdnout."
+
+@TRADENOWANT
+@width=190
+"Vaich {%NUMBER0 %STRING0} n`s nezaujalo.  Vrate se zpt,
+a pro n`s budete mt nco lepho."
+
+@TRADEWITH
+@width=190
+"D`me v`m {%NUMBER0 %STRING0} vmnou za %NUMBER1 %STRING1.
+Nebo, pokud se v`m to nelb, jsme ochotni v`m nabdnout {%NUMBER2$}.
+Je to vyhovujc?"
+
+"Dobe, dejte n`m {%NUMBER0 %STRING0}."
+"Spr`vn, dejte n`m {%NUMBER2$}."
+"M`te n`s za bl`zny?"
+
+@EXTINCT
+@width=190
+Kmen %STRING0 byl vyhlazen.
+
+@MERCENARIES
+@width=190
+Kr`l %STRING0 n`m nabdl oddl vycviench {oldn}
+(%STRING1),
+vmnou za {%NUMBER0$}.
+
+Ne, dkuji.
+Platm {%NUMBER0$}.
+
+@MERCS
+@width=190
+%STRING1 oldni dorazili do %STRING0.
+
+@OVERBOARD
+@width=190
+Vae Excelence, kter n`klad m`me hodit pes palubu?
+
+@ALREADYREVOLUTION
+@width=190
+Ji bojujeme ve V`lce za nez`vislost, Excelence.
+
+@SUREDISBAND
+@width=190
+Opravdu {rozpustit} %STRING0?
+
+Ano
+Ne
+
+@NEWCOLONIST
+@width=190
+Populace v %STRING0 vzrostla.  K dispozici je nyn nov kolonista.
+
+@INEFFICIENT
+@width=220
+Vae Excelence, {%STRING0} m` neinnou vl`du!
+Kolonie, kter` m` {%NUMBER0} nebo vce kolonist kte
+nejsou pvrenci Syn svobody zaost`v` ve svm vl`dnm
+rozvoji.  Kolonist v takovch kolonich mus pijmout
+{-1} penalizaci produkce za kadch %NUMBER0 pvrenc kr`le.
+Poet pvrenc Syn svobody v tto kolonii meme zvit produkc 
+vtho mnostv {Zvon svobody}.  Penalizaci produkce se meme vyhnout
+i odstrannm takovho mnostv kolonist, aby to vedlo ke snen potu
+pvrenc kr`le pod %NUMBER0.
+
+@EFFICIENT
+@width=190
+Vae Excelence, v {%STRING0} se zlepila efektivita vl`dy.
+Penalizace produkce ji nejsou pro kolonisty v %STRING0 v platnosti.
+
+@CLEARCUT
+@width=190
+Prkopnci vyk`celi les nedaleko {%STRING0}.  {%NUMBER0 deva} bylo
+pid`no do z`sob.
+
+@REALLYBUY
+@width=190
+Nakoupit %STRING0 za %NUMBER0$?
+
+Ano
+Ne
+
+@INDIANWARPATH
+@width=190
+"Kmen {%STRING0} je pipraven vydat se na v`lenou stezku.
+Na koho si peje, aby zatoili?"
+
+@INDIANWARPATH2
+@width=190
+"R`di smeteme {%STRING0} ze zem naich 
+pedku vmnou za {%NUMBER0$}."
+
+Zaplatit {%NUMBER0$}.
+Nepich`z v vahu.
+
+@INDIANWARFARE
+@width=190
+N`rod {%STRING0} svolal V`lenou Radu!
+{%STRING1} mision`i podncuj %STRING2 k v`lce 
+proti {%STRING3}!
+
+
+
+@LOSENOCOLONIES
+@width=190
+"%STRING0 %STRING1.  Nae sil v Novm svt se uk`zalo 
+neplodnm, a proto jsme se rozhodli zbavit v`s funkce 
+mstokr`le.  Mete, jako vdy, polbit n` kr`lovsk rov prsten."
+
+@SOONRETIRING0
+@width=190
+%STRING0 %STRING1 pl`nuje odejt do dchodu v roce 1800!  Obh` f`ma,
+e by mohl odloit svj odchod do dchodu, kdyby zaala V`lka
+za nez`vislost.
+
+@SOONRETIRING1
+@width=190
+"Gener`le %STRING1, lid jsou z tto dlouh v`lky unaveni.  Pokud
+se n`m ji nepoda ukonit do roku 1850, Kontinent`ln kongres se bude
+dom`hat mru a snait se obnovit psahu vrnosti kr`li."
+
+
+@RETIRING
+@width=220
+%STRING0 %STRING1 odstoupil po uplynuti 300 let loaj`ln sluby 
+korun.  St`rnouc kr`lovsk ryt a mstokr`l se odebral 
+do dchodu na statek nedaleko %STRING2.
+
+
+@RETIRING2
+@width=220
+V`lkou unaven Kontinent`ln kongres se dom`h` mru!  Kr`l pijm`
+kapitulaci od %STRING0 %STRING1, kter se odebral do dchodu
+na statek nedaleko %STRING2.
+
+
+@HOWTOWIN
+@width=220
+Vae Excelence, pr`v jsme dos`hli velkho vtzstv na cest ke svobod.
+Za elem
+por`ky kr`lovsk arm`dy a zsk`n na nez`vislosti, musme zskat 
+zpt {vechny} nae kolonie kontrolovan kr`lem a musme zniit vtinu
+jeho pozemnch vojsk v Novm svt.
+
+
+@ARTILLERY
+@width=190
+%STRING0 %STRING1 {pokozeno}. Dal pokozen ho zni.
+
+@ARTILLERY2
+@width=190
+Pokozen %STRING0 %STRING1 bylo {znieno}.
+
+
+@TIMECHANGE
+@width=190
+^^Colonization n`povda: Bh asu
+^
+V roce 1600 se {bh asu} zmn z jednoho tahu za rok na
+{dva tahy za rok}.  Od te bude {jarn} a {podzimn}
+kolo v jednom roce.
+
+
+@TEACHCONVERT
+@width=190
+Konvertovan indi`ni ji znaj zpsoby indi`n.
+
+
+@SOMEBOYCOTT
+@width=190
+Nkter n`klad neme bt vyloen, protoe byl parlamentem
+bojkotov`n.  Pokud chcete po`dat o zruen bojkotu,
+kliknte na dan typ n`kladu.
+
+@KEEPSTOCKADE
+@width=220
+Pokud jsou postaveny palis`dy, opevnn, nebo pevnost,
+tak nememe redukovat populaci v kolonii pod {ti}.
+
+@MORETHANTHREE
+@width=220
+Vae Excelence, nememe mt vce ne {ti} kolonisty
+v jedn budov.
+
+@LOOTWAGONS
+@width=220
+%STRING0 ukoistili pepravn vz u %STRING3!
+
+
+@TUTORIAL1
+@width=190
+@x=10
+@y=40
+Vae Excelence, nae {%STRING0} pepravujc prkopnky a voj`ky 
+je na otevenm moi.  Pokud budete navigovat na z`pad
+({lev` ipka}), pravdpodobn najdeme zemi.  Pokud poplujeme
+na vchod ({prav` ipka}), dostaneme se zpt do pstavu.
+
+@TUTORIAL2
+@width=190
+Excelence, nali jsme nezmapovanou zemi.  Pro vyloen kolonist
+na beh pohnte lod proti zemi a z menu zvolte '{Vylote se}'.
+
+@TUTORIAL3
+@width=190
+Dky hojnosti {%STRING0} v tto oblasti je toto msto vynikajc pro postaven
+nai prvn kolonie.  Pro stavbu kolonie, Sire, zm`knte kl`vesu '{B}'.
+
+@TUTORIAL4
+@width=190
+@x=10
+Na {obrazovce kolonie} se mete rozhodnout, co maj kolonist v tto
+kolonii dlat.  N` kolonista moment`ln produkuje {%STRING0}, ale mohl
+by msto toho produkovat teba {%STRING1}.  Ke zmn jeho povol`n kliknte
+my na kolonistu a objev se {pracovn menu}, ve kterm mete zvolit to,
+co m` kolonista dlat.  Kolonistu tak mete pet`hnout my pmo na 
+patin polko, nebo budovu, kde m` pracovat.  Pro umstn kolonisty
+mimo kolonii ho pet`hnte na ohradu (na obr`zku kolonie vedle vody).
+
+@TUTORIAL5
+@width=220
+Excelence, v docch v {%STRING0} (Evropa) jsou {%STRING1}, kte jsou
+pipraveni pipojit se k na kolonii.  Kdy poleme lo, odpluj s n`mi
+a r`di se stanou uitenmi leny na komunity.
+
+@TUTORIAL6
+@width=220
+Sire, v {%STRING1} m`me {%NUMBER0} {%STRING0}.  Kdy do %STRING1
+poleme lo, budeme moci tento n`klad naloit a odvzt ho do %STRING2
+v Evrop, kde ho meme prodat.
+
+@TUTORIAL7
+@width=220
+Vae Excelence, %STRING0 se rapidn rozrst` a mli bychom postavit
+{palis`du}, abychom kolonii uchr`nili ped pokozenm.  Pro jej
+vybudov`n nejdve musme z jednoho naeho kolonisty udlat
+{devorubce} a nechat ho tit {devo} v zalesnnm
+tverci.  Potom musme vytvoit kolonistu {tesae}, kter
+ze deva stav budovy.  Nakonec musme tesai ct, co m` stavt.
+Udl`me to kliknutm na modr tlatko 'Kladivo', vpravo dole na
+obrazovce.  To n`m uk`e, co se pr`v stav a dovol n`m to zmnit,
+pokud si to pejeme.
+
+@TUTORIAL8
+@width=190
+Tento %STRING0 nem` `dnou specializaci.  Pokud ho pesuneme
+do vesnice p`telskch domorodc, indi`ni ho nau njak
+nov profesi.
+
+@TUTORIAL9
+@width=220
+Toto msto vypad` jako vynikajc pro stavbu {cesty}.  Nai
+{prkopnci} ji vybuduj, kdy stisknete kl`vesu '{R}'.
+Pokud zde cestu vybudujete, zv se na tomto polku produkce 
+koein, deva, elezn rudy a stbra.  Nae jednotky
+se budou po cest pohybovat rychleji.
+
+@TUTORIAL10
+@width=220
+Toto msto je vynikajc pro {vytvoen pole}, nebo 
+{vyk`cen lesa}.  Nai {prkopnci} udlaj pole,
+kdy zm`knete kl`vesu '{P}'.  Pole zvyuje produkci jdla,
+tab`ku, bavlny a cukru o jeden.  Vyk`cen {lesa}
+udl` msto pro dal zemdlstv.
+
+@TUTORIAL11
+@width=220
+Nae {%STRING0} je jednou z naich nejcennjch jednotek.  Meme
+ji pout k prozkoum`n nezmapovanch konin Novho svta, k doprav
+naeho zbo dom do %STRING1 na prodej a k peprav imigrant
+z Evropy.  Lod mete pohybovat pomoc kurzorovch ipek, nebo ji 
+mete poslat do pstavu podle svho vbru zm`knutm kl`vesy '{G}'.
+
+@TUTORIAL12
+@width=220
+@y=5
+Vae Excelence, nae lo piplula do %STRING0 a ek` na n`klad!
+Modr boxy na spodku obrazovky jsou nae skladit, ve kterm
+je  zbo, kter m`me k dispozici.  Pro naloen n`kladu na lo
+pouijte my.  Uchopte zbo ve skladiti a pet`hnte ho do nkterho
+z box na lodi.  Kdy je lo naloena, vrate se na hlavn mapu
+(zm`kni '{ESC}'). A bude lo na tahu, odelete ji do Evropy
+zm`knutm '{G}'.
+
+@TUTORIAL13
+@width=220
+Excelence, nai {prkopnci} dorazili do Novho svta!  Jsou
+pipraveni poohldnout se po dobrm mst pro stavbu na prvn
+kolonie.  Zkuste se podvat po mst, kde je hodn jdla a ostatnch
+zdroj.  Nae prvn kolonie by mla bt vybudov`na blzko oce`nu,
+aby j mohly dos`hnout nae lod.  Prkopnci jsou bn vybaveni
+{100 kusy n`ad}, kter mohou pout ke k`cen les,
+vytv`en pol a stavn cest.  Pokud budeme chtt pozdji 
+vytvoit dal prkopnky, budeme potebovat n`ad z Evropy,
+nebo n`m ho budou muset vyrobit nai kov`i.
+
+@TUTORIAL14
+@width=220
+Nai {voj`ci} maj dv pouit.  Mohou bt pouiti k toku na
+nae nep`tele, ale dleitj je jejich pouit k ochran
+naich vlastnch koloni.  Nai voj`ci jsou vyzbrojeni
+{50 muketami}. Pokud budeme chtt pozdji vytvoit vce voj`k,
+budeme potebovat mukety z Evropy, nebo n`m je budou muset
+vyrobit nai zbrojai.  Nai voj`ci budou innj,
+kdy je vybavme {komi}.
+
+@TUTORIAL15
+@width=220
+Vae Excelence, do {%STRING0} dorazili  nov kolonist!  Kliknutm
+na kolonii a pet`hnutm kolonisty z "ohrady" na pole nebo budovu,
+z nich mete udlat obyvatele {%STRING0}.
+
+@TUTORIAL16
+@width=220
+@y=10
+@x=5
+@smallfont
+Pro kadou kolonii je dleit vypstovat dostatek {jdla} k uiven svch
+kolonist.  Kad kolonista sn {dv} jednotky jdla za kolo.  Jdlo je
+zn`zornno ikonou "kukuice".  Pokud v kadm kole nepstujete dostatek
+jdla k uiven vech svch kolonist, `st kukuice v okn kolonist bude
+pokryta ervenmi "X".  Chcete-li vypstovat vce jdla, promte vce
+svch kolonist ve {farm`e} nebo {ryb`e}.  Produktivitu jednotlivch
+farm` mete zvit tm, e nech`te sv pionry {k`cet lesy}
+a {vytv`et pole}.
+
+@TUTORIAL17
+@width=300
+@y=10
+@smallfont
+Obrazovka Evropskho statusu zobrazuje v` domovsk pstav v %STRING0,
+%STRING1.  Jakmile pijedou nov imigranti, budou se adit v docch a ekat
+na transport do Novho svta.  Nov imigranty mete naverbovat stisknutm
+tlatek {N`bor} nebo {Vykolit}.  Kdy lod doraz do pstavu, jejich
+n`klad lze prodat petaenm z n`kladovch prostor do modrch sklad
+ve spodn `sti obrazovky.  N`klad lze tak zakoupit petaenm ze skladu
+do n`kladovch prostor lodi.  V polch skladu prvn slo oznauje
+{nabdkovou cenu}, kterou pstav za dan typ n`kladu zaplat.  Druh
+slo oznauje {popt`vkovou cenu}, pokud byste si chtli dan n`klad
+koupit.  Chcete-li lo poslat zpt do Novho svta, kliknte na ni nebo
+ji pet`hnte do pole "Pluje do %STRING2".
+
+
+@TUTORIAL18
+@width=300
+@y=10
+@smallfont
+N`klad se obvykle nakupuje v jednotk`ch po 100 kusech.  Kdy petahujete
+n`klad ze skladu na lo, pedpokl`d` se, e nakl`d`te 100 kus.  Protoe
+{%STRING0} stoj {%NUMBER0$} za jednotku a my m`me pouze {%NUMBER1$} zlata,
+nememe si dovolit 100 kus.  Pokud chcete na lo naloit nebo vyloit
+mn ne 100 kus n`kladu, jednodue podrte kl`vesu {SHIFT} a n`klad
+petahujte my. Pot budete vyzv`ni k zad`n potu jednotek,
+kter chcete koupit.
+
+
+@TUTORIAL19
+@width=190
+{Konvertovan indi`ni} jsou domorodci, kte se z njakch  dvod
+rozhodli k tob pipojit a t ve tvch kolonich.  Na rozdl od ostatnch
+typ kolonist {konvertovan indi`ni} nemohou bt vykoleni v novch
+dovednostech.  Na druhou stranu jsou lep ne obyejn kolonist,
+ve farmaen, plant`nictv, rybaen a dolov`n.
+
+
+
+@TUTNOLUMBER
+@width=220
+Vae excelence, vechny lesy v okol jsou vyk`ceny.  Kolonie
+postaven` na tomto mst bude mt problm sehnat dostatek
+deva pro sv tesae.
+
+Konec akce.
+Stejn ji zde postavte.
+
+
+@TUTNOSPACES
+@width=220
+Vae Excelence, s tmto polem soused jen nkolik
+produktivnch pol.  Kolonie vybudovan` na tomto mst
+me mt ni potenci`l rstu, ne douf`me.  Mon`
+bychom se mli pesunout na vt plochu?
+
+Konec akce.
+Stejn ji zde postavte.
+
+
+@KINGLOSE
+@width=68
+@x=232
+@y=31
+"V na neskonal moudrosti jsme se rozhodli
+nechat v`s jt svou vlast cestou.  M`me daleko
+vce zajmavjch z`leitost na vyzen, ne
+jen vae mizern kolonisty.  V budoucnu neoek`vejte
+nai pomoc, protoe nepijde."
+
+@KINGWIN
+@width=90
+@x=202
+@y=125
+"Jak se dalo oek`vat, v` pokus o oddlen
+od %STRING0 se uk`zal jako marn.  Vai
+'cnov voj`ci' se prost nemohou rovnat
+nai kr`lovsk arm`d."
+
+
+@DISBANDSHIP
+@width=190
+Nememe zruit lo na moi, kter` pev`
+jednotky.
+
+
+@NOMOREWAREHOUSE
+@width=190
+Vae Excelence, kolonie {%STRING0} je nastavena
+k produkci {rozenho skladit}, ale v kolonii
+me bt jen {jedna} tato budova.
+
+@NOMOREWAGONS
+@width=190
+Vae Excelence, kolonie {%STRING0} je nastavena
+k produkci {pepravnho vozu), ale nememe jich
+vyrobit vce, ne m`me koloni ili ({%NUMBER0}).
+
+
+@BUILD1
+@width=310
+@y=30
+^^Lta P`n tischo tystho devades`tho-druhho,
+
+@BUILD2
+@width=310
+@y=30
+^^expedice velkho %STRING0,
+^^%STRING1,
+
+@BUILD3
+@width=310
+@y=30
+^^vyplula z %STRING0 na objevitelskou vpravu.
+
+@BUILD4
+@width=310
+@y=30
+^^S povenm a poehn`nm %STRING1 %STRING0,
+
+@BUILD5
+@width=310
+@y=30
+^^k prozkoum`v`n oce`nu,
+
+@BUILD6
+@width=310
+@y=30
+^^k hled`n nezmapovanch zem
+
+@BUILD7
+@width=310
+@y=30
+^^a k zzen koloni, pro vt sl`vu %STRING0.
+
+@BUILD8
+@width=310
+@y=30
+^^Lo s prkopnky a voj`ky
+
+@BUILD9
+@width=310
+@y=30
+^^vyplula hledat nov ivot a nov za`tky . . .
+
+@BUILD10
+@width=310
+@y=30
+^^Nov svt!
+
+
+
+
+@END

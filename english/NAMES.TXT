@@ -1,0 +1,473 @@
+;
+;       COLONIZATION Game Data
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+
+@SEASONS
+Spring
+Autumn
+
+;
+;       Terrain Squares
+;
+;       a) Name
+;       b) Movement, Defensive, Improvement, Value
+;       c) Yield (Farmer, Planter(s), Planter(t), Planter(c),
+;                 Trapper, Lumberjack, Ore Miner, Silver Miner,
+;                 Fisherman)
+;
+@UNFORESTED
+Tundra,       1, 0, 4, 2,     2, 0, 0, 0, 0, 0, 2, 0, 0
+Desert,        1, 0, 3, 2,    1, 0, 0, 1, 0, 0, 2, 0, 0
+Plains,         1, 0, 3, 4,   4, 0, 0, 2, 0, 0, 1, 0, 0
+Prairie,      1, 0, 3, 4,     2, 0, 0, 3, 0, 0, 0, 0, 0
+Grassland,     1, 0, 3, 4,    2, 0, 3, 0, 0, 0, 0, 0, 0
+Savannah,       1, 0, 3, 4,   3, 3, 0, 0, 0, 0, 0, 0, 0
+Marsh,        2, 1, 5, 2,     2, 0, 2, 0, 0, 0, 2, 0, 0
+Swamp,         2, 1, 7, 2,    2, 2, 0, 0, 0, 0, 2, 0, 0
+
+@FORESTED
+Boreal,       2, 2, 4, 3,     1, 0, 0, 0, 3, 2, 1, 0, 0
+Scrub,         1, 2, 4, 1,    1, 0, 0, 1, 2, 1, 1, 0, 0
+Mixed,          2, 2, 4, 3,   2, 0, 0, 1, 3, 3, 0, 0, 0
+Broadleaf,    2, 2, 4, 3,     1, 0, 0, 1, 2, 2, 0, 0, 0
+Conifer,       2, 2, 4, 3,    1, 0, 1, 0, 2, 3, 0, 0, 0
+Tropical,       2, 2, 6, 3,   2, 1, 0, 0, 2, 2, 0, 0, 0
+Wetland,      3, 2, 6, 1,     1, 0, 1, 0, 2, 2, 1, 0, 0
+Rain,          3, 3, 7, 1,    1, 1, 0, 0, 1, 2, 1, 0, 0
+
+@OTHER
+Arctic,       2, 0, 4, 0,     0, 0, 0, 0, 0, 0, 0, 0, 0
+Ocean,         1, 0, 2, 3,    0, 0, 0, 0, 0, 0, 0, 0, 3
+Sea Lane,       1, 0, 2, 0,   0, 0, 0, 0, 0, 0, 0, 0, 3
+Mountains,       3, 6, 7, 2,  0, 0, 0, 0, 0, 0, 4, 1, 0
+Hills,            2, 4, 4, 2, 1, 0, 0, 0, 0, 0, 4, 0, 0
+
+@OTHER_NAMES
+Forest
+River
+Major River
+Minor River
+Unexplored
+
+;
+;       Special resource squares & values.
+;
+@RESOURCE
+Depleted Mine,          6
+Oasis,                  3
+Wheat,                  4
+Prime Cotton,           6
+Prime Tobacco,          6
+Prime Sugar,            7
+Minerals,               4
+Fishery,                5
+Beaver,                 6
+Game,                   6
+Prime Timber,           6
+Prime Timber,           6
+Silver Deposit,         12
+Ore Deposit,            6
+
+
+;
+;       Country names (color => must be 9-15)
+;
+@COUNTRY
+England,                12
+France,                 9
+Spain,                  14
+Netherlands,            13
+
+@NATIONALITY
+English
+French
+Spanish
+Dutch
+
+@NATIONABBREV
+Eng.
+Fr.
+Span.
+Dutch
+
+@HOMEPORT
+London
+La Rochelle
+Seville
+Amsterdam
+
+@COLONYNAME
+New England
+New France
+New Spain
+New Netherlands
+
+@INDEPENDENT
+United States of America
+Republic of Quebec
+Republic of Mexico
+Republic of Surinam
+
+;
+;       Leaders
+;
+;       a) aggressive/friendly
+;       b) expansionist/perfectionist
+;       c) civilize/militaristic
+;
+@LEADERNAME
+Walter Raleigh,          1, -1,  0
+Jacques Cartier,         0,  1,  0
+Christopher Columbus,    1,  0, -1
+Michiel De Ruyter,      -1,  0,  1
+
+
+@MISSION
+Church of
+Sainte Marie de
+Santa Maria del
+Church of
+
+@DIFFICULTY
+Discoverer
+Explorer
+Conquistador
+Governor
+Viceroy
+
+;
+;       European classes
+;
+;       Name, transportation costs
+;
+@CLASS
+Petty Criminals,      300
+Indentured Servants,  400
+Peasant Farmers,      600
+Skilled Craftsmen,    800
+Hardy Pioneers,      1450
+Town Merchants,      1500
+Trained Mercenaries, 1900
+Educated Elite,      2000
+
+
+;
+; Buildings in Colonies
+;
+;       name, cost, tools(*10), size, min_colony, upkeep
+;
+;       (Cost guidelines: If <= 52, should be divisible by 13.  Otherwise,
+;        should be divisible by 8).
+;
+@BUILDING
+Stockade,            64,     0, 3, 3, 0
+Fort,                120,   10, 3, 3, 10
+Fortress,            320,   20, 3, 8, 15
+Armory,              52,     0, 1, 1, 5
+Magazine,            120,    5, 1, 8, 10
+Arsenal,             240,   10, 1, 8, 15
+Docks,               52,     0, 4, 1, 5
+Drydock,             80,     5, 4, 4, 10
+Shipyard,            240,   10, 4, 8, 15
+Town Hall,           64,     0, 2, 1, 0
+Town Hall,           64,     5, 2, 4, 10
+Town Hall,           120,   10, 2, 8, 15
+Schoolhouse,         64,     0, 1, 4, 5
+College,             160,    5, 1, 8, 10
+University,          200,   10, 1,10, 15
+Warehouse,           80,     0, 1, 1, 5
+Warehouse Expansion, 80,     2, 1, 1, 5
+Stable,              64,     0, 0, 1, 5
+Custom House,        160,    5, 0, 1, 15
+Printing Press,      52,     2, 0, 1, 5
+Newspaper,           120,    5, 0, 4, 10
+Weaver's House,      64,     0, 0, 1, 0
+Weaver's Shop,       64,     2, 0, 1, 5
+Textile Mill,        160,   10, 0, 8, 15
+Tobacconist's House, 64,     0, 0, 1, 0
+Tobacconist's Shop,  64,     2, 0, 1, 5
+Cigar Factory,       160,   10, 0, 8, 15
+Rum Distiller's House, 64,   0, 0, 1, 0
+Rum Distillery,      64,     2, 0, 1, 5
+Rum Factory,         160,   10, 0, 8, 15
+Capitol,             400,   10, 2,16, 20
+Capitol Expansion,   400,   10, 2,16, 10
+Fur Trader's House,  56,     0, 0, 1, 0
+Fur Trading Post,    56,     2, 0, 1, 5
+Fur Factory,         160,   10, 0, 6, 15
+Carpenter's Shop,    39,     0, 1, 1, 0
+Lumber Mill,         52,     0, 1, 3, 10
+Church,              64,     0, 2, 3, 5
+Cathedral,           176,   10, 2,16, 15
+Blacksmith's House,  64,     0, 0, 1, 0
+Blacksmith's Shop,   64,     2, 0, 1, 5
+Iron Works,          240,   10, 0, 8, 15
+
+;
+; Scenarios
+;       map file (do not change), start, end, x0, y0, x1, y1, x2, y2, x3, y3
+;
+;
+@SCENARIO
+AMER2,     34, 20, 39, 10, 47, 61,  50, 33
+AMERICA,   56, 27, 67, 12, 66, 42, 84,  65
+
+;
+; Colonist professions
+;
+;       name, student level (4 = unlearnable), cost in europe
+;
+@JOB
+Farmer,             Expert Farmers,          1, 1100
+Sugar Planter,      Master Sugar Planters,   2,  -1
+Tobacco Planter,    Master Tobacco Planters, 2,  -1
+Cotton Planter,     Master Cotton Planters,  2,  -1
+Fur Trapper,        Expert Fur Trappers,     1,  -1
+Lumberjack,         Expert Lumberjacks,      1, 700
+Ore Miner,          Expert Ore Miners,       1, 600
+Silver Miner,       Expert Silver Miners,    1, 900
+Fisherman,          Expert Fishermen,        1, 1000
+Distiller,          Master Distiller,        2, 1100
+Tobacconist,        Master Tobacconists,     2, 1200
+Weaver,             Master Weavers,          2, 1300
+Fur Trader,         Master Fur Traders,      2, 950
+Carpenter,          Master Carpenters,       1, 1000
+Blacksmith,         Master Blacksmiths,      2, 1050
+Gunsmith,           Master Gunsmiths,        2, 850
+Preacher,           Firebrand Preachers,     3, 1500
+Statesman,          Elder Statesmen,         3, 1900
+Teacher,            Expert Teachers,         4, -1
+Colonist,           Free Colonists,          4, -1
+Pioneer,            Hardy Pioneers,          1, 1200
+Soldier,            Veteran Soldiers,        2, 2000
+Scout,              Seasoned Scouts,         1, -1
+Dragoon,            Veteran Dragoons,        2, -1
+Missionary,         Jesuit Missionaries,     3, 1400
+Ind. Servant,       Indentured Servants,     4, -1
+Criminal,           Petty Criminals,         4, -1
+Convert,            Indian Converts,         4, -1
+
+;
+;       Cargo types & economic model
+;
+;       Economy: start1, 2, low, high, burden, rise, fall, attrition, volatility
+;
+;       Start 1, 2      = Starting cargo price (lowest/highest)
+;       Low             = Lowest possible drift
+;       High            = Highest possible drift
+;       Burden          = Extra difference between ask & bid prices
+;                         (0 means ask is 1 higher than bid)
+;       Rise            = Price rises at this traffic indicator
+;       Fall            = Price falls at this traffic indicator
+;       Attrition       = Amount added to traffic volume each turn
+;                         (represents ability of price to recover)
+;       Volatility      = Shift value for traffic volume
+;
+
+@CARGO
+Food,         1,  3,  1,  6,  7,  3,  2, -1,  0
+Sugar,        4,  7,  3,  7,  1,  4,  6, -8,  1
+Tobacco,      3,  5,  2,  5,  1,  4,  8,-10,  1
+Cotton,       2,  5,  2,  5,  1,  4,  6,-11,  1
+Furs,         4,  6,  2,  6,  1,  4, 20,-13,  1
+Lumber,       2,  2,  2,  2,  4,  3,  2,  0,  0
+Ore,          3,  6,  2,  6,  2,  2,  4, -7,  0
+Silver,      20, 20,  2, 20,  0,  8,  1, -8,  2
+Horses,       2,  3,  2, 11,  0,  3,  2, -3,  0
+Rum,         11, 13,  1, 20,  0,  4,  4,-12,  1
+Cigars,      11, 13,  1, 20,  0,  4,  4,-11,  1
+Cloth,       11, 13,  1, 20,  0,  4,  4,-13,  1
+Coats,       11, 13,  1, 20,  0,  4,  4,-11,  1
+Trade Goods,  2,  3,  2, 12,  0,  2,  3,  4,  0
+Tools,        2,  2,  2,  9,  0,  2,  2,  5,  0
+Muskets,      3,  3,  2, 20,  0,  2,  2,  6,  0
+Hammers
+Crosses
+Liberty Bells
+Flags
+
+;
+;       Unit types
+;
+;   icon, movement, attack, combat, cargo, size, cost, tools, guns, hull, role
+;
+;   AI Role(binary) => Invade Settle Explore Attack Defend Escort Transp Naval
+;
+@UNIT
+Colonists,    101, 1, 0, 1, 0, 1, 1,  0, 0, 0, 01000000
+Soldiers,     103, 1, 2, 2, 0, 1, 2,  0, 0, 0, 00011100
+Pioneers,     102, 1, 0, 1, 0, 1, 2,  0, 0, 0, 01000000
+Missionaries, 106, 2, 0, 1, 0, 1, 1,  0, 0, 0, 00100000
+Dragoons,     105, 4, 3, 3, 0, 1, 3,  0, 0, 0, 00111100
+Scouts,       104, 4, 1, 1, 0, 1, 2,  0, 0, 0, 01100100
+Regulars,     126, 1, 5, 5, 0, 1, 3,  0, 0, 0, 00011100
+Cont. Cav.,   130, 4, 5, 5, 0, 1, 3,  0, 0, 0, 00011100
+Cavalry,      127, 4, 6, 6, 0, 1, 4,  0, 0, 0, 00011100
+Cont. Army,   129, 1, 4, 4, 0, 1, 3,  0, 0, 0, 00011100
+Treasure,      17, 1, 0, 0, 0, 6, 4,  0, 0, 0, 00000000
+Artillery,     10, 1, 7, 5, 0, 1, 6,  4, 0, 0, 00011000
+Wagon Train,    9, 2, 0, 1, 2,99, 1,  0, 0, 0, 00000000
+Caravel,        6, 4, 0, 2, 2,99, 4,  4, 0, 4, 10100010
+Merchantman,    7, 5, 0, 6, 4,99, 6,  8, 1, 8, 10000010
+Galleon,        8, 6, 0,10, 6,99, 10,10, 4,20, 10000010
+Privateer,     15, 8, 8, 8, 2,99, 8, 12, 4,12, 00000001
+Frigate,       16, 6,16,16, 4,99, 16,20,12,32, 10000001
+Man-O-War,    128, 5,24,24, 6,99, 32,90,32,64, 10000001
+Braves,       110, 1, 1, 1, 0, 0, 1,  0, 0, 0, 00111000     ; Indian types
+Armed Braves, 111, 1, 2, 2, 0, 0, 2,  0, 0, 0, 00111000
+Mtd. Braves,  112, 4, 2, 2, 0, 0, 2,  0, 0, 0, 00111000
+Mtd. Warriors,113, 4, 3, 3, 0, 0, 3,  0, 0, 0, 00111000
+
+@ORDERS
+No Orders,        -
+Sentry,           S
+Trade Route,      T
+Go To,            G
+Live In Village,  L
+Fortify,          F
+Fortified,        F
+Build Colony,     B
+Clear/Plow,       P
+Build Road,       R
+No Orders,        -             ; Reserved for AI
+No Orders,        -
+No Orders,        -
+
+@ACTIONS
+Trade With Village
+Enter Hostile Village
+Establish Mission
+Denounce Heresy of %Fs Mission
+Live Among The Natives
+Ask to Speak With Chief
+Incite Indians
+Demand Tribute
+Attack Village
+Cancel Action
+
+@VALUES
+low quality
+good
+fine
+excellent
+
+@ATTITUDE
+Content
+Uneasy
+Restless
+Angry
+War
+
+@ATTITUDINAL
+Extremely
+Very
+Rather
+Somewhat
+Slightly
+
+@LEVELS
+Semi-Nomadic, Camp,    Camps
+Agrarian,     Village, Villages
+Advanced,     City,    Cities
+Civilized,    City,    Cities
+<Any>,     Capital,    Capitals
+
+
+;
+;       Indian tribe info
+;
+;       tech-level, color
+;
+@TRIBES
+Incas,     Inca,     Jewelled Relics, 3, 97
+Aztecs,    Aztec,    Gold Bars,       2, 149
+Arawaks,   Arawak,   Bone Jewelry,    1, 54
+Iroquois,  Iroquois, Wood Carvings,   1, 87
+Cherokee,  Cherokee, Turquoise,       1, 67
+Apache,    Apache,   Beads,           0, 111
+Sioux,     Sioux,    Beads,           0, 118
+Tupi,      Tupi,     Gems,            0, 71
+
+; Extra tribe names
+Maya,      Maya
+Toltecs,   Toltec
+Kiowa,     Kiowa
+Hurons,    Huron
+Hopi,      Hopi
+Navajo,    Navajo
+Cheyenne,  Cheyenne
+Cree,      Cree
+
+Algonquin, Algonquin
+Powhatan,  Powhatan
+Delaware,  Delaware
+Shawnee,   Shawnee
+Illinois,  Illinois
+Chickasaw, Chickasaw
+Choctaw,   Choctaw
+Seminole,  Seminole
+Mohicans,  Mohican
+Zapotec,   Zapotec
+
+
+;
+;       Founding father types.
+;
+@FOUNDING
+Trade
+Exploration
+Military
+Political
+Religious
+Independence
+
+;
+;       Founding Fathers
+;
+;       type, weight 1500-1600, weight 1600-1700, weight 1700+
+;
+;       Father of higher level will not appear until at least one
+;       father of next lower level (of same type) has joined the Congress.
+;
+@FATHERS
+Adam Smith,                     0,      2, 8, 6 ; Economic/Trade
+Jakob Fugger,                   0,      0, 5, 8
+Peter Minuit,                   0,      9, 1, 0
+Peter Stuyvesant,               0,      2, 4, 8
+Jan de Witt,                    0,      2, 6,10
+Ferdinand Magellan,             1,      2,10,10 ; Exploration
+Francisco Coronado,             1,      3, 5, 7
+Hernando de Soto,               1,      5,10, 5
+Henry Hudson,                   1,     10, 1, 0
+Sieur De La Salle,              1,      7, 5, 3
+Hernan Cortes,                  2,      6, 5, 1 ; Military
+George Washington,              2,      0, 4,10
+Paul Revere,                    2,     10, 2, 1
+Francis Drake,                  2,      4, 8, 6
+John Paul Jones,                2,      0, 6, 7
+Thomas Jefferson,               3,      4, 5, 6 ; Political
+Pocahontas,                     3,      7, 5, 3
+Thomas Paine,                   3,      1, 2, 8
+Simon Bolivar,                  3,      0, 4, 6
+Benjamin Franklin,              3,      5, 5, 5
+William Brewster,               4,      7, 4, 1 ; Religious
+William Penn,                   4,      8, 5, 2
+Jean de Brebeuf,                4,      6, 6, 1
+Juan de Sepulveda,              4,      3, 8, 3
+Bartolme de las Casas,          4,      0, 5,10
+
+
+
+;
+;       Text Colors
+;
+;       basic, hilite, grey, enhance, shadow, select, border 0, 1, 2
+;
+@COLORS
+68, 149, 8, 128, 47, 138, 134, 128, 138
+
+

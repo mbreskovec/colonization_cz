@@ -1,0 +1,478 @@
+;
+;       COLONIZATION Game Data
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@SEASONS
+Jaro
+Podzim
+
+;
+;       Terrain Squares
+;
+;       a) Name
+;       b) Movement, Defensive, Improvement, Value
+;       c) Yield (Farmer, Planter(s), Planter(t), Planter(c),
+;                 Trapper, Lumberjack, Ore Miner, Silver Miner,
+;                 Fisherman)
+;
+@UNFORESTED
+Tundra,       1, 0, 4, 2,     2, 0, 0, 0, 0, 0, 2, 0, 0
+Pou,         1, 0, 3, 2,    1, 0, 0, 1, 0, 0, 2, 0, 0
+Planina,        1, 0, 3, 4,   4, 0, 0, 2, 0, 0, 1, 0, 0
+Prrie,       1, 0, 3, 4,     2, 0, 0, 3, 0, 0, 0, 0, 0
+Pastvina,      1, 0, 3, 4,    2, 0, 3, 0, 0, 0, 0, 0, 0
+Savana,         1, 0, 3, 4,   3, 3, 0, 0, 0, 0, 0, 0, 0
+Mokina,       2, 1, 5, 2,     2, 0, 2, 0, 0, 0, 2, 0, 0
+Baina,        2, 1, 7, 2,    2, 2, 0, 0, 0, 0, 2, 0, 0
+
+@FORESTED
+Tajga,        2, 2, 4, 3,     1, 0, 0, 0, 3, 2, 1, 0, 0
+Koviny,       1, 2, 4, 1,    1, 0, 0, 1, 2, 1, 1, 0, 0
+Smen,        2, 2, 4, 3,   2, 0, 0, 1, 3, 3, 0, 0, 0
+Listnat,     2, 2, 4, 3,     1, 0, 0, 1, 2, 2, 0, 0, 0
+Jehlinat,    2, 2, 4, 3,    1, 0, 1, 0, 2, 3, 0, 0, 0
+Tropick,       2, 2, 6, 3,   2, 1, 0, 0, 2, 2, 0, 0, 0
+Mokad,        3, 2, 6, 1,     1, 0, 1, 0, 2, 2, 1, 0, 0
+Detn,        3, 3, 7, 1,    1, 1, 0, 0, 1, 2, 1, 0, 0
+
+@OTHER
+Arktida,       2, 0, 4, 0,    0, 0, 0, 0, 0, 0, 0, 0, 0
+Oce`n,         1, 0, 2, 3,    0, 0, 0, 0, 0, 0, 0, 0, 3
+N`mon trasa,       1, 0, 2, 0,   0, 0, 0, 0, 0, 0, 0, 0, 3
+Hory,             3, 6, 7, 2,  0, 0, 0, 0, 0, 0, 4, 1, 0
+Kopce,             2, 4, 4, 2, 1, 0, 0, 0, 0, 0, 4, 0, 0
+
+@OTHER_NAMES
+les
+eka
+Vt eka
+Men eka
+Neprozkoum`no
+
+;
+;       Special resource squares & values.
+;
+@RESOURCE
+Vyten dl,           6
+O`za,                   3
+Penice,                4
+Bavlnkov` plant`,     6
+Tab`kov` plant`,       6
+Cukrov` plant`,        7
+Miner`ly,               4
+Ryb lovit,           5
+Bobi,                  6
+Zv,                   6
+Prvotdn devo,       6
+Prvotdn devo,       6
+Loisko stbra,       12
+Loisko rudy,           6
+
+
+;
+;       Country names (color => must be 9-15)
+;
+@COUNTRY
+Anglie,                 12
+Francie,                 9
+panlsko,              14
+Holandsko,              13
+
+@NATIONALITY
+Anglian
+Francouz
+panl
+Holanan
+
+@NATIONABBREV
+Ang.
+Fr.
+Span.
+Hol.
+
+@HOMEPORT
+Londn
+La Rochelle
+Sevilla
+Amsterdam
+
+@COLONYNAME
+Nov` Anglie
+Nov` Francie
+Nov panlsko
+Nov Holandsko
+
+@INDEPENDENT
+Spojen st`ty americk
+Republika Quebec
+Republika Mexiko
+Republika Surinam
+
+;
+;       Leaders
+;
+;       a) aggressive/friendly
+;       b) expansionist/perfectionist
+;       c) civilize/militaristic
+;
+@LEADERNAME
+Walter Raleigh,          1, -1,  0
+Jacques Cartier,         0,  1,  0
+Christopher Columbus,    1,  0, -1
+Michiel De Ruyter,      -1,  0,  1
+
+
+@MISSION
+Kostel
+Sainte Marie de
+Santa Maria del
+Kostel
+
+@DIFFICULTY
+Objevitel
+Przkumnk
+Conquistador
+Guvernr
+Mstokr`l
+
+;
+;       European classes
+;
+;       Name, transportation costs
+;
+@CLASS
+Drobn zloinci,      300
+Smluvn sluhov,      400
+Zemdlci,            600
+Zkuen emeslnci,   800
+Zkuen prkopnci,  1450
+Mstt obchodnci,  1500
+Vycvien oldni,  1900
+Vzdlan` elita,      2000
+
+
+;
+; Buildings in Colonies
+;
+;       name, cost, tools(*10), size, min_colony, upkeep
+;
+;       (Cost guidelines: If <= 52, should be divisible by 13.  Otherwise,
+;        should be divisible by 8).
+;
+@BUILDING
+Palis`da,            64,     0, 3, 3, 0
+Opevnn,            120,   10, 3, 3, 10
+Pevnost,             320,   20, 3, 8, 15
+Zbrojnice,           52,     0, 1, 1, 5
+Zbrojovka,           120,    5, 1, 8, 10
+Tov`rna na zbran,   240,   10, 1, 8, 15
+Doky,                52,     0, 4, 1, 5
+Such doky,          80,     5, 4, 4, 10
+Lodnice,            240,   10, 4, 8, 15
+Radnice,             64,     0, 2, 1, 0
+Radnice,             64,     5, 2, 4, 10
+Radnice,             120,   10, 2, 8, 15
+kola,               64,     0, 1, 4, 5
+Stedn kola,       160,    5, 1, 8, 10
+Univerzita,          200,   10, 1,10, 15
+Skladit,           80,     0, 1, 1, 5
+Rozen skladit, 80,     2, 1, 1, 5
+St`je,               64,     0, 0, 1, 5
+Celnice,             160,    5, 0, 1, 15
+Tiskastv,          52,     2, 0, 1, 5
+Noviny,              120,    5, 0, 4, 10
+Tkalcv dm,         64,     0, 0, 1, 0
+Tkalcv obchod,      64,     2, 0, 1, 5
+Textilka,            160,   10, 0, 8, 15
+Tab`k`v dm,       64,     0, 0, 1, 0
+Tab`k`v obchod,    64,     2, 0, 1, 5
+Tov`rna na doutnky, 160,   10, 0, 8, 15
+Palrna,             64,   0, 0, 1, 0
+Lihovar,             64,     2, 0, 1, 5
+Tov`rna na rum,      160,   10, 0, 8, 15
+Kapitol,             400,   10, 2,16, 20
+Rozen Kapitol,   400,   10, 2,16, 10
+Koenkv dm,      56,     0, 0, 1, 0
+Koenkv obchod,   56,     2, 0, 1, 5
+Tov`rna na kab`ty,   160,   10, 0, 6, 15
+Tesav obchod,      39,     0, 1, 1, 0
+Pila,                52,     0, 1, 3, 10
+Kostel,              64,     0, 2, 3, 5
+Katedr`la,           176,   10, 2,16, 15
+Kov`v dm,         64,     0, 0, 1, 0
+Kov`v obchod,      64,     2, 0, 1, 5
+Hu,                 240,   10, 0, 8, 15
+
+;
+; Scenarios
+;       map file (do not change), start, end, x0, y0, x1, y1, x2, y2, x3, y3
+;
+;
+@SCENARIO
+AMER2,     34, 20, 39, 10, 47, 61,  50, 33
+AMERICA,   56, 27, 67, 12, 66, 42, 84,  65
+
+;
+; Colonist professions
+;
+;       name, student level (4 = unlearnable), cost in europe
+;
+@JOB
+Farm`,             Expert farm`,           1, 1100
+Pstitel cukru,     Mistr pstitel cukru,    2,  -1
+Tab`k`,            Mistr tab`k`,           2,  -1
+Bavln`,            Mistr bavln`,           2,  -1
+Lovec koein,      Expert lovec koein,    1,  -1
+Devorubec,         Expert devorubec,       1, 700
+Ta rudy,         Expert ta elezn rudy,1, 600
+Ta stbra,      Expert ta stbra,    1, 900
+Ryb`,              Expert ryb`,            1, 1000
+Lihovarnk,         Expert lihovarnk,       2, 1100
+Doutnk`,          Mistr doutnk`,         2, 1200
+Tkadlec,            Mistr tkadlec,           2, 1300
+Koenk,           Mistr koenk,          2, 950
+Tesa,              Mistr tesa,             1, 1000
+Kov`,              Mistr kov`,             2, 1050
+Zbroja,            Mistr zbroja,           2, 850
+Kazatel,            Expert kazatel,          3, 1500
+St`tnk,            Star st`tnk,          3, 1900
+Uitel,             Expert uitel,           4, -1
+Kolonista,          Voln kolonista,         4, -1
+Prkopnk,          Zkuen prkopnk,       1, 1200
+Voj`k,              Voj`k veter`n,           2, 2000
+Zvd,               Mistr zvd,              1, -1
+Dragoun,            Dragoun veter`n,         2, -1
+Mision`,           Jezuitsk mision`,      3, 1400
+Smluvn sluha,      Smluvn sluha,           4, -1
+Zloinec,           Drobn zloinec,         4, -1
+Konvert. indi`n,    Konvertovan indi`n,     4, -1
+
+;
+;       Cargo types & economic model
+;
+;       Economy: start1, 2, low, high, burden, rise, fall, attrition, volatility
+;
+;       Start 1, 2      = Starting cargo price (lowest/highest)
+;       Low             = Lowest possible drift
+;       High            = Highest possible drift
+;       Burden          = Extra difference between ask & bid prices
+;                         (0 means ask is 1 higher than bid)
+;       Rise            = Price rises at this traffic indicator
+;       Fall            = Price falls at this traffic indicator
+;       Attrition       = Amount added to traffic volume each turn
+;                         (represents ability of price to recover)
+;       Volatility      = Shift value for traffic volume
+;
+
+@CARGO
+Jdlo,        1,  3,  1,  6,  7,  3,  2, -1,  0
+Cukr,         4,  7,  3,  7,  1,  4,  6, -8,  1
+Tab`k,        3,  5,  2,  5,  1,  4,  8,-10,  1
+Bavlna,       2,  5,  2,  5,  1,  4,  6,-11,  1
+Koeiny,     4,  6,  2,  6,  1,  4, 20,-13,  1
+Devo,        2,  2,  2,  2,  4,  3,  2,  0,  0
+elezn` ruda, 3,  6,  2,  6,  2,  2,  4, -7,  0
+Stbro,     20, 20,  2, 20,  0,  8,  1, -8,  2
+Kon,         2,  3,  2, 11,  0,  3,  2, -3,  0
+Rum,         11, 13,  1, 20,  0,  4,  4,-12,  1
+Doutnky,    11, 13,  1, 20,  0,  4,  4,-11,  1
+L`tka,       11, 13,  1, 20,  0,  4,  4,-13,  1
+Kab`ty,      11, 13,  1, 20,  0,  4,  4,-11,  1
+Obchodn zbo,2,  3,  2, 12,  0,  2,  3,  4,  0
+N`ad,       2,  2,  2,  9,  0,  2,  2,  5,  0
+Mukety,      3,  3,  2, 20,  0,  2,  2,  6,  0
+Kladiva
+Ke
+Zvony svobody
+Vlajky
+
+;
+;       Unit types
+;
+;   icon, movement, attack, combat, cargo, size, cost, tools, guns, hull, role
+;
+;   AI Role(binary) => Invade Settle Explore Attack Defend Escort Transp Naval
+;
+@UNIT
+Kolonist,    101, 1, 0, 1, 0, 1, 1,  0, 0, 0, 01000000
+Voj`ci,       103, 1, 2, 2, 0, 1, 2,  0, 0, 0, 00011100
+Prkopnci,   102, 1, 0, 1, 0, 1, 2,  0, 0, 0, 01000000
+Mision`i,    106, 2, 0, 1, 0, 1, 1,  0, 0, 0, 00100000
+Dragouni,     105, 4, 3, 3, 0, 1, 3,  0, 0, 0, 00111100
+Zvdov,      104, 4, 1, 1, 0, 1, 2,  0, 0, 0, 01100100
+Pravideln` pchota,126, 1, 5, 5, 0, 1, 3,  0, 0, 0, 00011100
+Kont. kavalerie,   130, 4, 5, 5, 0, 1, 3,  0, 0, 0, 00011100
+Kavalerie,    127, 4, 6, 6, 0, 1, 4,  0, 0, 0, 00011100
+Kont. pchota,129, 1, 4, 4, 0, 1, 3,  0, 0, 0, 00011100
+Poklad,        17, 1, 0, 0, 0, 6, 4,  0, 0, 0, 00000000
+Artilerie,     10, 1, 7, 5, 0, 1, 6,  4, 0, 0, 00011000
+Pepravn vz,  9, 2, 0, 1, 2,99, 1,  0, 0, 0, 00000000
+Karavela,       6, 4, 0, 2, 2,99, 4,  4, 0, 4, 10100010
+Obchodn lo,   7, 5, 0, 6, 4,99, 6,  8, 1, 8, 10000010
+Galeona,        8, 6, 0,10, 6,99, 10,10, 4,20, 10000010
+Korz`r,        15, 8, 8, 8, 2,99, 8, 12, 4,12, 00000001
+Fregata,       16, 6,16,16, 4,99, 16,20,12,32, 10000001
+Man-O-War,    128, 5,24,24, 6,99, 32,90,32,64, 10000001
+Bojovnci,    110, 1, 1, 1, 0, 0, 1,  0, 0, 0, 00111000     ; Indian types
+Ozbrojen indi`ni, 111, 1, 2, 2, 0, 0, 2,  0, 0, 0, 00111000
+Jzdn indi`ni, 112, 4, 2, 2, 0, 0, 2,  0, 0, 0, 00111000
+Jzdn v`lenc,113, 4, 3, 3, 0, 0, 3,  0, 0, 0, 00111000
+
+@ORDERS
+Beze zmn,        -
+Hldka,           S
+Obchodn cesta,   T
+Jt do,           G
+t ve vesnici,   L
+Opevnit,          F
+Opevnn,          F
+Postavit kolonii, B
+Vyk`cet/Zorat,    P
+Stavt cestu,     R
+Bez pkaz,      -             ; Reserved for AI
+Bez pkaz,      -
+Bez pkaz,      -
+
+@ACTIONS
+Obchodovat s vesnic
+Vstoupit do nep`telsk vesnice
+Zdit Misii
+Oznait kacie z %Fs Misie
+t mezi domorodci
+`dat o rozhovor s n`elnkem
+Podncovat indi`ny
+Poadovat vkupn
+Napadnout vesnici
+Ukonit akci
+
+@VALUES
+mizern
+dobr
+slun
+vborn
+
+@ATTITUDE
+Spokojen
+Neklidn
+Nepokojn
+Rozloben
+V`lka
+
+@ATTITUDINAL
+Extrmn
+Velmi
+Dost
+Trochu
+Nepatrn
+
+@LEVELS
+Polokoovn,  T`bor,   T`bory
+Zemdlci,    Vesnice, Vesnice
+Pokroil,    Msto,   Msta
+Civilizovan, Msto,   Msta
+<`dn>,     Hl. msto,    Hl. msta
+
+
+;
+;       Indian tribe info
+;
+;       tech-level, color
+;
+@TRIBES
+Inkov,    Inka,     perky,          3, 97
+Aztkov,  Aztk,    Zlat pruty,     2, 149
+Arawakov, Arawak,   perky z kost,  1, 54
+Irokzov, Irokz,   Devoezby,      1, 87
+erokov, erok,   Tyrkysy,         1, 67
+Apaov,   Apa,     Kor`lky,         0, 111
+Siouxov,  Sioux,    Kor`lky,         0, 118
+Tupi,      Tupi,     Drahokamy,       0, 71
+
+; Extra tribe names
+Mayov,    May
+Toltkov, Toltk
+Kiowov,   Kiowa
+Huroni,    Huron
+Hopi,      Hopi
+Navahov,  Navaho
+ejeni,    ejen
+Krov,    Kr
+
+Algonkini, Algonkin
+Powhatani, Powhatan
+Delawarov,Delaware
+Shawneeov,Shawnee
+Illinois,  Illinois
+ikasavov,ikasava
+Choctawov,Choctaw
+Seminolov,Seminola
+Mohyk`n,  Mohyk`n
+Zapotecov,Zapotec
+
+
+;
+;       Founding father types.
+;
+@FOUNDING
+Obchodn
+Przkumn
+Vojensk
+Politick
+N`boensk
+Nez`vislost
+
+;
+;       Founding Fathers
+;
+;       type, weight 1500-1600, weight 1600-1700, weight 1700+
+;
+;       Father of higher level will not appear until at least one
+;       father of next lower level (of same type) has joined the Congress.
+;
+@FATHERS
+Adam Smith,                     0,      2, 8, 6 ; Economic/Trade
+Jakob Fugger,                   0,      0, 5, 8
+Peter Minuit,                   0,      9, 1, 0
+Peter Stuyvesant,               0,      2, 4, 8
+Jan de Witt,                    0,      2, 6,10
+Ferdinand Magellan,             1,      2,10,10 ; Exploration
+Francisco Coronado,             1,      3, 5, 7
+Hernando de Soto,               1,      5,10, 5
+Henry Hudson,                   1,     10, 1, 0
+Sieur De La Salle,              1,      7, 5, 3
+Hern`n Corts,                  2,      6, 5, 1 ; Military
+George Washington,              2,      0, 4,10
+Paul Revere,                    2,     10, 2, 1
+Francis Drake,                  2,      4, 8, 6
+John Paul Jones,                2,      0, 6, 7
+Thomas Jefferson,               3,      4, 5, 6 ; Political
+Pocahontas,                     3,      7, 5, 3
+Thomas Paine,                   3,      1, 2, 8
+Simn Bolvar,                  3,      0, 4, 6
+Benjamin Franklin,              3,      5, 5, 5
+William Brewster,               4,      7, 4, 1 ; Religious
+William Penn,                   4,      8, 5, 2
+Jean de Brbeuf,                4,      6, 6, 1
+Juan de Seplveda,              4,      3, 8, 3
+Bartolom de las Casas,         4,      0, 5,10
+
+
+
+;
+;       Text Colors
+;
+;       basic, hilite, grey, enhance, shadow, select, border 0, 1, 2
+;
+@COLORS
+68, 149, 8, 128, 47, 138, 134, 128, 138
+
+

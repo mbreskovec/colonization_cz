@@ -1,9 +1,0 @@
-rem
-rem     Ukazka minimalniho CONFIG.SYS pro Colonization
-rem
-
-files   = 20
-buffers = 20
-dos     = high,umb
-
-device  = c:\dos\himem.sys

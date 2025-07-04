@@ -1,0 +1,1778 @@
+;
+;       COLONIZATION Colonizopedia Data
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@; Colonizopedia categories
+
+@PEDIA
+Typy nákladu
+Typy jednotek
+Typy terénu
+Dovednosti kolonistů
+Budovy v koloniích
+Otcové zakladatelé
+Herní koncept
+
+@MISCELLANEOUS
+12
+Rozpustit
+Opevnit
+Oráni
+Cesty
+Hlídka
+Obchodní trasa
+Veteráni
+Ceny
+Daně
+Zvony svobody
+Kříže
+Kladiva
+
+
+@; *** FOUNDING FATHERS ***
+
+@; ECONOMICS AND TRADE
+
+@; Adam Smith
+@FATHER0
+@width=300
+^{Adam Smith (1723-1790)}
+Britský ekonom, který vydal první větší práci o národním hospodářství
+"An Inquiry into the Nature and Causes of the Wealth of Nations
+(Bohatství národů: Pojednání o podstatě a původu)", která byla podrobnou
+studií následků hospodářské svobody.
+^
+{Adam Smith dovoluje v koloniích stavbu budov na úrovni továrny.
+Továrny umožňují zvýšit produkci na 1 a 1/2 jednotky z každé jednotky
+surovin.}
+
+@; Jakob Fugger
+@FATHER1
+@width=300
+^{Jakob Fugger (1459-1525)}
+Mimořádně úspěšný německý obchodník, aktivní v raném dovozu a vývozu
+z Východní Indie. Byl nesmírně bohatý a půjčoval peníze císaři 
+Maxmiliánovi I. Německému.
+^
+^{Když se Fugger připojí ke Kongresu, jsou odpuštěny všechny dosavadní
+bojkoty bez doplacení daní a obchod s tímto zbožím může být obnoven bez
+dalších nákladů.}
+
+@; Peter Minuit
+@FATHER2
+@width=300
+^{Peter Minuit (1580-1639)}
+Generální ředitel kolonie Holandské Západoindické společnosti v Americe,
+koupil od indiánů ostrov Manhattan za 24 dolarů....!
+^
+{Jakmile se Peter Minuit připojí ke Kontinentálnímu kongresu, indiáni
+již nebudou požadovat peníze za svou půdu.}
+
+@; Peter Stuyvesant
+@FATHER3
+@width=300
+^{Peter Stuyvesant (1610-1672)}
+První úspěšný guvernér holandské kolonie Nový Amsterodam (New York), vládl
+tvrdě, prosazoval růst obchodu a zvýšil zájem o ochranu zájmů Nového světa.
+^
+{Peter Stuyvesant umožňuje v koloniích výstavbu CELNICE,
+což může zefektivnit obchod s Evropou a umožňuje obchodovat s Evropou
+i během revoluce.}
+
+@; Jan De Witt
+@FATHER4
+@width=300
+^{Jan de Witt (1625-1672)}
+Jako nizozemský státník a ministerský předseda Spojených provincií
+Nizozemských se snažil zrušit úřad místodržitele a omezit moc rodu
+Oranžských.
+^
+{Když se de Witt připojí k tvému Kongresu, bude tím povolen obchod
+se zahraničními koloniemi. Navíc zprávy tvého poradce pro zahraniční
+věci budou poskytovat více informací.}
+
+@; EXPLORATION
+
+@; Ferdinand Magellan
+@FATHER5
+@width=300
+^{Ferdinand Magellan (1480-1521)}
+Portugalský objevitel, který vedl první evropskou expedici, jež úspěšně
+obeplula zeměkouli. Ačkoli sám Magellan plavbu nedokončil, jeho vůdcovství
+a odvaha ji umožnily.
+^
+{S Magellanem v Kongresu se pohyb všech námořních plavidel zvyšuje
+o jeden a doba plavby ze západního okraje mapy do Evropy se značně
+zkracuje.}
+
+@; Francisco de Coronado
+@FATHER6
+@width=300
+^{Francisco de Coronado (1510-1554)}
+Španělský conquistador, který vedl první evropskou expedici na americký
+jihozápad. Byl prvním Evropanem, který spatřil Grand Canyon a Pueblos
+v Novém Mexiku. Coronado byl pečlivý organizátor a skvělý zvěd, který
+shromažďoval cenné informace o široké oblasti.
+^
+{Když se připojí ke Kongresu, na mapě se objeví všechny existující kolonie
+a oblast kolem nich.}
+
+@; Hernando De Soto
+@FATHER7
+@width=300
+^{Hernando de Soto (1500-1542)}
+Nemilosrdný španělský Conquistador, který vedl první evropskou
+expedici do jihovýchodních oblastí Severní Ameriky. Přistál na
+Floridě a prozkoumal velkou část Georgie, Tennessee, Alabamy,
+Mississippi, Louisiany a Arkansasu.
+^
+{S De Sotem jsou výsledky průzkumu rozvalin Ztraceného města vždy pozitivní
+a všechny jednotky mají zvětšený rádius dohledu.}
+
+@; Henry Hudson
+@FATHER8
+@width=300
+^{Henry Hudson (????-1611)}
+Anglický cestovatel ve službách Nizozemska, který prozkoumal zálivy
+Chesapeake a Delaware a řeku Hudson až na sever k dnešní Albany.
+Hudson později objevil Hudsonův záliv a nakonec byl zabit vzbouřenci.
+Hudsonův záliv se stal hlavním místem pro lov kožešin a společnost
+Hudson Bay Company provozovala po mnoho let rozsáhlá zařízení na lov
+a zpracování kožešin.
+^
+{Hudson zvyšuje produkci všech lovců kožešin o 100%%.}
+
+@; La Salle
+@FATHER9
+@width=300
+^{La Salle (1643-1687)}
+Francouzský objevitel, který se plavil po řece Mississippi do Mexického
+zálivu a veškerou zemi, kolem toku této mocné řeky, zabral pro francouzskou
+Korunu. Sehrál klíčovou roli v nastolení francouzské nadvlády západně
+od Apalačských hor.
+^
+{La Salle přináší palisádu do všech stávajících i budoucích kolonií,
+jejichž populace dosáhne 3.}
+
+@; MILITARY
+
+@; Hernan Cortes
+@FATHER10
+@width=300
+^{Hernán Cortés (1485-1547)}
+Cortés, španělský dobyvatel Mexika a ničitel Aztécké říše, je vzorem
+conquistadora, mistra dobývání a drancování.
+^
+{Když se Cortés připojí k tvému Kongresu, z dobyté domorodé osady vždy
+získáš poklad a ve větším množství. Královská galeona ho pak do Evropy
+přepraví zdarma.}
+
+@; George Washington
+@FATHER11
+@width=300
+^{George Washington (1732-1799)}
+Velitel Amerických revolučních sil a první prezident Spojených států,
+George Washington prokázal pozoruhodnou schopnost cvičit a inspirovat
+koloniální síly k vítězství.
+^
+{Jakmile se Washington připojí ke Kontinentálnímu kongresu, každý voják
+nebo dragoun, který není veteránem a vyhraje boj, je automaticky povýšen.}
+
+@; Paul Revere
+@FATHER12
+@width=300
+^{Paul Revere (1735-1818)}
+Americký vlastenec, který sloužil v Kontinentální armádě během Války
+za nezávislost a burcoval minutemeny, když se blížily britské síly. Paul
+Revereův příklad, jako vlastence, umožňuje kolonistům pracujícím na svých 
+běžných povinnostech stát se minutemeny, schopnými shromáždit se k obraně
+kolonie v dobách nebezpečí.
+^
+{Když je napadena kolonie bez vojáků, kolonisté automaticky vezmou muškety
+ze skladů a budou kolonii bránit.}
+
+@; Francis Drake
+@FATHER13
+@width=300
+^{Francis Drake (1540-1596)}
+Drake, největší anglický námořník alžbětinské éry, byl impozantní korzár,
+který terorizoval španělské karibské pobřeží s flotilou patnácti lodí
+a poté zachránil obyvatele upadající anglické kolonie.
+^
+{Když se Drake připojí ke Kongresu, bojová síla všech tvých korzárů
+se zvýší o 50%%.}
+
+@; John Paul Jones
+@FATHER14
+@width=300
+^{John Paul Jones (1747-1792)}
+Odvážný skotský námořní velitel, který sloužil koloniím během Války
+za nezávislost a prokázal své neuvěřitelné schopnosti v mnoha odvážných
+bitvách.
+^
+{Když Jones vstoupí do Kongresu, získáš do svého koloniálního námořnictva
+jednu fregatu zdarma.}
+
+@; POLITICAL
+
+@; Thomas Jefferson
+@FATHER15
+@width=300
+^{Thomas Jefferson (1743-1826)}
+Jefferson, velký americký státník, tvůrce ústavy a třetí prezident
+Spojených států, prosazoval rozvoj demokratických institucí v koloniální
+Americe.
+^
+{Jeffersonova přítomnost v Kongresu zvyšuje produkci Zvonů svobody
+státníky o 50%%.}
+
+@; Pocahontas
+@FATHER16
+@width=300
+^{Pocahontas (1595-1617)}
+Indiánská princezna z kmene Powhattan, která tlumila napětí mezi anglickou
+kolonií Jamestown a Powhattanskou konfederací ve Virginii. Pocahontas se
+provdala za Johna Rolffeho, Angličana z Jamestownu, což vedlo k období míru
+mezi indiány a Angličany.
+^
+{Když se Pocahontas připojí ke Kongresu, veškeré napětí mezi vámi
+a domorodci se sníží na minimum a všechny indiánské poplachy se generují
+poloviční rychlostí.}
+
+@; Thomas Paine
+@FATHER17
+@width=300
+^{Thomas Paine (1737-1809)}
+Angličan, který se přestěhoval do Filadelfie a napsal důležitý, provokativní
+pamflet "Zdravý rozum" (Common Sense), v němž silně prosazoval úplnou
+nezávislost kolonií. Později napsal "Práva člověka" (The Rights of Man)
+na podporu Francouzské revoluce a konečně "Věk rozumu" (The Age of Reason).
+^
+{Když Paine vstoupí do Kontinentálního kongresu, výroba Zvonu svobody
+ve všech koloniích se zvýší o hodnotu aktuální daňové sazby.}
+
+@; Simon Bolivar
+@FATHER18
+@width=300
+^{Simón Bolívar (1783-1830)}
+Organizoval a z velké části i vedl povstání v rozsáhlé oblasti severní
+Jižní Ameriky, čímž osvobodil dnešní Venezuelu, Kolumbii, Ekvádor,
+Peru a Bolívii.
+^
+{Když je Bolívar v Kongresu, počet Synů svobody ve všech tvých koloniích
+se zvýší o 20%%.}
+
+@; Benjamin Franklin
+@FATHER19
+@width=300
+^{Benjamin Franklin (1706-1790)}
+Koloniální a později americký státník, který se stal prvním poštmistrem,
+tiskařem a zahraničním velvyslancem v anglických koloniích. Byl také jedním
+z prvních velkých amerických vědců. Franklin jako velvyslanec pro Evropu
+v Kontinentálním kongresu vnáší soudržnost do vztahů kolonií se zahraničními
+mocnostmi.
+^
+{Královy evropské války jíž nebudou mít vliv na vztahy mezi
+mocnostmi v Novém světě a Evropané v Novém světě během jednání
+vždy nabídnou mír.}
+
+@; RELIGIOUS
+
+@; William Brewster
+@FATHER20
+@width=300
+^{William Brewster (1567-1644)}
+William Brewster, jeden z Otců poutníků a tvůrců "Mayflowerských kompaktát"
+(Mayflower Compact), sloužil jako první duchovní poutníků a sehrál klíčovou
+roli v organizaci skupiny, která se plavila na lodi Mayflower.
+^
+{S Brewsterem v Kongresu se v docích přestanou objevovat zločinci
+a smluvní sluhové a můžeš si vybrat, který imigrant ze seznamu
+v menu "Nábor" se přesune do doků.}
+
+@; William Penn
+@FATHER21
+@width=300
+^{William Penn (1644-1718)}
+Vůdce anglických kvakerů a zakladatel Pensylvánie, William Penn, 
+získal v Severní Americe velký pozemkový grant pro náboženskou svobodu.
+Toto území se později stalo Pensylvánií.
+^
+{S Pennem se produkce křížů ve všech koloniích zvýší o 50%%.}
+
+@; Father Jean de Brebeuf
+@FATHER22
+@width=300
+^{Otec Jean de Brébeuf (1593-1649)}
+Francouzský jezuitský misionář, který zemřel rukou Irokézů
+v zemi Huronů v Kanadě v bitvě mezi Hurony a Irokézy. Přeložil
+Katechismus do huronského jazyka a byl kanonizován v roce
+1930.
+^
+{S de Brébeufem v Kongresu fungují všichni misionáři jako experti.}
+
+@; Juan de Sepulveda
+@FATHER23
+@width=300
+^{Juan de Sepúlveda (cca 1490-1573)}
+Španělský filozof a "humanista", který se zasazoval o drsné zacházení
+s domorodci. Své úvahy založil na tvrzení, že domorodci si kvůli svému
+divošství nejsou schopni vládnout sami, což dokazovala jejich neschopnost
+odolat španělské invazi...
+^
+{Jeho přítomnost v Kongresu zvyšuje pravděpodobnost, že podrobení
+indiáni "konvertují" a připojí se ke kolonii.}
+
+@; Bartolome de las Casas
+@FATHER24
+@width=300
+^{Bartolomé de las Casas (1474-1566)}
+"Apoštol indiánů", las Casas, byl španělský misionář, který se plavil
+s Kolumbovou třetí expedicí. Jeho úsilí o ochranu domorodého obyvatelstva
+před otroctvím a zneužíváním ho vedlo k tomu, že několikrát promluvil
+v jejich zastoupení u španělských soudů.
+^
+{S las Casasem jsou všichni stávající indiánští konvertité asimilováni
+do kolonií jako volní kolonisté.}
+
+@; *** CARGO TYPES ***
+
+@;
+@CARGO0
+@width=300
+^{JÍDLO}
+Jídlo je jednou z nejcennějších komodit, které tví lidé produkují.
+Závisí na něm přežití tvých kolonií. Nejlepší místa pro pěstování
+jídla jsou {planiny, pastviny, prérie a savany}. Výnos potravin
+zvyšuje také {orba} půdy. {Rybolov} je vynikajícím zdrojem potravy
+a {rybí loviště} jsou obzvláště produktivní.
+^
+{Každý kolonista pracující v kolonii sní 2 kusy jídla každé kolo.}
+
+@;
+@CARGO1
+@width=300
+^{CUKR}
+Cukr je plodina, kterou lze v Evropě prodat se slušným ziskem, nebo z něj
+{lihovarník} může vydestilovat {rum}, který lze prodat za ještě lepší cenu.
+^
+{Cukr nejhojněji roste na savanách a zejména na
+"Cukrové plantáži".}
+
+@;
+@CARGO2
+@width=300
+^{TABÁK}
+Tabák je plodina, kterou lze v Evropě prodat se slušným ziskem, nebo z něj
+{doutníkář} může vyrobit {doutníky}, které lze prodat za ještě lepší cenu.
+^
+{Tabák nejhojněji roste na pastvinách a zejména na
+"Tabákové plantáži".}
+
+@;
+@CARGO3
+@width=300
+^{BAVLNA}
+Bavlna je plodina, kterou lze v Evropě prodat se slušným ziskem, nebo z ní
+{tkadlec} může vyrobit {látku}, která lze prodat za ještě lepší cenu.
+^
+{Bavlna nejhojněji roste v prérii a zejména na
+"Bavlníkové plantáži".}
+
+@;
+@CARGO4
+@width=300
+^{KOŽEŠINY}
+Kožešiny jsou v Americe hojné a trh v Evropě je po nich velmi hladový.
+Tvoji {kožešníci} z nich mohou vyrobit {kabáty}, které lze prodat s
+ještě větším ziskem. Pro lov zvěře jsou vhodné {lesy} všeho druhu,
+ale nejlepší jsou pole se {zvěří a bobry} v chladnějším podnebí. Navíc
+produkci kožešin zvyšuje, pokud je na lesním poli {cesta}.
+^
+{Kožešiny lze nejhojněji nalézt ve všech zalesněných oblastech,
+ale zejména v chladnějších oblastech, kde se vyskytuje bobr.}
+
+
+@;
+@CARGO5
+@width=300
+^{DŘEVO}
+Dřevo je jednou z nejcennějších komodit, kterou můžeš vyprodukovat.
+Tvoji {tesaři} potřebují dřevo k stavbě {budov, lodí, artilerie a opevnění}.
+Dřevo získáš, když průkopníci vyčistí zalesněné pole, nebo když tvoji
+dřevorubci pracují v lese.
+^
+{Pro těžbu dřeva jsou vhodné lesy všeho druhu a produkci dřeva zvyšují
+cesty v lesích a pole s prvotřídním dřevem.}
+
+@;
+@CARGO6
+@width=300
+^{ŽELEZNÁ RUDA}
+Železná ruda je jedním z tvých nejužitečnějších zdrojů. Lze ji prodat
+v Evropě, nebo z ní mohou {kováři} vyrobit {nářadí}. Z nářadí pak může
+{zbrojař} vyrobit {zbraně}.
+^
+{Železnou rudu lze nalézt v kopcích, horách a bažinách.}
+
+@;
+@CARGO7
+@width=300
+^{STŘÍBRO}
+Stříbro je jedním z nejcennějších kovů, které byly Novém světě nalezeny.
+Stříbro lze těžit z {hor} a některé domorodé civilizace ho mají
+ve velkém množství.
+^
+{Stříbro se nachází v horách, ale pokud se těží, tyto hojné zdroje brzy
+vyschnou.}
+
+@;
+@CARGO8
+@width=300
+^{KONĚ}
+Koně jsou užiteční pro usnadnění cestování v Novém světě. {Zvědové a dragouni}
+se pohybují výrazně rychleji než pěší kolonisté. {Každý kolonista} může být
+vybaven koněm a stát se {zvědem} a {každý voják} může být vybaven koněm a stát
+se {dragounem}.
+^
+{Koně lze získat jen v Evropě}, ale jakmile jsou přivezeni, mohou být chováni.
+Pokud máš v kolonii {dva nebo více koní} a ve skladu {jídlo navíc}, tvoje
+kolonie {vyprodukuje další koně}. Pokud postavíš {stáje}, budou se tvoji
+koně množit dvakrát rychleji.
+
+@;
+@CARGO9
+@width=300
+^{RUM}
+Rum je produktem zpracování cukru v palírně, nebo lihovaru. Rum má obvykle
+mnohem větší cenu než surový cukr.
+^
+{Každý kolonista, který pracuje jako lihovarník, může z cukru vyrábět rum.}
+
+@;
+@CARGO10
+@width=300
+^{DOUTNÍKY}
+Doutníky jsou produktem zpracování tabáku v tabákářském domě, nebo
+tabákářském obchodě. Doutníky mají obvykle mnohem větší cenu,
+než surový tabák.
+^
+{Každý kolonista, který pracuje jako doutníkář, může z tabáku vyrábět doutníky.}
+
+@;
+@CARGO11
+@width=300
+^{LÁTKA}
+Látka je produktem zpracování bavlny v tkalcovském domě, nebo tkalcovském
+obchodě. Látka má obvykle mnohem větší cenu než surová bavlna.
+^
+{Každý kolonista, který pracuje jako tkadlec, může z bavlny vyrábět látku.}
+
+@;
+@CARGO12
+@width=300
+^{KABÁTY}
+Kabáty se vyrábějí z kožešin v kožešníkově domě, nebo kožešníkově obchodě.
+Kabáty mají obvykle mnohem větší cenu než nezpracované kožešiny.
+^
+{Každý kolonista, který pracuje jako kožešník, může z kožešin vyrábět kabáty.}
+
+@;
+@CARGO13
+@width=300
+^{OBCHODNÍ ZBOŽÍ}
+Obchodní zboží lze získat pouze v Evropě nebo z jiných evropských osad.
+Jedná se o průmyslové zboží, jako jsou drobné nástroje, bižuterie a oblečení,
+za které by indiáni mohli chtít něco směnit. Většina domorodých kmenů si
+obchodní zboží ráda vezme, alespoň zpočátku.
+
+@;
+@CARGO14
+@width=300
+^{NÁŘADÍ}
+Nářadí je základem úspěšného kolonizování. Nářadí je potřeba
+k vytvoření {průkopníků} a pouze průkopníci mohou
+{stavět silnice, kácet lesy a orat pole}. Nářadí je také nezbytné
+k dokončení mnoha {budov}, které můžeš ve svých koloniích postavit.
+Nářadí potřebuje i {zbrojař} k výrobě {mušket}.
+^
+{Nářadí lze koupit v Evropě, nebo ho může vyrobit kovář ze železné
+rudy.}
+
+@;
+@CARGO15
+@width=300
+^{MUŠKETY}
+Muškety jsou nezbytné pro obranu tvých kolonií a pro vybudování armády.
+Muškety potřebuješ k vytvoření vojenských jednotek. {Každý kolonista},
+kterého vybavíš mušketami, se stane {vojákem} a {každý zvěd}, kterého
+vybavíš mušketami, se stane {dragounem}.
+^
+{Muškety lze koupit v Evropě, nebo vyrobit ve zbrojnici, zbrojovce,
+nebo továrně na zbraně.} Každý kolonista, který pracuje jako zbrojař,
+může z nářadí vyrábět muškety.
+
+@;
+@;      *** UNIT TYPES ***
+@;
+
+@;
+@UNIT0
+@width=300
+^{KOLONISTÉ}
+Kolonisté představují různé lidi, kteří přicházejí do Nového světa. Jeden
+kolonista ve hře představuje několik lidí v reálném životě, asi 100-200.
+Existují čtyři obecné typy kolonistů, každý s jinými schopnostmi: drobní
+zločinci, smluvní sluhové, volní kolonisté a specialisté. Kterýkoli z těchto
+kolonistů může vykonávat jakoukoli práci dostupnou v osadě, ale experti
+vykonávají svou konkrétní práci velmi dobře.
+^
+Existuje ještě jeden typ: konvertovaní indiáni. Ti představují domorodé
+Američany, kteří se připojí k tvým osadám a stanou se kolonisty. Jsou velmi
+efektivní pro venkovní práce, ale pro výrobu se moc nehodí.
+
+@;
+@UNIT1
+@width=300
+^{VOJÁCI}
+Vojáci vzniknou, když kolonisty vybavíš {mušketami}. Voják se může stát
+{veteránem}, pokud vítězí v bitvách, nebo se vzdělává na střední škole.
+Kromě toho mohou {zkušení vojáci (veteráni)} občas sami imigrovat
+do Nového světa z Evropy a také mohou být najati v Evropě
+na {Královské univerzitě}.
+
+@;
+@UNIT2
+@width=300
+^{PRŮKOPNÍCI}
+Průkopníci vzniknou, když kolonisty vybavíš {nářadím}. Průkopníci mají
+několik důležitých funkcí: {kácejí lesy, orají pole a staví silnice}.
+{Zkušení průkopníci} plní své úkoly rychleji než běžní kolonisté,
+kteří pracují jako průkopníci.
+
+@;
+@UNIT3
+@width=300
+^{MISIONÁŘI}
+Misionáři mohou být vytvořeni na jakémkoli místě, kde se nachází
+{kostel nebo katedrála}. Může to být v {Evropském přístavu}, nebo
+v kolonii, kde byly kostel nebo katedrála postaveny. Misionáři plní
+následující důležité úkoly: {zakládají misie v domorodých osadách},
+aby mírnili hněv indiánů, {osočují misie jiných Evropanů} v domorodých
+osadách (což může vést ke zničení této misie), nebo {podněcují indiány
+k útoku} na jinou evropskou mocnost. {Jezuitští misionáři jsou v těchto
+úkolech obzvláště efektivní.}
+
+@;
+@UNIT4
+@width=300
+^{DRAGOUNI}
+Dragouni jsou {vojáci na koních}, koloniální ekvivalent kavalérie.
+Dragounem se může stát kterýkoli voják, který bude vybaven koňmi.
+Dragouni se během tahu mohou pohybovat dále a bojují efektivněji.
+{Dragouni veteráni jsou v bitvě efektivnější, než běžní vojáci
+na koních.}
+
+@;
+@UNIT5
+@width=300
+^{ZVĚDOVÉ}
+Zvědem se může stát každý kolonista, který je vybaven {koňmi}. Zvědové ti
+mohou poskytnout mnoho cenných služeb: rychleji {odhalují} neprozkoumaný
+terén, během jednoho kola se {dostanou dále}, mají větší štěstí při zkoumání
+{rozvalin ztracených měst}, mohou se setkávat a {hovořit s indiánskými
+náčelníky}, {infiltrovat nepřátelské kolonie}, aby zjistili, co se tam děje
+a {setkávat se se starosty} v cizích koloniích. {Mistři zvědové jsou ve všech
+těchto úkolech lepší než běžní kolonisté, kteří pracují jako zvědové.}
+
+@;
+@UNIT6
+@width=300
+^{PRAVIDELNÁ PĚCHOTA}
+Evropská pravidelná pěchota jsou jednotky královské pravidelné
+armády. Vstupují do hry proti tobě, jakmile vyhlásíš nezávislost.
+Jejich jedinou slabinou je nedostatek výcviku v drsném a divokém
+terénu Nového světa.
+
+@;
+@UNIT7
+@width=300
+^{KONTINENTÁLNÍ KAVALERIE}
+Kontinentální kavalerie je v bojové efektivitě o stupeň výše nad tvými
+dragouny veterány. Znají divočinu, jsou to zkušení vojáci a absolvovali
+vojenský výcvik.
+
+@;
+@UNIT8
+@width=300
+^{KAVALERIE}
+Evropská pravidelná kavalerie jsou jednotky královské pravidelné
+jízdy. Vstupují do hry proti tobě, jakmile vyhlásíš nezávislost.
+Jejich jedinou slabinou je nedostatek výcviku v drsném a divokém
+terénu Nového světa.
+
+@;
+@UNIT9
+@width=300
+^{KONTINENTÁLNÍ PĚCHOTA}
+Pěchota Kontinentální armády je v bojové efektivitě o stupeň výše nad tvými
+vojáky veterány. Znají divočinu, jsou to zkušení vojáci a absolvovali
+pravidelný vojenský výcvik.
+
+@;
+@UNIT10
+@width=300
+^{POKLADNÍ VŮZ}
+Tento krytý vůz přepravuje {kořist}, obvykle zlato a stříbro, drahé kameny
+a vzácné látky. Pokladní vozy se používají k odvozu kořisti získané z
+domorodých osad, nebo ztracených měst. K přepravě obsahu pokladního vozu
+po moři je vždy zapotřebí {galeona}.
+
+@;
+@UNIT11
+@width=300
+^{ARTILERIE}
+Artilerii lze zakoupit v {Evropě}, nebo ji postavit ve zbrojnicích
+tvých kolonií. Artilerie je velmi účinná při {útocích na kolonie a
+jejich obraně} a také při útoku na opevněné jednotky a indiánské osady.
+Nicméně, při obraně v nechráněném terénu je velmi zranitelná a v útoku
+tamtéž je neúčinná. Dělostřelecká jednotka, která je poražena v bitvě,
+je poškozena a ztrácí část své palebné síly. Pokud je znovu poražena,
+je zničena.
+
+@;
+@UNIT12
+@width=300
+^{PŘEPRAVNÍ VŮZ}
+Přepravní vozy se používají k přepravě zboží a komodit {po souši}. Abyste
+s indiány obchodovali s co největším ziskem, měli byste do jejich osad
+vjíždět s vozy plnými zboží. Přepravní vůz může přepravovat stejné náklady
+jako loď, kromě kolonistů a artilerie. Vozy mají 2 nákladové prostory a lze
+je přidělit {obchodním trasám}. Nelze postavit více přepravních vozů,
+než máš kolonií.
+
+@;
+@UNIT13
+@width=300
+^{KARAVELA}
+Karavela je průzkumná loď určená k přepravě malé posádky a dostatečného
+nákladu zásob na několik měsíců.
+
+@;
+@UNIT14
+@width=300
+^{OBCHODNÍ LOĎ}
+Obchodní loď je středně velká nákladní loď. Její hlavní funkcí je
+přepravovat zboží do přístavu za účelem obchodu. Je o něco větší
+než karavela a s více plachtami.
+
+@;
+@UNIT15
+@width=300
+^{GALEONA}
+Galeona je velká nákladní loď určená pro dlouhé plavby a těžkou přepravu.
+Je stejně velká jako Řadová loď, ale není vyzbrojena.
+
+@;
+@UNIT16
+@width=300
+^{KORZÁR}
+Korzár je loď vlastněná jednotlivcem, který od své vlády získal "Korzárskou
+listinu", což mu dává "právo" lovit zahraniční lodě. Korzáři mohou být pro
+tvůj obchod velmi nebezpeční, protože nedodržuje žádný kodex mezinárodního
+chování. Země, které je sponzorují, pravděpodobně budou tvrdit, že o jejich
+jednání nic nevědí.
+
+@;
+@UNIT17
+@width=300
+^{FREGATA}
+Fregaty jsou nebezpečné bitevní lodě, schopné potopit nebo poškodit
+nepřátelská plavidla.
+
+@;
+@UNIT18
+@width=300
+^{MAN-O-WAR}
+Tyto mocné lodě se objeví v amerických vodách, jakmile se rozhoří Válka
+za nezávislost. Tvoje mateřská země je vyšle proti tvým silám a pokud
+dojde k zahraniční intervenci, obdržíš jich několik na podporu své věci.
+Jsou těžce vyzbrojené kanóny a schopné přepravovat velké invazní síly
+nebo náklad.
+
+@;
+@UNIT19
+@width=300
+^{BOJOVNÍCI}
+Bojovníci jsou malé skupiny původních obyvatel Ameriky. Představují indiány
+v jejich přirozeném stavu, tedy než od Evropanů získali zbraně a koně.
+
+@;
+@UNIT20
+@width=300
+^{OZBROJENÍ INDIÁNI}
+Jakmile se domorodí Američané naučí používat smrtící zbraně Evropanů,
+stávají se nebezpečnějšími. Když domorodý kmen získá od Evropanů zbraně,
+někteří stateční muži jimi budou vyzbrojeni. {To z nich, v kombinaci
+s jejich znalostí divočiny, dělá silné protivníky v lesích, kopcích
+a horách.}
+
+@;
+@UNIT21
+@width=300
+^{JÍZDNÍ INDIÁNI}
+Domorodí obyvatelé Ameriky neměli přístup ke koním, dokud je Španělé koncem
+15. století nepřivezli. V některých případech se indiánská kultura značně
+změnila a koně se staly jejím životně důležitým prvkem. {Koně zvyšují
+mobilitu a bojovou sílu indiánů.}
+
+@;
+@UNIT22
+@width=300
+^{JÍZDNÍ VÁLEČNÍCI}
+Kmeny, které mají koně a muškety, jsou velmi nebezpečné. Tito indiáni jsou
+stejně dobří, jako koloniální dragouni, dokonce lepší, když bojují v divočině.
+
+@;
+@UNIT23
+@width=300
+^{Kolonisté}
+
+
+
+@;
+@TERRAIN0
+@width=300
+^{TUNDRA}
+Tato poměrně chladná, otevřená krajina, produkuje jen minimální množství
+potravin a trochu ostatního zemědělství, ale často zde můžeš najít
+železnou rudu.
+
+@;
+@TERRAIN1
+@width=300
+^{POUŠŤ}
+V těchto suchých a řídce porostlých oblastech se potraviny pěstují jen
+obtížně (i když je to možné). Ačkoli, někdy se zde dá těžit železná ruda.
+
+@;
+@TERRAIN2
+@width=300
+^{PLANINA}
+Je to oblast vhodná pro pěstování široké škály potravin. Můžeš zde vypěstovat
+i trochu bavlny.
+^
+{Nejlepší místo pro pěstování jídla.}
+
+@;
+@TERRAIN3
+@width=300
+^{PRÉRIE}
+Jedná se o relativně rovinatý, otevřený terén, ideální pro pěstování bavlny.
+Dobře se zde daří i produkci jídla.
+^
+{Nejlepší místo pro pěstování bavlny.}
+
+@;
+@TERRAIN4
+@width=300
+^{PASTVINA}
+Úrodná půda v mírném pásmu, ideální pro pěstování tabáku. Také je to vhodné
+místo pro produkci jídla.
+^
+{Nejlepší místo pro pěstování tabáku.}
+
+@;
+@TERRAIN5
+@width=300
+^{SAVANA}
+Bohatá, vlhká půda, obzvláště vhodná pro pěstování cukrové třtiny.
+Tato oblast je dobrá i pro produkci jídla.
+^
+{Nejlepší místo pro pěstování cukrové třtiny.}
+
+@;
+@TERRAIN6
+@width=300
+^{MOKŘINA}
+Vlhká, slaná oblast, kde se moře setkává s pevninou. Lze zde pěstovat
+některé potraviny a v hojné míře zde najdeš železnou rudu.
+
+@;
+@TERRAIN7
+@width=300
+^{BAŽINA}
+Tyto nízko položené, vlhké oblasti, často ukrývají ložiska železné rudy.
+Lze zde také pěstovat trochu jídla a cukrové třtiny.
+
+@;
+@TERRAIN8
+@width=300
+^{TAJGA}
+Toto je chladná, zalesněná krajina, která je vhodná pro lov kožešin
+a těžbu dřeva.
+^
+{Po vykácení se stává tundrou (vhodnou pro těžbu železné rudy).}
+
+@;
+@TERRAIN9
+@width=300
+^{KŘOVINATÝ LES}
+Toto je suchá, neúrodná krajina, s rozptýlenou vegetací. V těchto oblastech
+lze nalézt železnou rudu.
+^
+{Po vykácení se stává pouští (vhodnou pro těžbu železné rudy).}
+
+@;
+@TERRAIN10
+@width=300
+^{SMÍŠENÝ LES}
+Jedná se o zalesněnou krajinu mírného pásma, která je vhodná pro lov
+kožešin a těžbu dřeva.
+^
+{Po vykácení se stává planinou (vhodnou pro produkci jídla).}
+
+@;
+@TERRAIN11
+@width=300
+^{LISTNATÝ LES}
+Jedná se o zalesněnou krajinu mírného pásma, která je vhodná pro lov
+kožešin a těžbu dřeva.
+^
+{Po vykácení se stává prérií (vhodnou pro pěstování bavlny).}
+
+@;
+@TERRAIN12
+@width=300
+^{JEHLIČNATÝ LES}
+Jedná se o zalesněnou krajinu mírného pásma, která je vhodná pro lov
+kožešin a těžbu dřeva.
+^
+{Po vykácení se stává pastvinou (vhodnou pro pěstování tabáku).}
+
+@;
+@TERRAIN13
+@width=300
+^{TROPICKÝ LES}
+Toto je vlhká, zalesněná oblast, která je vhodná pro těžbu dřeva
+a lov kožešin.
+^
+{Po vykácení se stává savanou (vhodnou pro pěstování cukrové třtiny).}
+
+@;
+@TERRAIN14
+@width=300
+^{MOKŘADNÍ LES}
+Toto je tropická zalesněná krajina, která je dobrá pro těžbu dřeva,
+lov kožešin a těžbu železné rudy.
+^
+{Po vykácení se stává mokřinou (vhodnou pro těžbu železné rudy).}
+
+@;
+@TERRAIN15
+@width=300
+^{DEŠTNÝ LES}
+Toto je tropická džungle, která je dobrá pro těžbu dřeva, roste tam cukrová
+třtina a dá se tam těžit železná ruda.
+^
+{Po vykácení se stává bažinou (vhodnou pro těžbu železné rudy).}
+
+@;
+@TERRAIN16
+@width=300
+^{TAJGA}
+Toto je chladná, zalesněná krajina, která je vhodná pro lov kožešin
+a těžbu dřeva.
+^
+{Po vykácení se stává tundrou (vhodnou pro těžbu železné rudy).}
+
+@;
+@TERRAIN17
+@width=300
+^{KŘOVINATÝ LES}
+Toto je suchá, neúrodná krajina, s rozptýlenou vegetací. V těchto oblastech
+lze nalézt železnou rudu.
+^
+{Po vykácení se stává pouští (vhodnou pro těžbu železné rudy).}
+
+@;
+@TERRAIN18
+@width=300
+^{SMÍŠENÝ LES}
+Jedná se o zalesněnou krajinu mírného pásma, která je vhodná pro lov
+kožešin a těžbu dřeva.
+^
+{Po vykácení se stává planinou (vhodnou pro produkci jídla).}
+
+@;
+@TERRAIN19
+@width=300
+^{LISTNATÝ LES}
+Jedná se o zalesněnou krajinu mírného pásma, která je vhodná pro lov
+kožešin a těžbu dřeva.
+^
+{Po vykácení se stává prérií (vhodnou pro pěstování bavlny).}
+
+@;
+@TERRAIN20
+@width=300
+^{JEHLIČNATÝ LES}
+Jedná se o zalesněnou krajinu mírného pásma, která je vhodná pro lov
+kožešin a těžbu dřeva.
+^
+{Po vykácení se stává pastvinou (vhodnou pro pěstování tabáku).}
+
+@;
+@TERRAIN21
+@width=300
+^{TROPICKÝ LES}
+Toto je vlhká, zalesněná oblast, která je vhodná pro těžbu dřeva
+a lov kožešin.
+^
+{Po vykácení se stává savanou (vhodnou pro pěstování cukrové třtiny).}
+
+@;
+@TERRAIN22
+@width=300
+^{MOKŘADNÍ LES}
+Toto je tropická zalesněná krajina, která je dobrá pro těžbu dřeva,
+lov kožešin a těžbu železné rudy.
+^
+{Po vykácení se stává mokřinou (vhodnou pro těžbu železné rudy).}
+
+@;
+@TERRAIN23
+@width=300
+^{DEŠTNÝ LES}
+Toto je tropická džungle, která je dobrá pro těžbu dřeva, roste tam cukrová
+třtina a dá se tam těžit železná ruda.
+^
+{Po vykácení se stává bažinou (vhodnou pro těžbu železné rudy).}
+
+@;
+@TERRAIN24
+@width=300
+^{ARKTIDA}
+Studená a ledová, Arktida je téměř neschopná udržet život.
+
+@;
+@TERRAIN25
+@width=300
+^{OCEÁN}
+Toto jsou rozsáhlé vody otevřeného moře. Jsou užitečná pro rybolov,
+zejména podél pobřeží a v rybích lovištích.
+
+@;
+@TERRAIN26
+@width=300
+^{NÁMOŘNÍ TRASA}
+Toto je otevřený oceán, který vede ke standardním námořním trasám z Nového
+světa do Evropy a zpět. Pro návrat do Evropy stačí, aby loď vplula do námořní
+trasy a poté se vydala na východ (pokud opouští mapu na východě) nebo na
+západ (pokud opouští mapu západě).
+
+@;
+@TERRAIN27
+@width=300
+^{HORY}
+Jedná se o rozsáhlé oblasti hornatého terénu, který je obtížně schůdný,
+ale pravděpodobným zdroje železné rudy a stříbra. V horském terénu
+nelze zakládat kolonie.
+^
+{Tyto oblasti oplývají stříbrem a železnou rudou.}
+
+@;
+@TERRAIN28
+@width=300
+^{KOPCE}
+Mírně zvlněná oblast, se snadným přístupem k železné rudě. Také je tam
+možné rozvíjet zemědělství.
+^
+{Bohaté naleziště železné rudy.}
+
+
+@;
+@;      *** COLONIST PROFESSIONS ***
+@;
+
+@;
+@JOB0
+@width=300
+^{EXPERTI FARMÁŘI}
+Někteří z tvých lidí mají talent na pěstování plodin, rozumí počasí
+a ročním obdobím. Tyto odborníky můžeš nalézt v Evropě jako imigranty,
+nebo mohou být vzděláni na Královské univerzitě. Někteří domorodí
+Američané jsou také vynikajícími farmáři a mohou naučit tvé volné
+kolonisty a smluvní sluhy tajemstvím zemědělství.
+^
+{Nejlepším místem pro pěstování jídla jsou planiny.}
+^
+{Experti farmáři vypěstují o 2 kusy více jídla na čtverec než jiní farmáři.}
+
+@;
+@JOB1
+@width=300
+^{MISTŘI PĚSTITELÉ CUKRU}
+Sázení a pěstování cukrové třtiny je složitá práce, která vyžaduje
+plánování a speciální techniky. Jen domorodí Američané mají dostatečné
+znalosti, aby se mohli nazývat experty a pouze oni mohou naučit tvé
+kolonisty, jak to dělat dobře. Nicméně, kolonista, který se pěstování
+cukrové třtiny věnuje dostatečně dlouho, se tak může také stát mistrem.
+^
+{Nejlepším místem pro pěstování cukrové třtiny je savana.}
+^
+{Mistři pěstitelé cukru jsou dvakrát produktivnější než ostatní.}
+
+@;
+@JOB2
+@width=300
+^{MISTŘI TABÁKÁŘI}
+Tabák se v Novém světě nachází ve velkém množství. Domorodí Američané
+ho pěstují a používají pro mnoho rituálů, i pro volný čas. Někteří indiáni
+mají o této záhadné rostlině velké znalosti a pomohou tvým lidem pomoci
+stát se mistry v její kultivaci.
+^
+{Nejlepším místem pro pěstování tabáku jsou pastviny.}
+^
+{Mistři tabákáři jsou dvakrát produktivnější než ostatní.}
+
+@;
+@JOB3
+@width=300
+^{MISTŘI BAVLNÁŘI}
+Bavlna nalezená v Novém světě je vysoce kvalitní a hodí se k výrobě jemných
+tkanin a oděvů. Mistři bavlnáři musí být vyškoleni domorodými Američany,
+kteří během noha let získali bohaté zkušeností a naučili se nejlepší způsoby
+pěstování této plodiny.
+^
+{Nejlepším místem pro pěstování bavlny jsou prérie.}
+^
+{Mistři bavlnáři jsou dvakrát produktivnější než ostatní.}
+
+@;
+@JOB4
+@width=300
+^{EXPERTI LOVCI KOŽEŠIN}
+Nový svět hojně oplývá kožešinovými savci, jejichž kožešiny lze
+v Evropě prodat s pěkným ziskem. Domorodí Američané tyto tvory,
+kvůli jejich kožešině a masu, dlouho studovali a lovili a tví lidé
+se tak mohou naučit o chování lesních tvorů a stát se mistry lovci
+jedině od indiánů.
+^
+{Nejlepší místa pro získávání kožešin jsou v lesnatých oblastech,
+zejména v chladnějším podnebí.}
+^
+{Experti lovci kožešin jsou dvakrát produktivnější než ostatní lovci.}
+
+@;
+@JOB5
+@width=300
+^{EXPERTI DŘEVORUBCI}
+Dřevo bylo vždy naprosto nezbytné v Novém i Starém světě. Experty dřevorubce
+můžeš nalézt v evropských přístavech, nebo je tam můžeš vyškolit.
+^
+{Nejlepší místa pro těžbu dřeva jsou lesy a lesnaté oblasti.}
+^
+{Experti dřevorubci jsou schopni těžit dvakrát více dřeva než ostatní.}
+
+@;
+@JOB6
+@width=300
+^{EXPERTI TĚŽAŘI ŽELEZNÉ RUDY}
+Od Doby železné bylo ve Starém světě hornictví důležitým zaměstnáním.
+Je tam tedy mnoho odborníků, kteří rozumí minerálům, jejich ložiskům,
+žilám a budování dolů. Experty těžaře železné rudy můžeš získat v evropských
+přístavech, nebo je tam vyškolit.
+^
+{Nejlepší místa, kde hledat železnou rudu jsou hory,
+kopce a bažiny, zejména tam, kde se nacházejí ložiska
+minerálů.}
+^
+{Experti těžaři železné rudy jsou dvakrát produktivnější než ostatní.}
+
+@;
+@JOB7
+@width=300
+^{EXPERTI TĚŽAŘI STŘÍBRA}
+Stejně jako těžba železné rudy, i těžba stříbra je důležitou a lukrativní
+dovedností, která je v Evropě široce známá.
+^
+{Nejlepší místa, kde hledat stříbro jsou hory, zejména tam,
+kde se nacházejí jeho ložiska.}
+^
+{Experti těžaři stříbra jsou dvakrát produktivnější než ostatní.}
+
+@;
+@JOB8
+@width=300
+^{EXPERTI RYBÁŘI}
+Rybolov byl v Evropě již dlouho lukrativním byznysem a mnoho tvých
+imigrantů sebou přináší odborné znalosti v této oblasti -- znalosti
+o chování ryb a o místech, kde žijí. Nejlepší místa pro rybolov jsou
+podél pobřeží oceánů a v jezerech.
+^
+{Obecně platí, že čím více pevniny ohraničuje čtverec, ve kterém rybář
+pracuje, tím je produktivnější.}
+^
+{Experti rybáři jsou dvakrát produktivnější než ostatní.}
+
+@;
+@JOB9
+@width=300
+^{EXPERTI LIHOVARNÍCI}
+Umění přeměny surového {cukru na rum} a další lihoviny, je staré jako
+civilizace samotná. Někteří imigranti, kteří k tobě budou přicházet, budou
+těmito znalostmi disponovat.
+^
+{Expert lihovarník je dvakrát produktivnější než běžný kolonista,
+který pracuje jako lihovarník.}
+
+@;
+@JOB10
+@width=300
+^{MISTŘI DOUTNÍKÁŘI}
+Poté, co Evropané viděli indiány kouřit tabák a naučili se detaily
+výroby dýmek a doutníků, vznikl v Evropě malý průmysl, který těžil
+z tohoto nového trhu. Doutníkáři vyrábějí {z tabáku doutníky}. Mistři
+doutníkáři se objevují v evropských přístavech, nebo tam mohou být
+vyškoleni.
+^
+{Mistr doutníkář je dvakrát produktivnější než běžný kolonista,
+který pracuje jako doutníkář.}
+
+@;
+@JOB11
+@width=300
+^{MISTŘI TKALCI}
+Tkaní je řemeslo staré, kam až lidská paměť sahá. Tkalci, kteří
+zpracovávají {bavlnu na látky}, se v Evropě objevují jako imigranti,
+nebo se tam mohou vyškolit.
+^
+{Mistři tkalci jsou v tkaní látky z bavlny dvakrát produktivnější,
+než ostatní kolonisté.}
+
+@;
+@JOB12
+@width=300
+^{MISTŘI KOŽEŠNÍCI}
+Hojnost kožešin v Novém světě oživila kožešinový průmysl v Evropě a mnoho
+zkušených kožešníků přichází do Nového světa, aby zde zbohatli. Kožešníci
+vyrábějí {z kožešin kabáty} a mistry kožešníky lze získat v evropských
+přístavech, nebo je lze vyškolit.
+^
+{Mistři kožešníci jsou ve výrobě kabátů z kožešin dvakrát produktivnější,
+než ostatní kolonisté.}
+
+@;
+@JOB13
+@width=300
+^{MISTŘI TESAŘI}
+Zalesněné oblasti Nového světa poskytují suroviny pro mnoho stavebních
+projektů. Mistr tesař je nezbytný pro rozvoj tvé koloniální společnosti.
+Mistři tesaři se objevují v evropských přístavech, nebo je tam lze
+vyškolit.
+^
+{Mistři tesaři jsou ve stavění budov ze dřeva dvakrát
+produktivnější,
+než běžní kolonisté.}
+
+@;
+@JOB14
+@width=300
+^{MISTŘI KOVÁŘI}
+Práce s kovy je nezbytnou součástí úspěšné kolonizace. Kováři dokážou
+opravovat kovové nářadí a vyrábět nové. Kováři vyrábějí {z železné rudy
+nářadí}. Mistři kováři se objevují v evropských přístavech, nebo je tam
+lze vyškolit.
+^
+{Mistři kováři jsou dvakrát produktivnější než běžní kolonisté,
+kteří pracují jako kováři.}
+
+
+@;
+@JOB15
+@width=300
+^{MISTŘI ZBROJAŘI}
+Schopnost vyzbrojit své lidi zbraněmi je zásadní, na tvé cestě k nezávislosti.
+Zbrojaři přeměňují {nářadí na muškety}. Mistři zbrojaři se objevují
+v evropských přístavech, nebo je tam lze vyškolit.
+^
+{Mistři zbrojaři jsou dvakrát produktivnější než běžní kolonisté,
+kteří pracují zbrojaři.}
+
+
+@;
+@JOB16
+@width=300
+^{EXPERTI KAZATELÉ}
+Náboženské nepokoje v Evropě jsou katalyzátorem imigrace do Nového světa
+a kazatelé v Novém světě ji ještě stupňují. Kazatelé produkují kříže,
+které představují náboženskou svobodu v Novém světě. Čím více křížů
+se v Americe vyprodukuje, tím rychleji se imigranti hrnou do evropských
+přístavů.
+^
+{Expert kazatel produkuje dvakrát více křížů než jiní kolonisté,
+kteří kážou v kostele nebo katedrále.}
+
+@;
+@JOB17
+@width=300
+^{STARŠÍ STÁTNÍCI}
+Politici jsou cennými členy tvé společnosti, protože budují politickou
+infrastrukturu. Státníci produkují Zvony svobody, které představují kvalitu
+vlády a vlasteneckou horlivost. Starší státníky lze vyškolit v Evropě,
+nebo je lze nalézt v evropských přístavech.
+^
+{Starší státníci produkují dvakrát více Zvonů svobody než běžní kolonisté,
+kteří pracují na radnici.}
+
+
+@;
+@JOB18
+@width=300
+^{Student}
+
+@;
+@JOB19
+@width=300
+^{VOLNÍ KOLONISTÉ}
+Volní kolonisté jsou imigranti, kteří touží odejít do Nového světa jako
+svobodní muži a ženy a jsou ochotni pracovat pro dobro svých komunit. Volní
+kolonisté jsou produktivní ve všech sférách práce -- na polích i v dílnách.
+Ačkoli nejsou vyškoleni v žádném konkrétním řemesle, jsou nejproduktivnějšími
+členy tvé společnosti.
+
+@;
+@JOB20
+@width=300
+^{ZKUŠENÍ PRŮKOPNÍCI}
+Do Nového světa přichází zvláštní druh mužů a žen, kteří z divočiny
+vykřesávají civilizaci. Průkopníci jsou předvojem tvé nové společnosti.
+Staví silnice, kácejí lesy a orají pole. Průkopník vznikne, když je libovolný
+kolonista vybaven nářadím, ale Zkušené průkopníky lze nalézt jen v evropských
+přístavech, nebo je tam lze vyškolit.
+^
+{Zkušení průkopníci vykonávají všechny průkopnické práce rychleji,
+než běžní kolonisté, kteří pracují jako průkopníci.}
+
+@;
+@JOB21
+@width=300
+^{VOJÁCI VETERÁNI}
+Vojákem se může stát každý kolonista, který je vybaven mušketami, ale pouze
+zkušenosti v boji nebo výcvik, z něj mohou učinit veterána. Veteráni
+evropských válek občas imigrují a objevují se v evropských přístavech, nebo
+je můžeš vyškolit na Královské univerzitě. Veterány se stanou i vojáci,
+kteří vítězí v bitvách.
+
+@;
+@JOB22
+@width=300
+^{MISTŘI ZVĚDOVÉ}
+Všichni kolonisté vybavení koňmi mohou působit jako zvědové. Vidí dále,
+pohybují se rychleji a mají schopnost shromažďovat informace o cizích osadách,
+včetně indiánských měst a vesnic. Mistři zvědové dělají všechny výše uvedené
+činnosti efektivněji a bezpečněji. Zkušení zvědové se někdy objevují jako
+imigranti v evropských přístavech. Zvědové se také mohou stát mistry
+navštěvováním indiánských osad.
+
+
+@;
+@JOB23
+@width=300
+^{DRAGOUNI VETERÁNI}
+Dokud nevznikne tvoje Kontinentální armáda, jsou dragouni veteráni
+nejlepší vojenské jednotky, které máš. Dragouni jsou ve všech ohledech
+podobní vojákům, až na to, že jezdí na koních, a proto jsou o něco
+silnější. Statusu veterána dosahují, stejně jako vojáci, výcvikem
+nebo zkušenostmi.
+
+@;
+@JOB24
+@width=300
+^{JEZUITŠTÍ MISIONÁŘI}
+Jezuité jsou horliví křesťané, kteří rádi vstoupí na území a do vesnic
+domorodců, založí tam misie a žijí mezi nimi, aby je učili křesťanství.
+Slouží u indiánů jako vyslanci a často je dokážou přesvědčit,
+aby šli do války proti konkurenčním Evropanům, za tvoji věc.
+Jejich hlavní funkcí je tišit hněv domorodých kmenů a získávat
+konvertity.
+^
+{Jezuitští misionáři jsou ve svých úkolech mnohem efektivnější,
+než běžní kolonisté, kteří byli vysvěceni na misionáře.}
+
+@;
+@JOB25
+@width=300
+^{SMLUVNÍ SLUHOVÉ}
+Smluvní sluhové jsou lidé, kteří touží přijít do Nového světa,
+ale nemohou si dovolit zaplatit si cestu sami. Takže se prakticky
+uvrhnou do otroctví a souhlasí s tím, že si cestu v Novém světě
+odpracují. Podobně jako drobní zločinci, jsou užitečnými pracovníky
+na polích a v dolech, ale ve výrobě a zpracování jsou méně produktivní,
+než volní kolonisté. Nicméně, díky vzdělání, nebo vojenským zkušenostem
+se mohou stát volnými kolonisty.
+
+@;
+@JOB26
+@width=300
+^{DROBNÍ ZLOČINCI}
+Drobní zločinci byli do Nového světa poslání, jako trest za své zločiny.
+Zločinci jsou obecně {nejméně produktivními členy tvé komunity}. Jsou
+docela dobří v práci na polích nebo dolech, ale neefektivní ve výrobě
+nebo zpracování. Nicméně, díky vzdělání, nebo vojenským zkušenostem,
+se mohou stát smluvními sluhy.
+
+@;
+@JOB27
+@width=300
+^{KONVERTOVANÍ INDIÁNI}
+Misionáři pracující mezi domorodým obyvatelstvem jsou schopni přesvědčit
+některé z indiánů o pravdivosti křesťanství. Tito konvertité jsou dobří
+v přírodě -- zběhlí ve všech profesích souvisejících s pobytem venku.
+Nejsou však vhodní pro výrobu nebo zpracovatelství.
+
+
+@;
+@;      *** BUILDINGS ***
+@;
+
+@;
+@BUILDING0
+@width=300
+^{PALISÁDA}
+Palisáda je nízká dřevěná barikáda vyrobená z kůlů, které jsou nahoře
+opracované do špičky. Je vybavená kruhovými střílnami pro střelbu z mušket
+a stupínky pro střelce.
+^
+Stavba palisády kolem osady představuje pro komunitu značné úsilí a je
+symbolem vůle nějakou dobu zde setrvat. Stavba palisády může být zahájena,
+když je kolonie ještě poměrně malá (počet obyvatel 3). Jakmile je palisáda
+dokončena, počet obyvatel kolonie nelze dobrovolně snížit pod 3.
+^
+{Jednotka bránící kolonii uvnitř palisády má svou obrannou sílu zvýšenou
+o 100%%.}
+
+@;
+@BUILDING1
+@width=300
+^{OPEVNĚNÍ}
+Opevnění je proti palisádě podstatným vylepšením a lze jej postavit,
+když už má kolonie palisádu a {počet jejich obyvatel dosáhne 4}. Palisáda
+je zpevněna kovovými výztuhami, je tam instalována artilerie, která kryje
+exponované přístupy a celkově je patrné rozsáhlé obranné plánování. Opevnění
+s výhledem na oceán zpomalí postup cizích lodí a zahájí na ně palbu, pokud
+se odváží příliš blízko.
+^
+{Obranná síla jednotky, která brání kolonii v opevnění, se zvyšuje o 150%%.}
+
+@;
+@BUILDING2
+@width=300
+^{PEVNOST}
+Pevnost je vylepšené opevnění. Lze ji postavit, když už má kolonie opevnění
+a {počet jejich obyvatel dosáhne 8}. Robustní dřevěná barikáda je ještě
+zesílená a na kritických místech nahrazena kamenným zdivem. Střílny jsou
+nyní obsazeny dělostřelectvem, které je masivně používáno. Vnější přístupy
+brání dobře plánovaná, překrývající se palebná pole. Pevnost s výhledem
+na oceán zpomalí postup cizích lodí a zahájí na ně palbu, pokud se odváží 
+příliš blízko.
+^
+{Jednotky v pevnosti získávají obranný bonus 200%%.}
+
+@;
+@BUILDING3
+@width=300
+^{ZBROJNICE}
+Tví lidé mohou postavit zbrojnici, kovodílnu, které umožňuje stálou výrobu
+mušket z nářadí.
+^
+{Díky zbrojnici mohou tesaři vyrábět artilerii a zbrojaři konvertovat
+nářadí na muškety.}
+
+@;
+@BUILDING4
+@width=300
+^{ZBROJOVKA}
+Když populace kolonie dosáhne 8, může být zbrojnice vylepšena na
+zbrojovku.
+^
+{Zbrojovka zdvojnásobí produkci mušket, pokud je k dispozici dostatek
+nářadí.}
+
+@;
+@BUILDING5
+@width=300
+^{TOVÁRNA NA ZBRANĚ}
+Když populace kolonie dosáhne 8, lze zbrojovku vylepšit na továrnu
+na zbraně.
+^
+{Továrna na zbraně zdvojnásobí produkci mušket, pokud je k dispozici dostatek
+nářadí.}
+
+@;
+@BUILDING6
+@width=300
+^{DOKY}
+Doky jsou kotviště a mola nezbytná pro zpracování ryb ulovených
+na různých rybářských lovištích, roztroušených podél pobřeží
+Nového světa.
+^
+{Doky tvým kolonistům umožňují rybařit v kterémkoliv oceánském,
+nebo jezerním poli sousedícím s kolonií.}
+
+@;
+@BUILDING7
+@width=300
+^{SUCHÉ DOKY}
+Suché doky jsou vybaveny zařízením a vybavením na opravu lodí a člunů
+poškozených v námořních bitvách. Ve tvé mateřské zemi jsou suché doky
+stále k dispozici, ale můžeš je postavit i v každé pobřežní kolonii,
+kde již existují doky a má aspoň 6 obyvatel. Kdykoli je námořní
+jednotka poškozena, je automaticky umístěna do nejbližšího suchého doku
+k opravě.
+^
+{Přítomnost suchých doků v kolonii umožňuje této kolonii opravovat
+poškozené lodě, místo aby se musely vracet do Evropy.}
+
+@;
+@BUILDING8
+@width=300
+^{LODĚNICE}
+Loděnice obsahují veškeré vybavení, které je potřebné ke stavbě
+lodí.
+^
+{Přítomnost loděnice v kolonii umožňuje tesařům stavět
+lodě.}
+
+@;
+@BUILDING9
+@width=300
+^{RADNICE}
+Radnice je jednou z prvních staveb, které zakladatelé postavili.
+Poskytuje místo, kde se kolonisté z okolí mohou scházet a diskutovat
+o problémech, kterým komunita čelí. Toto je první náznak koloniální vlády.
+Kolonista na radnici produkuje Zvony svobody, které představují sílící
+nacionalismus a koloniální vládu. Starší státník na radnici produkuje
+mnoho Zvonů svobody.
+
+@;
+@BUILDING10
+@width=300
+^{RADNICE}
+
+@;
+@BUILDING11
+@width=300
+^{KOLONIÁLNÍ SNĚM}
+
+@;
+@BUILDING12
+@width=300
+^{ŠKOLA}
+Abys mohl začít vzdělávat své občany, musíš postavit školu. Lze ji postavit,
+jakmile {populace kolonie dosáhne 4} obyvatele. {Školní budova umožňuje
+následujícím specialistům učit své dovednosti ostatní kolonisty}:
+^ů Expert farmář
+^ů Expert rybář
+^ů Expert těžař stříbra
+^ů Expert těžař železné rudy
+^ů Expert dřevorubec
+^ů Expert lovec kožešin
+^ů Mistr tesař
+^ů Zkušený průkopník
+^ů Mistr zvěd
+
+@;
+@BUILDING13
+@width=300
+^{STŘEDNÍ ŠKOLA}
+Když {populace kolonie dosáhne velikost 8}, lze školu vylepšit na střední
+školu. Funguje identicky jako škola, ale navíc {mohou vyučovat dva
+specialisté současně a lze vyučovat následující další dovednosti}:
+^ů Mistr pěstitel cukru
+^ů Mistr bavlnář
+^ů Mistr tabákář
+^ů Expert lihovarník
+^ů Mistr tkadlec
+^ů Mistr doutníkář
+^ů Mistr kožešník
+^ů Mistr kovář
+^ů Mistr zbrojař
+^ů Voják veterán
+
+@;
+@BUILDING14
+@width=300
+^{UNIVERZITA}
+Když {počet obyvatel kolonie dosáhne 10}, může být střední škola
+vylepšena na univerzitu. Univerzita funguje jako střední škola,
+ale navíc {mohou vyučovat tři specialisté současně a lze vyučovat
+následující další dovednosti}:
+^ů Jezuitský misionář
+^ů Expert kazatel
+^ů Starší státník
+
+@;
+@BUILDING15
+@width=300
+^{SKLADIŠTĚ}
+Každá tvoje kolonie běžně pojme až 100 kusů od každého
+typu nákladu. Tví tesaři však mohou postavit větší
+skladiště.
+^
+{Skladiště pojme až 200 kusů každého typu nákladu.}
+
+@;
+@BUILDING16
+@width=300
+^{ROZŠÍŘENÉ SKLADIŠTĚ}
+Skladiště běžně pojme až 200 kusů od každého typu nákladu. Tví tesaři
+však mohou postavit rozšířené skladiště, které zvýší celkovou kapacitu
+o dalších 100 kusů. Rozšířené skladiště vypadá stejně jako normální
+skladiště, ale je na něm zobrazeno číslo "2".
+
+@;
+@BUILDING17
+@width=300
+^{STÁJE}
+Stáje jsou v kolonii potřeba pro {zvýšení chovu koní}. Jakmile jsou stáje
+dokončeny, {reprodukce koní se zdvojnásobí}.
+
+@;
+@BUILDING18
+@width=300
+^{CELNICE}
+Jakmile se ke Kontinentálnímu kongresu připojí {Peter Stuyvesant},
+mohou tví tesaři začít stavět celnice. Celnice slouží jako trvalé
+spojení mezi kolonií, která ji postavila a mateřskou zemí. {Po dokončení
+můžeš pravidelně prodáváte zboží a komodity do Evropy} a už se nemusíš
+starat o logistiku, už nemusíš nakládat a vykládat náklad, nebo ho
+převážet na lodích.
+^
+{Celnice také umožňuje pokračování obchodu s Evropou i po zahájení revoluce,
+kdy je jinak přístup na evropské trhy uzavřen.}
+
+@;
+@BUILDING19
+@width=300
+^{TISKAŘSTVÍ}
+Tiskařské stroje a noviny poskytují prostor pro veřejné vyjádření.
+Toto veřejné fórum může vytvářet pocit sounáležitosti a bratrství,
+což v kolonii vyvolává pocity vlastenectví.
+^
+{Po dokončení tiskařství se v kolonii zvýší produkce Zvonů svobody
+o 50%%.}
+
+@;
+@BUILDING20
+@width=300
+^{NOVINY}
+Noviny poskytují prostor pro veřejné vyjádření obav, kterým lidé čelí.
+Toto veřejné fórum může vytvářet pocit sounáležitosti a bratrství,
+což v kolonii vyvolává pocity vlastenectví.
+^
+{Po dokončení novin se v kolonii zvýší produkce Zvonů svobody
+o 100%%.}
+
+@;
+@BUILDING21
+@width=300
+^{TKALCOVSKÝ DŮM}
+Indiáni v Americe používají nový druh bavlny a někteří kolonisté z něj
+tkají látky vysoké kvality. Pokud je bavlna k dispozici, {může z ní
+kolonista, pracující v tkalcovském domě, vyrábět látku}. Veškerá vyrobená
+látka se uskladňuje ve skladiště.
+
+@;
+@BUILDING22
+@width=300
+^{TKALCOVSKÝ OBCHOD}
+Tkalcovský obchod {zvyšuje produkci látek všech tkalců} v kolonii.
+Pro zahájení stavby tkalcovského obchodu musí mít kolonie {populaci
+alespoň 4}.
+
+@;
+@BUILDING23
+@width=300
+^{TEXTILKA}
+Tkalcovský obchod může být vylepšen na textilní továrnu. Textilka
+dramaticky zvyšuje efektivitu provozu, a proto produkuje {více látky na
+jednotku bavlny}. Aby mohla být stavba textilky zahájena, musí být ve
+tvém Kontinentálním kongresu {Adam Smith} a {populace kolonie musí být
+alespoň 8}.
+
+@;
+@BUILDING24
+@width=300
+^{TABÁKÁŘSKÝ DŮM}
+Někteří kolonisté díky domorodcům objevili tabák a již se učí, jak ho
+sušit a vyrábět doutníky. Jednoho dne se z této plodiny může stát
+významné průmyslové odvětví.
+^
+{Pokud je tabák k dispozici, může z něj kolonista, pracující v tabákářském
+domě, vyrábět doutníky}. Všechny vyrobené doutníky se uskladňují ve skladiště.
+
+@;
+@BUILDING25
+@width=300
+^{TABÁKÁŘSKÝ OBCHOD}
+Tabákářský obchod {zvyšuje produkci doutníků všech doutníkářů} v kolonii.
+Pro zahájení stavby tabákářského obchodu musí mít kolonie {populaci
+alespoň 4}.
+
+@;
+@BUILDING26
+@width=300
+^{TOVÁRNA NA DOUTNÍKY}
+Tabákářský obchod může být vylepšen na továrnu na doutníky. Továrna na
+doutníky dramaticky zvyšuje efektivitu provozu, a proto produkuje {více
+doutníků na jednotku tabáku}. Aby mohla být stavba továrny na doutníky
+zahájena, musí být ve tvém Kontinentálním kongresu {Adam Smith} a {populace
+kolonie musí být alespoň 8}.
+
+@;
+@BUILDING27
+@width=300
+^{PALÍRNA}
+V některých oblastech se dá pěstovat kvalitní třtinový cukr a někteří
+domorodci ho obdělávají velká pole. Kolonisté vědí, že se dá zpracovat
+k výrobě rumu.
+^
+{Pokud je cukr k dispozici, může z něj kolonista, pracující v palírně,
+vyrábět rum}. Rum se plní do lahví a skladuje ve skladišti.
+
+@;
+@BUILDING28
+@width=300
+^{LIHOVAR}
+Lihovar {zvyšuje produkci rumu všech lihovarníků} v kolonii. Pro zahájení
+stavby lihovaru musí mít kolonie {populaci alespoň 4}.
+
+@;
+@BUILDING29
+@width=300
+^{TOVÁRNA NA RUM}
+Lihovar může být vylepšen na továrnu na rum. Továrna na rum dramaticky
+zvyšuje efektivitu provozu, a proto produkuje {více rumu na jednotku
+cukru}. Aby mohla být stavba továrny na rum zahájena, musí být ve tvém
+Kontinentálním kongresu {Adam Smith} a {populace kolonie musí být
+alespoň 8}.
+
+@;
+@BUILDING30
+@width=300
+^{KAPITOL}
+
+@;
+@BUILDING31
+@width=300
+^{ROZŠÍŘENÝ KAPITOL}
+
+@;
+@BUILDING32
+@width=300
+^{KOŽEŠNÍKŮV DŮM}
+Jednou z prvních věcí, kterých si kolonisté po připlutí do Ameriky všimli,
+bylo neuvěřitelné množství kožešinových zvířat a ohromné ​​využití jejich
+kožešin indiány. Uvědomili si také, jak obrovského zisku by šlo dosáhnout
+prodejem kožešin, nebo oděvů z nich vyrobených.
+^
+{Pokud jsou kožešiny k dispozici, může kolonista, pracující v kožešníkově
+domě, vyrábět kabáty}. Všechny vyrobené kabáty se uskladňují ve skladišti.
+
+@;
+@BUILDING33
+@width=300
+^{KOŽEŠNÍKŮV OBCHOD}
+Kožešníkův obchod {zvyšuje produkci kabátů všech kožešníků} v kolonii.
+Pro zahájení stavby kožešníkova obchodu musí mít kolonie {populaci
+alespoň 4}.
+
+
+@;
+@BUILDING34
+@width=300
+^{TOVÁRNA NA KABÁTY}
+Kožešníkův obchod může být vylepšen na továrnu na kabáty. Továrna na kabáty
+dramaticky zvyšuje efektivitu provozu, a proto produkuje {více kabátů na
+jednotku kožešin}. Aby mohla být stavba továrny na kabáty zahájena, musí
+být ve tvém Kontinentálním kongresu {Adam Smith} a {populace kolonie musí
+být alespoň 8}.
+
+@;
+@BUILDING35
+@width=300
+^{TESAŘŮV OBCHOD}
+Komunita staví tesařův obchod kvůli zjevné potřebě výroby
+nejrůznějších věcí pro dobro komunity. Kolonista pracující
+v tesařově obchodě {produkuje kladiva}, která se hromadí
+{pro stavbu budov} a dalších věcí v osadě. Tesař {potřebuje
+k produkci kladiv dřevo}.
+
+@;
+@BUILDING36
+@width=300
+^{PILA}
+Skromný tesařův obchod lze vylepšit tak, aby se zvýšila efektivita
+práce. Když {populace kolonie dosáhne 3}, můžeš tesařův obchod vylepšit
+na pilu. {Zdvojnásobí se tím produkce kladiv všech kolonistů}, kteří
+tam pracují (ale zároveň je samozřejmě potřeba mít k dispozici stejné
+množství dřeva).
+
+@;
+@BUILDING37
+@width=300
+^{KOSTEL}
+Kostel může být postaven téměř okamžitě po přistání na březích Nového světa,
+{populace kolonie musí být pouze 3}. To okamžitě způsobí {zvýšenou produkci
+křížů} v kolonii, ale pokud do práce v kostele přidělíš i kolonisty, produkce
+křížů vzroste ještě mnohem více.
+
+@;
+@BUILDING38
+@width=300
+^{KATEDRÁLA}
+Když {populace kolonie dosáhne 8}, může být kostel vylepšen na katedrálu,
+čímž se dramaticky {zvýší produkce křížů} v kolonii a také produkce všech
+kolonistů, kteří tam kážou.
+
+@;
+@BUILDING39
+@width=300
+^{KOVÁŘŮV DŮM}
+Komunita v kolonii pomáhá stavět kovářovy domy ze stejných důvodů,
+jako tesařův obchod. Uvědomuje si potřebu základních kovářských
+prací -- výrobu nářadí, opravu stávajícího nářadí atd.
+{Kolonista pracující v kovárně může vyrábět nářadí}, které se
+skladuje ve skladišti osady. Kovář {potřebuje k výrobě nářadí
+železnou rudu}.
+
+@;
+@BUILDING40
+@width=300
+^{KOVÁŘŮV OBCHOD}
+Kovářův dům lze rozšířit na kovářův obchod, který {zvyšuje produkci
+nářadí}. Projekt můžeš zahájit, jakmile {populace kolonie
+dosáhne 4}.
+
+@;
+@BUILDING41
+@width=300
+^{HUŤ}
+Jakmile {populace kolonie dosáhne 8}, mohou tví kolonisté postavit huť.
+Je to významné zařízení na zpracování a produkci kovů a {dramaticky
+zvyšuje produkci nářadí}. Huť je budova na úrovni továrny a nelze ji
+postavit dříve, než se k tvému Kontinentálnímu kongresu připojí
+{Adam Smith}.
+
+

@@ -1,0 +1,207 @@
+;
+;       COLONIZATION Debug System Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@MOTD
+@width=300
+^{COLONIZATION} verze %STRING0 {ALFA} -- %STRING1
+^
+^Fakta k této verzi:
+^1. Změnily se vlastnosti některých Otců zakladatelů:
+^____Fugger: Stříbro+10 Muškety-5 Nářadí-5
+^____Minuit: Vůbec nemusíte kupovat půdu od Indiánů.
+^____Coronado: Už žádné indiánské přepady.
+^____De Soto: Z průzkumu indiánských rozvalin vždy něco kápne.
+^____Hudson: Lovci kožešin +100%
+^2. Kolonie nyní pojmou až 32 kolonistů.
+^3. Žoldnéři se objevují ve větších a méně častých skupinách.
+^4. Hra pokračuje i poté, co cizí mocnosti získají nezávislost.
+^5. Čím dříve získáte nezávislost, tím vyšší je vaše skóre.
+^6. Pravidla pro přepadání během revoluce upravena.
+^7. Pole lesních/nelesních zdrojů se liší.
+
+
+@MOTD2
+@width=300
+^^POMOC
+^
+Pokud hrajete {Colonization} ze {sítě}, nezapomeňte hru
+ukončit, než odejdete od počítače.  Pokud necháte hru spuštěnou,
+někdy zůstane soubor otevřený a {zabrání} se zkopírování
+{nové verze} na síť.  Nyní, když hru hraje tolik lidí mimo
+naši skupinu, není vždy možné vystopovat osobu,
+která soubor nechává otevřený.
+Děkujeme za vaši pomoc!
+
+@MEMORY
+@width=190
+^Dostupná paměť     = %NUMBER0
+^Menu k dispozici   = %NUMBER1
+^Téměř k dispozici  = %NUMBER2
+^Dostupný zásobník  = %NUMBER3
+^PSP na             = %HEX4
+
+@CREATE
+@default=1
+Vyber kterou jednotku vytvořit
+
+Kolonistu
+Průkopníka
+Milici
+Misionáře
+Zvěda
+Artilerii
+Obchodní vůz
+Poklad
+Loď
+Indiána
+Ozbrojeného indiána
+Jízdního indiána
+Jízdního válečníka
+Jednotku jiné země
+
+@CREATE2
+@default=1
+Vyber kterou jednotku vytvořit
+
+Kolonistu
+Průkopníka
+Milici
+Misionáře
+Zvěda
+Artilerii
+Obchodní vůz
+Poklad
+Loď
+{Kontinentální armádu}
+{Kontinentální kavalerii}
+{Královskou armádu}
+{Královskou kavalerii}
+Jednotku jiné země
+
+@CSHIP
+@default=1
+Vyber kterou loď vytvořit
+
+Karavelu
+Obchodní loď
+Galeonu
+Korzára
+Fregatu
+Man-O-War
+
+@FOREIGN
+Vyber kterou národnost vytvořit
+
+Angličan
+Francouz
+Španěl
+Holanďan
+
+@FOREIGN2
+Vyber který typ vytvořit
+
+Rebel
+Loajalista
+
+@SETVIEW
+@width=190
+Vyber pohled
+
+Anglická mapa
+Francouzská mapa
+Španělská mapa
+Holandská mapa
+Celá mapa
+Žádný speciální pohled
+
+@SETHUMAN
+@width=190
+Zvol národnost lidského hráče
+
+Angličan
+Francouz
+Španěl
+Holanďan
+Žádná
+
+@SETAUTO
+@width=190
+Automatická hra?
+
+Ano
+Ne
+
+@SETREPORT
+@width=190
+Čí zprávy ukázat?
+
+Anglické
+Francouzské
+Španělské
+Holandské
+
+@SETEUROPE
+@width=190
+Které město ukázat
+
+Londýn
+La Rochelle
+Sevilla
+Amsterdam
+
+@DANGER
+@width=190
+^^NEBEZPEČÍ, WILLE ROBINSONE!
+^
+^^Varování! %STRING0
+^
+^^Fakt: %NUMBER0 / %NUMBER1 / %NUMBER2
+@END
+
+@BADGUYS
+@width=190
+Chceš, aby se tam venku potulovali
+padouši?
+
+To zní skvěle! Pojďme to zkusit!
+Raději ne, mohlo by to bolet.
+
+@SOUND
+@width=190
+@default=0
+Kterou skladbu zahrát #?
+
+Skladba:
+
+@OPTIONS
+@width=220
+@checkbox
+Vyber volby Debug informací
+
+~Úroveň hněvu & napětí
+~Tahy indiánské AI 
+~Dodávky a požadavky (indiáni)
+~Plánování AI cizinců
+~Blízké pohyby
+~Vzdálení pohyby
+~Všechny pohyby
+
+@FORCED
+@width=190
+Vynutit nezávislost na konci dalšího tahu.
+
+@TEST
+@width=220
+^Počet jednotek    = %NUMBER0
+^Počet kolonií     = %NUMBER1
+       

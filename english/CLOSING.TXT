@@ -1,0 +1,28 @@
+;
+;       COLONIZATION Closing Animation Data
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;
+
+;
+;       Animations
+;
+;       Series, Frame, Repeats, BaseX, Delay
+;
+@CLOSING
+4,   1, -1,  0,  0                       ; Fireworks
+6,   1, -1,  0,  0                       ; Liberty Bell
+5,   1, -1,  0,  100                     ; Rock
+0,   1, -1,  0,  16                      ; Hat
+1,   1, -1,  0,  0                       ; Lady
+2,   1, -1,  0,  0                       ; Man
+3,   1, -1,  0,  0                       ; Military
+-1,390,  0,  0,  0                       ; End of closing
+0,   0,  0,  0,  0
+
+; Messages
+@MESSAGES
+Loading Game...

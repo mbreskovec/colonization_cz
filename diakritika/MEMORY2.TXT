@@ -1,0 +1,12 @@
+bytu k dispozici.  Kdyz budes Colonization hrat s nedostatkem
+pameti, bude se chovat nekorektne.  Spustenim programu 
+INSTALL.EXE a volbou NO SOUND CARD muzes snizit naroky 
+na pamet o 40,000 bytu, nebo muzes zvysit dostupnou
+pamet na svem pocitaci odinstalovanim TSR (rezidentnich)
+programu, nebo je muzes nahrat do vyssi pameti.
+
+Soubory AUTOEXEC.TXT a CONFIG.TXT jsou ukazky souboru
+AUTOEXEC.BAT a CONFIG.SYS, ktere muzes pouzit k vytvoreni
+minimalni nutne konfigurace pro tvuj pocitac.
+
+Zmackni jakoukoliv klavesu pro pokracovani, nebo ESC pro navrat do DOSu.

@@ -1,0 +1,109 @@
+;
+;       COLONIZATION Game Menu
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@GAME
+~HRA
+  Nastavení hry
+  Nastavení zpráv o koloniích
+  Nastavení zvuku
+  Výběr hudby
+  Uložit Hru
+  Nahrát Hru
+  VYHLÁSIT NEZÁVISLOST
+  Skončit
+  Odchod do systému
+
+@VIEW
+~POHLED
+  Jednotka na tahu (~M)
+  Zobrazit ~Vlastnosti
+  ~Evropský status
+  Najít kolonii
+  Zoom In#   ~Z
+  Zoom Out   ~X
+  Úroveň zoomu 120 x 96
+  Úroveň zoomu #60 x 48
+  Úroveň zoomu #30 x 24
+  Úroveň zoomu #15 x 12
+  Ukaž skrytý terén (~H)
+  Vystředit pohled (~C)
+
+@ORDERS
+~ROZKAZY
+  ~Aktivovat jednotku
+  Čekat na další jednotku (~W)
+  Opevnit (~F)
+  Opevnit (~F)
+  Hlídka (~S)
+  Postavit kolonii (~B)
+  Připojit se ke kolonii (~B)
+  Vymýtit les (~P)
+  Vytvořit ~pole
+  Postavit cestu (~R)
+  Na~ložit náklad
+  Vyložit náklad (~U)
+  Zničit (~P)
+  Jdi do přístavu (~G)
+  Jdi do kolonie (~G)
+  Začni obchodní trasu (~T)
+  Náv~rat do Evropy
+  Bez příkazu (~s~p~a~c~e~ bar)
+  H~odit náklad přes palubu
+  Rozpustit jednotku (~s~h~i~f~t~-~D)
+
+@REPORTS
+~ZPRÁVY
+  ~F~1 Informace o terénu
+  ~F~2 Náboženský poradce
+  ~F~3 Kontinentální Kongres
+  ~F~4 Pracovní poradce
+  ~F~5 Ekonomický poradce
+  ~F~6 Poradce pro kolonie
+  ~F~7 Námořní poradce
+  ~F~8 Poradce pro zahraniční věci
+  ~F~9 Poradce pro indiány
+  ~F~1~0 Colonization skóre
+
+
+@TRADE
+~OBCHOD
+  Upravit obchodní trasu
+  Vytvořit obchodní trasu
+  Zrušit obchodní trasu
+
+@CUP
+~CHEAT
+  ~F~0~1 Vytvořit jednotku
+  ~F~0~2 Nastavení hry
+  ~F~0~4 Odkrýt mapu
+  ~F~0~5 Výběr lidského hráče
+  ~F~0~6 Zabít indiány
+  ~F~0~7 Vyhlášení revoluce
+  Test Hudby
+  Stav paměti
+  ~F~0~8 Ukaž strategii
+  ~F~0~9 Ukaž kolonie
+  ~F~1~0 Testovací rutina
+
+@PEDIA
+~COLONIZOPEDIA
+  Typy nákladu
+  Typy jednotek
+  Typy terénu
+  Dovednosti kolonistů
+  Budovy v koloniích
+  Otcové zakladatelé
+  Různé
+  Kompletní
+
+@END

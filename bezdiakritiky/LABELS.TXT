@@ -1,0 +1,298 @@
+;
+;       COLONIZATION Label Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@INFO
+Tahu:
+Lokace:
+S:
+S:
+
+@MISC
+
+
+Konec kola
+Nic
+Expert
+Pluji do
+Priplouvajici z
+Nyni prijizdi do
+Dokuje v
+Priplouva
+Pluje do
+Zadne lode v pristavu
+Ceka na prevoz
+(Cena:
+)
+Rozval. Ztrac. mesta
+.5
+Divocina
+Pevnina
+z
+Zadny naklad pripraveny k preprave!
+Zadne volne nakladove prostory!
+Zadny naklad na palube!
+Nakladani
+Vykladani
+do
+v
+Misie
+Misie
+ZPRAVA INDIANSKEHO PORADCE
+ZPRAVA NABOZENSKEHO PORADCE
+Cesta
+Nic
+jen
+Pokracuj v tahu.
+Zoom do kolonie.
+
+AKTIVITY KONTINENTALNIHO KONGRESU
+Nyni diskutuji:
+Znepokojeni kvuli
+Jezero
+vozy
+drzi
+Pozaduje
+(ZRUSIT SPECIALIZACI)
+Stada koni
+OK
+prodava
+pro
+ZPRAVA PRACOVNIHO PORADCE
+ZPRAVA EKONOMICKEHO PORADCE
+ZPRAVA PORADCE PRO KOLONIE
+ZPRAVA NAMORNIHO PORADCE
+Mimo mapu (Evropa)
+Na mape
+V koloniich
+(Klikni na polozku pro priblizeni)
+K
+Tun
+Zlata
+Volne more
+Lod
+Naklad
+Lokace
+Misto urceni
+Veteran
+Ostrileny
+Uceny
+Pozaduje:
+Rebel
+Kralovsky
+Sentiment
+Popularita krale
+porazka
+porazky
+BOJOVA ANALYZA
+Unava
+Utocny bonus
+Prepad
+Teren
+Kolonie
+Opevnena
+Spanelsky bonus
+Zorano
+Nechranena artilerie
+Expedicni vojsko
+Rebelove
+Kralovsti
+Zalezitosti
+Otcove zakladatele
+Drake
+(Udrzba budov)
+UDRZBA CELKEM
+ZPRAVA PORADCE PRO ZAHRANICNI VECI
+
+Kolonie
+Populace
+Prumerna kolonie
+Vojenska mocnost
+Namorni mocnost
+Obchodni lodstvo
+Valka
+Mir
+Poradce
+Bombardovat
++ Vice +
+a
+minuly
+COLONIZATION ENCYKLOPEDIE
+(Vice)
+(Exit)
+Intervencni vojsko
+Dalsi jednani Kontinentalniho kongresu
+Intervence
+COLONIZATION SKORE
+Obcane
+Nezavislost
+Vesnice vypaleny
+Vyhlasen
+Dosazen
+Zahranicni uznani
+Celkove skore
+Stromy
+(Mimo kolonii)
+Pozaduji
+Nabizeji
+SKORE DOKONCENO
+DOKONCENO
+dorazil do
+Artilerie vs. Prepadeni
+Vyhynuli
+Bojkot
+Nepokoje kralovskych
+Nepokoje rebelu
+Kontinentalni kongres
+Prodano
+Koupeno
+za
+$/tuna
+Cena
+% Dan
+Net
+Brzka Revoluce
+predchozi narody
+Mnozstvi zeme
+Typ zeme
+Teplota
+Klimat
+Malo
+Stredne
+Hodne
+Souostrovi
+Normalni
+Kontinenty
+Chladno
+Mirna
+Horko
+Suchy
+Normalni
+Vlhky
+PRIZPUSOBIT NOVY SVET
+Po dokonceni klikni zde
+Vyber
+Stupen obtiznosti
+Stupen
+Nejlehci
+Lehky
+Stredni
+Tezky
+Nejtezsi
+Vyber
+Evropskou mocnost
+Mocnost
+Imigrace
+Spoluprace
+Dobyvani
+Obchod
+Ryba
+s
+Boj
+Utok
+Nakladni prostory
+Tahu
+Pole
+Reka
+Pobrezi
+Cena tahu
+Obranny nebo prepadovy bonus
+Predpoklad
+(F1 pro Napovedu)
+(Stazeni z Noveho sveta)
+Volny
+COLONIZATION SIN SLAVY
+do
+L.P.
+Prezident
+General, Kontinentalni armada
+Vudce
+Skore
+Colonization_Hodnoceni
+Primarni
+Poskozeny
+Tisk
+Nabidka/cena
+Poptavka/cena
+Zoom do Evropy.
+Evropsky obchod
+Naklad v pristavu
+Vojenske posadky
+Synove svobody
+Exit
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+
+
+@ROUTE
+UPRAVIT OBCHODNI TRASU
+Jmeno trasy:
+Typ trasy:
+Morska
+Pozemni
+Cil
+Vylozit naklad
+Nalozit naklad
+(Smazat cil)
+
+@CMISC
+Sklizen / Zdroje
+Pritomne jednotky
+Udelat
+
+@CTITLE
+Pop:
+Zlato:
+KOUPIT
+ZMENIT
+Vyber polozku k postaveni
+(Zadna produkce)
+(Vice)
+Tahu)
+Vyber profesi pro
+Dan:
+
+@CMESSAGE
+koupeno za
+prodano za
+presunuto do
+. Cena:
+Neni misto pro
+Nic k preprave
+Nedostatek
+naplnit nakladovy prostor!
+prilis drahe!
+Ne
+v nakladovem prostoru!
+Nic k prevozu!
+za
+Nakupuji
+Prodavam
+Nakladam
+Vykladam
+% Dan:
+. Net:
+
+@EUROLABEL
+NABOR
+NAKUP
+VYSKOLIT
+x
+

@@ -1,0 +1,3384 @@
+;
+;       COLONIZATION Game Messages
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+
+
+@DOS
+@default=2
+Exit to DOS?
+
+Yes
+No
+
+@DOSYES
+Exit to DOS?
+
+Yes
+No
+
+@RETIRE
+@default=2
+Do you really want to quit?
+
+Yes
+No
+
+
+@BEGINMENU
+@width=160
+@y=91
+@smallfont
+{COLONIZATION} Version %STRING0 -- %STRING1
+@options
+Start a Game in NEW WORLD
+Start a Game in AMERICA
+CUSTOMIZE New World
+LOAD Game
+View Hall of Fame
+
+
+@GAMEOPTIONS
+@width=190
+@checkbox
+Set Game Options
+@options
+Show ~Indian Moves
+Show ~Foreign Moves
+Fast Piece ~Slide
+~End of Turn
+~Autosave
+~Combat Analysis
+Water Color C~ycling
+~Tutorial Hints
+
+@COLONYOPTIONS
+@width=220
+@checkbox
+Set Colony Report Options
+@options
+Labels on {buildings}
+Labels on {cargo} and {terrain}
+Report when colonists {trained}
+Report {food} shortages
+Report {raw materials} shortages
+Report {tools} needed for production
+Report {inefficient} government
+Report {new cargos} available
+Report {Sons of Liberty} membership
+Report {rebel} majorities
+
+@SOUNDOPTIONS
+@width=190
+@checkbox
+Set Sound Options
+@options
+~Background Music
+~Event Music
+~Sound Effects
+
+@SAVEGAME
+@width=190
+Select Save Slot
+
+@SAVEGOOD
+@width=190
+%STRING1 saved as %STRING0.
+
+@SAVEERROR
+@width=190
+Error saving game %STRING0.
+
+@LOADGAME
+@width=190
+Select Game To Load
+
+@LOADGOOD
+@width=190
+Loaded %STRING0 successfully.
+
+@LOADNOT
+@width=190
+%STRING0 is not a valid save file.
+
+@LOADOLD
+@width=190
+%STRING0 is an obsolete save file.
+
+@LOADSIZE
+@width=190
+%STRING0 does not match the current map
+size.  It cannot be loaded at this time.
+
+@LOADERROR
+@width=190
+Error loading game %STRING0.
+
+
+@PICKNATION
+@default=1
+Select a European Power
+
+England
+France
+Spain
+Netherlands
+
+
+@DIFFICULTY
+@width=190
+Select a Difficulty Level
+
+Discoverer
+Explorer
+Conquistador
+Governor
+Viceroy
+
+
+@LEADERNAME
+@width=300
+^^Please Enter Your Name.
+_
+_
+@options
+______________________
+
+
+@FINDCITY
+@width=190
+Where the heck is . . .
+
+Colony:
+
+@NOCITY
+@width=190
+"%STRING0" not found.
+
+@@smallfont
+
+@VICEROY
+@width=78
+@x=232
+@y=21
+^
+^^Year of Our Lord
+^^1492
+^
+^^An Audience With
+^^The King of %COUNTRY
+^
+"For the greater glory of %COUNTRY,
+we dub thee Viceroy of the New World.
+Go and explore this new land. Settle
+it and bring wealth and glory to
+yourself and our nation."
+
+
+@VICEROY2
+@width=78
+@x=232
+@y=21
+^
+^^Year of Our Lord
+^^1492
+^
+^^An Audience With
+^^The Stadtholder
+^
+"For the greater glory of %COUNTRY,
+we dub thee Viceroy of the New World.
+Go and explore this new land. Settle
+it and bring wealth and glory to
+yourself and our nation."
+
+
+@@VICEROY
+@@width=200
+@^^Year of Our Lord %YEAR
+@^^Audience With The King of %COUNTRY
+@^^_
+@"For the greater glory of %COUNTRY, we
+@^_dub thee {Viceroy of the New World}. Go
+@^_and explore this new land. Settle it
+@^_and bring wealth and glory to yourself
+@^_and our nation."
+
+@LANDHO
+@width=190
+@default=America
+Land Ho!  What shall we call this new
+land, Your Excellency?
+
+Name:
+
+@COLONY
+What shall we name this colony?
+
+Name:
+
+@RENAMECOLONY
+What shall we rename this colony?
+
+Name:
+
+@LANDFALL
+@default=1
+@width=190
+Shall we make landfall, Your Excellency,
+and leave the ships behind?
+
+Stay With Ships
+Make Landfall
+
+@LANDFALL2
+@default=1
+@width=190
+Our ships cannot navigate up this river,
+Excellency.  Shall we make landfall
+and leave the ships behind?
+
+Stay With Ships
+Make Landfall
+
+@ONLYPIO
+@width=120
+That function can be performed only
+by {pioneers}.
+
+@ONLYCOL
+@width=120
+That function can be performed only
+by {colonists}.
+
+@SHIPCOMBAT
+@width=190
+Only {Privateers} and {Frigates} can attack enemy ships.
+
+@SHIPLAKE
+@width=190
+Ship units cannot enter inland {lake} squares.
+
+@LANDFIRST
+@width=190
+Land units cannot enter an enemy occupied square
+from on board a ship.  You must first unload them
+into an empty or friendly-occupied square.
+
+@SEACOLONY
+@width=140
+It may surprise you to learn that colonies
+cannot be built at sea.
+
+@NOPORT
+@width=190
+This square does not have access to the {ocean},
+Your Excellency.  If we build a {colony} here we
+must transport its produce to {port}
+using {wagon trains}, which we can build in any
+colony.
+
+"Oh, I forgot about that."
+"And that is exactly what I had in mind."
+
+@BUILT
+@width=140
+%STRING0 colony produces {%STRING1}.
+
+@FULL
+@width=190
+The colony of {%STRING0} is {far too crowded},
+Excellency.
+We had best find another colony for these
+immigrants.
+
+
+@NOTEACHER
+@width=190
+Only colonists who have mastered a profession may teach.
+
+@NEEDCOLLEGE
+@width=190
+We must build a {college} to teach that
+profession ({%STRING0}) in our colony.
+
+@NEEDUNIVERSITY
+@width=190
+We must build a {university} to teach that
+profession ({%STRING0}) in our colony.
+
+
+@TRAINFAIL
+@width=190
+We have a {teacher} in {%STRING0}, but all the colonists
+there already have specialty professions.  Perhaps
+you should clear the specialty of one of the colonists
+by selecting him on the colony screen and picking
+"{Clear Specialty}" from the Jobs menu.
+
+@TRAINCRIMINAL
+@width=190
+A {criminal} in {%STRING0} has become an {indentured
+servant} through education.
+
+@TRAININDENTURED
+@width=190
+An {indentured servant} in {%STRING0} has become a
+{free colonist} through education.
+
+@TRAINPROFESSION
+@width=190
+A {colonist} in {%STRING0} has learned the specialty profession {%STRING1}.
+
+
+@SIEGE
+@width=190
+This colony is under {siege}, since enemy combat units
+outnumber friendly combat units in the area.  Until the siege is
+lifted, only Soldier and Dragoon units can be created here.
+
+@ABANDON
+@width=190
+@default=2
+Shall we indeed {abandon} our %STRING0 colony,
+Your Excellency, forfeiting all of our hard work
+here?
+
+Yes, it is God's will.
+Never! That would be folly.
+
+
+@ABANDON2
+@width=190
+@default=2
+Shall we indeed {abandon} our %STRING0 colony,
+Your Excellency, forfeiting all of our hard work
+here?  If we have no colonies at all after 1600,
+the King may revoke our charter!
+
+Yes, it is God's will.
+Never! That would be folly.
+
+
+@SAILHOME
+@width=190
+@default=1
+We have reached the {high seas}, Your
+Excellency.  Shall we sail for
+Europe?
+
+Yes, steady as she goes.
+No, let us remain in these waters.
+
+@SAILAWAY
+@width=190
+@default=1
+Shall we set sail for the {New World},
+Your Excellency?
+
+Yes, steady as she goes.
+No, let us remain in port.
+
+@SAILPORT
+@width=190
+@default=1
+Select a port to sail to:
+
+@TRAVELPLACE
+@width=190
+@default=1
+Select a colony to travel to:
+
+
+@UNREST
+@width=190
+@default=1
+Religious unrest in %COUNTRY causes increased
+emigration.  Colonists ({%STRING1}) now available in %STRING0.
+
+@RECRUIT
+@width=190
+The following individuals will
+accompany us to the New World if we will
+pay their passage ({%NUMBER0 gold}).  Whom
+shall we recruit?
+
+@RECRUITCHOOSE
+@width=220
+Religious unrest in %COUNTRY causes increased
+emigration.  Colonists now available in %STRING0.
+The following individuals will
+accompany us to the New World to
+pursue religious freedom.  Whom shall we recruit?
+
+
+@RECRUIT2
+@width=190
+The following specialty professions are available
+among the %STRING0. Which shall we recruit?
+
+
+@KINGRECRUIT
+@width=190
+@smallfont
+The {Royal University} can provide us with specialists
+if we grease the right palms.  Which
+skill shall we request?
+
+
+@PURCHASE
+@width=190
+The following items are available.  Which shall
+we purchase?
+
+@SCHOOL1
+@width=190
+The {Schoolhouse} can support a faculty of only {one}
+teacher at a time, Your Excellency.
+
+@COLLEGE2
+@width=190
+The {College} can support a faculty of only {two}
+teachers at a time, Your Excellency.
+
+@UNIV3
+@width=190
+The {University} can support a faculty of only {three}
+teachers at a time, Your Excellency.
+
+@NODOCKS
+@width=190
+We cannot operate fishing boats at this colony
+until we build {Docks}, Your Excellency.
+
+@CARGOREADY0
+@width=190
+A new cargo of {%STRING1} is ready at {%STRING0}, Your Excellency.
+
+@CARGOREADY1
+@width=190
+A new cargo of {%STRING1} is ready at {%STRING0}, Your Excellency.
+%STRING0 has reached its storage capacity for %STRING1 ({%NUMBER0}), so
+we may wish to consider building a larger {warehouse} there.
+
+
+@CARGOREADY2
+@width=190
+A new cargo of {%STRING1} is ready at {%STRING0}, Your Excellency.
+%STRING0 has reached its storage capacity for %STRING1 ({%NUMBER0}).
+
+
+@LUMBER
+@width=190
+{%STRING0} has run out of {lumber}, Your Excellency.  Our carpenters
+cannot continue their work until a new supply is found.
+
+@COTTON
+@width=190
+{%STRING0} has run out of {cotton}, Your Excellency.  Our weavers
+cannot continue their work until a new supply is found.
+
+@TOBACCO
+@width=190
+{%STRING0} has run out of {tobacco}, Your Excellency.  Our tobacconists
+cannot continue their work until a new supply is found.
+
+@CANESUGAR
+@width=190
+{%STRING0} has run out of {sugar}, Your Excellency.  Our distillers
+cannot continue their work until a new supply is found.
+
+@FURS
+@width=190
+{%STRING0} has run out of {furs}, Your Excellency.  Our fur traders
+cannot continue their work until a new supply is found.
+
+@ORE
+@width=190
+{%STRING0} has run out of {ore}, Your Excellency.  Our blacksmiths
+cannot continue their work until a new supply is found.
+
+@TOOLS
+@width=190
+{%STRING0} has run out of {tools}, Your Excellency.  Our gunsmiths
+cannot continue their work until a new supply is found.
+
+
+@FOOD1
+@width=190
+Food stores have been depleted
+in {%STRING0}, Your Excellency!
+
+@FOOD2
+@width=190
+Food stores have been depleted
+in {%STRING0}, Your Excellency!  {Winter} is coming soon and
+we may {starve} to death!
+
+@VANISH
+@width=190
+Your Excellency!  Our colony at {%STRING0} has
+vanished!  The colonists appear
+to have {starved} to death.
+
+@STARVE1
+@width=190
+{%STRING0} colony has run out of food, Your Excellency!
+In this harsh winter weather, many colonists are {starving}
+to death.
+
+@STARVE2
+@width=190
+{%STRING0} colony has run out of food, Your Excellency!
+Colonists are {starving} to death, and to make matters worse,
+winter is coming soon.
+
+@FOODLOW
+@width=190
+The colony of {%STRING0} is rapidly depleting its
+food supply, Your Excellency.  We have only {%NUMBER0 food}
+left.  We must have food for the winter months.
+
+@SPOIL1
+@width=190
+The colony of {%STRING0} has exceeded its warehouse capacity.
+{%NUMBER0} tons of {%STRING1} have been thrown away.
+A larger {warehouse} could hold another {100} tons of this cargo.
+
+@SPOIL2
+@width=190
+The colony of {%STRING0} has exceeded its warehouse capacity.
+Some of our cargo has been thrown away.
+A larger {warehouse} could hold another {100} tons of this cargo.
+
+@SPOIL3
+@width=190
+The colony of {%STRING0} has exceeded its warehouse capacity.
+{%NUMBER0} tons of {%STRING1} have been thrown away.
+
+@SPOIL4
+@width=190
+The colony of {%STRING0} has exceeded its warehouse capacity.
+Some of our cargo has been thrown away.
+
+
+@BUYME0
+@width=160
+Cost to complete %STRING0: %NUMBER0$.
+^Treasury: %NUMBER1$.
+
+@BUYME1
+@width=160
+@default=1
+Cost to complete %STRING0: %NUMBER0$.
+^Treasury: %NUMBER1$.
+
+Never mind.
+Complete it.
+
+
+@DEFOREST
+@width=160
+Deforestation near %STRING0.
+
+@DEPLETION
+@width=160
+Mine depleted near %STRING0.
+
+@UNITFLAG
+@width=160
+Unit Flags Error (%NUMBER0, %NUMBER1) (%STRING0).
+
+@COLONYFLAG
+@width=160
+Colony Flags Error.
+
+@LOSTCITY0
+@width=190
+Which of the following individuals shall we recruit?
+
+@LOSTCITY1
+@width=190
+You have discovered a {Fountain
+of Youth}!  Rumors fly in Europe! Immigrants line
+the docks to seek perpetual youth in the New World!
+
+@LOSTCITY2
+@width=190
+You have found one of the {Seven
+Cities of Cibola}!  Treasure worth {%NUMBER1$} unearthed
+in the ruins!  It will take a {Galleon} to get this
+treasure back to Europe!
+
+@LOSTCITY3
+@width=190
+You find the ruins of a lost civilization.
+Within are gold and artifacts worth {%NUMBER0$}.
+
+@LOSTCITY4
+@width=190
+Your expedition happens upon strange burial
+mounds.
+
+"Let us search for treasure!"
+"Stay clear of those!"
+
+
+@SCREWED
+@width=190
+"These are the burial grounds of our
+ancient {%STRING0} fathers!  You have
+trespassed on sacred land.  Now
+you must die!"
+
+@BURIAL1
+@width=190
+The mounds are cold and empty.
+
+@BURIAL2
+@width=190
+Within, you find trinkets worth {%NUMBER0$}.
+
+@BURIAL3
+@width=190
+Within, you find incredible treasure worth {%NUMBER1$}!
+It will take a {Galleon} to get this treasure back
+to Europe!
+
+
+@LOSTCITY5
+@width=190
+Your expedition has vanished without
+a trace!
+
+@LOSTCITY6
+@width=190
+You find nothing but rumors.
+
+
+@LOSTCITY7
+@width=190
+Your expedition enters the village of a small,
+friendly tribe.  The chief offers you a gift
+of {%NUMBER0$}.
+
+
+@LOSTCITY8
+@width=190
+"You are trespassing near our holy {%STRING0} shrines!  The
+%STRING0 tribe is most displeased!"
+
+
+@LOSTCITY9
+@width=190
+You happen upon the desperate survivors of
+a former colony.  In exchange for badly needed
+supplies, they swear allegiance to %STRING0.
+
+
+@SNEAK
+@width=190
+Sneak attack by the treacherous {%STRING0}!
+
+
+@CANCELPEACE
+@width=190
+{%STRING0} cancel peace treaty with {%STRING1}.
+
+@SIGNTREATY
+@width=190
+The {%STRING0} and {%STRING1} have signed a peace treaty.
+
+@DECLAREWAR
+@width=190
+The {%STRING0} and {%STRING1} are now at war.
+
+
+@HAVETREATY
+@width=190
+"We have signed a peace treaty with the {%STRING0},
+Your Excellency."
+
+Cancel Action.
+Break Treaty.
+
+
+@WHACKINDIANS
+@width=190
+Shall we attack the {%STRING0}, Your Excellency?
+
+Yes
+No
+
+@VILLAGEHAPPY
+@width=190
+Your expedition has reached a %STRING0 of {%STRING1}.  The
+inhabitants are peacefully working in the surrounding fields.
+They wave to you {happily}.
+
+@VILLAGESAVAGE
+@width=190
+Your expedition has reached a %STRING0 of {%STRING1}.  The
+inhabitants are busy
+in the surrounding fields.  As they wave to you {happily},
+you notice a collection of scalps hanging threateningly from
+a nearby tree.
+
+@VILLAGEMEDIUM
+@width=190
+Your expedition has reached a %STRING0 of {%STRING1}.  The
+inhabitants are busy in the surrounding fields.
+Small parties of warriors practice
+{archery} and frown at you {suspiciously}.
+
+@VILLAGEBAD
+@width=190
+Your expedition has reached a %STRING0 of {%STRING1}.  A
+band of {warriors} eyes you warily.  The others
+are nowhere to be seen.
+
+@VILLAGEWAR
+@width=190
+Your expedition has reached a %STRING0 of {%STRING1}.  A
+collection of scalps hangs threateningly from a nearby
+tree.  From within, you hear the ominous sound
+of {war drums}.
+
+
+
+@INDIANWELCOME
+@width=190
+"The {%STRING0} tribe welcomes you.
+We are a glorious nation of {%NUMBER0 %STRING1}.
+To celebrate our friendship, we generously
+offer you the land you now occupy as a gift.
+Will you accept our treaty and live
+with us in peace as brothers?"
+
+Yes
+No
+
+@INDIANBOW
+@width=190
+"The {%STRING0} tribe bows before the might of the {%STRING1}.
+In tribute to your greatness, we give you all the land you
+now occupy."
+
+@INDIANTREATY
+@width=190
+"The {%STRING0} tribe bows before the
+might of the {%STRING1}.  In tribute to your greatness,
+we give you all the land you now occupy.
+Will you accept our treaty and live side by side with
+us in peace?"
+
+Yes
+No
+
+@INDIANHELLO1
+@width=190
+"The {%STRING0} tribe welcomes the most worthy {%STRING1}
+of the {%STRING2}."
+
+@INDIANHELLO2
+@width=190
+"The {%STRING0} tribe greets the most ruthless {%STRING1}
+of the {%STRING2}."
+
+@INDIANPEACE
+@width=190
+"The {%STRING0} welcome peace with our brothers
+the {%STRING1}.  Let us smoke a peace pipe to celebrate
+our perpetual friendship."
+
+@INDIANCOME
+@width=190
+"We hope you will soon {visit} %STRING0 villages to
+share knowledge with us, and that you will send your
+{wagon trains} to trade with us."
+
+@INDIANSHUN
+@width=190
+"Then the mighty {%STRING0} shall mercilessly drive you from our
+shores.  Prepare for WAR!"
+
+
+@INDIANWAGONS
+@width=190
+"The {%STRING0} settlers have committed
+intolerable acts of destruction against {%STRING1} lands
+and the %STRING1 people.  We therefore demand all {%NUMBER0} of
+the {%STRING2} in these wagons as reparations."
+
+Hand them over.
+Circle the wagons.
+
+@INDIANCITY
+@width=190
+The {%STRING0} settlers in {%STRING3} have committed
+intolerable acts of destruction against {%STRING1} lands
+and the %STRING1 people.  We therefore demand {%NUMBER0 %STRING2}
+from the colony stores as reparations."
+
+Man the stockade.
+Hand them over.
+
+
+@INDIANGOLD
+@width=190
+"The {%STRING0} people cry out for justice.
+We demand {%NUMBER0$} in reparations."
+
+"Never shall we accede to blackmail!"
+"We shall gladly pay {%NUMBER0$}."
+
+
+@INDIANSLAVES
+@width=190
+Frightened {%STRING0} flock to %STRING1 mission as {converts}.
+
+@INDIANSCONVERT
+@width=190
+"The wisdom of your missionaries has convinced some of us
+to join your colony
+at {%STRING0} and live among you as {converts}."
+
+@INDIANGIVEFOOD
+@width=190
+"The {%STRING0} see that your food stores are low this
+season.  Our own harvest has been plentiful, however,
+and we have come to share our bounty with you.
+We offer you a gift of {%NUMBER0 food} in recognition of the
+everlasting peace between our peoples.  Let us eat together
+and give thanks for our good fortune."
+
+@INDIANGIVESTUFF
+@width=190
+"The {%STRING0} tribe is pleased to see the progress of
+our neighbors at {%STRING1}.  We have come to offer you
+{%NUMBER0 %STRING2} in recognition of the everlasting
+peace between our peoples."
+
+@INDIANCOMMENT
+@width=190
+The {%STRING0} are pleased to see the prosperity of our
+neighbors the {%STRING1}.  We are concerned, however, that
+your colonies are beginning to overuse the lands near our
+settlements.
+
+@INDIANBEGFOOD
+@width=190
+"The {%STRING0} tribe has fallen upon hard times and does
+not have enough food this season.  Will our brothers of
+{%STRING1} share the bounty of their harvests with us in our
+time of need?"
+
+"I'm sorry, we gave at the office."
+"We offer you {%NUMBER0} of our {%NUMBER1 food} as a sign of friendship."
+
+@INDIANWAR
+@width=190
+"We {%STRING0} have tried to live in
+peace with you, but these provocations are intolerable.
+Your crimes cry out for vengeance--prepare for WAR!"
+
+@INDIANGRUDGE
+@width=190
+{%STRING0} nation holds War Council!
+%STRING1 enter the War of Independence on the Tory side!
+Tories agree to provide Muskets and Horses for the %STRING0.
+
+@INDIANLAND
+@width=190
+"You are trespassing on {%STRING0 land}.
+We patiently ask that you leave immediately."
+
+"Very well, we shall respect your wishes."
+"We offer you {%NUMBER1$} for this land."
+"You are mistaken; this is OUR land now!"
+
+@INDIANROAD
+@width=190
+"We are worried that building a {road}
+here might disrupt the {%STRING0} way of life.  We
+patiently ask you to stop."
+
+"Then we shall not build a road, friend."
+"We offer you {%NUMBER1$} in compensation."
+"I'm sorry, but this road is necessary."
+
+@INDIANFOREST
+@width=190
+"This forest and the creatures
+it supports are necessary to sustain the {%STRING0} way
+of life.  We patiently ask you not to destroy it."
+
+"Let these trees stand forever, then, friend."
+"We offer you {%NUMBER1$} in compensation."
+"Timmmmmmmbeeeeerrrrrrrrrrrr!"
+
+@INDIANFOREST2
+@width=190
+"This forest and the creatures
+it supports are necessary to sustain the {%STRING0} way
+of life.  Your colony at {%STRING1} is now encroaching on
+the forest.  We patiently ask you not to destroy it."
+
+@INDIANBRIBE
+@width=190
+"Very well, we withdraw our objection."
+
+@NOPLOW
+@width=190
+That land has already been {plowed}.
+
+@NOROAD
+@width=190
+There is already a {road} here,
+Your Excellency.
+
+@VIOLATE
+@width=190
+{%STRING0} violate {%STRING1} territory near {%STRING2}!
+Colonists are outraged!
+
+@HALF
+@width=190
+Your Excellency, these men are tired.  If we force
+them to attack this turn, they will fight at {%NUMBER0/3
+strength}.
+
+"Charge!"
+"Then let them rest."
+
+
+@NOLOOT
+@width=190
+{%STRING0} burn {%STRING1 %STRING2}!  Natives flee in
+panic!
+
+@LOOT
+@width=190
+{%STRING0} loot and burn {%STRING1 %STRING2}!  Natives flee in
+panic! {%NUMBER0$} worth of treasure recovered from ruins!
+It will take a {Galleon} to get this treasure back to Europe!
+
+@LOOT2
+@width=190
+{%STRING0} burn {%STRING1 %STRING2}!  Natives flee in panic!
+
+@LOOTCASH
+@width=190
+{%STRING0} treasure fleet laden with {%NUMBER0$} arrives safely in %STRING1!
+Crown takes {%NUMBER1%%} share.  {%NUMBER2$} added to %STRING0 treasury.
+
+@LOOTFOREIGN
+@width=190
+Spies report: {%STRING0} treasure fleet laden with {%NUMBER0$} arrives
+in %STRING1.  %STRING0 king pleased with booty.
+
+@LOOTCAPTURE
+@width=190
+{%STRING0} treasure worth {%NUMBER0$} CAPTURED by the {%STRING1}!
+
+@WAGONCAPTURE
+@width=190
+{%STRING0} wagon train CAPTURED by the {%STRING1}!
+
+@COLONISTCAPTURE
+@width=190
+{%STRING0} colonists CAPTURED by the {%STRING1}!
+
+@COLONISTCAPTURE2
+@width=190
+{%STRING0} colonists CAPTURED by the {%STRING1}!  Soldiers
+lose Veteran status.
+
+@CARGOCAPTURE
+@width=190
+{%STRING0} cargo of {%NUMBER0 %STRING1} captured by {%STRING2 %STRING3}!
+
+@DEMOTE
+@width=190
+{%STRING0 %STRING1} routed!  Unit demoted to {%STRING2} status.
+
+@SHIPDAMAGE
+@width=190
+{%STRING0 %STRING1} damaged!  Ship returns to {%STRING2} for repairs.
+
+@SHIPSUNK
+@width=190
+{%STRING0 %STRING1 sunk} by %STRING2 %STRING3!
+
+
+@RAIDNOTHING
+@width=190
+{%STRING0} raiding party wiped out in {%STRING1}!
+Colonists jubilant!
+
+
+@RAIDWREAK
+@width=190
+Spies report: {%STRING0} raiding party wreaks havoc in
+the {%STRING3} colony of {%STRING1}.
+
+
+@RAIDSTORES
+@width=190
+{%STRING0} raiding party attacks stores in {%STRING1}!
+Large quantities of {%STRING2} stolen.  Colonists outraged!
+
+
+@RAIDBURN
+@width=190
+{%STRING0} raiding party burns buildings in {%STRING1}!
+{%STRING2} destroyed.  Colonists demand immediate vengeance!
+
+@RAIDSCALP
+@width=190
+{%STRING0} raiding party takes scalps in {%STRING1}!
+Colonists scream for revenge!
+
+@RAIDSHIP
+@width=190
+{%STRING0} raiding party attacks harbor in {%STRING1}!
+{%STRING2} damaged.  Colonists appalled!
+
+@RAIDGOLD
+@width=190
+{%STRING0} raiding party seizes strongboxes in {%STRING1}!
+Merchants report {%NUMBER0$} plundered.  Colonists enraged!
+
+@MISSION0
+@width=190
+%STRING0 %STRING1 mission founded in %STRING2, %NUMBER0.
+{%STRING3} approach new religion with {curiousity}.
+
+@MISSION1
+@width=190
+%STRING0 %STRING1 mission founded in %STRING2, %NUMBER0.
+{%STRING3} are {cautious}.
+
+@MISSION2
+@width=190
+%STRING0 %STRING1 mission founded in %STRING2, %NUMBER0.
+{%STRING3} are {offended}.
+
+@MISSION3
+@width=190
+%STRING0 %STRING1 mission founded in %STRING2, %NUMBER0.
+{%STRING3} react with {hostility}.
+
+@HERESY0
+@width=190
+{%STRING0 missionaries} denounce heresy of {%STRING1}.
+{%STRING2} converts burn %STRING1 mission and erect
+a new, %STRING0 one!
+
+@HERESY1
+@width=190
+{%STRING0 missionaries} denounce heresy of {%STRING1}.
+Loyal {%STRING2} worshipers burn the %STRING0 at the
+stake!
+
+@INDIANBURN
+@width=190
+{%STRING0} burn {%STRING1} missions!  Church authorities
+are outraged!
+
+@INDIANWIN0
+@width=190
+{%STRING0} ambush {%STRING1 %STRING2} near %STRING3!
+
+@INDIANWIN1
+@width=190
+{%STRING0} ambush {%STRING1 %STRING2} near %STRING3!
+{Muskets} seized by %STRING4 braves!
+
+@INDIANWIN2
+@width=190
+{%STRING0} ambush {%STRING1 %STRING2} near %STRING3!
+{Horses} seized by %STRING4 braves!
+
+
+@INDIANLOSE
+@width=190
+{%STRING1 %STRING2} %STRING4 {%STRING0} near %STRING3!
+
+@INDIANWINCOLONY
+@width=190
+{%STRING0} massacre {%STRING1} colonists at {%STRING3}!
+{%STRING2} dies fending off onslaught.
+
+@INDIANWINCOLONY2
+@width=190
+Spies report: {%STRING0} massacre {%STRING1} colonists at {%STRING3}.
+%STRING1 governor plans countermeasures.
+
+@INDIANBURNCOLONY
+@width=190
+{%STRING0} massacre {%STRING1} colonists at {%STRING3}!
+Colony burned to the ground!  King demands
+explanation!
+
+@INDIANBURNCOLONY2
+@width=190
+Spies report: {%STRING0} burn {%STRING1} colony at {%STRING3}.
+%STRING1 governor vows revenge.
+
+@INDIANSURPRISE
+@width=190
+{%STRING0} make surprise raid near {%STRING1}!  Colonists
+frightened.  %STRING2 chief denies involvement.
+
+@CAPTURED
+@width=190
+{%STRING0} march into {%STRING2}!  {%NUMBER0$}
+plundered!
+
+@CAPTURED2
+@width=190
+Spies report: {%STRING0} march into {%STRING2}.
+
+@CAPTURED3
+@width=190
+{%STRING0} march into {%STRING2}!
+
+@BURNED
+@width=190
+{%STRING0} burn {%STRING3} to the ground!
+Colonists flee in panic!  King demands
+explanation!
+
+@BURNED2
+@width=190
+Colony at {%STRING3} burned to the ground.
+{%STRING1} governor vows reprisals.
+
+@BURNED3
+@width=190
+Spies report: {%STRING0} burn {%STRING1} colony at {%STRING3}.
+%STRING1 governor vows reprisals.
+
+
+@EUROPEWIN
+@width=190
+{%STRING0} %STRING4 {%STRING1 %STRING2} near %STRING3!
+
+@EUROPELOSE
+@width=190
+{%STRING1 %STRING2} %STRING4 {%STRING0} near %STRING3!
+
+@WAREHOUSEFULL
+@width=190
+Your Excellency, the warehouse at {%STRING0} already
+contains {%NUMBER0} units of {%STRING1}.  It can only hold {%NUMBER1}.
+If we add another {%NUMBER2} units, some of the %STRING1 will
+probably {spoil}!
+
+Never mind.
+Unload the {%STRING1} anyway.
+
+@EXTORTSTUFF
+@width=190
+"Great %STRING0, we bow before the might of your strange weapons.
+The humble and peaceloving {%STRING1} shall gladly deliver {%NUMBER0
+%STRING2} to {%STRING3} in the hope that you will spare us from the
+wrath of your warriors."
+
+@EXTORTPOOR
+@width=190
+"Mighty %STRING0, we tremble before you.  Alas, the humble and
+peaceloving {%STRING1} have no gifts worthy of your magnificence.
+We pray that you will be merciful and spare us."
+
+@EXTORTLAUGH
+@width=190
+"We laugh at your puny threats.  Do not try our patience, for
+{%STRING0} warriors are known for their ferocity in times of war."
+
+@EXTORTNO
+@width=190
+"You must think us very foolish indeed, %STRING0 %STRING1.  The {%STRING2}
+will not be taken in by your tricks and treachery."
+
+@TOONEAR
+@width=190
+This land is too near to {%STRING0} for
+a new colony, Your Excellency.
+
+@TOONEARBUILD
+@width=190
+A colony building project is already under way
+in an adjacent square, Your Excellency.
+
+@TOOMOUNTAIN
+@width=190
+Colonies cannot be built in the {mountains},
+Your Excellency.
+
+@DONTKNOWSHIPS
+@width=190
+We must contact the Indians on land first, Excellency."
+
+@MADATSHIPS
+@width=190
+"The {%STRING0} people do not trust the men in your
+ships.  Therefore, we do not wish to trade with you
+at this time.
+If you approach our shoreline we shall punish you."
+
+@MADATWAGONS
+@width=190
+"Because of the atrocities you have committed against
+the {%STRING0} people, we do not wish to trade with you."
+
+@GRUDGEWAGONS
+@width=190
+"We grudgingly receive your wagons in spite of the
+atrocities you have committed against the {%STRING0} people."
+
+@CONFISCATE
+@width=190
+"Because of the atrocities you have committed against
+the {%STRING0} people, we shall confiscate all the
+{%STRING1} in these wagons."
+
+
+@CHIEFHOWDY
+@width=190
+"Greetings, travelers.  We are a peaceful village
+known for our {%STRING0}.  We would gladly trade with
+you if you bring us some badly
+needed {%STRING1}.  We would also pay well for {%STRING2}
+or {%STRING3}.
+
+@CHIEFGUIDES
+@width=190
+"We gladly welcome you to our %STRING1.
+In honor of the strange tales you have shared with us,
+the {%STRING0} shall provide you with {guides} to
+aid your passage through our lands."
+
+@CHIEFAREA
+@width=190
+"The {%STRING0} are pleased to welcome travelers
+from afar.  Come sit by the fire and
+we shall tell you tales of {nearby lands}."
+
+@CHIEFGIFT
+@width=190
+"The {%STRING0} welcome the emissaries of the {%STRING1}
+tribe.  Please take these valuable beads (worth {%NUMBER0$})
+back to your chieftain as a peace offering."
+
+@CHIEFBORED
+@width=190
+"The {%STRING0} are always pleased to welcome {%STRING1}
+travelers."
+
+@CHIEFKILL
+@width=190
+"You have broken sacred taboos of the {%STRING0} tribe!
+We shall tie you up for target practice."
+
+
+
+@KILLWAGONS
+@width=190
+Your Excellency! Our {wagon train} has disappeared
+without a trace in {%STRING0} country.
+
+@TRADE0
+@width=190
+"We see that you have brought some %STRING0
+{%STRING1} to trade with us.  We offer you {%NUMBER0$}
+in exchange."
+
+"We gratefully accept {%NUMBER0$}."
+"A fairer price would be {%NUMBER1$}."
+"No, let the %STRING1 be our {gift} to you."
+"Never mind."
+
+@TRADE1
+@width=190
+"Your haggling is trying our patience, but
+we shall raise our offer to {%NUMBER0$}
+for your {%STRING1}."
+
+"We gratefully accept {%NUMBER0$}."
+"A fairer price would be {%NUMBER1$}."
+"Never mind."
+
+@BADCARGO
+@width=190
+"We have enough {%STRING0} and don't
+need any more right now.
+Come back when you have something else to
+offer.  We are in need of {%STRING1} and {%STRING2}.
+Even {%STRING3} would be of some use."
+
+@BADHAGGLE0
+@width=190
+"Our patience with your haggling is exhausted.
+We no longer want your worthless {%STRING1}.  Come
+back when you have something else to offer."
+
+@BADHAGGLE1
+@width=190
+"We have already told you that we no longer want your
+{%STRING0}.  Come back when you have something
+else."
+
+@BADHAGGLE2
+@width=190
+"Our patience with your haggling is exhausted.
+We will sell you nothing further until you bring
+us something of value."
+
+@BADHAGGLE3
+@width=190
+"As we said before, we will sell you nothing further
+until you bring us something of value."
+
+@BRING
+@width=190
+"We are in need of {%STRING0} and {%STRING1}.  Perhaps you will
+bring some next time you come to trade with us.  Even {%STRING2}
+would be of some value."
+
+@DEFICIT
+@width=190
+"Since you have brought no trade goods, we will not
+trade with you."
+
+@BUYWHICH
+@width=190
+"We have {%STRING0}, {%STRING1}, and {%STRING2} available to trade with
+you.  Which would you like to buy?"
+
+"{%STRING0}."
+"{%STRING1}."
+"{%STRING2}."
+"Nothing right now, thank you."
+
+@TRADEWHICH
+@width=190
+Which cargo shall we offer to trade, Your Excellency?
+
+@BUY0
+@width=190
+"We shall fill up your {%STRING1} with {%NUMBER2 %STRING0} in
+exchange for {%NUMBER0$}.  Is this acceptable?"
+
+"We will gladly pay {%NUMBER0$} (of {%NUMBER3$})."
+"A fairer price would be {%NUMBER1$}."
+"Never mind."
+
+@BUY1
+@width=190
+"We grow tired of your constant haggling.  We shall fill up
+your {%STRING1} with {%NUMBER2 %STRING0} in exchange for {%NUMBER0$}.
+Is this acceptable?"
+
+"We will gladly pay {%NUMBER0$} (of {%NUMBER3$})."
+"A fairer price would be {%NUMBER1$}."
+"Never mind."
+
+@NOTENOUGH
+@width=190
+"Sadly, your treasury ({%NUMBER0$}) is not large enough to
+back your promise."
+
+@LEARNMASTER
+@width=190
+"We are glad to have a master {%STRING1} living
+among us, Old One.  However, we can only teach
+new skills to colonists who do not yet have one.
+Bring us an {indentured servant} or a {free colonist} and
+we will train him."
+
+@LEARNCRIMINAL
+@width=190
+"Your ill manners offend us, Young One, and
+we doubt that you will ever be more than a {common
+criminal}.  The {%STRING0} will teach you nothing."
+
+@LEARNALREADY
+@width=190
+"The {%STRING0} of this village have already shared
+their skills with young Europeans.  Go and learn
+from them if you will, for we have nothing else to
+teach."
+
+@LEARNMAD
+@width=190
+"Your ill manners infuriate us, Young One.  You fail
+to understand our ways, so we doubt you will ever
+learn anything from us.  In fact, we wish you would
+leave_._._._your presence offends us."
+
+@LEARNSLOW
+@width=190
+"You are unskilled and uncouth, Young One, and have
+difficulty understanding our ways.  We see scarce
+hope for you, although you are welcome to remain
+in our village.  Perhaps in time you will
+be productive."
+
+@LEARNSTAY
+@width=190
+"You are unskilled, Young One, and your ways are
+strange.  If you wish, however, we {%STRING0} will
+show you how to become a master {%STRING1}."
+
+"Then I shall become a master {%STRING1}."
+"Not right now, thanks."
+
+@LEARNLATER
+@width=190
+"Very well.  Perhaps another time."
+
+@LEARNDONE
+@width=190
+"Congratulations, Young One.  You have learned the
+ways of the {%STRING0} and become a master {%STRING1}.
+We hope you will share this knowledge wisely.  You
+are always welcome to stay in our village."
+
+@TRADEMANY
+@width=190
+Only {%NUMBER0} trade routes can be defined, Your Excellency.
+To create a new trade route now, you must delete an old one first.
+
+@TRADESTART
+@width=190
+Select destination number %NUMBER0 for route
+
+@TRADETYPE
+@width=190
+Is this a {sea} trade route or a {land} trade route?
+
+Sea route
+Land route
+
+@TRADENAMES
+5
+Run
+Ferry
+Cargo
+Transport
+Triangle
+
+@TRADENAME
+@width=190
+Enter the name for this trade route.
+
+Name:
+
+@TRADENONE
+@width=190
+You have not yet defined any trade routes.
+
+@TRADENONE2
+@width=190
+You have not yet defined any {%STRING0} trade routes.
+
+@TRADESELECT
+@width=190
+Select a trade route:
+
+
+@TRADEDELETE
+@width=190
+Which trade route should we {delete}:
+
+@SUREDELETE
+@width=190
+Are you sure you want to delete the {%STRING0}?
+
+Yes
+No
+
+@CARGOLOAD
+@width=120
+Select a cargo to load at {%STRING0}.
+
+@CARGOUNLOAD
+@width=120
+Select a cargo to unload at {%STRING0}.
+
+@ROUTELOOP
+@width=190
+Your Excellency, our "{%STRING0}" trade route
+has only one port on its itinerary!
+
+@PISS0
+@width=190
+The {%STRING1} tribe is now %STRING2 {%STRING3}.
+
+@PISS1
+@width=190
+Because of your incessant roadbuilding,
+the {%STRING1} tribe is now %STRING2 {%STRING3}.
+
+@PISS2
+@width=190
+Because you persist in destroying the forest,
+the {%STRING1} tribe is now %STRING2 {%STRING3}.
+
+@PISS3
+@width=190
+Because of the continued work of %STRING0 missionaries,
+the {%STRING1} tribe is now %STRING2 {%STRING3}.
+
+@PISS4
+@width=190
+Because of this umprovoked attack,
+the {%STRING1} tribe is now %STRING2 {%STRING3}.
+
+@PISS5
+@width=190
+Because of increasing population pressure
+from %STRING0 colonies, the {%STRING1} tribe
+is now %STRING2 {%STRING3}.
+
+
+
+
+@KINGNO
+@width=190
+"We are most dissatisfied with your efforts in the
+New World.  Therefore we do not deign to fulfill
+your request at this time."
+
+
+@KINGFUND
+@width=190
+"Our royal treasury is stretched to the limit.  At this
+time we can offer you a grant of only {%NUMBER0$}."
+
+"We gratefully accept this gift."
+"Never mind."
+
+@KINGLOWER
+@width=190
+"After careful consideration, we have graciously decided
+to lower your tax rate by {%NUMBER0%%}.  The tax rate is
+now {%NUMBER1%%}."
+
+@KINGNOTHING
+@width=190
+"In spite of your impudence, we shall not change your
+tax rate at this time.  You may, however, kiss our
+royal pinky ring."
+
+@KINGRAISE
+@width=190
+"Your DARE to demand lower taxes!  After the kindness
+the crown has shown?  For your impudence we shall raise
+taxes by {%NUMBER0%%}.  The tax rate is now {%NUMBER1%%}."
+
+@KINGTAX
+@width=190
+"It is essential that the Crown receive proper
+recompense for its efforts on your behalf.
+Therefore we have graciously decided to raise your tax rate
+by {%NUMBER0%%}.  The tax rate is now {%NUMBER1%%}.  If you
+wish, you may kiss our royal pinky ring."
+
+@KINGBLESS
+@width=190
+"You have our royal blessing.  If you wish, you may kiss
+our royal pinky ring."
+
+@KINGLAUGH
+@width=190
+"Ha ha ha ha ha ha ha!  You make a funny joke!
+Ho ho ho ho ho!  Independence!  Ha ha ha ha ha!"
+
+@KINGWELCOME0
+@width=190
+"Welcome, %STRING0 %STRING1.  Your exploits in
+the New World please us greatly."
+
+@MERCANTILISM
+@width=190
+"We are concerned that this {%STRING0} you have built
+will take profits away from hardworking %STRING1 merchants.
+Therefore we have graciously decided to raise your tax rate
+by {%NUMBER0%%}.  The tax rate is now {%NUMBER1%%}.  If you
+wish, you may kiss our royal pinky ring."
+
+@PURCHASETAX
+@width=190
+"We have graciously decided to raise your tax rate by {%NUMBER0%%}
+in recognition of your use of Crown resources.  The tax rate is
+now {%NUMBER1%%}.  If you wish, you may kiss our royal pinky ring."
+
+@TAXOPTIONS
+Kiss pinky ring.
+Hold '{%STRING3 Party}.'
+
+@TEAPARTY
+@width=220
+{%STRING3 Party}!  Sons of Liberty throw {%NUMBER0} tons of %STRING0
+into the sea at %STRING1!  Colonists refuse to pay new tax.  Parliament
+announces boycott of %STRING0.  %STRING0 cannot be traded in %STRING2
+until boycott is lifted.
+
+@KISSUP
+@width=220
+{%STRING0} is currently under Parliamentary {boycott}, Your Excellency.
+We cannot trade %STRING0 in %STRING1 until Parliament lifts the boycott,
+which it will not do until we agree to pay {%NUMBER0$} in back taxes.
+
+This is taxation without representation! Unfair!
+Pay {%NUMBER0$}.
+
+@KISSSORRY
+@width=220
+Unfortunately, we only have {%NUMBER0$} available.
+
+@PRICEUP
+@width=190
+The price of {%STRING0} in %STRING1 has risen to {%NUMBER0$}.
+
+@PRICEDOWN
+@width=190
+The price of {%STRING0} in %STRING1 has fallen to {%NUMBER0$}.
+
+@WHICHFREEDOM
+@width=190
+The Continental Congress will expand during its next session,
+Your Excellency.  Which Founding Father shall we appoint as its next member?
+
+@FREEDOM
+@width=190
+%STRING1 Founding Fathers announce that
+{%STRING0} has joined the Continental Congress!
+
+@CLAND
+@width=190
+LAND MASS
+
+Small
+Normal
+Large
+
+@CCONT
+@width=190
+LAND FORM
+
+Archipelago
+Normal
+Large Continents
+
+@CTEMP
+@width=190
+TEMPERATURE
+
+Cool
+Temperate
+Warm
+
+@CCLIM
+@width=190
+CLIMATE
+
+Arid
+Normal
+Wet
+
+@SHIPSLOW
+@width=190
+{%STRING0}'s progress slowed by presence of {%STRING1 %STRING2}.
+
+@SHIPRUN
+@width=190
+{%STRING2 %STRING0} slips past {%STRING1 %STRING3}!
+
+@FORTFIRE
+@width=190
+{%STRING0} at {%STRING1} opens fire on {%STRING2 %STRING3}!
+
+@EUROPEARM
+@width=190
+European dock options:
+
+@EUROPESHIPCLICK
+@width=190
+European harbor options for {%STRING0}:
+
+@ARMOPTIONS
+Don't get on next ship.
+Board next ship.
+Move to front of dock.
+Arm with {Muskets} (costs {%NUMBER0$}).
+Sell {Muskets} (save {%NUMBER0$}).
+Equip with {Tools} (costs {%NUMBER1$}).
+Sell {Tools} (save {%NUMBER1$}).
+Equip with {Horses} (costs {%NUMBER2$}).
+Sell {Horses} (save {%NUMBER2$}).
+Bless as {Missionaries}.
+Cancel {Missionary} Status.
+No changes.
+
+@COLONYUNIT
+@width=190
+Options for {%STRING0%STRING1}:
+
+@UNITOPTIONS
+Move to front.
+Clear orders.
+Sentry / Board ship.
+Fortify.
+No changes.
+
+@SHIPOPTIONS
+Move to front.
+Clear orders.
+Sentry.
+Anchor in harbor ("Fortify").
+Unload all cargo.
+No changes.
+
+@EUROPESHIPOPTIONS
+Move to front.
+Set sail for the New World.
+Unload all cargo.
+No changes.
+
+
+@KINGFRIGATE
+@width=190
+"%STRING0 %STRING1.  We note that enemy warships are
+preying on your undefended shipping lanes.  Shall we
+dispatch a {frigate} from the %STRING2 navy to assist
+you?"
+
+"Yes, I fear it is necessary."
+"No. We shall attend to our own defense."
+
+@KINGGALLEON2
+@width=220
+"%STRING0 %STRING1.  We are most pleased at the amount
+of plunder and booty your conquistadores are obtaining
+in the New World.  Alas, we notice that you do not have
+a {galleon} fleet to transport this marvelous treasure home
+to %STRING2.  If you wish, we shall transport the treasure
+home in our own royal galleons once our assessors have
+computed the Crown's proper share."
+
+"Very well, and let the Crown claim its rightful share."
+"No, I would sooner {kiss} your royal pinky ring."
+
+@KINGGALLEON3
+@width=220
+"%STRING0 %STRING1.  We are most pleased at the amount
+of plunder and booty your conquistadores are obtaining
+in the New World.  We do not wish you to be distracted
+by the task of transporting this marvelous treasure home
+to %STRING2.  If you wish, we shall transport the treasure
+home in our own royal galleons {for no extra charge} once our assessors have
+taken a percentage equal to the current tax rate ({%NUMBER0%%})."
+
+"Very well, and let the Crown claim its rightful share."
+"No, I would sooner {kiss} your royal pinky ring."
+
+
+@CASHTREASURE
+@width=220
+Treasure sold to foreign agents for {%NUMBER0$}.
+
+@USEDUPTOOLS
+@width=190
+Our {pioneer} has reverted to {colonist} status after using
+all its {tools}.
+
+@EVASIVE
+@width=190
+{%STRING0 %STRING1} evades {%STRING2 %STRING3}.
+
+@KINGMERCY
+@width=190
+"%STRING0 %STRING1.  In light of the unfortunate loss
+of a Royal {%STRING2} unit, we have graciously decided to
+lower your tax rate by {%NUMBER0%%}.  The tax rate is now {%NUMBER1%%}.
+If you wish, you may kiss our royal pinky ring."
+
+
+@KINGNEWWAR
+@width=190
+"%STRING0 %STRING1.  The arrogant attitude of the {%STRING2} has
+forced us to {declare war} on them.  We have therefore cancelled
+your peace arrangement and we order you to teach
+them a lesson in manners at once.  We shall provide you with {%NUMBER0$}
+from the Royal Treasury and {%NUMBER1} of our {Veteran Soldier} units to
+assist you in carrying out your campaign.
+If you wish, you may kiss our royal pinky ring."
+
+
+@KINGVICTORY
+@width=190
+"%STRING0 %STRING1.  To celebrate our recent victory
+over %STRING2, we have magnanimously decided to LOWER
+your tax rate by {%NUMBER0%%}.  The tax rate is now {%NUMBER1%%}.
+You may, as always, kiss our royal pinky ring."
+
+@KINGWIFE
+@width=190
+"%STRING0 %STRING1.  In honor of our recent wedding to
+our %STRING2 wife, we have graciously decided to raise
+your tax rate by {%NUMBER0%%}.  The tax rate is now {%NUMBER1%%}.
+You may, if you wish, kiss our royal pinky ring."
+
+@KINGWAR
+@width=190
+"%STRING0 %STRING1.  Because of recent developments in our
+ongoing war with %STRING2, we have decided to raise your tax
+rate by {%NUMBER0%%}.  The tax rate is now {%NUMBER1%%}.  If you
+wish, you may kiss our royal pinky ring."
+
+@KINGNAVACT
+@width=190
+"%STRING0 %STRING1.  We are concerned that the Crown is not
+receiving its due share of New World revenue.  We have therefore
+decided to impose a new {Navigation Act}, raising your tax rate
+by {%NUMBER0%%}.  The tax rate is now {%NUMBER1%%}.  If you wish,
+you may kiss our royal pinky ring."
+
+@KINGSTAMPACT
+@width=190
+"%STRING0 %STRING1.  The ungrateful attitude of the colonists
+in {%STRING2} makes us ill.  We have therefore decided to teach
+them proper respect for their sovereign by imposing a new {Stamp Act},
+raising the tax rate by {%NUMBER0%%}.  The tax rate is now {%NUMBER1%%}.
+If you wish, you may kiss our royal pinky ring."
+
+@COUNTRIES
+the Holy Roman Empire
+the Portuguese
+the Ottoman Turks
+the Barbary Pirates
+Russia
+Prussia
+Sweden
+Denmark
+
+@ORDINAL
+first
+second
+third
+fourth
+fifth
+sixth
+seventh
+eighth
+ninth
+tenth
+eleventh
+twelfth
+thirteenth
+fourteenth
+fifteenth
+sixteenth
+seventeenth
+eighteenth
+nineteenth
+twentieth
+twenty first
+twenty second
+twenty third
+twenty fourth
+twenty fifth
+twenty sixth
+twenty seventh
+twenty eighth
+twenty ninth
+thirtieth
+
+@NEEDTOOLS
+@width=190
+{%STRING1} under construction in {%STRING0} requires
+{%NUMBER0 tools} for completion.  Only {%NUMBER1} tools
+are currently available in %STRING0.
+
+@NEEDTOOLS0
+@width=190
+{%STRING1} under construction in {%STRING0} requires
+{%NUMBER0 tools} for completion.  No tools
+are currently available in %STRING0.
+
+
+@ALREADYHAVE
+@width=190
+{%STRING0} is set to produce a {%STRING1}, but
+it has already built one!
+
+@LOBOTOMIZE
+@width=190
+Do you wish to {clear} this colonist's specialty
+({%STRING0}) and make him an ordinary free colonist?
+
+Yes
+No
+
+
+
+@NATION0A
+@width=300
+^^ENGLAND
+^^_
+__The Age of Expansion coincided with a period of {religious
+strife} in England.  The Church of England--theoretically a
+Protestant denomination but maintaining many Catholic traditions--faced
+a series of challenges during the colonial period from would-be
+reformers, or {Puritans}.  The English monarchy shifted its support
+between pro-Catholic and various Protestant factions from generation to
+generation, and the English Civil War (1640-49) resulted in the execution
+of Charles I and a period of Puritan rule (1649-60) under Oliver Cromwell.
+With so much religious conflict at home, the English government had
+neither the desire nor the ability to enforce religious conformity in
+its colonial possessions.  The colonies became havens of
+{religious freedom} for groups (e.g. Puritans, Anabaptists, Quakers) who
+faced persecution in the Old World.
+
+@NATION0B
+@width=300
+^^ENGLAND
+^^_
+To reflect the great flow of religious immigrants into English
+colonies, the English player requires only {2/3} the normal number of
+"{Crosses}" to generate immigrants.
+
+
+@NATION1A
+@width=300
+^^FRANCE
+^^_
+__Latecomers to the New World, France established her first
+secure American colonies in {Canada} along the St. Lawrence river, where the
+harsh northern climate proved more suitable for the {fur trade} than for
+large-scale agricultural endeavors.
+The French found the
+{Great Lakes Indians} to be ideal partners in the fur trade and formed
+long-term trading relationships with the Hurons, Algonquins and other
+tribes.  Though French forts, missions, and trading posts soon dotted
+the Great Lakes region, French settlements were generally small enough
+to operate in relative {harmony} with the local native population.  Although
+this relationship was not entirely without incident, the French were often
+able to cooperate profitably with the natives.  This cooperation occasionally
+extended into the military realm.
+
+
+
+@NATION1B
+@width=300
+^^FRANCE
+^^_
+To reflect the superior ability of the French to cooperate with the
+native population, the French player's colonies and units cause {alarm} among
+the Indians at only {half} the rate of other European powers.
+
+
+@NATION2A
+@width=300
+^^SPAIN
+^^_
+__In 1492, the same year that Columbus discovered America, the Spanish
+completed their centuries-long "reconquista" of the
+Iberian peninsula from the Muslim Moors.  This victory left Spain with
+a generation of {military men} spoiling for a new avenue of expansion and
+more eager than ever to bring Christianity to the {heathen} at the point
+of a sword.  The New World and its unsuspecting natives provided exactly
+such an opportunity, and the history of the first century of Spanish
+expansion in America is the history of the conquest, plunder, and destruction
+of countless Native American civilizations.  The Spanish were the first
+Europeans to encounter the 'Indians,' and the otherwise mighty {Aztec}
+and {Inca} empires proved psychologically unprepared for the arrival of an
+alien power armed with muskets and thirsty for conquest.  Conquistador
+{Hernan Cortes} arrived at Veracruz in 1519 with a few hundred men and,
+within two years, brought the Aztec Empire to its knees.
+
+@NATION2B
+@width=300
+^^SPAIN
+^^_
+To reflect the strategic surprise which Spain achieved over pre-Columbian
+American civilizations, the Spanish player receives a {50%% combat bonus}
+when {attacking Indian villages}.
+
+
+@NATION3A
+@width=300
+^^NETHERLANDS
+^^_
+__The Protestant Dutch provinces gained their independence from Catholic
+Spain during the Age of Expansion.  A maritime country of {fishermen}
+and {merchants}, the Dutch Netherlands operated large merchant and fishing
+fleets in the North Sea and the Baltic.  Upon achieving political
+independence in the early seventeenth century, this tiny nation found itself
+ideally poised to expand its {overseas trade} into lucrative new markets
+in the Far East and New World.  Unlike their rivals and sometime enemies
+the Spanish, French, and English, the Dutch were ruled by their merchant
+class.  This unique arrangement led them to focus all aspects of state
+diplomatic, military, and economic policy around the {interests of trade}.
+Their strategy proved quite successful, and the Dutch economy
+and merchant fleet expanded so rapidly that the other European powers felt
+compelled to take drastic measures against the Dutch in order to prop up
+their own less successful enterprises.
+
+@NATION3B
+@width=300
+^^NETHERLANDS
+^^_
+__To represent the strength of the Dutch economy, as well as Dutch
+achievements in shipping, commerce, and banking, the Dutch player
+receives a bonus when trading with Amsterdam.  {Commodity prices} in
+Amsterdam {do not collapse} as quickly as in other European ports and
+they {recover} more quickly.
+
+@PICKACARGO
+@width=190
+Which cargo shall we capture?
+
+@CUSTOM
+@width=190
+@checkbox
+@smallfont
+Which cargos shall our {Custom House} export?
+
+@CONTINENTAL
+@width=190
+Our {Veteran %STRING0} have hardened to {Continental Army}
+status, Your Excellency!
+
+@VETERAN
+@width=190
+Our {%STRING0} have hardened to {Veteran} status,
+Your Excellency!
+
+@VALOR
+@width=190
+Because of their valor in battle, our {%STRING0}
+soldiers have been promoted from {%STRING1} to
+{%STRING2} status.
+
+@SCOUTCOLONY
+@width=190
+Our {scouts} have reached the outskirts of {%STRING0},
+Your Excellency.  What shall they do?
+
+Meet With Mayor
+Infiltrate Colony
+Attack Colony
+Nothing
+
+@LOSTOURSCOUTS
+@width=190
+Our {scouts} near {%STRING1} have been captured by the {%STRING0}, Your
+Excellency!
+
+@LOSTTHEIRSCOUTS
+@width=190
+We have captured a party of {%STRING0 scouts} attempting
+to infiltrate {%STRING1}, Your Excellency.  Their {%NUMBER0 horses}
+have been taken to the colony stables.
+
+
+@HELLOFIRST
+@width=220
+"Greetings, %STRING0, and welcome to {%STRING1}.
+We have justly claimed all of this land in the name
+of {%STRING2}, and we are here to %STRING3.  Please do
+not interfere with this God-given mission."
+
+@HELLOUSA
+@width=220
+"Greetings, %STRING0, from the newly elected government
+of the {%STRING1}."
+
+@HELLOAHOY
+@width=220
+"Ahoy there, %STRING0, and welcome to {%STRING1}.
+We have justly claimed all the lands of this sea in the name
+of {%STRING2}, and we are here to %STRING3.  Please do
+not interfere with this God-given mission."
+
+@HELLOMEEK
+@width=220
+"{Mighty} %STRING0, we again welcome you to {%STRING1}.
+Please remember that we have justly claimed all of this
+land in the name of {%STRING2}.  We continue in our efforts
+to %STRING3."
+
+@HELLOMANLY
+@width=220
+"%STRING0.  We note with {displeasure} that your presence continues
+to befoul {%STRING1}, which we have justly claimed
+in the name of {%STRING2}.  Our task here is to %STRING3,
+and you interfere with us at your {peril}."
+
+@GREATKINGS
+our Queen and the Church of England
+His Most Christian Majesty, King Louis
+the Pope and the Spanish Crown
+the Stadtholder of the United Provinces of the Netherlands
+
+@GREATDEEDS
+seek a life of {religious freedom} and service to the Crown
+promote the greater {glory} of France
+{convert the heathen} and enrich our Sovereign
+build a mighty overseas {trading empire}
+
+@GREATLEADER
+Our Queen
+Our King
+The Pope
+Our Stadtholder
+
+@GREATLEADER2
+the Queen
+the King
+the Pope
+the Stadtholder
+
+@MYLEADER
+King
+King
+King
+Stadtholder
+
+
+@PIRACY
+@width=220
+"%STRING0 is most displeased with the {%STRING1 pirates} lying
+in wait off the coast of %STRING2.  We {%STRING3} that you withdraw
+all {privateers} immediately."
+
+"What pirates? We have NEVER condoned piracy!"
+"Very well, we shall withdraw our {privateers} to Europe."
+
+
+@PIRACYUSA
+@width=220
+"The {%STRING0} will not suffer foreign pirates to prey
+upon its commercial interests.  We {%STRING3} that you withdraw
+all {privateers} at once."
+
+"What pirates? We have NEVER condoned piracy!"
+"Very well, we shall withdraw our {privateers} to Europe."
+
+
+@SIEGES
+@width=220
+"%STRING0 is disturbed by the large %STRING1 forces lurking
+outside our %STRING2 colonies.  We {%STRING3} that you {withdraw}
+all military units adjacent to %STRING2 colonies immediately."
+
+"Our forces protect valid %STRING1 interests and shall stay."
+"Very well, we shall {withdraw} our forces to Europe."
+
+@SIEGESUSA
+@width=220
+"The %STRING0 has never recognized the right of foreign powers
+to station large military forces in this hemisphere.  Forces lurking
+near our major cities are of particular concern to us.
+We {%STRING3} that you {withdraw}
+all military units adjacent to our cities immediately."
+
+"Very well, we shall {withdraw} our forces to Europe."
+"Our forces protect valid %STRING1 interests and shall stay."
+
+
+@MEEKNESS
+request
+demand
+
+@HEATHEN
+@width=220
+"We are currently busy subduing the notorious heathen {%STRING1} tribe.
+Will you, as fellow believers, join with us in this holy task?"
+
+"Never! The {%STRING0} are a harmless and peaceful people!"
+"Yes! Let us teach the {%STRING0} a lesson!"
+
+@HEATHENUSA
+@width=220
+"The %STRING0 is currently in the process of relocating members
+of the dangerous
+{%STRING1} tribe to a government-run reservation.  Will you assist us
+in this task?"
+
+"Never! That would be a terrible crime!"
+"Yes, it is our manifest destiny."
+
+@APOSTATES
+@width=220
+"We note that you have signed a treaty with those unrepentant
+heretics, the {%STRING0}.  We {%STRING1} that you cancel this treaty
+at once."
+
+"Never! The {%STRING0} are our friends!"
+"Yes! We shall crush the foul-smelling {%STRING0} together!"
+
+
+@APOSTATESUSA
+@width=220
+"We note that you have signed a treaty with those imperialist
+pigs, the {%STRING0}.  We {%STRING1} that you cancel this treaty
+at once."
+
+"Never! The {%STRING0} are our friends!"
+"Yes! We shall crush the foul-smelling {%STRING0} together!"
+
+
+@TRIBUTE
+@width=220
+"%STRING0 has told us that we must drive all {%STRING1} from the
+shores of {%STRING2}.  Our efforts are currently given to
+weightier matters, however, and we might temporarily overlook
+this directive in exchange for a 'donation' of {%NUMBER0$} to the 'Church'."
+
+"Not a penny for those heretic swine!"
+"We will gladly donate {%NUMBER0$} to such a worthy cause."
+
+
+@TRIBUTEUSA
+@width=220
+"The {%STRING0} does not recognize the right of european powers to
+establish colonies in this hemisphere.  We are willing, however, to
+overlook this doctrine temporarily in exchange for an indemnity payment
+of {%NUMBER0$}."
+
+"That is blackmail and we will have none of it."
+"We will gladly pay {%NUMBER0$}."
+
+
+@WANTSTUFF
+@width=260
+"We are displeased that you continue to befoul lands that are
+rightfully ours by order of %STRING0.  We demand {%NUMBER0 %STRING1}
+as reparations."
+
+"We laugh at your puny threats."
+"We gladly share {%NUMBER0 %STRING1} with our {%STRING2} brothers."
+
+
+@WANTSTUFFUSA
+@width=220
+"The {%STRING0} does not recognize the right of european powers to
+establish colonies in this hemisphere.  We are willing, however, to
+overlook this doctrine temporarily in exchange for {%NUMBER0 %STRING1}."
+
+"We laugh at your puny threats."
+"We gladly share {%NUMBER0 %STRING1} with our neighbors."
+
+
+@RID
+@width=220
+"In the name of {%STRING0}, we order you to leave {%STRING1} immediately.
+If you do not, we shall drive you into the sea."
+
+@RIDUSA
+@width=220
+"The {%STRING1} orders you to leave this hemisphere immediately.
+If you do not, we shall drive you into the sea."
+
+
+@WORTHY
+@width=220
+"Although all of this land is rightfully ours by order of %STRING0,
+we propose a demarcation {treaty}, dividing all
+the land before God into perpetual and inviolable {%STRING1} and {%STRING2}
+spheres of influence. Will you agree to such a partition?"
+
+"Yes"
+"No"
+
+@GIVECASH
+@width=220
+"Please spare our meek and helpless settlement from destruction.
+We will give you {%NUMBER0$} if you will agree not to attack us."
+
+"Very well, you shall be spared."
+"Alas, it is God's will."
+
+@PEACEMANLY
+@width=220
+"Very well.  However, {only} the land you now occupy
+shall constitute the {%STRING0} sphere; the {remaining} territories shall be
+{%STRING1} in perpetuity.  Trespass in those areas at your
+own {peril}."
+
+"Go in peace, {%STRING1} brothers."
+"First you must withdraw your forces from our colonies!"
+"How much do you value your puny lives, heathen swine?"
+"We suggest an alliance."
+
+@PEACEMEEK
+@width=220
+"Excellent. All of the land which you now occupy
+shall constitute the {%STRING0} sphere; the land which we occupy shall be
+{%STRING1} in perpetuity.  Please remember not to trespass in
+those areas."
+
+"Go in peace, {%STRING1} brothers."
+"First you must withdraw your forces from our colonies!"
+"How much do you value your worthless lives, heathen swine?"
+"We suggest an alliance."
+
+@OLDPEACEMEEK
+@width=220
+"We welcome the friendship of our brothers the {%STRING0} and their
+wise leader %STRING2 %STRING3.  Together we shall work God's will
+in the New World."
+
+"Go in peace, {%STRING1} brothers."
+"First you must withdraw your forces from our colonies!"
+"How much do you value your worthless lives, heathen swine?"
+"We suggest an alliance."
+
+@OLDPEACEMANLY
+@width=220
+"Although the {%STRING0} do not properly belong in this hemisphere,
+we elect not to drive you from the New World at this time."
+
+"Go in peace, {%STRING1} brothers."
+"First you must withdraw your forces from outside our colonies!"
+"How much do you value your worthless lives, heathen swine?"
+"We suggest an alliance."
+
+
+@PEACEUSA
+@width=220
+"The {%STRING0} welcomes peace with our politically backward neighbors,
+the {%STRING1}."
+
+"Go in peace."
+"First you must withdraw your forces from outside our colonies!"
+"How much do you value your worthless lives, swine?"
+"We suggest an alliance."
+
+
+@NOTWITHDRAW
+@width=220
+"Our forces protect valid %STRING0 interests and shall
+not be moved."
+
+@WITHDRAW
+@width=220
+"In the interest of peace, we shall withdraw our forces."
+
+@NOTHINGWITHDRAW
+@width=220
+"We have no forces adjacent to your colonies."
+
+@MAYBEWITHDRAW
+@width=220
+"Our forces protect valid %STRING0 interests.  We are, however,
+willing to move them in exchange for {%NUMBER0$} to cover the
+cost of demobilization."
+
+"We shall gladly pay {%NUMBER0$}."
+"Withdraw or perish, heathen pigs!"
+"Oh. Never mind then."
+
+
+@PROVOKE
+@width=220
+"We can no longer tolerate your foul provocations.  Prepare for WAR!"
+
+@WARMEEK
+@width=220
+"Very well, then in the name of %STRING0 we shall drive
+you from the shores of {%STRING1}.  Prepare for WAR!"
+
+@WARMANLY
+@width=220
+"You reject our generous offer?  Then in the name of
+%STRING0 we shall wipe you from the face of the New World.
+Prepare for WAR!
+
+@THREATS
+@width=220
+"We laugh at your feeble threats."
+
+@GIFTS
+@width=220
+"We present you with a gift of {%NUMBER0$} in exchange for
+your continued forbearance."
+
+@MILITARY
+@width=220
+"You must attack the infidel . . ."
+
+@NOCONTACT
+@width=220
+"We have no contact with the {%STRING0}."
+
+@ALREADYSMITE
+@width=220
+"We are already at war with the worthless {%STRING0}."
+
+@SMITEINDIANS
+@width=220
+"We shall ruthlessly smite the heathen {%STRING0}
+in exchange for {%NUMBER0$} to cover our expenses."
+
+Pay {%NUMBER0$}.
+Never mind.
+
+@SMITEEUROPE
+@width=220
+"We shall ruthlessly drive the heretic {%STRING0}
+from the New World in exchange for {%NUMBER0$}
+to cover our expenses."
+
+Pay {%NUMBER0$}.
+Never mind.
+
+
+@UNFORTUNATE
+@width=220
+"Unfortunately, your treasury is insufficient to
+match your extravagant promises."
+
+@MERCENARY
+@width=220
+The {%STRING0} declare war on the {%STRING1}.
+
+@SUCCESSION
+@width=220
+War of the Spanish Succession ends in Europe!
+{%STRING0}, ravaged by war, agrees to cede %STRING1
+to the {%STRING2}.  Treaty of Utrecht specifies that all
+{%STRING3} possessions in the New World now fall under {%STRING2} rule.
+
+@REBELMAJORITY
+@width=220
+Sons of Liberty membership in {%STRING0} is up to %NUMBER0%%, Your
+Excellency.  A majority of the colonists there support the idea of
+independence from %STRING1!  All colonists in %STRING0 gain +1 to their
+base production abilities.
+
+@REBELUNANIMOUS
+@width=220
+Sons of Liberty membership in {%STRING0} is up to 100%%, Your Excellency.
+All of the colonists there support the idea of independence from %STRING1!
+All colonists in %STRING0 gain +2 to their base production
+abilities.  Colonists can also be educated more quickly here.
+
+@TORYMINORITY
+@width=220
+Sons of Liberty membership in {%STRING0} is down from 100%% to %NUMBER0%%,
+Your Excellency.  Some of the colonists no longer support the idea of
+independence from %STRING1.  %STRING0 colonists now gain only +1 to their
+base production abilities.
+
+@TORYMAJORITY
+@width=220
+Sons of Liberty membership in {%STRING0} is down to %NUMBER0%%, Your
+Excellency.  The majority of colonists there no longer support the idea
+of independence from %STRING1!  %STRING0 colonists no longer gain
+production bonuses.
+
+@SONSUP
+@width=220
+Sons of Liberty membership in {%STRING0} is up to %NUMBER0%%, Your
+Excellency.  The more {Liberty Bells} our {Statesmen} generate,
+the faster membership will rise.
+
+@SONSDOWN
+@width=220
+Sons of Liberty membership in {%STRING0} is down to %NUMBER0%%, Your
+Excellency.  Perhaps we should generate more {Liberty Bells} there.
+We can generate Liberty Bells with {Statesmen}.  {Printing Presses}
+and {Newspapers}, as well as improvements to our government buildings,
+can increase the rate at which we generate them.
+
+@REBELUP
+@width=190
+{Rebel} sentiment is rising in the colonies, Your Excellency!
+{%NUMBER0%%} of the population supports the idea of independence
+from %STRING0.  As our colonists begin to feel more self-sufficient,
+they also become more productive.  Any colony with at least {50%%}
+Sons of Liberty membership receives a {+1} production bonus.
+
+@REBELUP50
+@width=190
+{Rebel} sentiment is rising in the colonies, Your Excellency!
+{%NUMBER0%%} of the population supports the idea of independence
+from %STRING0.  Some of the Founding Fathers think we should
+request an audience with the King and declare our independence!
+
+@REBELDOWN
+@width=190
+{Tory} sentiment is once again on the rise in the colonies, Your
+Excellency.  Only {%NUMBER0%%} of the population now supports the notion
+of independence from %STRING0.
+
+@REFIT
+@width=190
+{%STRING0} has completed its repairs in {%STRING1}.
+
+@WELLSEASONED
+@width=190
+Our {Scouts} have improved to {Seasoned} status, Your Excellency.
+
+@KINGBUY
+@width=190
+King increases military spending.  {%STRING0} added to royal
+expeditionary force.  Colonial leaders express alarm.
+
+@SEIZURE
+@width=190
+{%STRING0} seized on the high seas by the Royal Navy!
+
+@SEIZURESEA
+@width=190
+{%STRING0} captured at sea by the Royal Navy!
+
+@SEIZURELAND
+@width=190
+{%STRING0} captured by the Royal Army!
+
+@INDEPENDENCE
+@width=220
+Continental Congress signs {Declaration of Independence}!
+Abuses and usurpations cited!  Ultimatum presented to King!
+Expeditionary force dispatched to suppress rebellion!
+General %STRING0 calls for volunteers for new Continental Army!
+
+@INVASION
+@width=190
+Royal Expeditionary Force lands near {%STRING0}!
+
+@TOOTORY
+@width=190
+Only {%NUMBER0%%} of the colonists support the independence
+movement, Your Excellency.  We cannot start a rebellion against
+the King until the {majority} is behind us.
+
+@DECLARE
+@width=190
+Shall we declare our independence from {%STRING0}, Your Excellency?
+This will end our turn and place us at war with our King!
+
+"Never! That would be treasonous! God save the King!"
+"Yes! Give me liberty or give me death!"
+
+@DEADCONVERTS
+@width=190
+Indian {converts} lose faith and return to tribe.  Converts
+who do not join colonies within {eight turns} of their conversion
+are eliminated for loss of faith.
+
+@TOOMANYUNITS
+@width=190
+A {unit} cannot be created because the maximum number of units for
+the game has been reached.  Units must be eliminated before new
+units can be created.
+
+@TOOMANYCOLONIES
+@width=190
+A {colony} cannot be created because the maximum number of colonies for
+the game has been reached.  Colonies must be eliminated before new
+colonies can be created.
+
+@PICKMUSIC
+@smallfont
+@width=220
+Select a piece of music:
+
+"Bird Song"
+"Smoky Tune"
+"Cornwall"
+"Shady Grove"
+"Fiddler's Dance"
+"Jine the Cavalry"
+"Joe Clark"
+"Little Fiddle"
+"Hornpipe"
+"Bonny Morn"
+"Hole In The Wall"
+"Nightingale"
+Independence Tunes
+Military Tunes
+Indian Tunes
+
+@PICKINDEPENDENCE
+@smallfont
+@width=220
+Select an independence tune:
+
+"Love Forever"
+"York Fusiliers"
+"Washington Artillery March"
+"Road to Boston"
+"Independence Way"
+
+@PICKMILITARY
+@smallfont
+@width=220
+Select a military tune:
+
+"The Reveille"
+"Successful Campaign"
+"Morelli's Lesson"
+"To Arms"
+
+@PICKINDIAN
+@smallfont
+@width=220
+Select an Indian tune:
+
+"Indian Victory"
+"Natives"
+"Tenochtitlan"
+"Pizarro at Cuzco"
+
+
+@UPKEEP
+@width=190
+Your Excellency, we cannot afford to pay the upkeep ({%NUMBER0$}) on
+all our buildings this turn.  Until we pay the {upkeep}, colonists in
+the buildings will produce at {half efficiency}.
+
+@MOBILIZE
+@width=190
+Continental Army mobilizes at {%STRING0}! Our Veteran %STRING1
+have been promoted to {Continental Army} status.
+
+@MOBILIZE2
+@width=190
+Continental Army mobilizes at {%STRING0}! {%NUMBER0} Veteran
+units have been promoted to {Continental Army} status.
+
+
+@CANTMOBILIZE
+@width=190
+Continental Army can mobilize in colonies
+which contain at least {%NUMBER0 muskets} only.  None
+of our colonies have enough muskets available
+for mobilization!
+
+@KINGMOBILIZE
+@width=190
+Parliament votes additional funds to suppress
+revolution in %STRING0.  {%STRING1} mobilized in %STRING2.
+
+@EUROPENOTAVAIL
+@width=190
+The European Status Screen is no longer available once
+the {War of Independence} has begun.  Ships cannot sail to
+Europe for the duration of the war.  Colonies which build
+{Custom House} improvements can trade with European smugglers,
+however.
+
+@FOREIGNNOTAVAIL
+@width=190
+The Foreign Affairs Adviser's report is no longer available
+once the {War of Independence} has begun.
+
+@EUROPENOTLEAVE
+@width=190
+Ships cannot sail to and from Europe for the duration
+of the {War of Independence}.  Colonies which build {Custom House}
+improvements can trade with European smugglers, however.
+
+@NOWARSDURINGREV
+@width=190
+Foreign colonies cannot be attacked during the {War of Independence}.
+
+@NOCOLONIESEITHER
+@width=190
+New colonies cannot be founded during the {War of Independence}.
+
+@NOMAYORSDURINGREV
+@width=190
+Scouts cannot meet with mayors during the {War of Independence}.
+
+@HOWMUCH1
+@width=190
+How much {%STRING0} should be loaded onto %STRING1 (0-%NUMBER0).
+
+Amount:
+
+@HOWMUCH2
+@width=190
+How much {%STRING0} should be unloaded from %STRING1 to %STRING2 (0-%NUMBER0).
+
+Amount:
+
+@HOWMUCH3
+@width=190
+How much {%STRING0} should be moved from %STRING1 to %STRING2 (0-%NUMBER0).
+
+Amount:
+
+@HOWMUCH4
+@width=190
+How much {%STRING0} (at {%NUMBER1$}) should be purchased
+and loaded onto %STRING1 (0-%NUMBER0).
+
+Amount:
+
+@HOWMUCH5
+@width=190
+How much {%STRING0} should be sold (at {%NUMBER1$}) to %STRING2 (0-%NUMBER0).
+
+Amount:
+
+
+@AMBUSHHINT
+@width=220
+Your Excellency, the King's armies have little experience with the
+kind of tactics that
+are necessary when fighting in the New World.
+If our troops attack the King's troops while {neither} unit is in a
+colony square, we gain an {ambush bonus} equal to the terrain's normal
+defensive value!
+
+@CONSIDER
+@width=220
+%STRING0 is considering intervention on our behalf against the King,
+Your Excellency!  If we can generate %NUMBER0 liberty bells, they will
+join us.
+
+@INTERVENTION
+@width=220
+{%STRING0} declares war on %STRING1 and joins the War of Independence
+on the Rebel side! %STRING2 dispatched to %STRING3 for
+strategic consultations.  %STRING4 navy plans bombardment of
+Tory-held fortifications.
+
+@FRIEND
+British General Cornwallis
+French General Lafayette
+Spanish Generals
+Dutch Admiral de Ruyter
+
+@INTERVENE
+@width=190
+%STRING1 Intervention Force arrives in {%STRING0}!  Local Rebel Army
+commander regales %STRING1 admiral.
+
+@EXPLOITS
+COLONIZATION RATING: %NUMBER0%%
+In memory of your deeds, the citizens of
+%STRING0 give your name to . . .
+
+@SCORE
+An Infectious Disease, %STRING0 Fever
+A Stinging Insect,     %STRING0 Fly
+A Poisonous Plant,     %STRING0 Ivy
+A Venomous Snake,      %STRING0 Rattlesnake
+A Prison,              %STRING0catraz
+A Fast Food Chain,     %STRING0's Roast Beef
+A Street,              %STRING0 Boulevard
+A Flower,              %STRING0 Thistle
+A School,              %STRING0 Jr. High
+An Apple,              %STRING0 Delicious
+A Bridge,              %STRING0 Mem. Bridge
+A Bird,                %STRING0 Eagle
+A College,             %STRING0 A & M
+A Mountain Lion,       %STRING0 Cougar
+A Prestigious Award,   %STRING0 Medal of Honor
+A River,               The %STRING0 River
+A University,          %STRING0 and Lee University
+A Mountain Range,      %STRING0 Mountains
+An Inland Sea,         %STRING0 Bay
+A Football Team,       %STRING0 Conquistadores
+A State of the Union,  %STRING0 State
+A Capital,             %STRING0 D.C.
+A Nation,              Republic of %STRING0
+A CONTINENT!,          %STRING0ica
+
+
+@LOSING1
+@width=220
+King's Forces control all ports in %STRING0!
+Continental Congress capitulates to King's terms!
+Continental Army demobilized; Royal Expeditionary force occupies colonies.
+%STRING1, stripped of titles, escapes to {exile} in %STRING2.
+
+@WARN1
+@width=220
+Your Excellency, the King's forces control all but %NUMBER0 of the
+ports in %STRING0!  If we don't retain control of at least one port
+our commerce will be choked and we will have to surrender!
+
+
+@LOSING2
+@width=220
+King's Forces control all colonies in %STRING0!
+Continental Congress capitulates to King's terms!
+Continental Army demobilized; Royal Expeditionary force occupies colonies.
+%STRING1, stripped of titles, escapes to {exile} in %STRING2.
+
+@WARN2
+@width=220
+Your Excellency, the King's forces control all but %NUMBER1 of our
+colonies!  We need to protect our remaining colonies, or we will lose
+the war!
+
+
+@LOSING3
+@width=190
+King's Forces control over 90%% of %STRING0 population!
+Continental Congress capitulates to King's terms!
+Continental Army demobilized; Royal Expeditionary force occupies colonies.
+%STRING1, stripped of titles, escapes to {exile} in %STRING2.
+
+@WARN3
+@width=220
+Your Excellency, the King's forces control %NUMBER2%% of the %STRING0
+population.  If he ever controls 90%%, the Continental Congress will be
+unable to continue the war and we will have to surrender!
+
+@WINNING
+@width=220
+Royal Expeditionary Force annihilated!
+General %STRING0 accepts {surrender} of all Tory forces in brief ceremony.
+Parliament declares King unfit to rule and votes to accept independence
+of %STRING1.
+Continental Congress proclaims %STRING0 the first {President} of the new
+republic!
+
+@OTHERGRANTED
+@width=220
+The King of {%STRING0} grants {independence} to %STRING1!  %STRING2
+elected first President of the new republic.  %STRING3
+makes peace with all european nations.
+
+
+@OTHERMIGHT
+@width=220
+Your Excellency, the King of {%STRING0} is considering granting independence
+to his colonies.  {%NUMBER0} (out of %NUMBER1) of the %STRING1 colonists
+currently support independence.  Once {%NUMBER2} colonists support
+liberty, the %STRING1 colonies will be granted their freedom and become
+an independent nation.
+
+@OTHERLESS
+@width=220
+Spies Report:  Only {%NUMBER0} {%STRING1} now support independence
+from %STRING0.  The King of {%STRING0} will not grant them their liberty
+unless {%NUMBER2} are in favor.
+
+@SCORED
+@width=220
+Scoring for this game is now complete.
+
+That's all.
+Keep playing anyway.
+
+@TORYUPRISING
+@width=220
+Tory uprising near %STRING0!  Parliament arms Tory Militia!
+
+@CANNOTATTACK
+@width=190
+That unit type cannot attack.
+
+@TRADEMERCANTILISM
+@width=190
+"In the interests of {Mercantilism}, %STRING0 has ordered us not
+to trade with foreign merchants.  We must therefore ask you to
+go away please."
+
+@TRADEATWAR
+@width=190
+Ships and wagon trains cannot enter the colonies of foreign powers
+with whom you are at war or with whom you have not yet established
+contact.
+
+@TRADENOCARGO
+@width=190
+"You have brought nothing with you to trade with us.  Please come
+back when you have something useful to offer."
+
+@TRADENOWANT
+@width=190
+"We are not interested in your {%NUMBER0 %STRING0}.  Come back when
+you have something better to offer."
+
+@TRADEWITH
+@width=190
+"We will give you {%NUMBER0 %STRING0} in exchange for your %NUMBER1 %STRING1.
+Or, if you like, we are willing to give you {%NUMBER2$}.
+Is this satisfactory?"
+
+"We'll take the {%NUMBER0 %STRING0}."
+"Just give us the {%NUMBER2$}."
+"Do you take us for fools?"
+
+@EXTINCT
+@width=190
+The %STRING0 tribe has been wiped out.
+
+@MERCENARIES
+@width=190
+The King of %STRING0 has offered to send us a force of trained {mercenaries}
+(%STRING1)
+in exchange for {%NUMBER0$}.
+
+No thank you.
+Pay {%NUMBER0$}.
+
+@MERCS
+@width=190
+%STRING1 mercenaries arrive in %STRING0.
+
+@OVERBOARD
+@width=190
+What cargo shall we throw overboard, Your Excellency?
+
+@ALREADYREVOLUTION
+@width=190
+We are already fighting a War of Independence, Excellency.
+
+@SUREDISBAND
+@width=190
+Really {disband} %STRING0?
+
+Yes
+No
+
+@NEWCOLONIST
+@width=190
+Population increase in %STRING0.  New colonist now available.
+
+@INEFFICIENT
+@width=220
+{%STRING0} has an inefficient government, Your Excellency!
+Any colony which has {%NUMBER0} or more colonists who are
+not members of the Sons of Liberty is lagging behind in its
+governmental development.  Colonists in such colonies receive
+a {-1} production penalty for every %NUMBER0 tories.  We can
+increase Sons of Liberty membership by producing more {Liberty
+Bells} in this colony; conversely, we can avoid the production
+penalty by removing enough colonists to get the number of tories
+below %NUMBER0.
+
+@EFFICIENT
+@width=190
+{%STRING0} has improved the efficiency of its government, Your Excellency.
+Production penalties no longer apply to %STRING0 colonists.
+
+@CLEARCUT
+@width=190
+Pioneers clear forest near {%STRING0}.  {%NUMBER0 lumber} added
+to stockpile.
+
+@REALLYBUY
+@width=190
+Purchase %STRING0 for %NUMBER0$?
+
+Yes
+No
+
+@INDIANWARPATH
+@width=190
+"The {%STRING0} tribe is ready to go on the warpath.
+Whom would you like us to attack?"
+
+@INDIANWARPATH2
+@width=190
+"We will gladly drive the {%STRING0} from our ancestral
+lands in exchange for {%NUMBER0$}."
+
+Pay {%NUMBER0$}.
+Never mind.
+
+@INDIANWARFARE
+@width=190
+{%STRING0} nation holds War Council!
+{%STRING1} missionaries incite %STRING2 to warfare against
+the {%STRING3}!
+
+
+
+@LOSENOCOLONIES
+@width=190
+"%STRING0 %STRING1.  Our efforts in the New World have
+proven fruitless and we have decided to remove you
+as Viceroy.  You may, as always, kiss our royal pinky ring."
+
+@SOONRETIRING0
+@width=190
+%STRING0 %STRING1 plans to retire in 1800!  A rumor circulates
+that he would postpone his retirement were a War of Independence
+to begin.
+
+@SOONRETIRING1
+@width=190
+"General %STRING1, the people are weary of this long war.  If we cannot
+force a conclusion by 1850, the Continental Congress will sue for
+peace and seek to swear renewed allegiance to the King."
+
+
+@RETIRING
+@width=220
+%STRING0 %STRING1 steps down after over 300 years of loyal service to the
+Crown.  King knights aging Viceroy, who retires to country estate
+near %STRING2.
+
+
+@RETIRING2
+@width=220
+War-weary Continental Congress sues for peace!  King accepts
+surrender from %STRING0 %STRING1, who retires to country
+estate near %STRING2.
+
+
+@HOWTOWIN
+@width=220
+We have just won a glorious victory on the road to freedom, Your Excellency.
+In order to
+defeat the King's forces and win our independence, we must recapture
+{all} of our colonies from the King, and we must destroy most of his
+ground forces in the New World.
+
+
+@ARTILLERY
+@width=190
+%STRING0 %STRING1 {damaged}.  Further damage will destroy it.
+
+@ARTILLERY2
+@width=190
+Damaged %STRING0 %STRING1 {destroyed}.
+
+
+@TIMECHANGE
+@width=190
+^^Colonization Help: Time Scale
+^
+In 1600, the {time scale} changes from one turn per year to
+{two turns per year}.  Henceforth there will be a {Spring} and
+a {Fall} turn in each year.
+
+
+@TEACHCONVERT
+@width=190
+Indian converts already know the Indian ways.
+
+
+@SOMEBOYCOTT
+@width=190
+Some of the cargo could not be unloaded because of a parliamentary
+boycott.  If you want to ask that the boycott be lifted, click on
+the cargo type in question.
+
+@KEEPSTOCKADE
+@width=220
+We cannot voluntarily reduce below {three} the population of a colony
+that has a stockade, fort, or fortress.
+
+@MORETHANTHREE
+@width=220
+We cannot put more than {three} colonists in any one building, Your
+Excellency.
+
+@LOOTWAGONS
+@width=220
+%STRING0 loot wagon trains near %STRING3!
+
+
+@TUTORIAL1
+@width=190
+@x=10
+@y=40
+Our {%STRING0} carrying a pioneer and a soldier is on the high seas,
+Your Excellency.  If we navigate to the west ({left arrow}), we'll
+probably find land.  If we sail to the east ({right arrow}), we can
+return to port.
+
+@TUTORIAL2
+@width=190
+We've found uncharted land, Excellency.  To put the colonists ashore,
+move the ship toward land and choose {Make Landfall} from the menu.
+
+@TUTORIAL3
+@width=190
+The abundance of {%STRING0} in this area makes this a good place to
+start our first colony.  To begin a colony, Sire, press the '{B}' key.
+
+@TUTORIAL4
+@width=190
+@x=10
+On the {Colony Screen}, you can decide what the colonists in this colony
+should be doing.  Our colonist is currently producing {%STRING0}.  He
+could, for instance, produce {%STRING1} instead.  To change his job,
+select him to bring up the {Jobs Menu}, then choose what you want him
+to do.  You can also drag him to a different square, or into one of the
+buildings in the colony.  To take a colonist out of a colony, drag him
+to the fence (near the water on the colony picture).
+
+@TUTORIAL5
+@width=220
+Excellency, there are {%STRING1} ready to join our colony on the docks
+in {%STRING0} (Europe).  If we send our ship there they will gladly
+set sail with us and become useful members of our community.
+
+@TUTORIAL6
+@width=220
+Sire, there are {%NUMBER0} {%STRING0} in {%STRING1}.  If we move a ship
+into %STRING1, we can pick up this cargo and take it back to %STRING2 in
+Europe, where we can sell it for a profit.
+
+@TUTORIAL7
+@width=220
+%STRING0 is growing rapidly, Your Excellency, and we may want to
+consider building a {Stockade} to protect it from harm.  To build
+something, we must first make one of our colonists a {Lumberjack}
+and have him chop {Lumber} in a forested square.  Then, we make
+a colonist a {Carpenter}, who makes buildings out of the lumber.
+Finally, we tell the carpenter what to build.  We do this by clicking
+on the blue 'Hammer' button at the lower right of the screen.  This
+shows us what we are currently building, and allows us to change it
+if we want.
+
+@TUTORIAL8
+@width=190
+This %STRING0 has no specialty profession.  If we move him into a
+friendly native village, the indians may be willing to teach him a
+new skill.
+
+@TUTORIAL9
+@width=220
+This looks like a good place for a {road}.  Our {pioneers} will build
+roads in a square if you press the '{R}' key. If we build a road here,
+our fur, lumber, ore, and silver production in this square will be
+increased.  Our units also move faster when they are moving
+along a road.
+
+@TUTORIAL10
+@width=220
+This looks like a good place to {plow} or {clear}.  Our {pioneers} will plow
+the fields in a square if you press the '{P}' key.  Plowing a square
+increases its food, tobacco, cotton, and sugar production by one.
+Plowing a {forest} square causes the forest to be {cleared}, making room
+for more agriculture.
+
+@TUTORIAL11
+@width=220
+Our ship, a {%STRING0}, is one of our most valuable units.  We can use
+it to explore the uncharted vastness of the New World, to carry our cargo
+home to %STRING1 for sale, and to bring new immigrants from Europe.  You
+can move the ship normally with the arrow keys.  You can also send it to
+the port of your choice by pressing the '{G}' key.
+
+@TUTORIAL12
+@width=220
+@y=5
+Our ship has arrived in %STRING0, Your Excellency, and is waiting
+for cargo!  The blue boxes across the bottom of the screen list the
+cargo available in our warehouse.  To load cargo onto the ship, use
+the mouse to drag it from the warehouse into one of the ship's cargo
+holds (the small boxes underneath the ship's picture).  Once the ship
+is loaded, you can return to the main map (press '{ESC}').  Then, on
+the ship's next turn, you can send it to Europe by pressing '{G}'.
+
+@TUTORIAL13
+@width=220
+Our {pioneers} have arrived in the New World, Excellency!  They are
+ready to look for a good place to build our first colony.  Try to look
+for a spot where there will be plenty of food and other resources
+available.  Also, our first colony should be built near the ocean so that
+our ships can reach it.  Our pioneers are currently equipped
+with {100 Tools}, which they can use to clear forests, plow fields,
+and build roads.  If we want to make more pioneer units later, we will
+need either to bring more Tools from Europe or to have our blacksmiths
+manufacture them.
+
+@TUTORIAL14
+@width=220
+Our {soldiers} have two uses.  They can be used to attack our
+enemies, if we run across any.  More importantly, they can be used
+to protect our own colonies from harm.  Our soldiers are equipped
+with {50 Muskets}.  If we want to make more soldier units later on, we
+will need either to bring more Muskets from Europe or to have our
+gunsmiths manufacture them.  Our soldiers will also become more powerful
+if we equip them with {Horses}.
+
+@TUTORIAL15
+@width=220
+New colonists have arrived in {%STRING0}, Your Excellency!  You can make
+them citizens of {%STRING0} by clicking on the colony, and then dragging
+the colonists from the "fence" to a field or building.
+
+@TUTORIAL16
+@width=220
+@y=10
+@x=5
+@smallfont
+It is important for every colony to grow enough {food} to feed its
+colonists.  Each colonist eats {two} units of food per turn.  Food is
+represented by the "corn" icon; if you are not growing enough food
+each turn to feed all of your colonists, some of the corn in the colonist
+window will be covered with red "X"'es.  To grow more food, turn more of
+your colonists into {farmers} or {fishermen}.  You can make individual
+farmers more productive by having your pioneers {clear} forests and {plow}
+fields.
+
+@TUTORIAL17
+@width=300
+@y=10
+@smallfont
+The European Status Screen shows your home port in %STRING0, %STRING1.
+As new immigrants arrive, they will line up on the docks to await transport
+to the New World.  You can recruit new immigrants by pressing the {Recruit}
+or {Train} buttons.  When ships arrive in the harbor, their cargo can be
+sold by dragging it from the cargo holds to the blue warehouses at the bottom
+of the screen.  Cargo can also be purchased by dragging it from the warehouse
+to a ship's holds.  In the warehouse boxes, the first number indicates the
+{bidding} price which the port will pay for that type of cargo.  The second
+indicates the {asking} price should you wish to buy that cargo.  To send a
+ship back to the New World, click on it or drag it into the "Bound for
+%STRING2" box.
+
+
+@TUTORIAL18
+@width=300
+@y=10
+@smallfont
+Cargo is normally purchased in units of 100; when you drag a cargo from
+the warehouse to your ship, you are assumed to be loading 100 units.  Since
+{%STRING0} costs {%NUMBER0$} per unit and we only have {%NUMBER1$} gold,
+we cannot afford 100 units.  If you want to load or unload less than 100
+units of cargo onto a ship, simply hold down the {SHIFT} key while you drag
+the cargo with the mouse.  You will then be prompted to enter the number
+of units you wish to buy.
+
+
+@TUTORIAL19
+@width=190
+{Converts} are natives who for one reason or another have decided to
+join you and live in your colonies.  Unlike other types of colonist,
+converts cannot be educated in new skills.  On the other hand, converts
+are better than ordinary colonists at farming, planting, fishing, and
+mining.
+
+
+
+@TUTNOLUMBER
+@width=220
+None of the spaces surrounding this square are forested, Your Excellency.
+A colony built here will have a hard time getting enough lumber to supply
+its carpenters.
+
+Cancel action.
+Build colony anyway.
+
+
+@TUTNOSPACES
+@width=220
+There are only a few productive squares adjacent to this square,
+Your Excellency.  A colony built here may have a lower potential
+for growth than we hope.  Perhaps we should move on to a larger
+area?
+
+Cancel action.
+Build colony anyway.
+
+
+@KINGLOSE
+@width=68
+@x=232
+@y=31
+"In our wisdom, we have decided to let you go
+your own way. We have far more importatnt
+matters to deal with than you wretched
+colonists. Do not seek our aid in the future,
+for it will not be forthcoming."
+
+@KINGWIN
+@width=90
+@x=202
+@y=125
+"As expected, your attempt to separate from
+mother %STRING0 has proven futile. Your
+Rag Tag armies are simply no match for our
+Royal forces."
+
+
+@DISBANDSHIP
+@width=190
+We cannot disband a ship at sea while it is carrying
+units.
+
+
+@NOMOREWAREHOUSE
+@width=190
+{%STRING0} is set to produce a {Warehouse Expansion},
+Your Excellency, but only {one} expansion is allowed
+per colony.
+
+@NOMOREWAGONS
+@width=190
+{%STRING0} is set to produce a {Wagon Train}, Your
+Excellency, but we are not allowed to have more
+wagon trains than we have colonies ({%NUMBER0}).
+
+
+@BUILD1
+@width=310
+@y=30
+^^In the Year of Our Lord One Thousand Four Hundred Ninety-Two,
+
+@BUILD2
+@width=310
+@y=30
+^^an Expedition led by the Great %STRING0,
+^^%STRING1,
+
+@BUILD3
+@width=310
+@y=30
+^^left %STRING0 on a Voyage of Discovery.
+
+@BUILD4
+@width=310
+@y=30
+^^Commissioned and Blessed by the %STRING1 of %STRING0,
+
+@BUILD5
+@width=310
+@y=30
+^^to Explore the Ocean Sea,
+
+@BUILD6
+@width=310
+@y=30
+^^to find Uncharted Lands,
+
+@BUILD7
+@width=310
+@y=30
+^^and to Establish Colonies for the Greater Glory of %STRING0.
+
+@BUILD8
+@width=310
+@y=30
+^^A Ship loaded with Pioneers and Soldiers
+
+@BUILD9
+@width=310
+@y=30
+^^Set Sail to find a New Life, a New Beginning, . . .
+
+@BUILD10
+@width=310
+@y=30
+^^A New World!
+
+
+
+
+@END

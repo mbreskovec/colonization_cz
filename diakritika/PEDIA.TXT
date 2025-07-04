@@ -1,0 +1,1780 @@
+;
+;       COLONIZATION Colonizopedia Data
+;       Copyright (c) 1994 by MicroProse Software
+;
+;       Altering the contents of this file may cause the game to
+;       malfunction.
+;
+;       Prelozil: Michal Breskovec 1997-1998, korektury 2004, revize a diaktritika 2025.
+;       Verze prekladu: 2.0
+;       Licence prekladu: CC0 1.0 Universal
+;       Vzdy nejnovejsi verzi prekladu najdete zde: https://github.com/mbreskovec/colonization_cz
+;
+
+@; Colonizopedia categories
+
+@PEDIA
+Typy n`kladu
+Typy jednotek
+Typy ternu
+Dovednosti kolonist
+Budovy v kolonich
+Otcov zakladatel
+Hern koncept
+
+@MISCELLANEOUS
+12
+Rozpustit
+Opevnit
+Or`ni
+Cesty
+Hldka
+Obchodn trasa
+Veter`ni
+Ceny
+Dan
+Zvony svobody
+Ke
+Kladiva
+
+
+@; *** FOUNDING FATHERS ***
+
+@; ECONOMICS AND TRADE
+
+@; Adam Smith
+@FATHER0
+@width=300
+^{Adam Smith (1723-1790)}
+Britsk ekonom, kter vydal prvn vt pr`ci o n`rodnm hospod`stv
+"An Inquiry into the Nature and Causes of the Wealth of Nations
+(Bohatstv n`rod: Pojedn`n o podstat a pvodu)", kter` byla podrobnou
+studi n`sledk hospod`sk svobody.
+^
+{Adam Smith dovoluje v kolonich stavbu budov na rovni tov`rny.
+Tov`rny umouj zvit produkci na 1 a 1/2 jednotky z kad jednotky
+surovin.}
+
+@; Jakob Fugger
+@FATHER1
+@width=300
+^{Jakob Fugger (1459-1525)}
+Mimo`dn spn nmeck obchodnk, aktivn v ranm dovozu a vvozu
+z Vchodn Indie. Byl nesmrn bohat a pjoval penze csai 
+Maxmili`novi I. Nmeckmu.
+^
+^{Kdy se Fugger pipoj ke Kongresu, jsou odputny vechny dosavadn
+bojkoty bez doplacen dan a obchod s tmto zbom me bt obnoven bez
+dalch n`klad.}
+
+@; Peter Minuit
+@FATHER2
+@width=300
+^{Peter Minuit (1580-1639)}
+Gener`ln editel kolonie Holandsk Z`padoindick spolenosti v Americe,
+koupil od indi`n ostrov Manhattan za 24 dolar....!
+^
+{Jakmile se Peter Minuit pipoj ke Kontinent`lnmu kongresu, indi`ni
+ji nebudou poadovat penze za svou pdu.}
+
+@; Peter Stuyvesant
+@FATHER3
+@width=300
+^{Peter Stuyvesant (1610-1672)}
+Prvn spn guvernr holandsk kolonie Nov Amsterodam (New York), vl`dl
+tvrd, prosazoval rst obchodu a zvil z`jem o ochranu z`jm Novho svta.
+^
+{Peter Stuyvesant umouje v kolonich vstavbu CELNICE,
+co me zefektivnit obchod s Evropou a umouje obchodovat s Evropou
+i bhem revoluce.}
+
+@; Jan De Witt
+@FATHER4
+@width=300
+^{Jan de Witt (1625-1672)}
+Jako nizozemsk st`tnk a ministersk pedseda Spojench provinci
+Nizozemskch se snail zruit ad mstodritele a omezit moc rodu
+Oranskch.
+^
+{Kdy se de Witt pipoj k tvmu Kongresu, bude tm povolen obchod
+se zahraninmi koloniemi. Navc zpr`vy tvho poradce pro zahranin
+vci budou poskytovat vce informac.}
+
+@; EXPLORATION
+
+@; Ferdinand Magellan
+@FATHER5
+@width=300
+^{Ferdinand Magellan (1480-1521)}
+Portugalsk objevitel, kter vedl prvn evropskou expedici, je spn
+obeplula zemkouli. Akoli s`m Magellan plavbu nedokonil, jeho vdcovstv
+a odvaha ji umonily.
+^
+{S Magellanem v Kongresu se pohyb vech n`monch plavidel zvyuje
+o jeden a doba plavby ze z`padnho okraje mapy do Evropy se znan
+zkracuje.}
+
+@; Francisco de Coronado
+@FATHER6
+@width=300
+^{Francisco de Coronado (1510-1554)}
+panlsk conquistador, kter vedl prvn evropskou expedici na americk
+jihoz`pad. Byl prvnm Evropanem, kter spatil Grand Canyon a Pueblos
+v Novm Mexiku. Coronado byl peliv organiz`tor a skvl zvd, kter
+shromaoval cenn informace o irok oblasti.
+^
+{Kdy se pipoj ke Kongresu, na map se objev vechny existujc kolonie
+a oblast kolem nich.}
+
+@; Hernando De Soto
+@FATHER7
+@width=300
+^{Hernando de Soto (1500-1542)}
+Nemilosrdn panlsk Conquistador, kter vedl prvn evropskou
+expedici do jihovchodnch oblast Severn Ameriky. Pist`l na
+Florid a prozkoumal velkou `st Georgie, Tennessee, Alabamy,
+Mississippi, Louisiany a Arkansasu.
+^
+{S De Sotem jsou vsledky przkumu rozvalin Ztracenho msta vdy pozitivn
+a vechny jednotky maj zvten r`dius dohledu.}
+
+@; Henry Hudson
+@FATHER8
+@width=300
+^{Henry Hudson (????-1611)}
+Anglick cestovatel ve slub`ch Nizozemska, kter prozkoumal z`livy
+Chesapeake a Delaware a eku Hudson a na sever k dnen Albany.
+Hudson pozdji objevil Hudsonv z`liv a nakonec byl zabit vzbouenci.
+Hudsonv z`liv se stal hlavnm mstem pro lov koein a spolenost
+Hudson Bay Company provozovala po mnoho let rozs`hl` zazen na lov
+a zpracov`n koein.
+^
+{Hudson zvyuje produkci vech lovc koein o 100%%.}
+
+@; La Salle
+@FATHER9
+@width=300
+^{La Salle (1643-1687)}
+Francouzsk objevitel, kter se plavil po ece Mississippi do Mexickho
+z`livu a vekerou zemi, kolem toku tto mocn eky, zabral pro francouzskou
+Korunu. Sehr`l klovou roli v nastolen francouzsk nadvl`dy z`padn
+od Apalaskch hor.
+^
+{La Salle pin` palis`du do vech st`vajcch i budoucch koloni,
+jejich populace dos`hne 3.}
+
+@; MILITARY
+
+@; Hernan Cortes
+@FATHER10
+@width=300
+^{Hern`n Corts (1485-1547)}
+Corts, panlsk dobyvatel Mexika a niitel Aztck e, je vzorem
+conquistadora, mistra dobv`n a drancov`n.
+^
+{Kdy se Corts pipoj k tvmu Kongresu, z dobyt domorod osady vdy
+zsk` poklad a ve vtm mnostv. Kr`lovsk` galeona ho pak do Evropy
+peprav zdarma.}
+
+@; George Washington
+@FATHER11
+@width=300
+^{George Washington (1732-1799)}
+Velitel Americkch revolunch sil a prvn prezident Spojench st`t,
+George Washington prok`zal pozoruhodnou schopnost cviit a inspirovat
+koloni`ln sly k vtzstv.
+^
+{Jakmile se Washington pipoj ke Kontinent`lnmu kongresu, kad voj`k
+nebo dragoun, kter nen veter`nem a vyhraje boj, je automaticky poven.}
+
+@; Paul Revere
+@FATHER12
+@width=300
+^{Paul Revere (1735-1818)}
+Americk vlastenec, kter slouil v Kontinent`ln arm`d bhem V`lky
+za nez`vislost a burcoval minutemeny, kdy se blily britsk sly. Paul
+Reverev pklad, jako vlastence, umouje kolonistm pracujcm na svch 
+bnch povinnostech st`t se minutemeny, schopnmi shrom`dit se k obran
+kolonie v dob`ch nebezpe.
+^
+{Kdy je napadena kolonie bez voj`k, kolonist automaticky vezmou mukety
+ze sklad a budou kolonii br`nit.}
+
+@; Francis Drake
+@FATHER13
+@width=300
+^{Francis Drake (1540-1596)}
+Drake, nejvt anglick n`monk albtinsk ry, byl impozantn korz`r,
+kter terorizoval panlsk karibsk pobe s flotilou patn`cti lod
+a pot zachr`nil obyvatele upadajc anglick kolonie.
+^
+{Kdy se Drake pipoj ke Kongresu, bojov` sla vech tvch korz`r
+se zv o 50%%.}
+
+@; John Paul Jones
+@FATHER14
+@width=300
+^{John Paul Jones (1747-1792)}
+Odv`n skotsk n`mon velitel, kter slouil kolonim bhem V`lky
+za nez`vislost a prok`zal sv neuviteln schopnosti v mnoha odv`nch
+bitv`ch.
+^
+{Kdy Jones vstoup do Kongresu, zsk` do svho koloni`lnho n`monictva
+jednu fregatu zdarma.}
+
+@; POLITICAL
+
+@; Thomas Jefferson
+@FATHER15
+@width=300
+^{Thomas Jefferson (1743-1826)}
+Jefferson, velk americk st`tnk, tvrce stavy a tet prezident
+Spojench st`t, prosazoval rozvoj demokratickch instituc v koloni`ln
+Americe.
+^
+{Jeffersonova ptomnost v Kongresu zvyuje produkci Zvon svobody
+st`tnky o 50%%.}
+
+@; Pocahontas
+@FATHER16
+@width=300
+^{Pocahontas (1595-1617)}
+Indi`nsk` princezna z kmene Powhattan, kter` tlumila napt mezi anglickou
+koloni Jamestown a Powhattanskou konfederac ve Virginii. Pocahontas se
+provdala za Johna Rolffeho, Angliana z Jamestownu, co vedlo k obdob mru
+mezi indi`ny a Angliany.
+^
+{Kdy se Pocahontas pipoj ke Kongresu, veker napt mezi v`mi
+a domorodci se sn na minimum a vechny indi`nsk poplachy se generuj
+polovin rychlost.}
+
+@; Thomas Paine
+@FATHER17
+@width=300
+^{Thomas Paine (1737-1809)}
+Anglian, kter se pesthoval do Filadelfie a napsal dleit, provokativn
+pamflet "Zdrav rozum" (Common Sense), v nm siln prosazoval plnou
+nez`vislost koloni. Pozdji napsal "Pr`va lovka" (The Rights of Man)
+na podporu Francouzsk revoluce a konen "Vk rozumu" (The Age of Reason).
+^
+{Kdy Paine vstoup do Kontinent`lnho kongresu, vroba Zvonu svobody
+ve vech kolonich se zv o hodnotu aktu`ln daov sazby.}
+
+@; Simon Bolivar
+@FATHER18
+@width=300
+^{Simn Bolvar (1783-1830)}
+Organizoval a z velk `sti i vedl povst`n v rozs`hl oblasti severn
+Jin Ameriky, m osvobodil dnen Venezuelu, Kolumbii, Ekv`dor,
+Peru a Bolvii.
+^
+{Kdy je Bolvar v Kongresu, poet Syn svobody ve vech tvch kolonich
+se zv o 20%%.}
+
+@; Benjamin Franklin
+@FATHER19
+@width=300
+^{Benjamin Franklin (1706-1790)}
+Koloni`ln a pozdji americk st`tnk, kter se stal prvnm potmistrem,
+tiskaem a zahraninm velvyslancem v anglickch kolonich. Byl tak jednm
+z prvnch velkch americkch vdc. Franklin jako velvyslanec pro Evropu
+v Kontinent`lnm kongresu vn` soudrnost do vztah koloni se zahraninmi
+mocnostmi.
+^
+{Kr`lovy evropsk v`lky j nebudou mt vliv na vztahy mezi
+mocnostmi v Novm svt a Evropan v Novm svt bhem jedn`n
+vdy nabdnou mr.}
+
+@; RELIGIOUS
+
+@; William Brewster
+@FATHER20
+@width=300
+^{William Brewster (1567-1644)}
+William Brewster, jeden z Otc poutnk a tvrc "Mayflowerskch kompakt`t"
+(Mayflower Compact), slouil jako prvn duchovn poutnk a sehr`l klovou
+roli v organizaci skupiny, kter` se plavila na lodi Mayflower.
+^
+{S Brewsterem v Kongresu se v docch pestanou objevovat zloinci
+a smluvn sluhov a me si vybrat, kter imigrant ze seznamu
+v menu "N`bor" se pesune do dok.}
+
+@; William Penn
+@FATHER21
+@width=300
+^{William Penn (1644-1718)}
+Vdce anglickch kvaker a zakladatel Pensylv`nie, William Penn, 
+zskal v Severn Americe velk pozemkov grant pro n`boenskou svobodu.
+Toto zem se pozdji stalo Pensylv`ni.
+^
+{S Pennem se produkce k ve vech kolonich zv o 50%%.}
+
+@; Father Jean de Brebeuf
+@FATHER22
+@width=300
+^{Otec Jean de Brbeuf (1593-1649)}
+Francouzsk jezuitsk mision`, kter zemel rukou Irokz
+v zemi Huron v Kanad v bitv mezi Hurony a Irokzy. Peloil
+Katechismus do huronskho jazyka a byl kanonizov`n v roce
+1930.
+^
+{S de Brbeufem v Kongresu funguj vichni mision`i jako experti.}
+
+@; Juan de Sepulveda
+@FATHER23
+@width=300
+^{Juan de Seplveda (cca 1490-1573)}
+panlsk filozof a "humanista", kter se zasazoval o drsn zach`zen
+s domorodci. Sv vahy zaloil na tvrzen, e domorodci si kvli svmu
+divostv nejsou schopni vl`dnout sami, co dokazovala jejich neschopnost
+odolat panlsk invazi...
+^
+{Jeho ptomnost v Kongresu zvyuje pravdpodobnost, e podroben
+indi`ni "konvertuj" a pipoj se ke kolonii.}
+
+@; Bartolome de las Casas
+@FATHER24
+@width=300
+^{Bartolom de las Casas (1474-1566)}
+"Apotol indi`n", las Casas, byl panlsk mision`, kter se plavil
+s Kolumbovou tet expedic. Jeho sil o ochranu domorodho obyvatelstva
+ped otroctvm a zneuv`nm ho vedlo k tomu, e nkolikr`t promluvil
+v jejich zastoupen u panlskch soud.
+^
+{S las Casasem jsou vichni st`vajc indi`nt konvertit asimilov`ni
+do koloni jako voln kolonist.}
+
+@; *** CARGO TYPES ***
+
+@;
+@CARGO0
+@width=300
+^{JDLO}
+Jdlo je jednou z nejcennjch komodit, kter tv lid produkuj.
+Z`vis na nm peit tvch koloni. Nejlep msta pro pstov`n
+jdla jsou {planiny, pastviny, prrie a savany}. Vnos potravin
+zvyuje tak {orba} pdy. {Rybolov} je vynikajcm zdrojem potravy
+a {ryb lovit} jsou obzvl`t produktivn.
+^
+{Kad kolonista pracujc v kolonii sn 2 kusy jdla kad kolo.}
+
+@;
+@CARGO1
+@width=300
+^{CUKR}
+Cukr je plodina, kterou lze v Evrop prodat se slunm ziskem, nebo z nj
+{lihovarnk} me vydestilovat {rum}, kter lze prodat za jet lep cenu.
+^
+{Cukr nejhojnji roste na savan`ch a zejmna na
+"Cukrov plant`i".}
+
+@;
+@CARGO2
+@width=300
+^{TABK}
+Tab`k je plodina, kterou lze v Evrop prodat se slunm ziskem, nebo z nj
+{doutnk`} me vyrobit {doutnky}, kter lze prodat za jet lep cenu.
+^
+{Tab`k nejhojnji roste na pastvin`ch a zejmna na
+"Tab`kov plant`i".}
+
+@;
+@CARGO3
+@width=300
+^{BAVLNA}
+Bavlna je plodina, kterou lze v Evrop prodat se slunm ziskem, nebo z n
+{tkadlec} me vyrobit {l`tku}, kter` lze prodat za jet lep cenu.
+^
+{Bavlna nejhojnji roste v prrii a zejmna na
+"Bavlnkov plant`i".}
+
+@;
+@CARGO4
+@width=300
+^{KOEINY}
+Koeiny jsou v Americe hojn a trh v Evrop je po nich velmi hladov.
+Tvoji {koenci} z nich mohou vyrobit {kab`ty}, kter lze prodat s
+jet vtm ziskem. Pro lov zve jsou vhodn {lesy} veho druhu,
+ale nejlep jsou pole se {zv a bobry} v chladnjm podneb. Navc
+produkci koein zvyuje, pokud je na lesnm poli {cesta}.
+^
+{Koeiny lze nejhojnji nalzt ve vech zalesnnch oblastech,
+ale zejmna v chladnjch oblastech, kde se vyskytuje bobr.}
+
+
+@;
+@CARGO5
+@width=300
+^{DEVO}
+Devo je jednou z nejcennjch komodit, kterou me vyprodukovat.
+Tvoji {tesai} potebuj devo k stavb {budov, lod, artilerie a opevnn}.
+Devo zsk`, kdy prkopnci vyist zalesnn pole, nebo kdy tvoji
+devorubci pracuj v lese.
+^
+{Pro tbu deva jsou vhodn lesy veho druhu a produkci deva zvyuj
+cesty v lesch a pole s prvotdnm devem.}
+
+@;
+@CARGO6
+@width=300
+^{ELEZN RUDA}
+elezn` ruda je jednm z tvch nejuitenjch zdroj. Lze ji prodat
+v Evrop, nebo z n mohou {kov`i} vyrobit {n`ad}. Z n`ad pak me
+{zbroja} vyrobit {zbran}.
+^
+{eleznou rudu lze nalzt v kopcch, hor`ch a bain`ch.}
+
+@;
+@CARGO7
+@width=300
+^{STBRO}
+Stbro je jednm z nejcennjch kov, kter byly Novm svt nalezeny.
+Stbro lze tit z {hor} a nkter domorod civilizace ho maj
+ve velkm mnostv.
+^
+{Stbro se nach`z v hor`ch, ale pokud se t, tyto hojn zdroje brzy
+vyschnou.}
+
+@;
+@CARGO8
+@width=300
+^{KON}
+Kon jsou uiten pro usnadnn cestov`n v Novm svt. {Zvdov a dragouni}
+se pohybuj vrazn rychleji ne p kolonist. {Kad kolonista} me bt
+vybaven konm a st`t se {zvdem} a {kad voj`k} me bt vybaven konm a st`t
+se {dragounem}.
+^
+{Kon lze zskat jen v Evrop}, ale jakmile jsou pivezeni, mohou bt chov`ni.
+Pokud m` v kolonii {dva nebo vce kon} a ve skladu {jdlo navc}, tvoje
+kolonie {vyprodukuje dal kon}. Pokud postav {st`je}, budou se tvoji
+kon mnoit dvakr`t rychleji.
+
+@;
+@CARGO9
+@width=300
+^{RUM}
+Rum je produktem zpracov`n cukru v palrn, nebo lihovaru. Rum m` obvykle
+mnohem vt cenu ne surov cukr.
+^
+{Kad kolonista, kter pracuje jako lihovarnk, me z cukru vyr`bt rum.}
+
+@;
+@CARGO10
+@width=300
+^{DOUTNKY}
+Doutnky jsou produktem zpracov`n tab`ku v tab`k`skm dom, nebo
+tab`k`skm obchod. Doutnky maj obvykle mnohem vt cenu,
+ne surov tab`k.
+^
+{Kad kolonista, kter pracuje jako doutnk`, me z tab`ku vyr`bt doutnky.}
+
+@;
+@CARGO11
+@width=300
+^{LTKA}
+L`tka je produktem zpracov`n bavlny v tkalcovskm dom, nebo tkalcovskm
+obchod. L`tka m` obvykle mnohem vt cenu ne surov` bavlna.
+^
+{Kad kolonista, kter pracuje jako tkadlec, me z bavlny vyr`bt l`tku.}
+
+@;
+@CARGO12
+@width=300
+^{KABTY}
+Kab`ty se vyr`bj z koein v koenkov dom, nebo koenkov obchod.
+Kab`ty maj obvykle mnohem vt cenu ne nezpracovan koeiny.
+^
+{Kad kolonista, kter pracuje jako koenk, me z koein vyr`bt kab`ty.}
+
+@;
+@CARGO13
+@width=300
+^{OBCHODN ZBO}
+Obchodn zbo lze zskat pouze v Evrop nebo z jinch evropskch osad.
+Jedn` se o prmyslov zbo, jako jsou drobn n`stroje, biuterie a obleen,
+za kter by indi`ni mohli chtt nco smnit. Vtina domorodch kmen si
+obchodn zbo r`da vezme, alespo zpo`tku.
+
+@;
+@CARGO14
+@width=300
+^{NAD}
+N`ad je z`kladem spnho kolonizov`n. N`ad je poteba
+k vytvoen {prkopnk} a pouze prkopnci mohou
+{stavt silnice, k`cet lesy a orat pole}. N`ad je tak nezbytn
+k dokonen mnoha {budov}, kter me ve svch kolonich postavit.
+N`ad potebuje i {zbroja} k vrob {muket}.
+^
+{N`ad lze koupit v Evrop, nebo ho me vyrobit kov` ze elezn
+rudy.}
+
+@;
+@CARGO15
+@width=300
+^{MUKETY}
+Mukety jsou nezbytn pro obranu tvch koloni a pro vybudov`n arm`dy.
+Mukety potebuje k vytvoen vojenskch jednotek. {Kad kolonista},
+kterho vybav muketami, se stane {voj`kem} a {kad zvd}, kterho
+vybav muketami, se stane {dragounem}.
+^
+{Mukety lze koupit v Evrop, nebo vyrobit ve zbrojnici, zbrojovce,
+nebo tov`rn na zbran.} Kad kolonista, kter pracuje jako zbroja,
+me z n`ad vyr`bt mukety.
+
+@;
+@;      *** UNIT TYPES ***
+@;
+
+@;
+@UNIT0
+@width=300
+^{KOLONIST}
+Kolonist pedstavuj rzn lidi, kte pich`zej do Novho svta. Jeden
+kolonista ve he pedstavuje nkolik lid v re`lnm ivot, asi 100-200.
+Existuj tyi obecn typy kolonist, kad s jinmi schopnostmi: drobn
+zloinci, smluvn sluhov, voln kolonist a specialist. Kterkoli z tchto
+kolonist me vykon`vat jakoukoli pr`ci dostupnou v osad, ale experti
+vykon`vaj svou konkrtn pr`ci velmi dobe.
+^
+Existuje jet jeden typ: konvertovan indi`ni. Ti pedstavuj domorod
+Ameriany, kte se pipoj k tvm osad`m a stanou se kolonisty. Jsou velmi
+efektivn pro venkovn pr`ce, ale pro vrobu se moc nehod.
+
+@;
+@UNIT1
+@width=300
+^{VOJCI}
+Voj`ci vzniknou, kdy kolonisty vybav {muketami}. Voj`k se me st`t
+{veter`nem}, pokud vtz v bitv`ch, nebo se vzdl`v` na stedn kole.
+Krom toho mohou {zkuen voj`ci (veter`ni)} obas sami imigrovat
+do Novho svta z Evropy a tak mohou bt najati v Evrop
+na {Kr`lovsk univerzit}.
+
+@;
+@UNIT2
+@width=300
+^{PRKOPNCI}
+Prkopnci vzniknou, kdy kolonisty vybav {n`adm}. Prkopnci maj
+nkolik dleitch funkc: {k`cej lesy, oraj pole a stav silnice}.
+{Zkuen prkopnci} pln sv koly rychleji ne bn kolonist,
+kte pracuj jako prkopnci.
+
+@;
+@UNIT3
+@width=300
+^{MISIONI}
+Mision`i mohou bt vytvoeni na jakmkoli mst, kde se nach`z
+{kostel nebo katedr`la}. Me to bt v {Evropskm pstavu}, nebo
+v kolonii, kde byly kostel nebo katedr`la postaveny. Mision`i pln
+n`sledujc dleit koly: {zakl`daj misie v domorodch osad`ch},
+aby mrnili hnv indi`n, {osouj misie jinch Evropan} v domorodch
+osad`ch (co me vst ke znien tto misie), nebo {podncuj indi`ny
+k toku} na jinou evropskou mocnost. {Jezuitt mision`i jsou v tchto
+kolech obzvl`t efektivn.}
+
+@;
+@UNIT4
+@width=300
+^{DRAGOUNI}
+Dragouni jsou {voj`ci na konch}, koloni`ln ekvivalent kavalrie.
+Dragounem se me st`t kterkoli voj`k, kter bude vybaven komi.
+Dragouni se bhem tahu mohou pohybovat d`le a bojuj efektivnji.
+{Dragouni veter`ni jsou v bitv efektivnj, ne bn voj`ci
+na konch.}
+
+@;
+@UNIT5
+@width=300
+^{ZVDOV}
+Zvdem se me st`t kad kolonista, kter je vybaven {komi}. Zvdov ti
+mohou poskytnout mnoho cennch slueb: rychleji {odhaluj} neprozkouman
+tern, bhem jednoho kola se {dostanou d`le}, maj vt tst pi zkoum`n
+{rozvalin ztracench mst}, mohou se setk`vat a {hovoit s indi`nskmi
+n`elnky}, {infiltrovat nep`telsk kolonie}, aby zjistili, co se tam dje
+a {setk`vat se se starosty} v cizch kolonich. {Misti zvdov jsou ve vech
+tchto kolech lep ne bn kolonist, kte pracuj jako zvdov.}
+
+@;
+@UNIT6
+@width=300
+^{PRAVIDELN PCHOTA}
+Evropsk` pravideln` pchota jsou jednotky kr`lovsk pravideln
+arm`dy. Vstupuj do hry proti tob, jakmile vyhl`s nez`vislost.
+Jejich jedinou slabinou je nedostatek vcviku v drsnm a divokm
+ternu Novho svta.
+
+@;
+@UNIT7
+@width=300
+^{KONTINENTLN KAVALERIE}
+Kontinent`ln kavalerie je v bojov efektivit o stupe ve nad tvmi
+dragouny veter`ny. Znaj divoinu, jsou to zkuen voj`ci a absolvovali
+vojensk vcvik.
+
+@;
+@UNIT8
+@width=300
+^{KAVALERIE}
+Evropsk` pravideln` kavalerie jsou jednotky kr`lovsk pravideln
+jzdy. Vstupuj do hry proti tob, jakmile vyhl`s nez`vislost.
+Jejich jedinou slabinou je nedostatek vcviku v drsnm a divokm
+ternu Novho svta.
+
+@;
+@UNIT9
+@width=300
+^{KONTINENTLN PCHOTA}
+Pchota Kontinent`ln arm`dy je v bojov efektivit o stupe ve nad tvmi
+voj`ky veter`ny. Znaj divoinu, jsou to zkuen voj`ci a absolvovali
+pravideln vojensk vcvik.
+
+@;
+@UNIT10
+@width=300
+^{POKLADN VZ}
+Tento kryt vz pepravuje {koist}, obvykle zlato a stbro, drah kameny
+a vz`cn l`tky. Pokladn vozy se pouvaj k odvozu koisti zskan z
+domorodch osad, nebo ztracench mst. K peprav obsahu pokladnho vozu
+po moi je vdy zapoteb {galeona}.
+
+@;
+@UNIT11
+@width=300
+^{ARTILERIE}
+Artilerii lze zakoupit v {Evrop}, nebo ji postavit ve zbrojnicch
+tvch koloni. Artilerie je velmi inn` pi {tocch na kolonie a
+jejich obran} a tak pi toku na opevnn jednotky a indi`nsk osady.
+Nicmn, pi obran v nechr`nnm ternu je velmi zraniteln` a v toku
+tamt je neinn`. Dlosteleck` jednotka, kter` je poraena v bitv,
+je pokozena a ztr`c `st sv palebn sly. Pokud je znovu poraena,
+je zniena.
+
+@;
+@UNIT12
+@width=300
+^{PEPRAVN VZ}
+Pepravn vozy se pouvaj k peprav zbo a komodit {po soui}. Abyste
+s indi`ny obchodovali s co nejvtm ziskem, mli byste do jejich osad
+vjdt s vozy plnmi zbo. Pepravn vz me pepravovat stejn n`klady
+jako lo, krom kolonist a artilerie. Vozy maj 2 n`kladov prostory a lze
+je pidlit {obchodnm tras`m}. Nelze postavit vce pepravnch voz,
+ne m` koloni.
+
+@;
+@UNIT13
+@width=300
+^{KARAVELA}
+Karavela je przkumn` lo uren` k peprav mal pos`dky a dostatenho
+n`kladu z`sob na nkolik msc.
+
+@;
+@UNIT14
+@width=300
+^{OBCHODN LO}
+Obchodn lo je stedn velk` n`kladn lo. Jej hlavn funkc je
+pepravovat zbo do pstavu za elem obchodu. Je o nco vt
+ne karavela a s vce plachtami.
+
+@;
+@UNIT15
+@width=300
+^{GALEONA}
+Galeona je velk` n`kladn lo uren` pro dlouh plavby a tkou pepravu.
+Je stejn velk` jako adov` lo, ale nen vyzbrojena.
+
+@;
+@UNIT16
+@width=300
+^{KORZR}
+Korz`r je lo vlastnn` jednotlivcem, kter od sv vl`dy zskal "Korz`rskou
+listinu", co mu d`v` "pr`vo" lovit zahranin lod. Korz`i mohou bt pro
+tvj obchod velmi nebezpen, protoe nedodruje `dn kodex mezin`rodnho
+chov`n. Zem, kter je sponzoruj, pravdpodobn budou tvrdit, e o jejich
+jedn`n nic nevd.
+
+@;
+@UNIT17
+@width=300
+^{FREGATA}
+Fregaty jsou nebezpen bitevn lod, schopn potopit nebo pokodit
+nep`telsk` plavidla.
+
+@;
+@UNIT18
+@width=300
+^{MAN-O-WAR}
+Tyto mocn lod se objev v americkch vod`ch, jakmile se rozho V`lka
+za nez`vislost. Tvoje matesk` zem je vyle proti tvm sil`m a pokud
+dojde k zahranin intervenci, obdr jich nkolik na podporu sv vci.
+Jsou tce vyzbrojen kanny a schopn pepravovat velk invazn sly
+nebo n`klad.
+
+@;
+@UNIT19
+@width=300
+^{BOJOVNCI}
+Bojovnci jsou mal skupiny pvodnch obyvatel Ameriky. Pedstavuj indi`ny
+v jejich pirozenm stavu, tedy ne od Evropan zskali zbran a kon.
+
+@;
+@UNIT20
+@width=300
+^{OZBROJEN INDINI}
+Jakmile se domorod Amerian nau pouvat smrtc zbran Evropan,
+st`vaj se nebezpenjmi. Kdy domorod kmen zsk` od Evropan zbran,
+nkte staten mui jimi budou vyzbrojeni. {To z nich, v kombinaci
+s jejich znalost divoiny, dl` siln protivnky v lesch, kopcch
+a hor`ch.}
+
+@;
+@UNIT21
+@width=300
+^{JZDN INDINI}
+Domorod obyvatel Ameriky nemli pstup ke konm, dokud je panl koncem
+15. stolet nepivezli. V nkterch ppadech se indi`nsk` kultura znan
+zmnila a kon se staly jejm ivotn dleitm prvkem. {Kon zvyuj
+mobilitu a bojovou slu indi`n.}
+
+@;
+@UNIT22
+@width=300
+^{JZDN VLENCI}
+Kmeny, kter maj kon a mukety, jsou velmi nebezpen. Tito indi`ni jsou
+stejn dob, jako koloni`ln dragouni, dokonce lep, kdy bojuj v divoin.
+
+@;
+@UNIT23
+@width=300
+^{Kolonist}
+
+
+
+@;
+@TERRAIN0
+@width=300
+^{TUNDRA}
+Tato pomrn chladn`, oteven` krajina, produkuje jen minim`ln mnostv
+potravin a trochu ostatnho zemdlstv, ale asto zde me najt
+eleznou rudu.
+
+@;
+@TERRAIN1
+@width=300
+^{POU
+}
+V tchto suchch a dce porostlch oblastech se potraviny pstuj jen
+obtn (i kdy je to mon). Akoli, nkdy se zde d` tit elezn` ruda.
+
+@;
+@TERRAIN2
+@width=300
+^{PLANINA}
+Je to oblast vhodn` pro pstov`n irok k`ly potravin. Me zde vypstovat
+i trochu bavlny.
+^
+{Nejlep msto pro pstov`n jdla.}
+
+@;
+@TERRAIN3
+@width=300
+^{PRRIE}
+Jedn` se o relativn rovinat, oteven tern, ide`ln pro pstov`n bavlny.
+Dobe se zde da i produkci jdla.
+^
+{Nejlep msto pro pstov`n bavlny.}
+
+@;
+@TERRAIN4
+@width=300
+^{PASTVINA}
+rodn` pda v mrnm p`smu, ide`ln pro pstov`n tab`ku. Tak je to vhodn
+msto pro produkci jdla.
+^
+{Nejlep msto pro pstov`n tab`ku.}
+
+@;
+@TERRAIN5
+@width=300
+^{SAVANA}
+Bohat`, vlhk` pda, obzvl`t vhodn` pro pstov`n cukrov ttiny.
+Tato oblast je dobr` i pro produkci jdla.
+^
+{Nejlep msto pro pstov`n cukrov ttiny.}
+
+@;
+@TERRAIN6
+@width=300
+^{MOKINA}
+Vlhk`, slan` oblast, kde se moe setk`v` s pevninou. Lze zde pstovat
+nkter potraviny a v hojn me zde najde eleznou rudu.
+
+@;
+@TERRAIN7
+@width=300
+^{BAINA}
+Tyto nzko poloen, vlhk oblasti, asto ukrvaj loiska elezn rudy.
+Lze zde tak pstovat trochu jdla a cukrov ttiny.
+
+@;
+@TERRAIN8
+@width=300
+^{TAJGA}
+Toto je chladn`, zalesnn` krajina, kter` je vhodn` pro lov koein
+a tbu deva.
+^
+{Po vyk`cen se st`v` tundrou (vhodnou pro tbu elezn rudy).}
+
+@;
+@TERRAIN9
+@width=300
+^{KOVINAT LES}
+Toto je such`, nerodn` krajina, s rozptlenou vegetac. V tchto oblastech
+lze nalzt eleznou rudu.
+^
+{Po vyk`cen se st`v` pout (vhodnou pro tbu elezn rudy).}
+
+@;
+@TERRAIN10
+@width=300
+^{SMEN LES}
+Jedn` se o zalesnnou krajinu mrnho p`sma, kter` je vhodn` pro lov
+koein a tbu deva.
+^
+{Po vyk`cen se st`v` planinou (vhodnou pro produkci jdla).}
+
+@;
+@TERRAIN11
+@width=300
+^{LISTNAT LES}
+Jedn` se o zalesnnou krajinu mrnho p`sma, kter` je vhodn` pro lov
+koein a tbu deva.
+^
+{Po vyk`cen se st`v` prri (vhodnou pro pstov`n bavlny).}
+
+@;
+@TERRAIN12
+@width=300
+^{JEHLINAT LES}
+Jedn` se o zalesnnou krajinu mrnho p`sma, kter` je vhodn` pro lov
+koein a tbu deva.
+^
+{Po vyk`cen se st`v` pastvinou (vhodnou pro pstov`n tab`ku).}
+
+@;
+@TERRAIN13
+@width=300
+^{TROPICK LES}
+Toto je vlhk`, zalesnn` oblast, kter` je vhodn` pro tbu deva
+a lov koein.
+^
+{Po vyk`cen se st`v` savanou (vhodnou pro pstov`n cukrov ttiny).}
+
+@;
+@TERRAIN14
+@width=300
+^{MOKADN LES}
+Toto je tropick` zalesnn` krajina, kter` je dobr` pro tbu deva,
+lov koein a tbu elezn rudy.
+^
+{Po vyk`cen se st`v` mokinou (vhodnou pro tbu elezn rudy).}
+
+@;
+@TERRAIN15
+@width=300
+^{DETN LES}
+Toto je tropick` dungle, kter` je dobr` pro tbu deva, roste tam cukrov`
+ttina a d` se tam tit elezn` ruda.
+^
+{Po vyk`cen se st`v` bainou (vhodnou pro tbu elezn rudy).}
+
+@;
+@TERRAIN16
+@width=300
+^{TAJGA}
+Toto je chladn`, zalesnn` krajina, kter` je vhodn` pro lov koein
+a tbu deva.
+^
+{Po vyk`cen se st`v` tundrou (vhodnou pro tbu elezn rudy).}
+
+@;
+@TERRAIN17
+@width=300
+^{KOVINAT LES}
+Toto je such`, nerodn` krajina, s rozptlenou vegetac. V tchto oblastech
+lze nalzt eleznou rudu.
+^
+{Po vyk`cen se st`v` pout (vhodnou pro tbu elezn rudy).}
+
+@;
+@TERRAIN18
+@width=300
+^{SMEN LES}
+Jedn` se o zalesnnou krajinu mrnho p`sma, kter` je vhodn` pro lov
+koein a tbu deva.
+^
+{Po vyk`cen se st`v` planinou (vhodnou pro produkci jdla).}
+
+@;
+@TERRAIN19
+@width=300
+^{LISTNAT LES}
+Jedn` se o zalesnnou krajinu mrnho p`sma, kter` je vhodn` pro lov
+koein a tbu deva.
+^
+{Po vyk`cen se st`v` prri (vhodnou pro pstov`n bavlny).}
+
+@;
+@TERRAIN20
+@width=300
+^{JEHLINAT LES}
+Jedn` se o zalesnnou krajinu mrnho p`sma, kter` je vhodn` pro lov
+koein a tbu deva.
+^
+{Po vyk`cen se st`v` pastvinou (vhodnou pro pstov`n tab`ku).}
+
+@;
+@TERRAIN21
+@width=300
+^{TROPICK LES}
+Toto je vlhk`, zalesnn` oblast, kter` je vhodn` pro tbu deva
+a lov koein.
+^
+{Po vyk`cen se st`v` savanou (vhodnou pro pstov`n cukrov ttiny).}
+
+@;
+@TERRAIN22
+@width=300
+^{MOKADN LES}
+Toto je tropick` zalesnn` krajina, kter` je dobr` pro tbu deva,
+lov koein a tbu elezn rudy.
+^
+{Po vyk`cen se st`v` mokinou (vhodnou pro tbu elezn rudy).}
+
+@;
+@TERRAIN23
+@width=300
+^{DETN LES}
+Toto je tropick` dungle, kter` je dobr` pro tbu deva, roste tam cukrov`
+ttina a d` se tam tit elezn` ruda.
+^
+{Po vyk`cen se st`v` bainou (vhodnou pro tbu elezn rudy).}
+
+@;
+@TERRAIN24
+@width=300
+^{ARKTIDA}
+Studen` a ledov`, Arktida je tm neschopn` udret ivot.
+
+@;
+@TERRAIN25
+@width=300
+^{OCEN}
+Toto jsou rozs`hl vody otevenho moe. Jsou uiten` pro rybolov,
+zejmna podl pobe a v rybch lovitch.
+
+@;
+@TERRAIN26
+@width=300
+^{NMON TRASA}
+Toto je oteven oce`n, kter vede ke standardnm n`monm tras`m z Novho
+svta do Evropy a zpt. Pro n`vrat do Evropy sta, aby lo vplula do n`mon
+trasy a pot se vydala na vchod (pokud opout mapu na vchod) nebo na
+z`pad (pokud opout mapu z`pad).
+
+@;
+@TERRAIN27
+@width=300
+^{HORY}
+Jedn` se o rozs`hl oblasti hornatho ternu, kter je obtn schdn,
+ale pravdpodobnm zdroje elezn rudy a stbra. V horskm ternu
+nelze zakl`dat kolonie.
+^
+{Tyto oblasti oplvaj stbrem a eleznou rudou.}
+
+@;
+@TERRAIN28
+@width=300
+^{KOPCE}
+Mrn zvlnn` oblast, se snadnm pstupem k elezn rud. Tak je tam
+mon rozvjet zemdlstv.
+^
+{Bohat nalezit elezn rudy.}
+
+
+@;
+@;      *** COLONIST PROFESSIONS ***
+@;
+
+@;
+@JOB0
+@width=300
+^{EXPERTI FARMI}
+Nkte z tvch lid maj talent na pstov`n plodin, rozum poas
+a ronm obdobm. Tyto odbornky me nalzt v Evrop jako imigranty,
+nebo mohou bt vzdl`ni na Kr`lovsk univerzit. Nkte domorod
+Amerian jsou tak vynikajcmi farm`i a mohou nauit tv voln
+kolonisty a smluvn sluhy tajemstvm zemdlstv.
+^
+{Nejlepm mstem pro pstov`n jdla jsou planiny.}
+^
+{Experti farm`i vypstuj o 2 kusy vce jdla na tverec ne jin farm`i.}
+
+@;
+@JOB1
+@width=300
+^{MISTI PSTITEL CUKRU}
+S`zen a pstov`n cukrov ttiny je sloit` pr`ce, kter` vyaduje
+pl`nov`n a speci`ln techniky. Jen domorod Amerian maj dostaten
+znalosti, aby se mohli nazvat experty a pouze oni mohou nauit tv
+kolonisty, jak to dlat dobe. Nicmn, kolonista, kter se pstov`n
+cukrov ttiny vnuje dostaten dlouho, se tak me tak st`t mistrem.
+^
+{Nejlepm mstem pro pstov`n cukrov ttiny je savana.}
+^
+{Misti pstitel cukru jsou dvakr`t produktivnj ne ostatn.}
+
+@;
+@JOB2
+@width=300
+^{MISTI TABKI}
+Tab`k se v Novm svt nach`z ve velkm mnostv. Domorod Amerian
+ho pstuj a pouvaj pro mnoho ritu`l, i pro voln as. Nkte indi`ni
+maj o tto z`hadn rostlin velk znalosti a pomohou tvm lidem pomoci
+st`t se mistry v jej kultivaci.
+^
+{Nejlepm mstem pro pstov`n tab`ku jsou pastviny.}
+^
+{Misti tab`k`i jsou dvakr`t produktivnj ne ostatn.}
+
+@;
+@JOB3
+@width=300
+^{MISTI BAVLNI}
+Bavlna nalezen` v Novm svt je vysoce kvalitn a hod se k vrob jemnch
+tkanin a odv. Misti bavln`i mus bt vykoleni domorodmi Ameriany,
+kte bhem noha let zskali bohat zkuenost a nauili se nejlep zpsoby
+pstov`n tto plodiny.
+^
+{Nejlepm mstem pro pstov`n bavlny jsou prrie.}
+^
+{Misti bavln`i jsou dvakr`t produktivnj ne ostatn.}
+
+@;
+@JOB4
+@width=300
+^{EXPERTI LOVCI KOEIN}
+Nov svt hojn oplv` koeinovmi savci, jejich koeiny lze
+v Evrop prodat s pknm ziskem. Domorod Amerian tyto tvory,
+kvli jejich koein a masu, dlouho studovali a lovili a tv lid
+se tak mohou nauit o chov`n lesnch tvor a st`t se mistry lovci
+jedin od indi`n.
+^
+{Nejlep msta pro zsk`v`n koein jsou v lesnatch oblastech,
+zejmna v chladnjm podneb.}
+^
+{Experti lovci koein jsou dvakr`t produktivnj ne ostatn lovci.}
+
+@;
+@JOB5
+@width=300
+^{EXPERTI DEVORUBCI}
+Devo bylo vdy naprosto nezbytn v Novm i Starm svt. Experty devorubce
+me nalzt v evropskch pstavech, nebo je tam me vykolit.
+^
+{Nejlep msta pro tbu deva jsou lesy a lesnat oblasti.}
+^
+{Experti devorubci jsou schopni tit dvakr`t vce deva ne ostatn.}
+
+@;
+@JOB6
+@width=300
+^{EXPERTI TAI ELEZN RUDY}
+Od Doby elezn bylo ve Starm svt hornictv dleitm zamstn`nm.
+Je tam tedy mnoho odbornk, kte rozum miner`lm, jejich loiskm,
+il`m a budov`n dol. Experty tae elezn rudy me zskat v evropskch
+pstavech, nebo je tam vykolit.
+^
+{Nejlep msta, kde hledat eleznou rudu jsou hory,
+kopce a bainy, zejmna tam, kde se nach`zej loiska
+miner`l.}
+^
+{Experti tai elezn rudy jsou dvakr`t produktivnj ne ostatn.}
+
+@;
+@JOB7
+@width=300
+^{EXPERTI TAI STBRA}
+Stejn jako tba elezn rudy, i tba stbra je dleitou a lukrativn
+dovednost, kter` je v Evrop iroce zn`m`.
+^
+{Nejlep msta, kde hledat stbro jsou hory, zejmna tam,
+kde se nach`zej jeho loiska.}
+^
+{Experti tai stbra jsou dvakr`t produktivnj ne ostatn.}
+
+@;
+@JOB8
+@width=300
+^{EXPERTI RYBI}
+Rybolov byl v Evrop ji dlouho lukrativnm byznysem a mnoho tvch
+imigrant sebou pin` odborn znalosti v tto oblasti -- znalosti
+o chov`n ryb a o mstech, kde ij. Nejlep msta pro rybolov jsou
+podl pobe oce`n a v jezerech.
+^
+{Obecn plat, e m vce pevniny ohraniuje tverec, ve kterm ryb`
+pracuje, tm je produktivnj.}
+^
+{Experti ryb`i jsou dvakr`t produktivnj ne ostatn.}
+
+@;
+@JOB9
+@width=300
+^{EXPERTI LIHOVARNCI}
+Umn pemny surovho {cukru na rum} a dal lihoviny, je star jako
+civilizace samotn`. Nkte imigranti, kte k tob budou pich`zet, budou
+tmito znalostmi disponovat.
+^
+{Expert lihovarnk je dvakr`t produktivnj ne bn kolonista,
+kter pracuje jako lihovarnk.}
+
+@;
+@JOB10
+@width=300
+^{MISTI DOUTNKI}
+Pot, co Evropan vidli indi`ny kouit tab`k a nauili se detaily
+vroby dmek a doutnk, vznikl v Evrop mal prmysl, kter til
+z tohoto novho trhu. Doutnk`i vyr`bj {z tab`ku doutnky}. Misti
+doutnk`i se objevuj v evropskch pstavech, nebo tam mohou bt
+vykoleni.
+^
+{Mistr doutnk` je dvakr`t produktivnj ne bn kolonista,
+kter pracuje jako doutnk`.}
+
+@;
+@JOB11
+@width=300
+^{MISTI TKALCI}
+Tkan je emeslo star, kam a lidsk` pam sah`. Tkalci, kte
+zpracov`vaj {bavlnu na l`tky}, se v Evrop objevuj jako imigranti,
+nebo se tam mohou vykolit.
+^
+{Misti tkalci jsou v tkan l`tky z bavlny dvakr`t produktivnj,
+ne ostatn kolonist.}
+
+@;
+@JOB12
+@width=300
+^{MISTI KOENCI}
+Hojnost koein v Novm svt oivila koeinov prmysl v Evrop a mnoho
+zkuench koenk pich`z do Novho svta, aby zde zbohatli. Koenci
+vyr`bj {z koein kab`ty} a mistry koenky lze zskat v evropskch
+pstavech, nebo je lze vykolit.
+^
+{Misti koenci jsou ve vrob kab`t z koein dvakr`t produktivnj,
+ne ostatn kolonist.}
+
+@;
+@JOB13
+@width=300
+^{MISTI TESAI}
+Zalesnn oblasti Novho svta poskytuj suroviny pro mnoho stavebnch
+projekt. Mistr tesa je nezbytn pro rozvoj tv koloni`ln spolenosti.
+Misti tesai se objevuj v evropskch pstavech, nebo je tam lze
+vykolit.
+^
+{Misti tesai jsou ve stavn budov ze deva dvakr`t
+produktivnj,
+ne bn kolonist.}
+
+@;
+@JOB14
+@width=300
+^{MISTI KOVI}
+Pr`ce s kovy je nezbytnou sou`st spn kolonizace. Kov`i dok`ou
+opravovat kovov n`ad a vyr`bt nov. Kov`i vyr`bj {z elezn rudy
+n`ad}. Misti kov`i se objevuj v evropskch pstavech, nebo je tam
+lze vykolit.
+^
+{Misti kov`i jsou dvakr`t produktivnj ne bn kolonist,
+kte pracuj jako kov`i.}
+
+
+@;
+@JOB15
+@width=300
+^{MISTI ZBROJAI}
+Schopnost vyzbrojit sv lidi zbranmi je z`sadn, na tv cest k nez`vislosti.
+Zbrojai pemuj {n`ad na mukety}. Misti zbrojai se objevuj
+v evropskch pstavech, nebo je tam lze vykolit.
+^
+{Misti zbrojai jsou dvakr`t produktivnj ne bn kolonist,
+kte pracuj zbrojai.}
+
+
+@;
+@JOB16
+@width=300
+^{EXPERTI KAZATEL}
+N`boensk nepokoje v Evrop jsou katalyz`torem imigrace do Novho svta
+a kazatel v Novm svt ji jet stupuj. Kazatel produkuj ke,
+kter pedstavuj n`boenskou svobodu v Novm svt. m vce k
+se v Americe vyprodukuje, tm rychleji se imigranti hrnou do evropskch
+pstav.
+^
+{Expert kazatel produkuje dvakr`t vce k ne jin kolonist,
+kte k`ou v kostele nebo katedr`le.}
+
+@;
+@JOB17
+@width=300
+^{STAR STTNCI}
+Politici jsou cennmi leny tv spolenosti, protoe buduj politickou
+infrastrukturu. St`tnci produkuj Zvony svobody, kter pedstavuj kvalitu
+vl`dy a vlasteneckou horlivost. Star st`tnky lze vykolit v Evrop,
+nebo je lze nalzt v evropskch pstavech.
+^
+{Star st`tnci produkuj dvakr`t vce Zvon svobody ne bn kolonist,
+kte pracuj na radnici.}
+
+
+@;
+@JOB18
+@width=300
+^{Student}
+
+@;
+@JOB19
+@width=300
+^{VOLN KOLONIST}
+Voln kolonist jsou imigranti, kte tou odejt do Novho svta jako
+svobodn mui a eny a jsou ochotni pracovat pro dobro svch komunit. Voln
+kolonist jsou produktivn ve vech sfr`ch pr`ce -- na polch i v dln`ch.
+Akoli nejsou vykoleni v `dnm konkrtnm emesle, jsou nejproduktivnjmi
+leny tv spolenosti.
+
+@;
+@JOB20
+@width=300
+^{ZKUEN PRKOPNCI}
+Do Novho svta pich`z zvl`tn druh mu a en, kte z divoiny
+vykes`vaj civilizaci. Prkopnci jsou pedvojem tv nov spolenosti.
+Stav silnice, k`cej lesy a oraj pole. Prkopnk vznikne, kdy je libovoln
+kolonista vybaven n`adm, ale Zkuen prkopnky lze nalzt jen v evropskch
+pstavech, nebo je tam lze vykolit.
+^
+{Zkuen prkopnci vykon`vaj vechny prkopnick pr`ce rychleji,
+ne bn kolonist, kte pracuj jako prkopnci.}
+
+@;
+@JOB21
+@width=300
+^{VOJCI VETERNI}
+Voj`kem se me st`t kad kolonista, kter je vybaven muketami, ale pouze
+zkuenosti v boji nebo vcvik, z nj mohou uinit veter`na. Veter`ni
+evropskch v`lek obas imigruj a objevuj se v evropskch pstavech, nebo
+je me vykolit na Kr`lovsk univerzit. Veter`ny se stanou i voj`ci,
+kte vtz v bitv`ch.
+
+@;
+@JOB22
+@width=300
+^{MISTI ZVDOV}
+Vichni kolonist vybaven komi mohou psobit jako zvdov. Vid d`le,
+pohybuj se rychleji a maj schopnost shromaovat informace o cizch osad`ch,
+vetn indi`nskch mst a vesnic. Misti zvdov dlaj vechny ve uveden
+innosti efektivnji a bezpenji. Zkuen zvdov se nkdy objevuj jako
+imigranti v evropskch pstavech. Zvdov se tak mohou st`t mistry
+navtvov`nm indi`nskch osad.
+
+
+@;
+@JOB23
+@width=300
+^{DRAGOUNI VETERNI}
+Dokud nevznikne tvoje Kontinent`ln arm`da, jsou dragouni veter`ni
+nejlep vojensk jednotky, kter m`. Dragouni jsou ve vech ohledech
+podobn voj`km, a na to, e jezd na konch, a proto jsou o nco
+silnj. Statusu veter`na dosahuj, stejn jako voj`ci, vcvikem
+nebo zkuenostmi.
+
+@;
+@JOB24
+@width=300
+^{JEZUITT MISIONI}
+Jezuit jsou horliv kesan, kte r`di vstoup na zem a do vesnic
+domorodc, zalo tam misie a ij mezi nimi, aby je uili kesanstv.
+Slou u indi`n jako vyslanci a asto je dok`ou pesvdit,
+aby li do v`lky proti konkurennm Evropanm, za tvoji vc.
+Jejich hlavn funkc je tiit hnv domorodch kmen a zsk`vat
+konvertity.
+^
+{Jezuitt mision`i jsou ve svch kolech mnohem efektivnj,
+ne bn kolonist, kte byli vysvceni na mision`e.}
+
+@;
+@JOB25
+@width=300
+^{SMLUVN SLUHOV}
+Smluvn sluhov jsou lid, kte tou pijt do Novho svta,
+ale nemohou si dovolit zaplatit si cestu sami. Take se prakticky
+uvrhnou do otroctv a souhlas s tm, e si cestu v Novm svt
+odpracuj. Podobn jako drobn zloinci, jsou uitenmi pracovnky
+na polch a v dolech, ale ve vrob a zpracov`n jsou mn produktivn,
+ne voln kolonist. Nicmn, dky vzdl`n, nebo vojenskm zkuenostem
+se mohou st`t volnmi kolonisty.
+
+@;
+@JOB26
+@width=300
+^{DROBN ZLOINCI}
+Drobn zloinci byli do Novho svta posl`n, jako trest za sv zloiny.
+Zloinci jsou obecn {nejmn produktivnmi leny tv komunity}. Jsou
+docela dob v pr`ci na polch nebo dolech, ale neefektivn ve vrob
+nebo zpracov`n. Nicmn, dky vzdl`n, nebo vojenskm zkuenostem,
+se mohou st`t smluvnmi sluhy.
+
+@;
+@JOB27
+@width=300
+^{KONVERTOVAN INDINI}
+Mision`i pracujc mezi domorodm obyvatelstvem jsou schopni pesvdit
+nkter z indi`n o pravdivosti kesanstv. Tito konvertit jsou dob
+v prod -- zbhl ve vech profesch souvisejcch s pobytem venku.
+Nejsou vak vhodn pro vrobu nebo zpracovatelstv.
+
+
+@;
+@;      *** BUILDINGS ***
+@;
+
+@;
+@BUILDING0
+@width=300
+^{PALISDA}
+Palis`da je nzk` devn` barik`da vyroben` z kl, kter jsou nahoe
+opracovan do piky. Je vybaven` kruhovmi stlnami pro stelbu z muket
+a stupnky pro stelce.
+^
+Stavba palis`dy kolem osady pedstavuje pro komunitu znan sil a je
+symbolem vle njakou dobu zde setrvat. Stavba palis`dy me bt zah`jena,
+kdy je kolonie jet pomrn mal` (poet obyvatel 3). Jakmile je palis`da
+dokonena, poet obyvatel kolonie nelze dobrovoln snit pod 3.
+^
+{Jednotka br`nc kolonii uvnit palis`dy m` svou obrannou slu zvenou
+o 100%%.}
+
+@;
+@BUILDING1
+@width=300
+^{OPEVNN}
+Opevnn je proti palis`d podstatnm vylepenm a lze jej postavit,
+kdy u m` kolonie palis`du a {poet jejich obyvatel dos`hne 4}. Palis`da
+je zpevnna kovovmi vztuhami, je tam instalov`na artilerie, kter` kryje
+exponovan pstupy a celkov je patrn rozs`hl obrann pl`nov`n. Opevnn
+s vhledem na oce`n zpomal postup cizch lod a zah`j na n palbu, pokud
+se odv` pli blzko.
+^
+{Obrann` sla jednotky, kter` br`n kolonii v opevnn, se zvyuje o 150%%.}
+
+@;
+@BUILDING2
+@width=300
+^{PEVNOST}
+Pevnost je vylepen opevnn. Lze ji postavit, kdy u m` kolonie opevnn
+a {poet jejich obyvatel dos`hne 8}. Robustn devn` barik`da je jet
+zeslen` a na kritickch mstech nahrazena kamennm zdivem. Stlny jsou
+nyn obsazeny dlostelectvem, kter je masivn pouv`no. Vnj pstupy
+br`n dobe pl`novan`, pekrvajc se palebn` pole. Pevnost s vhledem
+na oce`n zpomal postup cizch lod a zah`j na n palbu, pokud se odv` 
+pli blzko.
+^
+{Jednotky v pevnosti zsk`vaj obrann bonus 200%%.}
+
+@;
+@BUILDING3
+@width=300
+^{ZBROJNICE}
+Tv lid mohou postavit zbrojnici, kovodlnu, kter umouje st`lou vrobu
+muket z n`ad.
+^
+{Dky zbrojnici mohou tesai vyr`bt artilerii a zbrojai konvertovat
+n`ad na mukety.}
+
+@;
+@BUILDING4
+@width=300
+^{ZBROJOVKA}
+Kdy populace kolonie dos`hne 8, me bt zbrojnice vylepena na
+zbrojovku.
+^
+{Zbrojovka zdvojn`sob produkci muket, pokud je k dispozici dostatek
+n`ad.}
+
+@;
+@BUILDING5
+@width=300
+^{TOVRNA NA ZBRAN}
+Kdy populace kolonie dos`hne 8, lze zbrojovku vylepit na tov`rnu
+na zbran.
+^
+{Tov`rna na zbran zdvojn`sob produkci muket, pokud je k dispozici dostatek
+n`ad.}
+
+@;
+@BUILDING6
+@width=300
+^{DOKY}
+Doky jsou kotvit a mola nezbytn` pro zpracov`n ryb ulovench
+na rznch ryb`skch lovitch, roztrouench podl pobe
+Novho svta.
+^
+{Doky tvm kolonistm umouj rybait v ktermkoliv oce`nskm,
+nebo jezernm poli sousedcm s koloni.}
+
+@;
+@BUILDING7
+@width=300
+^{SUCH DOKY}
+Such doky jsou vybaveny zazenm a vybavenm na opravu lod a lun
+pokozench v n`monch bitv`ch. Ve tv matesk zemi jsou such doky
+st`le k dispozici, ale me je postavit i v kad poben kolonii,
+kde ji existuj doky a m` aspo 6 obyvatel. Kdykoli je n`mon
+jednotka pokozena, je automaticky umstna do nejbliho suchho doku
+k oprav.
+^
+{Ptomnost suchch dok v kolonii umouje tto kolonii opravovat
+pokozen lod, msto aby se musely vracet do Evropy.}
+
+@;
+@BUILDING8
+@width=300
+^{LODNICE}
+Lodnice obsahuj veker vybaven, kter je potebn ke stavb
+lod.
+^
+{Ptomnost lodnice v kolonii umouje tesam stavt
+lod.}
+
+@;
+@BUILDING9
+@width=300
+^{RADNICE}
+Radnice je jednou z prvnch staveb, kter zakladatel postavili.
+Poskytuje msto, kde se kolonist z okol mohou sch`zet a diskutovat
+o problmech, kterm komunita el. Toto je prvn n`znak koloni`ln vl`dy.
+Kolonista na radnici produkuje Zvony svobody, kter pedstavuj slc
+nacionalismus a koloni`ln vl`du. Star st`tnk na radnici produkuje
+mnoho Zvon svobody.
+
+@;
+@BUILDING10
+@width=300
+^{RADNICE}
+
+@;
+@BUILDING11
+@width=300
+^{KOLONILN SNM}
+
+@;
+@BUILDING12
+@width=300
+^{KOLA}
+Abys mohl zat vzdl`vat sv obany, mus postavit kolu. Lze ji postavit,
+jakmile {populace kolonie dos`hne 4} obyvatele. {koln budova umouje
+n`sledujcm specialistm uit sv dovednosti ostatn kolonisty}:
+^ů Expert farm`
+^ů Expert ryb`
+^ů Expert ta stbra
+^ů Expert ta elezn rudy
+^ů Expert devorubec
+^ů Expert lovec koein
+^ů Mistr tesa
+^ů Zkuen prkopnk
+^ů Mistr zvd
+
+@;
+@BUILDING13
+@width=300
+^{STEDN KOLA}
+Kdy {populace kolonie dos`hne velikost 8}, lze kolu vylepit na stedn
+kolu. Funguje identicky jako kola, ale navc {mohou vyuovat dva
+specialist souasn a lze vyuovat n`sledujc dal dovednosti}:
+^ů Mistr pstitel cukru
+^ů Mistr bavln`
+^ů Mistr tab`k`
+^ů Expert lihovarnk
+^ů Mistr tkadlec
+^ů Mistr doutnk`
+^ů Mistr koenk
+^ů Mistr kov`
+^ů Mistr zbroja
+^ů Voj`k veter`n
+
+@;
+@BUILDING14
+@width=300
+^{UNIVERZITA}
+Kdy {poet obyvatel kolonie dos`hne 10}, me bt stedn kola
+vylepena na univerzitu. Univerzita funguje jako stedn kola,
+ale navc {mohou vyuovat ti specialist souasn a lze vyuovat
+n`sledujc dal dovednosti}:
+^ů Jezuitsk mision`
+^ů Expert kazatel
+^ů Star st`tnk
+
+@;
+@BUILDING15
+@width=300
+^{SKLADIT}
+Kad` tvoje kolonie bn pojme a 100 kus od kadho
+typu n`kladu. Tv tesai vak mohou postavit vt
+skladit.
+^
+{Skladit pojme a 200 kus kadho typu n`kladu.}
+
+@;
+@BUILDING16
+@width=300
+^{ROZEN SKLADIT}
+Skladit bn pojme a 200 kus od kadho typu n`kladu. Tv tesai
+vak mohou postavit rozen skladit, kter zv celkovou kapacitu
+o dalch 100 kus. Rozen skladit vypad` stejn jako norm`ln
+skladit, ale je na nm zobrazeno slo "2".
+
+@;
+@BUILDING17
+@width=300
+^{STJE}
+St`je jsou v kolonii poteba pro {zven chovu kon}. Jakmile jsou st`je
+dokoneny, {reprodukce kon se zdvojn`sob}.
+
+@;
+@BUILDING18
+@width=300
+^{CELNICE}
+Jakmile se ke Kontinent`lnmu kongresu pipoj {Peter Stuyvesant},
+mohou tv tesai zat stavt celnice. Celnice slou jako trval
+spojen mezi koloni, kter` ji postavila a mateskou zem. {Po dokonen
+me pravideln prod`v`te zbo a komodity do Evropy} a u se nemus
+starat o logistiku, u nemus nakl`dat a vykl`dat n`klad, nebo ho
+pev`et na lodch.
+^
+{Celnice tak umouje pokraov`n obchodu s Evropou i po zah`jen revoluce,
+kdy je jinak pstup na evropsk trhy uzaven.}
+
+@;
+@BUILDING19
+@width=300
+^{TISKASTV}
+Tiskask stroje a noviny poskytuj prostor pro veejn vyj`den.
+Toto veejn frum me vytv`et pocit soun`leitosti a bratrstv,
+co v kolonii vyvol`v` pocity vlastenectv.
+^
+{Po dokonen tiskastv se v kolonii zv produkce Zvon svobody
+o 50%%.}
+
+@;
+@BUILDING20
+@width=300
+^{NOVINY}
+Noviny poskytuj prostor pro veejn vyj`den obav, kterm lid el.
+Toto veejn frum me vytv`et pocit soun`leitosti a bratrstv,
+co v kolonii vyvol`v` pocity vlastenectv.
+^
+{Po dokonen novin se v kolonii zv produkce Zvon svobody
+o 100%%.}
+
+@;
+@BUILDING21
+@width=300
+^{TKALCOVSK DM}
+Indi`ni v Americe pouvaj nov druh bavlny a nkte kolonist z nj
+tkaj l`tky vysok kvality. Pokud je bavlna k dispozici, {me z n
+kolonista, pracujc v tkalcovskm dom, vyr`bt l`tku}. Veker` vyroben`
+l`tka se uskladuje ve skladit.
+
+@;
+@BUILDING22
+@width=300
+^{TKALCOVSK OBCHOD}
+Tkalcovsk obchod {zvyuje produkci l`tek vech tkalc} v kolonii.
+Pro zah`jen stavby tkalcovskho obchodu mus mt kolonie {populaci
+alespo 4}.
+
+@;
+@BUILDING23
+@width=300
+^{TEXTILKA}
+Tkalcovsk obchod me bt vylepen na textiln tov`rnu. Textilka
+dramaticky zvyuje efektivitu provozu, a proto produkuje {vce l`tky na
+jednotku bavlny}. Aby mohla bt stavba textilky zah`jena, mus bt ve
+tvm Kontinent`lnm kongresu {Adam Smith} a {populace kolonie mus bt
+alespo 8}.
+
+@;
+@BUILDING24
+@width=300
+^{TABKSK DM}
+Nkte kolonist dky domorodcm objevili tab`k a ji se u, jak ho
+suit a vyr`bt doutnky. Jednoho dne se z tto plodiny me st`t
+vznamn prmyslov odvtv.
+^
+{Pokud je tab`k k dispozici, me z nj kolonista, pracujc v tab`k`skm
+dom, vyr`bt doutnky}. Vechny vyroben doutnky se uskladuj ve skladit.
+
+@;
+@BUILDING25
+@width=300
+^{TABKSK OBCHOD}
+Tab`k`sk obchod {zvyuje produkci doutnk vech doutnk`} v kolonii.
+Pro zah`jen stavby tab`k`skho obchodu mus mt kolonie {populaci
+alespo 4}.
+
+@;
+@BUILDING26
+@width=300
+^{TOVRNA NA DOUTNKY}
+Tab`k`sk obchod me bt vylepen na tov`rnu na doutnky. Tov`rna na
+doutnky dramaticky zvyuje efektivitu provozu, a proto produkuje {vce
+doutnk na jednotku tab`ku}. Aby mohla bt stavba tov`rny na doutnky
+zah`jena, mus bt ve tvm Kontinent`lnm kongresu {Adam Smith} a {populace
+kolonie mus bt alespo 8}.
+
+@;
+@BUILDING27
+@width=300
+^{PALRNA}
+V nkterch oblastech se d` pstovat kvalitn ttinov cukr a nkte
+domorodci ho obdl`vaj velk` pole. Kolonist vd, e se d` zpracovat
+k vrob rumu.
+^
+{Pokud je cukr k dispozici, me z nj kolonista, pracujc v palrn,
+vyr`bt rum}. Rum se pln do lahv a skladuje ve skladiti.
+
+@;
+@BUILDING28
+@width=300
+^{LIHOVAR}
+Lihovar {zvyuje produkci rumu vech lihovarnk} v kolonii. Pro zah`jen
+stavby lihovaru mus mt kolonie {populaci alespo 4}.
+
+@;
+@BUILDING29
+@width=300
+^{TOVRNA NA RUM}
+Lihovar me bt vylepen na tov`rnu na rum. Tov`rna na rum dramaticky
+zvyuje efektivitu provozu, a proto produkuje {vce rumu na jednotku
+cukru}. Aby mohla bt stavba tov`rny na rum zah`jena, mus bt ve tvm
+Kontinent`lnm kongresu {Adam Smith} a {populace kolonie mus bt
+alespo 8}.
+
+@;
+@BUILDING30
+@width=300
+^{KAPITOL}
+
+@;
+@BUILDING31
+@width=300
+^{ROZEN KAPITOL}
+
+@;
+@BUILDING32
+@width=300
+^{KOENKV DM}
+Jednou z prvnch vc, kterch si kolonist po piplut do Ameriky vimli,
+bylo neuviteln mnostv koeinovch zvat a ohromn vyuit jejich
+koein indi`ny. Uvdomili si tak, jak obrovskho zisku by lo dos`hnout
+prodejem koein, nebo odv z nich vyrobench.
+^
+{Pokud jsou koeiny k dispozici, me kolonista, pracujc v koenkov
+dom, vyr`bt kab`ty}. Vechny vyroben kab`ty se uskladuj ve skladiti.
+
+@;
+@BUILDING33
+@width=300
+^{KOENKV OBCHOD}
+Koenkv obchod {zvyuje produkci kab`t vech koenk} v kolonii.
+Pro zah`jen stavby koenkova obchodu mus mt kolonie {populaci
+alespo 4}.
+
+
+@;
+@BUILDING34
+@width=300
+^{TOVRNA NA KABTY}
+Koenkv obchod me bt vylepen na tov`rnu na kab`ty. Tov`rna na kab`ty
+dramaticky zvyuje efektivitu provozu, a proto produkuje {vce kab`t na
+jednotku koein}. Aby mohla bt stavba tov`rny na kab`ty zah`jena, mus
+bt ve tvm Kontinent`lnm kongresu {Adam Smith} a {populace kolonie mus
+bt alespo 8}.
+
+@;
+@BUILDING35
+@width=300
+^{TESAV OBCHOD}
+Komunita stav tesav obchod kvli zjevn poteb vroby
+nejrznjch vc pro dobro komunity. Kolonista pracujc
+v tesaov obchod {produkuje kladiva}, kter` se hromad
+{pro stavbu budov} a dalch vc v osad. Tesa {potebuje
+k produkci kladiv devo}.
+
+@;
+@BUILDING36
+@width=300
+^{PILA}
+Skromn tesav obchod lze vylepit tak, aby se zvila efektivita
+pr`ce. Kdy {populace kolonie dos`hne 3}, me tesav obchod vylepit
+na pilu. {Zdvojn`sob se tm produkce kladiv vech kolonist}, kte
+tam pracuj (ale z`rove je samozejm poteba mt k dispozici stejn
+mnostv deva).
+
+@;
+@BUILDING37
+@width=300
+^{KOSTEL}
+Kostel me bt postaven tm okamit po pist`n na bezch Novho svta,
+{populace kolonie mus bt pouze 3}. To okamit zpsob {zvenou produkci
+k} v kolonii, ale pokud do pr`ce v kostele pidl i kolonisty, produkce
+k vzroste jet mnohem vce.
+
+@;
+@BUILDING38
+@width=300
+^{KATEDRLA}
+Kdy {populace kolonie dos`hne 8}, me bt kostel vylepen na katedr`lu,
+m se dramaticky {zv produkce k} v kolonii a tak produkce vech
+kolonist, kte tam k`ou.
+
+@;
+@BUILDING39
+@width=300
+^{KOVV DM}
+Komunita v kolonii pom`h` stavt kov`ovy domy ze stejnch dvod,
+jako tesav obchod. Uvdomuje si potebu z`kladnch kov`skch
+prac -- vrobu n`ad, opravu st`vajcho n`ad atd.
+{Kolonista pracujc v kov`rn me vyr`bt n`ad}, kter se
+skladuje ve skladiti osady. Kov` {potebuje k vrob n`ad
+eleznou rudu}.
+
+@;
+@BUILDING40
+@width=300
+^{KOVV OBCHOD}
+Kov`v dm lze rozit na kov`v obchod, kter {zvyuje produkci
+n`ad}. Projekt me zah`jit, jakmile {populace kolonie
+dos`hne 4}.
+
+@;
+@BUILDING41
+@width=300
+^{HU
+}
+Jakmile {populace kolonie dos`hne 8}, mohou tv kolonist postavit hu.
+Je to vznamn zazen na zpracov`n a produkci kov a {dramaticky
+zvyuje produkci n`ad}. Hu je budova na rovni tov`rny a nelze ji
+postavit dve, ne se k tvmu Kontinent`lnmu kongresu pipoj
+{Adam Smith}.
+
+
