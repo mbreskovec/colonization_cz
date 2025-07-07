@@ -1,0 +1,194 @@
+@MAPTOLOAD
+@width=220
+^^Vyber, ktery soubor s mapou nahrat
+
+@MAPTOEDIT
+@width=220
+^^COLONIZATION EDITOR MAP
+^^Copyright (C) 1994 by Microprose Software
+^
+^^Vyber, kterou mapu upravit
+^^(ESC pro vytvoreni nove mapy)
+
+@SAVE
+@default=1
+@width=190
+Ulozit posledni zmeny do %STRING0?
+
+Ano
+Ne
+
+@LOAD
+@default=2
+@width=190
+V %STRING0 jsou neulozene zmeny.
+Prejes si tyto zmeny zrusit?
+
+Ano
+Ne
+
+@ERROR
+@width=190
+Doslo k chybe.
+
+@EXIT
+@default=3
+@width=190
+V %STRING0 jsou neulozene zmeny.
+
+Ukoncit bez ulozeni.
+Ulozit zmeny a ukoncit.
+Zrusit.
+
+@SAVEAS
+@width=190
+Zadej nove jmeno pro %STRING0.
+
+Jmeno:
+
+@CREATENOW
+@default=2
+@width=190
+V %STRING0 jsou neulozene zmeny.
+Prejes si tyto zmeny zrusit?
+
+Ano
+Ne
+
+@NEWNAME
+@width=190
+Zadej jmeno pro novy soubor s mapou.
+
+Jmeno:
+
+@XS
+@width=190
+Zadej pozadovanou sirku nove mapy.
+
+Sirka:
+
+@YS
+@width=190
+Zadej pozadovanou vysku nove mapy.
+
+Vyska:
+
+
+@CONTINENTS1
+@width=190
+Varovani: Mapa ma vice nez 15 kontinentu.
+
+@CONTINENTS2
+@width=190
+Varovani: Mapa ma vice nez 15 oceanu.
+
+@HELP1
+@width=300
+@smallfont
+^^ZAKLADNI INFORMACE
+^
+Tento editor map ti umozni vytvaret preddefinovane mapy, ktere lze pouzit
+v Colonization.  Obvykly postup je vytvoreni prazdne mapy a potom do ni
+pomoci mysi nebo klavesnice "{kreslit}" terenem.  Funkce {Vyber dilku mapy}
+nebo {D} ti umozni vybrat typ terenu, kterym chces kreslit.  Mezi dalsi
+funkce patri {Ochrana pobrezi}, ktera zakazuje kresleni na ctverce oceanu.
+Kdyz je ochrana pobrezi vypnuta, muzes urcit tvar kontinentu tak, ze je
+nakreslis jednim typem terenu, nasledne ochranu pobrezi zapnes a muzes
+zacit vybarvovat kontinenty spravnymi typy terenu, bez rizika zmeny
+jejich tvaru.  {Rezim vyplnovani} ti umoznuje vybarvit vetsi oblasti
+jednim klikem.
+^
+Doporucujeme vytvaret mapy s maximalne 15 ruznymi pevninami.
+Vice nez 15 kontinentu bude fungovat, ale muze to zmast pocitacove hrace.
+
+@HELP2
+@width=300
+@smallfont
+^^OVLADANI MYSI
+^
+Pokud chces zmenit pohled, jednoduse klikni libovolnym tlacitkem mysi
+v hlavni oblasti mapy, cimz se pohled vycentruje na dane misto.  Nebo
+klikni na mini mapu sveta.
+^
+Pokud chces {kreslit} s aktualne vybranym typem terenu, stiskni a podrz
+klavesu {Shift} a zaroven klikni {levym} tlacitkem mysi.  Pokud je aktualne
+vybranym typem terenu {reka, hory, nebo kopce}, bude tento terenni prvek
+pridan na podkladovy teren.  Pokud chces, aby reka ustila do ctverce oceanu,
+musis do tohoto ctverce oceanu "reku" umistit.  Reky musi byt alespon dve
+policka dlouhe.
+^
+Pro odstraneni reky/hor/kopcu z mapy vyber {reku, hory, nebo kopce} v menu
+{Vyber dilku mapy}, stiskni a podrz klavesu {Shift} a zaroven klikni {pravym}
+tlacitkem mysi.
+^
+V opacnem pripade se pomoci klavesy Shift a praveho tlacitka mysi {zvoli}
+typ terenu pod kurzorem a ten se tak stane vybranym typem terenu pro
+kresleni.
+
+@HELP3
+@width=220
+@smallfont
+^^OVLADANI KLAVESNICI
+^
+^Kurzorove {sipky} pohybuji kurzorem po mape.
+^Klavesy {Z} a {X} ovladaji uroven priblizeni.
+^Klavesa {C} vycentruje mapu na aktualni pozici kurzoru.
+^Klavesa {D} umoznuje vybrat typ terenu pro kresleni.
+^Klavesa {P} prepina rezim ochrany pobrezi.
+^Klavesa {R} meni "polomer vyplnovani" (0-2 pole kolem kurzoru).
+^
+^Klavesa {Mezernik} nebo {Enter} kresli aktualnim typem terenu.
+^Klavesa {Backspace} zvoli teren v miste kurzoru pro kresleni.
+^
+Pokud jsi vybral {reku, hory, nebo kopce}, klavesa {Mezernik} nebo {Enter}
+prida tento typ terenu do aktualniho pole.  Klavesa {Backspace} tento typ
+terenu z aktualniho pole odstrani.
+
+@HELP4
+@width=220
+@smallfont
+^^SPECIALNI FUNKCE
+^
+{Ochrana pobrezi}: Pokud je zapnuta ochrana pobrezi, nelze provadet zadne
+zmeny na polich oceanu.  To je uzitecne, pokud jsi pro vytvoreni tvaru
+kontinentu pouzil jeden typ terenu.  Zapnuta ochrana pobrezi ochrani tento
+tvar, zatimco budes kontinenty vybarvovat vhodnym terenem.
+^
+{Rezim vyplnovani}: Obvykle je polomer vyplnovani 0, to znamena, ze pri
+kresleni se meni pouze pole pod kurzorem.  Pri polomeru vyplnovani 1 se
+vybarvi pole pod kurzorem a vsechna bezprostredne sousedici pole.  Polomer
+vyplnovani lze nastavit az na 2.
+^
+{Najit kontinenty}: Pokud je tato funkce aktivovana, pocitac zkontroluje
+mapu, zda dokaze spravne rozpoznat tvoje kontinenty.  Muzes hrat i na mape
+bez spravne vytvorenych kontinentu, ale umela inteligence se muze stat o neco
+"hloupejsi" a pro jednotky muze byt obtiznejsi najit cestu v rezimu "Jdi do".
+
+@HELP5
+@width=220
+@smallfont
+^^JAK POUZIT UZIVATELSKY VYTVORENE MAPY
+^
+Pokud chces hrat Colonization s mapou, kterou jsi sam vytvoril, normalne
+spust hru (musis mit verzi souboru VICEROY.EXE, ktera je distribuovanou
+s timto editorem, starsi verze hry tuto funkci nepodporuji) a v hlavni
+nabidce vyber "Zacit hru v AMERICE".  Objevi se dalsi nabidka s dotazem,
+zda chces hrat na puvodni mape Ameriky, nebo na mape vytvorene v editoru
+map.  Vyber "Editor map" a pak zvol mapu, na ktere chces hrat.
+^
+Hra obvykle umistuje indianske vesnice nahodne.  Pokud vsak chces
+vytvorit treba historicky scenar, je mozne predem priradit obecne
+umisteni konkretnich kmenu.  Vytvor soubor se stejnym nazvem jako
+ma tvoje mapa, ale s priponou .MPP (pokud je tvoje mapa treba CARIB.MP,
+pak vytvor CARIB.MPP).  Jako vzor pouzij soubor TRIBE.TXT, ktery
+definuje umisteni indianu pro mapu Ameriky.  Nikdy neumistuj vice
+nez 84 indianskych vesnic.
+
+@ABOUT
+@width=220
+^^Colonization Editor Map
+^
+^^Copyright (c) 1994 by Microprose Software
+^
+^^Programovani: Brian Reynolds
+^^Dokumentace: Jeff Briggs

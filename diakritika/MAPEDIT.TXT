@@ -1,0 +1,194 @@
+@MAPTOLOAD
+@width=220
+^^Vyber, kter soubor s mapou nahr`t
+
+@MAPTOEDIT
+@width=220
+^^COLONIZATION EDITOR MAP
+^^Copyright (C) 1994 by Microprose Software
+^
+^^Vyber, kterou mapu upravit
+^^(ESC pro vytvoen nov mapy)
+
+@SAVE
+@default=1
+@width=190
+Uloit posledn zmny do %STRING0?
+
+Ano
+Ne
+
+@LOAD
+@default=2
+@width=190
+V %STRING0 jsou neuloen zmny.
+Peje si tyto zmny zruit?
+
+Ano
+Ne
+
+@ERROR
+@width=190
+Dolo k chyb.
+
+@EXIT
+@default=3
+@width=190
+V %STRING0 jsou neuloen zmny.
+
+Ukonit bez uloen.
+Uloit zmny a ukonit.
+Zruit.
+
+@SAVEAS
+@width=190
+Zadej nov jmno pro %STRING0.
+
+Jmno:
+
+@CREATENOW
+@default=2
+@width=190
+V %STRING0 jsou neuloen zmny.
+Peje si tyto zmny zruit?
+
+Ano
+Ne
+
+@NEWNAME
+@width=190
+Zadej jmno pro nov soubor s mapou.
+
+Jmno:
+
+@XS
+@width=190
+Zadej poadovanou ku nov mapy.
+
+ka:
+
+@YS
+@width=190
+Zadej poadovanou vku nov mapy.
+
+Vka:
+
+
+@CONTINENTS1
+@width=190
+Varov`n: Mapa m` vce ne 15 kontinent.
+
+@CONTINENTS2
+@width=190
+Varov`n: Mapa m` vce ne 15 oce`n.
+
+@HELP1
+@width=300
+@smallfont
+^^ZKLADN INFORMACE
+^
+Tento editor map ti umon vytv`et peddefinovan mapy, kter lze pouit
+v Colonization.  Obvykl postup je vytvoen pr`zdn mapy a potom do n
+pomoc myi nebo kl`vesnice "{kreslit}" ternem.  Funkce {Vbr dlku mapy}
+nebo {D} ti umon vybrat typ ternu, kterm chce kreslit.  Mezi dal
+funkce pat {Ochrana pobe}, kter` zakazuje kreslen na tverce oce`nu.
+Kdy je ochrana pobe vypnut`, me urit tvar kontinent tak, e je
+nakresl jednm typem ternu, n`sledn ochranu pobe zapne a me
+zat vybarvovat kontinenty spr`vnmi typy ternu, bez rizika zmny
+jejich tvaru.  {Reim vyplov`n} ti umouje vybarvit vt oblasti
+jednm klikem.
+^
+Doporuujeme vytv`et mapy s maxim`ln 15 rznmi pevninami.
+Vce ne 15 kontinent bude fungovat, ale me to zm`st potaov hr`e.
+
+@HELP2
+@width=300
+@smallfont
+^^OVLDN MY
+^
+Pokud chce zmnit pohled, jednodue klikni libovolnm tlatkem myi
+v hlavn oblasti mapy, m se pohled vycentruje na dan msto.  Nebo
+klikni na mini mapu svta.
+^
+Pokud chce {kreslit} s aktu`ln vybranm typem ternu, stiskni a podr
+kl`vesu {Shift} a z`rove klikni {levm} tlatkem myi.  Pokud je aktu`ln
+vybranm typem ternu {eka, hory, nebo kopce}, bude tento ternn prvek
+pid`n na podkladov tern.  Pokud chce, aby eka stila do tverce oce`nu,
+mus do tohoto tverce oce`nu "eku" umstit.  eky mus bt alespo dv
+polka dlouh.
+^
+Pro odstrann eky/hor/kopc z mapy vyber {eku, hory, nebo kopce} v menu
+{Vbr dlku mapy}, stiskni a podr kl`vesu {Shift} a z`rove klikni {pravm}
+tlatkem myi.
+^
+V opanm ppad se pomoc kl`vesy Shift a pravho tlatka myi {zvol}
+typ ternu pod kurzorem a ten se tak stane vybranm typem ternu pro
+kreslen.
+
+@HELP3
+@width=220
+@smallfont
+^^OVLDN KLVESNIC
+^
+^Kurzorov {ipky} pohybuj kurzorem po map.
+^Kl`vesy {Z} a {X} ovl`daj rove piblen.
+^Kl`vesa {C} vycentruje mapu na aktu`ln pozici kurzoru.
+^Kl`vesa {D} umouje vybrat typ ternu pro kreslen.
+^Kl`vesa {P} pepn` reim ochrany pobe.
+^Kl`vesa {R} mn "polomr vyplov`n" (0-2 pole kolem kurzoru).
+^
+^Kl`vesa {Mezernk} nebo {Enter} kresl aktu`lnm typem ternu.
+^Kl`vesa {Backspace} zvol tern v mst kurzoru pro kreslen.
+^
+Pokud jsi vybral {eku, hory, nebo kopce}, kl`vesa {Mezernk} nebo {Enter}
+pid` tento typ ternu do aktu`lnho pole.  Kl`vesa {Backspace} tento typ
+ternu z aktu`lnho pole odstran.
+
+@HELP4
+@width=220
+@smallfont
+^^SPECILN FUNKCE
+^
+{Ochrana pobe}: Pokud je zapnut` ochrana pobe, nelze prov`dt `dn
+zmny na polch oce`nu.  To je uiten, pokud jsi pro vytvoen tvaru
+kontinent pouil jeden typ ternu.  Zapnut` ochrana pobe ochr`n tento
+tvar, zatmco bude kontinenty vybarvovat vhodnm ternem.
+^
+{Reim vyplov`n}: Obvykle je polomr vyplov`n 0, to znamen`, e pi
+kreslen se mn pouze pole pod kurzorem.  Pi polomru vyplov`n 1 se
+vybarv pole pod kurzorem a vechna bezprostedn sousedc pole.  Polomr
+vyplov`n lze nastavit a na 2.
+^
+{Najt kontinenty}: Pokud je tato funkce aktivov`na, pota zkontroluje
+mapu, zda dok`e spr`vn rozpoznat tvoje kontinenty.  Me hr`t i na map
+bez spr`vn vytvoench kontinent, ale uml` inteligence se me st`t o nco
+"hloupj" a pro jednotky me bt obtnj najt cestu v reimu "Jdi do".
+
+@HELP5
+@width=220
+@smallfont
+^^JAK POUT UIVATELSKY VYTVOEN MAPY
+^
+Pokud chce hr`t Colonization s mapou, kterou jsi s`m vytvoil, norm`ln
+spus hru (mus mt verzi souboru VICEROY.EXE, kter` je distribuovanou
+s tmto editorem, star verze hry tuto funkci nepodporuj) a v hlavn
+nabdce vyber "Zat hru v AMERICE".  Objev se dal nabdka s dotazem,
+zda chce hr`t na pvodn map Ameriky, nebo na map vytvoen v editoru
+map.  Vyber "Editor map" a pak zvol mapu, na kter chce hr`t.
+^
+Hra obvykle umisuje indi`nsk vesnice n`hodn.  Pokud vak chce
+vytvoit teba historick scn`, je mon pedem piadit obecn
+umstn konkrtnch kmen.  Vytvo soubor se stejnm n`zvem jako
+m` tvoje mapa, ale s pponou .MPP (pokud je tvoje mapa teba CARIB.MP,
+pak vytvo CARIB.MPP).  Jako vzor pouij soubor TRIBE.TXT, kter
+definuje umstn indi`n pro mapu Ameriky.  Nikdy neumisuj vce
+ne 84 indi`nskch vesnic.
+
+@ABOUT
+@width=220
+^^Colonization Editor Map
+^
+^^Copyright (c) 1994 by Microprose Software
+^
+^^Programov`n: Brian Reynolds
+^^Dokumentace: Jeff Briggs

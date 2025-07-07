@@ -1,0 +1,37 @@
+@GAME
+~Editor
+  ~Save Map
+  Save Map ~As
+  ~Load Map
+  Create Map
+  Exit to DOS
+
+@VIEW
+~View
+  Zoom In#   ~Z
+  Zoom Out   ~X
+  ~F~1  Zoom Level 120 x 96
+  ~F~2  Zoom Level #60 x 48
+  ~F~3  Zoom Level #30 x 24
+  ~F~4  Zoom Level #15 x 12
+  ~Center View
+
+@CUP
+~Map
+  ~Map Tile Select
+  ~Fill Mode Change
+  Toggle Coastline ~Protect
+  Find C~ontinents
+  ~Undo Last Change
+  Memor~y check
+
+@HELP
+~Help
+  General Information
+  Mouse Commands
+  Keyboard Commands
+  Special Functions
+  How To Use Maps
+  About Map Editor
+
+@END

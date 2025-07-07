@@ -1,0 +1,194 @@
+@MAPTOLOAD
+@width=220
+^^Vyber, který soubor s mapou nahrát
+
+@MAPTOEDIT
+@width=220
+^^COLONIZATION EDITOR MAP
+^^Copyright (C) 1994 by Microprose Software
+^
+^^Vyber, kterou mapu upravit
+^^(ESC pro vytvoření nové mapy)
+
+@SAVE
+@default=1
+@width=190
+Uložit poslední změny do %STRING0?
+
+Ano
+Ne
+
+@LOAD
+@default=2
+@width=190
+V %STRING0 jsou neuložené změny.
+Přeješ si tyto změny zrušit?
+
+Ano
+Ne
+
+@ERROR
+@width=190
+Došlo k chybě.
+
+@EXIT
+@default=3
+@width=190
+V %STRING0 jsou neuložené změny.
+
+Ukončit bez uložení.
+Uložit změny a ukončit.
+Zrušit.
+
+@SAVEAS
+@width=190
+Zadej nové jméno pro %STRING0.
+
+Jméno:
+
+@CREATENOW
+@default=2
+@width=190
+V %STRING0 jsou neuložené změny.
+Přeješ si tyto změny zrušit?
+
+Ano
+Ne
+
+@NEWNAME
+@width=190
+Zadej jméno pro nový soubor s mapou.
+
+Jméno:
+
+@XS
+@width=190
+Zadej požadovanou šířku nové mapy.
+
+Šířka:
+
+@YS
+@width=190
+Zadej požadovanou výšku nové mapy.
+
+Výška:
+
+
+@CONTINENTS1
+@width=190
+Varování: Mapa má více než 15 kontinentů.
+
+@CONTINENTS2
+@width=190
+Varování: Mapa má více než 15 oceánů.
+
+@HELP1
+@width=300
+@smallfont
+^^ZÁKLADNÍ INFORMACE
+^
+Tento editor map ti umožní vytvářet předdefinované mapy, které lze použit
+v Colonization.  Obvyklý postup je vytvoření prázdné mapy a potom do ní
+pomocí myši nebo klávesnice "{kreslit}" terénem.  Funkce {Výběr dílku mapy}
+nebo {D} ti umožní vybrat typ terénu, kterým chceš kreslit.  Mezi další
+funkce patří {Ochrana pobřeží}, která zakazuje kreslení na čtverce oceánu.
+Když je ochrana pobřeží vypnutá, můžeš určit tvar kontinentů tak, že je
+nakreslíš jedním typem terénu, následně ochranu pobřeží zapneš a můžeš
+začít vybarvovat kontinenty správnými typy terénu, bez rizika změny
+jejich tvaru.  {Režim vyplňování} ti umožňuje vybarvit větší oblasti
+jedním klikem.
+^
+Doporučujeme vytvářet mapy s maximálně 15 různými pevninami.
+Více než 15 kontinentů bude fungovat, ale může to zmást počítačové hráče.
+
+@HELP2
+@width=300
+@smallfont
+^^OVLÁDÁNÍ MYŠÍ
+^
+Pokud chceš změnit pohled, jednoduše klikni libovolným tlačítkem myši
+v hlavní oblasti mapy, čímž se pohled vycentruje na dané místo.  Nebo
+klikni na mini mapu světa.
+^
+Pokud chceš {kreslit} s aktuálně vybraným typem terénu, stiskni a podrž
+klávesu {Shift} a zároveň klikni {levým} tlačítkem myši.  Pokud je aktuálně
+vybraným typem terénu {řeka, hory, nebo kopce}, bude tento terénní prvek
+přidán na podkladový terén.  Pokud chceš, aby řeka ústila do čtverce oceánu,
+musíš do tohoto čtverce oceánu "řeku" umístit.  Řeky musí být alespoň dvě
+políčka dlouhé.
+^
+Pro odstranění řeky/hor/kopců z mapy vyber {řeku, hory, nebo kopce} v menu
+{Výběr dílku mapy}, stiskni a podrž klávesu {Shift} a zároveň klikni {pravým}
+tlačítkem myši.
+^
+V opačném případě se pomocí klávesy Shift a pravého tlačítka myši {zvolí}
+typ terénu pod kurzorem a ten se tak stane vybraným typem terénu pro
+kreslení.
+
+@HELP3
+@width=220
+@smallfont
+^^OVLÁDÁNÍ KLÁVESNICÍ
+^
+^Kurzorové {šipky} pohybují kurzorem po mapě.
+^Klávesy {Z} a {X} ovládají úroveň přiblížení.
+^Klávesa {C} vycentruje mapu na aktuální pozici kurzoru.
+^Klávesa {D} umožňuje vybrat typ terénu pro kreslení.
+^Klávesa {P} přepíná režim ochrany pobřeží.
+^Klávesa {R} mění "poloměr vyplňování" (0-2 pole kolem kurzoru).
+^
+^Klávesa {Mezerník} nebo {Enter} kreslí aktuálním typem terénu.
+^Klávesa {Backspace} zvolí terén v místě kurzoru pro kreslení.
+^
+Pokud jsi vybral {řeku, hory, nebo kopce}, klávesa {Mezerník} nebo {Enter}
+přidá tento typ terénu do aktuálního pole.  Klávesa {Backspace} tento typ
+terénu z aktuálního pole odstraní.
+
+@HELP4
+@width=220
+@smallfont
+^^SPECIÁLNÍ FUNKCE
+^
+{Ochrana pobřeží}: Pokud je zapnutá ochrana pobřeží, nelze provádět žádné
+změny na polích oceánu.  To je užitečné, pokud jsi pro vytvoření tvaru
+kontinentů použil jeden typ terénu.  Zapnutá ochrana pobřeží ochrání tento
+tvar, zatímco budeš kontinenty vybarvovat vhodným terénem.
+^
+{Režim vyplňování}: Obvykle je poloměr vyplňování 0, to znamená, že při
+kreslení se mění pouze pole pod kurzorem.  Při poloměru vyplňování 1 se
+vybarví pole pod kurzorem a všechna bezprostředně sousedící pole.  Poloměr
+vyplňování lze nastavit až na 2.
+^
+{Najít kontinenty}: Pokud je tato funkce aktivována, počítač zkontroluje
+mapu, zda dokáže správně rozpoznat tvoje kontinenty.  Můžeš hrát i na mapě
+bez správně vytvořených kontinentů, ale umělá inteligence se může stát o něco
+"hloupější" a pro jednotky může být obtížnější najít cestu v režimu "Jdi do".
+
+@HELP5
+@width=220
+@smallfont
+^^JAK POUŽÍT UŽIVATELSKY VYTVOŘENÉ MAPY
+^
+Pokud chceš hrát Colonization s mapou, kterou jsi sám vytvořil, normálně
+spusť hru (musíš mít verzi souboru VICEROY.EXE, která je distribuovanou
+s tímto editorem, starší verze hry tuto funkci nepodporují) a v hlavní
+nabídce vyber "Začít hru v AMERICE".  Objeví se další nabídka s dotazem,
+zda chceš hrát na původní mapě Ameriky, nebo na mapě vytvořené v editoru
+map.  Vyber "Editor map" a pak zvol mapu, na které chceš hrát.
+^
+Hra obvykle umisťuje indiánské vesnice náhodně.  Pokud však chceš
+vytvořit třeba historický scénář, je možné předem přiřadit obecné
+umístění konkrétních kmenů.  Vytvoř soubor se stejným názvem jako
+má tvoje mapa, ale s příponou .MPP (pokud je tvoje mapa třeba CARIB.MP,
+pak vytvoř CARIB.MPP).  Jako vzor použij soubor TRIBE.TXT, který
+definuje umístění indiánů pro mapu Ameriky.  Nikdy neumisťuj více
+než 84 indiánských vesnic.
+
+@ABOUT
+@width=220
+^^Colonization Editor Map
+^
+^^Copyright (c) 1994 by Microprose Software
+^
+^^Programování: Brian Reynolds
+^^Dokumentace: Jeff Briggs

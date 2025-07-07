@@ -41,6 +41,43 @@ LOAD Game
 View Hall of Fame
 
 
+@AMERICA
+@width=160
+Would you like to use the original Americas map, or
+a map prepared with the map editor?
+
+Original Americas
+Map Editor
+
+
+@MAPTOLOAD
+@width=220
+^^Select Map File to Load
+
+@MULTI
+@width=220
+^^Multiplayer Start Selected
+^
+Select powers to be controlled by human players.
+
+@MULTINEXT
+@width=220
+^^{%STRING0} Player Turn
+^
+^^Press any key for {%STRING0} player's turn.
+
+@MULTIREV
+@width=220
+^^Warning!
+^
+The Revolution does not function in multi-player mode.  If
+you declare independence, the game will become a single player
+game.  Are you sure you want to do this?
+
+Declare independence
+Never Mind
+
+
 @GAMEOPTIONS
 @width=190
 @checkbox

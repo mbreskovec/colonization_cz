@@ -207,7 +207,7 @@ Tovarna na kabaty,   160,   10, 0, 6, 15
 Tesaruv obchod,      39,     0, 1, 1, 0
 Pila,                52,     0, 1, 3, 10
 Kostel,              64,     0, 2, 3, 5
-Katedrala,           176,   10, 2,16, 15
+Katedrala,           176,   10, 2, 8, 15
 Kovaruv dum,         64,     0, 0, 1, 0
 Kovaruv obchod,      64,     2, 0, 1, 5
 Hut,                 240,   10, 0, 8, 15

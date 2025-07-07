@@ -45,6 +45,41 @@ PŘIZPŮSOBIT Nový svět
 Nahrát hru
 Zobrazit síň slávy
 
+@AMERICA
+@width=160
+Cheš použít původní mapu Ameriky,
+nebo mapu vytvořenou v editoru map?
+
+Původní Ameriku
+Editor map
+
+
+@MAPTOLOAD
+@width=220
+^^Vyber, který soubor s mapou nahrát
+
+@MULTI
+@width=220
+^^Vybrán start hry více hráčů
+^
+Vyber mocnosti, které mají být ovládány lidskými hráči.
+
+@MULTINEXT
+@width=220
+^^Tah hráče {%STRING0}
+^
+^^Stiskni jakoukoliv klávesu pro tah hráče {%STRING0}.
+
+@MULTIREV
+@width=220
+^^Varování!
+^
+Revoluce v módu hry více hráčů nefunguje.  Pokud
+vyhlásíš nezávislost, tak se hra přepne do módu
+jednoho hráče.  Opravdu si to přeješ udělat?
+
+Vyhlásit nezávislost
+Tak nic
 
 @GAMEOPTIONS
 @width=190
@@ -373,8 +408,8 @@ Nikdy! To by byla hloupost.
 @SAILHOME
 @width=190
 @default=1
-Máme vyplout na {volné moře}, Vaše
-Excelence?  Máme plout do Evropy?
+Vaše Excelence, máme vyplout na {volné moře}?
+Máme plout do Evropy?
 
 Ano, bez meškání.
 Ne, zůstaňte v těchto vodách.
@@ -382,8 +417,8 @@ Ne, zůstaňte v těchto vodách.
 @SAILAWAY
 @width=190
 @default=1
-Máme plout do {Nového světa},
-Vaše Excelence?
+Vaše Excelence, máme plout
+do {Nového světa}?
 
 Ano, bez meškání.
 Ne, zůstaňte v přístavu.
@@ -1012,7 +1047,7 @@ Vojáci ztrácejí status Veterána.
 
 @SHIPSUNK
 @width=190
-%STRING2 %STRING3 {potopila %STRING0 %STRING1}!
+{%STRING0 %STRING1 byla potopena} útokem %STRING2 %STRING3!
 
 
 @RAIDNOTHING
@@ -1654,13 +1689,13 @@ Cena {%STRING0} v %STRING1 se snížila na {%NUMBER0$}.
 
 @WHICHFREEDOM
 @width=190
-Vaše Excelence, Kontinentální Kongres se bude při dalším zasedání
+Vaše Excelence, Kontinentální kongres se bude při dalším zasedání
 rozšiřovat.  Kterého z Otců zakladatelů jmenujeme jeho dalším členem?
 
 @FREEDOM
 @width=190
-%STRING1 Otcové zakladatelé oznámili, že {%STRING0} 
-se připojil ke Kontinentálnímu Kongresu!
+%STRING1 Otcové zakladatelé oznámili, že se ke Kontinentálnímu
+kongresu připojil {%STRING0}!
 
 @CLAND
 @width=190
@@ -2137,10 +2172,10 @@ zvětšení {slávy} Francie
 vystavění mohutného zámořského {obchodního impéria}
 
 @GREATLEADER
-naší královnu
-našeho krále
-papeže
-našeho místodržícího
+Naše královna
+Náš král
+Papež
+Náš místodržící
 
 @GREATLEADER2
 královna

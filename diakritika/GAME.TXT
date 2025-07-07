@@ -45,6 +45,41 @@ PIZPSOBIT Nov svt
 Nahr`t hru
 Zobrazit s sl`vy
 
+@AMERICA
+@width=160
+Che pout pvodn mapu Ameriky,
+nebo mapu vytvoenou v editoru map?
+
+Pvodn Ameriku
+Editor map
+
+
+@MAPTOLOAD
+@width=220
+^^Vyber, kter soubor s mapou nahr`t
+
+@MULTI
+@width=220
+^^Vybr`n start hry vce hr`
+^
+Vyber mocnosti, kter maj bt ovl`d`ny lidskmi hr`i.
+
+@MULTINEXT
+@width=220
+^^Tah hr`e {%STRING0}
+^
+^^Stiskni jakoukoliv kl`vesu pro tah hr`e {%STRING0}.
+
+@MULTIREV
+@width=220
+^^Varov`n!
+^
+Revoluce v mdu hry vce hr` nefunguje.  Pokud
+vyhl`s nez`vislost, tak se hra pepne do mdu
+jednoho hr`e.  Opravdu si to peje udlat?
+
+Vyhl`sit nez`vislost
+Tak nic
 
 @GAMEOPTIONS
 @width=190
@@ -373,8 +408,8 @@ Nikdy! To by byla hloupost.
 @SAILHOME
 @width=190
 @default=1
-M`me vyplout na {voln moe}, Vae
-Excelence?  M`me plout do Evropy?
+Vae Excelence, m`me vyplout na {voln moe}?
+M`me plout do Evropy?
 
 Ano, bez mek`n.
 Ne, zstate v tchto vod`ch.
@@ -382,8 +417,8 @@ Ne, zstate v tchto vod`ch.
 @SAILAWAY
 @width=190
 @default=1
-M`me plout do {Novho svta},
-Vae Excelence?
+Vae Excelence, m`me plout
+do {Novho svta}?
 
 Ano, bez mek`n.
 Ne, zstate v pstavu.
@@ -1012,7 +1047,7 @@ Voj`ci ztr`cej status Veter`na.
 
 @SHIPSUNK
 @width=190
-%STRING2 %STRING3 {potopila %STRING0 %STRING1}!
+{%STRING0 %STRING1 byla potopena} tokem %STRING2 %STRING3!
 
 
 @RAIDNOTHING
@@ -1659,8 +1694,8 @@ roziovat.  Kterho z Otc zakladatel jmenujeme jeho dalm lenem?
 
 @FREEDOM
 @width=190
-%STRING1 Otcov zakladatel ozn`mili, e {%STRING0} 
-se pipojil ke Kontinent`lnmu Kongresu!
+%STRING1 Otcov zakladatel ozn`mili, e se ke Kontinent`lnmu
+kongresu pipojil {%STRING0}!
 
 @CLAND
 @width=190
@@ -2137,10 +2172,10 @@ zvten {sl`vy} Francie
 vystavn mohutnho z`moskho {obchodnho impria}
 
 @GREATLEADER
-na kr`lovnu
-naeho kr`le
-papee
-naeho mstodrcho
+Nae kr`lovna
+N` kr`l
+Pape
+N` mstodrc
 
 @GREATLEADER2
 kr`lovna

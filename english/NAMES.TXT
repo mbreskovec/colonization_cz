@@ -202,7 +202,7 @@ Fur Factory,         160,   10, 0, 6, 15
 Carpenter's Shop,    39,     0, 1, 1, 0
 Lumber Mill,         52,     0, 1, 3, 10
 Church,              64,     0, 2, 3, 5
-Cathedral,           176,   10, 2,16, 15
+Cathedral,           176,   10, 2, 8, 15
 Blacksmith's House,  64,     0, 0, 1, 0
 Blacksmith's Shop,   64,     2, 0, 1, 5
 Iron Works,          240,   10, 0, 8, 15
@@ -458,7 +458,7 @@ William Brewster,               4,      7, 4, 1 ; Religious
 William Penn,                   4,      8, 5, 2
 Jean de Brebeuf,                4,      6, 6, 1
 Juan de Sepulveda,              4,      3, 8, 3
-Bartolme de las Casas,          4,      0, 5,10
+Bartolome de las Casas,         4,      0, 5,10
 
 
 

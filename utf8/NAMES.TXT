@@ -207,7 +207,7 @@ Továrna na kabáty,   160,   10, 0, 6, 15
 Tesařův obchod,      39,     0, 1, 1, 0
 Pila,                52,     0, 1, 3, 10
 Kostel,              64,     0, 2, 3, 5
-Katedrála,           176,   10, 2,16, 15
+Katedrála,           176,   10, 2, 8, 15
 Kovářův dům,         64,     0, 0, 1, 0
 Kovářův obchod,      64,     2, 0, 1, 5
 Huť,                 240,   10, 0, 8, 15

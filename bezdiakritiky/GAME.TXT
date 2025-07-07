@@ -45,6 +45,41 @@ PRIZPUSOBIT Novy svet
 Nahrat hru
 Zobrazit sin slavy
 
+@AMERICA
+@width=160
+Ches pouzit puvodni mapu Ameriky,
+nebo mapu vytvorenou v editoru map?
+
+Puvodni Ameriku
+Editor map
+
+
+@MAPTOLOAD
+@width=220
+^^Vyber, ktery soubor s mapou nahrat
+
+@MULTI
+@width=220
+^^Vybran start hry vice hracu
+^
+Vyber mocnosti, ktere maji byt ovladany lidskymi hraci.
+
+@MULTINEXT
+@width=220
+^^Tah hrace {%STRING0}
+^
+^^Stiskni jakoukoliv klavesu pro tah hrace {%STRING0}.
+
+@MULTIREV
+@width=220
+^^Varovani!
+^
+Revoluce v modu hry vice hracu nefunguje.  Pokud
+vyhlasis nezavislost, tak se hra prepne do modu
+jednoho hrace.  Opravdu si to prejes udelat?
+
+Vyhlasit nezavislost
+Tak nic
 
 @GAMEOPTIONS
 @width=190
@@ -373,8 +408,8 @@ Nikdy! To by byla hloupost.
 @SAILHOME
 @width=190
 @default=1
-Mame vyplout na {volne more}, Vase
-Excelence?  Mame plout do Evropy?
+Vase Excelence, mame vyplout na {volne more}?
+Mame plout do Evropy?
 
 Ano, bez meskani.
 Ne, zustante v techto vodach.
@@ -382,8 +417,8 @@ Ne, zustante v techto vodach.
 @SAILAWAY
 @width=190
 @default=1
-Mame plout do {Noveho sveta},
-Vase Excelence?
+Vase Excelence, mame plout
+do {Noveho sveta}?
 
 Ano, bez meskani.
 Ne, zustante v pristavu.
@@ -1012,7 +1047,7 @@ Vojaci ztraceji status Veterana.
 
 @SHIPSUNK
 @width=190
-%STRING2 %STRING3 {potopila %STRING0 %STRING1}!
+{%STRING0 %STRING1 byla potopena} utokem %STRING2 %STRING3!
 
 
 @RAIDNOTHING
@@ -1654,13 +1689,13 @@ Cena {%STRING0} v %STRING1 se snizila na {%NUMBER0$}.
 
 @WHICHFREEDOM
 @width=190
-Vase Excelence, Kontinentalni Kongres se bude pri dalsim zasedani
+Vase Excelence, Kontinentalni kongres se bude pri dalsim zasedani
 rozsirovat.  Ktereho z Otcu zakladatelu jmenujeme jeho dalsim clenem?
 
 @FREEDOM
 @width=190
-%STRING1 Otcove zakladatele oznamili, ze {%STRING0} 
-se pripojil ke Kontinentalnimu Kongresu!
+%STRING1 Otcove zakladatele oznamili, že se ke Kontinentalnimu
+kongresu pripojil {%STRING0}!
 
 @CLAND
 @width=190
@@ -2137,10 +2172,10 @@ pri {obraceni pohanu} a obohaceni naseho panovnika
 o vystaveni mohutneho zamorskeho {obchodniho imperia}
 
 @GREATLEADER
-nasi kralovnu
-naseho krale
-papeze
-naseho mistodrziciho
+Nase kralovna
+Nas kral
+Papez
+Nas mistodrzici
 
 @GREATLEADER2
 kralovna

@@ -1,0 +1,194 @@
+@MAPTOLOAD
+@width=220
+^^Select Map File to Load
+
+@MAPTOEDIT
+@width=220
+^^COLONIZATION MAP EDITOR
+^^Copyright (C) 1994 by Microprose Software
+^
+^^Select Map File to Edit
+^^(ESC to create new map)
+
+@SAVE
+@default=1
+@width=190
+Save latest changes to %STRING0?
+
+Yes
+No
+
+@LOAD
+@default=2
+@width=190
+There are unsaved changes to %STRING0.
+Do you want to lose these changes?
+
+Yes
+No
+
+@ERROR
+@width=190
+An error has occurred.
+
+@EXIT
+@default=3
+@width=190
+There are unsaved changes to %STRING0.
+
+Exit without saving.
+Save changes and exit.
+Cancel.
+
+@SAVEAS
+@width=190
+Enter new name for %STRING0.
+
+Name:
+
+@CREATENOW
+@default=2
+@width=190
+There are unsaved changes to %STRING0.
+Do you want to lose these changes?
+
+Yes
+No
+
+@NEWNAME
+@width=190
+Enter name for new map file.
+
+Name:
+
+@XS
+@width=190
+Enter width for new map file.
+
+Width:
+
+@YS
+@width=190
+Enter height for new map file.
+
+Height:
+
+
+@CONTINENTS1
+@width=190
+Warning: Map has more than 15 continents.
+
+@CONTINENTS2
+@width=190
+Warning: Map has more than 15 oceans.
+
+@HELP1
+@width=300
+@smallfont
+^^GENERAL INFORMATION
+^
+This map editor will allow you to create predefined maps for use with
+Colonization.  The usual procedure is to create a blank map and then use
+the mouse or keyboard to "{paint}" it with terrain.  The {menu tile select}
+or {M} function allows you to pick a terrain type to paint with.  Other
+features offered include a {coastline protect} which disallows painting on
+ocean tiles.  That way, you can determine the shape of your continents by
+painting them with a single terrain type while the coastline protect is off;
+then, turn coastline protect on and you can paint the proper terrain types
+onto your continents without risk of changing their shaopes.  {Fill mode}
+allows you to paint broad areas at a single stroke.
+^
+We recommend that you create maps with no more than 15 distinct land masses.
+More than 15 land masses will work, but it may confuse the computer players.
+
+@HELP2
+@width=300
+@smallfont
+^^MOUSE COMMANDS
+^
+To change the view, simply click either mouse button in the main map area
+to cause the view to center on that location.  Or, click on the miniature
+world map.
+^
+To {paint} with the currently selected terrain type, hold down the {shift key}
+while pressing the {left} mouse button.  If your currently selected terrain
+type is {rivers}, mountains, or hills, that terrain feature will be added on
+top of the underlying terrain.  If you want a river to empty into an ocean
+square, you must put a "river" in that ocean square.  Rivers must be at least
+two tiles long.
+^
+If you have selected {rivers}, mountains, or hills, hold down the {shift key}
+while pressing the {right} mouse button to remove rivers/mtns/hills from the
+selected square.
+^
+Otherwise, the shift key plus the right mouse button causes the terrain
+type under the cursor to be {picked up}; it then becomes the selected
+terrain type for future drawing.
+
+@HELP3
+@width=220
+@smallfont
+^^KEYBOARD COMMANDS
+^
+^The {arrow} keys move the cursor around the map.
+^The {Z} and {X} keys control the zoom level.
+^The {C} key centers the map on the current cursor location.
+^The {M} key allows you to select a terrain type to paint with.
+^The {P} key toggles coastline protect mode.
+^The {F} key changes the "Fill Radius" (0-2 spaces around cursor).
+^
+^The {space} or {enter} key paints with the current terrain type.
+^The {backspace} key picks up the terrain at the cursor location.
+^
+If you have selected {rivers, mountains, or hills}, the {space} key or
+{enter} key adds that type to the current square; the {backspace} key
+removes that type from the current square.
+
+@HELP4
+@width=220
+@smallfont
+^^SPECIAL COMMANDS
+^
+{Coastline Protect}: while coastline protect is on, no changes can be made
+to any ocean tiles.  This is useful when you have used a single terrain
+type to shape your continents; turn coastline protect on to protect that
+shape while you paint your continents with the appropriate terrain.
+^
+{Fill Radius}: normally, the fill radius is 0, when means that when you
+paint you change only the cursor square.  With a fill radius of 1, the
+cursor square and all the immediately adjacent squares are painted.  The
+fill radius can be set as high as 2.
+^
+{Find Continents}: when this function is activated, the computer will
+check your map to see if it can recognize your continents properly.  You
+can play on a map without proper continents, but the AI may become slightly
+"dumber" and it may be harder for units to find paths in "Go To" mode.
+
+@HELP5
+@width=220
+@smallfont
+^^HOW TO USE PLAYER-CREATED MAPS
+^
+To play Colonization using a map you have created, run the game normally
+(you must have the version of viceroy.exe distributed with this editor;
+earlier versions do not support this feature).  From the main menu, select
+"Start Game in AMERICA".  A second menu will appear asking if you wish to
+play on the original map or a mapeditor-created map.  Select map editor.
+Then select the map you wish to play on.
+^
+Normally, the game will place indian villages randomly.  It is possible,
+however, to preassign the general locations of specific tribes if you
+want to create a historical scenario.  Create a file with the same name
+as your map, but with the extension .MPP (if your map is CARIB.MP, then
+create CARIB.MPP).  Use the file TRIBE.TXT, which defines the indian
+locations for the America map, as your model.  Do not place more than
+84 indian villages.
+
+@ABOUT
+@width=220
+^^Colonization Map Editor
+^
+^^Copyright (c) 1994 by Microprose Software
+^
+^^Programming by Brian Reynolds
+^^Documentation by Jeff Briggs

@@ -1,0 +1,37 @@
+@GAME
+~Editor
+  ~Uložit mapu
+  Uložit mapu j~ako
+  ~Nahrát mapu
+  Vytvořit mapu
+  Odchod do systému
+
+@VIEW
+~Pohled
+  Zoom In#   ~Z
+  Zoom Out   ~X
+  ~F~1  Úroveň zoomu 120 x 96
+  ~F~2  Úroveň zoomu #60 x 48
+  ~F~3  Úroveň zoomu #30 x 24
+  ~F~4  Úroveň zoomu #15 x 12
+  Vystředit pohled (~C)
+
+@CUP
+~Mapa
+  Výběr ~dílku mapy
+  Změna ~režimu vyplňování
+  Přepnout ochranu ~pobřeží
+  Vyhledat k~ontinenty
+  ~Vrátit poslední změnu
+  Kontrola pa~měti
+
+@HELP
+~Nápověda
+  Základní informace
+  Ovládání myší
+  Ovládání klávesnicí
+  Speciální funkce
+  O Editoru map
+  Jak používat mapy
+
+@END

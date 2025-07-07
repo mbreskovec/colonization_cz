@@ -207,7 +207,7 @@ Tov`rna na kab`ty,   160,   10, 0, 6, 15
 Tesav obchod,      39,     0, 1, 1, 0
 Pila,                52,     0, 1, 3, 10
 Kostel,              64,     0, 2, 3, 5
-Katedr`la,           176,   10, 2,16, 15
+Katedr`la,           176,   10, 2, 8, 15
 Kov`v dm,         64,     0, 0, 1, 0
 Kov`v obchod,      64,     2, 0, 1, 5
 Hu,                 240,   10, 0, 8, 15

@@ -1,0 +1,37 @@
+@GAME
+~Editor
+  ~Uloit mapu
+  Uloit mapu j~ako
+  ~Nahr`t mapu
+  Vytvoit mapu
+  Odchod do systmu
+
+@VIEW
+~Pohled
+  Zoom In#   ~Z
+  Zoom Out   ~X
+  ~F~1  rove zoomu 120 x 96
+  ~F~2  rove zoomu #60 x 48
+  ~F~3  rove zoomu #30 x 24
+  ~F~4  rove zoomu #15 x 12
+  Vystedit pohled (~C)
+
+@CUP
+~Mapa
+  Vbr ~dlku mapy
+  Zmna ~reimu vyplov`n
+  Pepnout ochranu ~pobe
+  Vyhledat k~ontinenty
+  ~Vr`tit posledn zmnu
+  Kontrola pa~mti
+
+@HELP
+~N`povda
+  Z`kladn informace
+  Ovl`d`n my
+  Ovl`d`n kl`vesnic
+  Speci`ln funkce
+  O Editoru map
+  Jak pouvat mapy
+
+@END
