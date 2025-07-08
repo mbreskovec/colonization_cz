@@ -1,0 +1,140 @@
+Cestina pro Sid Meier's Colonization
+*************************************
+
+Preklad je kompatibilni s Colonization pro DOS ve verzich 2.25 a 3.0.
+
+- Autor: Michal Breskovec (corwin78 / Old Bear)
+- E-mail: michal@breskovec.cz
+- Homepage: https://mujkoutek.cz/
+- Lightning adresa (pokud byste chteli podekovat za preklad ;-)): mbreskovec@bitlifi.com
+- Licence prekladu: CC0 1.0 Universal - https://creativecommons.org/publicdomain/zero/1.0/deed.cs
+- Oficialni stranka prekladu: https://lokalizace.net/cestina-do/sid-meiers-colonization-dos
+- Vzdy nejnovejsi verze prekladu na: GitHub](https://github.com/mbreskovec/colonization_cz
+
+Preklad vznikal v letech 1997 a 1998, drobnou korekturou prosel koncem roku 2004.
+
+V roce 2025 vznikla verze prekladu 2.0, kdy doslo ke kompletnimu prepisu prekladu, byla pridana verze s diakritikou a podpora Colonization ve verzi 3.0.
+
+Pokud najdete chybu, nebo preklep, nevahejte me prosim kontaktovat.
+
+
+Ziskani hry
+============
+
+Sid Meier's Colonization lze koupit na GOG.com zde - https://www.gog.com/en/game/sid_meiers_colonization, ale da se take snadno stahnout z Internetu, treba zde - https://archive.org/details/colonize.
+
+
+Instalace prekladu
+===================
+
+Nejprve si zvolte, zda chcete preklad s diakritikou nebo bez diakritiky.
+
+Mozna se ptate, proc zvolit verzi bez diakritiky. Jde o to, ze fonty pouzite v Colonization jsou pomerne male a pridani diakritickych znamenek ma urcity dopad na citelnost textu, zvlaste pokud hrajete treba v DOSBoxu na velkem monitoru (pokud byste hrali na starem pocitaci s CRT monitorem, jako ja ;-), vypadaji texty mnohem lepe). Takze pokud zjistite, ze je pro vas citelnost textu s diakritikou prilis obtizna, zvolte verzi bez diakritiky.
+
+
+Preklad s diakritikou
+----------------------
+
+Zkopirujte obsah slozky "diakritika" do slozky s hrou a prepiste tak nasledujici soubory.
+
+- Pokud chcete, provedte nejdrive zalohu techto souboru, ale naleznete je i zde, ve slozce "english":
+
+    AUTOEXEC.TXT
+    CLOSING.TXT
+    CONFIG.TXT
+    DEBUG.TXT
+    FONT-NP.FF
+    FONTINTR.FF
+    FONTKING.FF
+    FONTSMAL.FF
+    FONTTINY.FF
+    GAME.TXT
+    LABELS.TXT
+    MEMORY.TXT
+    MEMORY2.TXT
+    MENU.TXT
+    NAMES.TXT
+    OPENING.TXT
+    PEDIA.TXT
+    WOODCUT.TXT
+
+
+Preklad bez diakritiky
+-----------------------
+
+Zkopirujte obsah slozky "bezdiakritiky" do slozky s hrou a prepiste tak nasledujici soubory.
+
+- Pokud chcete, provedte nejdrive zalohu techto souboru, ale naleznete je i zde, ve slozce "english":
+
+    AUTOEXEC.TXT
+    CLOSING.TXT
+    CONFIG.TXT
+    DEBUG.TXT
+    GAME.TXT
+    LABELS.TXT
+    MEMORY.TXT
+    MEMORY2.TXT
+    MENU.TXT
+    NAMES.TXT
+    OPENING.TXT
+    PEDIA.TXT
+    WOODCUT.TXT
+
+
+Zmena prekladu s diakritikou za bez diakritiky a obracene
+----------------------------------------------------------
+
+Jednoduse soubory ve slozce s hrou opet prepiste soubory s pozadovanou verzi prekladu.
+
+
+Odinstalace prekladu
+=====================
+
+Prepiste cestinu soubory ze zalohy, pokud jste si ji vytvorili, nebo prepiste soubory ve slozce s hrou obsahem slozky "english".
+
+
+Bonus
+======
+
+Jako bonus zde naleznete patch pro Colonization na verzi 3.0 ("col_patch_v30.zip"), anglicky manual ke hre ("Sid Meier's Colonization - manual.pdf"), Colonization Player Aid Cards ("Sid Meier's Colonization - Quick Reference Card.pdf") a cisla casopisu Excalibur ("Excalibur 035 (11-1994) - Str. 30.pdf" a "Excalibur 048 (08-1995) - Str. 26.pdf") a Score ("Score 011 (11-1994) - Str. 21.pdf"), ktere obsahuji recenze a navod na Sid Meier's Colonization.
+
+
+Errata
+=======
+
+Tento preklad opravuje i nekolik chyb ve hre. Jedna z chyb, kterou opravit nelze, je v Editoru map ("MAPEDIT.EXE"), ktery byl pridan do Colonization v3.0.
+
+V menu napovedy je polozka "How To Use Maps", ale pokud na ni kliknete, skryva se pod ni obsah polozky "About Map Editor", jejiz nazev neni v menu zobrazen. Brian Reynolds zrejme zapomnel inkrementovat jednu promenou a nikdo to poradne nezkontroloval.
+
+V prekladu je tedy spravne uvedena polozka "O Editoru map", ale logicky chybi "Jak pouzivat mapy". Nicmene obsah tohoto menu je v souboru "MAPEDIT.TXT" prelozen a pro lepsi citelnost ho prikladam i zde - viz nize:
+
+---
+JAK POUZIT UZIVATELSKY VYTVORENE MAPY
+
+Pokud chces hrat Colonization s mapou, kterou jsi sam vytvoril, normalne spust hru (musis mit verzi souboru VICEROY.EXE, ktera je distribuovanou s timto editorem, starsi verze hry tuto funkci nepodporuji) a v hlavni nabidce vyber "Zacit hru v AMERICE".  Objevi se dalsi nabidka s dotazem, zda chces hrat na puvodni mape Ameriky, nebo na mape vytvorene v editoru map.  Vyber "Editor map" a pak zvol mapu, na ktere chces hrat.
+
+Hra obvykle umistuje indianske vesnice nahodne.  Pokud vsak chces vytvorit treba historicky scenar, je mozne predem priradit obecne umisteni konkretnich kmenu.  Vytvor soubor se stejnym nazvem jako ma tvoje mapa, ale s priponou .MPP (pokud je tvoje mapa treba CARIB.MP, pak vytvor CARIB.MPP).  Jako vzor pouzij soubor TRIBE.TXT, ktery definuje umisteni indianu pro mapu Ameriky.  Nikdy neumistuj vice nez 84 indianskych vesnic.
+---
+
+
+Changelog
+==========
+
+- Verze 2.0 (07.2025) - Kompletni revize a prepis prekladu, pridana verze s diakritikou a podpora Colonization v3.0.
+- Verze 1.1 (xx.2004) - Drobne korektury.
+- Verze 1.0 (xx.1998) - Prvni verze prekladu vznikla behem let 1997 a 1998.
+
+
+Seznam slozek a souboru
+========================
+
+- bezdiakritiky - Preklad bez diakritiky (nepotrebuje upravene fonty).
+- diakritika - Preklad s diakritikou (obsahuje upravene fonty).
+- english - Originalni soubory v anglictine (obsahuje puvodni fonty).
+- recenze - Obsahuje PDF casopisu Excalibur a Score s recenzi na Colonization.
+    - Excalibur 035 (11-1994) - Str. 30.pdf - Casopis Excalibur, cislo 35 z 5. listopadu 1994, recenze na Colonization je na strane 30.
+    - Excalibur 048 (08-1995) - Str. 26.pdf - Casopis Excalibur, cislo 49 ze srpna 1995, navod na Colonization je na strane 26 a 27.
+    - Score 011 (11-1994) - Str. 21.pdf - Casopis Score, cislo 11 z listopadu 1994, recenze na Colonization je na strane 21.
+- col_patch_v30.zip - Patch pro Sid Meier's Colonization na verzi 3.0 (opraveny nejake chyby a pridan Editor map).
+- Sid Meier's Colonization - manual.pdf - Manual ke hre Sid Meier's Colonization (v anglictine).
+- Sid Meier's Colonization - Quick Reference Card.pdf - Colonization player aid cards (v anglictine).
