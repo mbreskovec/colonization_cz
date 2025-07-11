@@ -86,14 +86,14 @@ Tak nic
 @checkbox
 Hern nastaven
 @options
-Ukazuj tahy ~Indi`n
+Ukazuj tahy indi`n (~I)
 Ukazuj tahy ostatnch (~F)
 Rychl pohyb na map (~S)
-Kon~ec kola
-~Autoukl`d`n
+Konec kola (~E)
+Autoukl`d`n (~A)
 Bojov` analza (~C)
-Poh~ybliv vlny na vod
-~Tutori`l n`povda
+Pohybliv vlny na vod (~Y)
+Tutori`l n`povda (~T)
 
 @COLONYOPTIONS
 @width=220
@@ -116,9 +116,9 @@ Zpr`vy o {pevaze rebel}
 @checkbox
 Nastaven zvuku
 @options
-Hud~ba na pozad
+Hudba na pozad  (~B)
 Hudba pi akcch (~E)
-~Zvukov efekty  (~S)
+Zvukov efekty   (~S)
 
 @SAVEGAME
 @width=190
@@ -160,7 +160,7 @@ Chyba pi nahr`v`n hry %STRING0.
 
 @PICKNATION
 @default=1
-Vyber Evropskou mocnost
+Vyber evropskou mocnost
 
 Anglie
 Francie
@@ -788,7 +788,7 @@ Z vesnice slyte zlovstn zvuk {v`lench bubn}.
 @INDIANWELCOME
 @width=190
 "Kmen {%STRING0} v`s vt`.
-Jsme slavn n`rod s {%NUMBER0 %STRING1}.
+Jsme slavn n`rod se {%NUMBER0 %STRING1}.
 Na poest naeho p`telstv v`m lechetn
 darujeme zemi, kterou pr`v zabr`te.
 Pijm`te tuto smlouvu a budete
@@ -1743,11 +1743,11 @@ Vlhko
 
 @EUROPEARM
 @width=190
-Nastaven Evropskho doku:
+Nastaven evropskho doku:
 
 @EUROPESHIPCLICK
 @width=190
-Nastaven Evropskho pstavu pro {%STRING0}:
+Nastaven evropskho pstavu pro {%STRING0}:
 
 @ARMOPTIONS
 Nenastupovat na dal lo.
@@ -1980,8 +1980,8 @@ v`lka (1640-49) vystila v popravu Karla I. a obdob Purit`nskho
 n`boenskmi rozpory, nebyla anglick` vl`da schopna vynutit
 si ve svch kolonich n`boenskou poslunost.
 Kolonie se staly centry {n`boensk svobody} pro skupiny
-(napklad purit`n, anabaptist, kvaker), kter elily 
-ve Starm svt perzekuci.
+(napklad purit`n, anabaptist, kvaker), kter ve Starm
+svt elily perzekuci.
 
 @NATION0B
 @width=300
@@ -2076,7 +2076,7 @@ __Vzhledem k sle holandsk ekonomiky a holandskho spchu
 v n`mon doprav, obchod a bankovnictv, zsk`v` hr`
 za Holandsko bonus pi obchodov`n s Amsterdamem.
 {Ceny zbo} v Amsterdamu {nekolabuj} tak rychle, jako
-v jinch Evropskch pstavech a {zotavuj} se rychleji.
+v jinch evropskch pstavech a {zotavuj} se rychleji.
 
 @PICKACARGO
 @width=190
@@ -3158,9 +3158,9 @@ mimo kolonii ho pet`hnte na ohradu (na obr`zku kolonie vedle vody).
 
 @TUTORIAL5
 @width=220
-Excelence, v docch v {%STRING0} (Evropa) jsou {%STRING1}, kte jsou
-pipraveni pipojit se k na kolonii.  Kdy poleme lo, odpluj s n`mi
-a r`di se stanou uitenmi leny na komunity.
+Excelence, v docch v {%STRING0} (Evropa) je {%STRING1}, kter je
+pipraven pipojit se k na kolonii.  Kdy poleme lo, odpluje s n`mi
+a r`d se stane uitenm lenem na komunity.
 
 @TUTORIAL6
 @width=220
@@ -3268,10 +3268,10 @@ a {vytv`et pole}.
 @y=10
 @smallfont
 Obrazovka Evropskho statusu zobrazuje v` domovsk pstav v %STRING0,
-%STRING1.  Jakmile pijedou nov imigranti, budou se adit v docch a ekat
+%STRING1.  Jakmile pijdou nov imigranti, budou se adit v docch a ekat
 na transport do Novho svta.  Nov imigranty mete naverbovat stisknutm
-tlatek {N`bor} nebo {Vykolit}.  Kdy lod doraz do pstavu, jejich
-n`klad lze prodat petaenm z n`kladovch prostor do modrch sklad
+tlatek {N`bor} nebo {Vykolit}.  Kdy lod doraz do pstavu, lze
+jejich n`klad prodat petaenm z n`kladovch prostor do modrch sklad
 ve spodn `sti obrazovky.  N`klad lze tak zakoupit petaenm ze skladu
 do n`kladovch prostor lodi.  V polch skladu prvn slo oznauje
 {nabdkovou cenu}, kterou pstav za dan typ n`kladu zaplat.  Druh
@@ -3371,7 +3371,7 @@ vyrobit vce, ne m`me koloni ili ({%NUMBER0}).
 @BUILD2
 @width=310
 @y=30
-^^expedice velkho %STRING0,
+^^expedice velkho %STRING0
 ^^%STRING1,
 
 @BUILD3

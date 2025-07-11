@@ -86,14 +86,14 @@ Tak nic
 @checkbox
 Herní nastavení
 @options
-Ukazuj tahy ~Indiánů
+Ukazuj tahy indiánů (~I)
 Ukazuj tahy ostatních (~F)
 Rychlý pohyb na mapě (~S)
-Kon~ec kola
-~Autoukládání
+Konec kola (~E)
+Autoukládání (~A)
 Bojová analýza (~C)
-Poh~yblivé vlny na vodě
-~Tutoriál nápověda
+Pohyblivé vlny na vodě (~Y)
+Tutoriál nápověda (~T)
 
 @COLONYOPTIONS
 @width=220
@@ -116,9 +116,9 @@ Zprávy o {převaze rebelů}
 @checkbox
 Nastavení zvuku
 @options
-Hud~ba na pozadí
+Hudba na pozadí  (~B)
 Hudba při akcích (~E)
-~Zvukové efekty  (~S)
+Zvukové efekty   (~S)
 
 @SAVEGAME
 @width=190
@@ -160,7 +160,7 @@ Chyba při nahrávání hry %STRING0.
 
 @PICKNATION
 @default=1
-Vyber Evropskou mocnost
+Vyber evropskou mocnost
 
 Anglie
 Francie
@@ -788,7 +788,7 @@ Z vesnice slyšíte zlověstný zvuk {válečných bubnů}.
 @INDIANWELCOME
 @width=190
 "Kmen {%STRING0} vás vítá.
-Jsme slavný národ s {%NUMBER0 %STRING1}.
+Jsme slavný národ se {%NUMBER0 %STRING1}.
 Na počest našeho přátelství vám šlechetně
 darujeme zemi, kterou právě zabíráte.
 Přijímáte tuto smlouvu a budete
@@ -1743,11 +1743,11 @@ Vlhko
 
 @EUROPEARM
 @width=190
-Nastavení Evropského doku:
+Nastavení evropského doku:
 
 @EUROPESHIPCLICK
 @width=190
-Nastavení Evropského přístavu pro {%STRING0}:
+Nastavení evropského přístavu pro {%STRING0}:
 
 @ARMOPTIONS
 Nenastupovat na další loď.
@@ -1980,8 +1980,8 @@ válka (1640-49) vyústila v popravu Karla I. a období Puritánského
 náboženskými rozpory, nebyla anglická vláda schopna vynutit
 si ve svých koloniích náboženskou poslušnost.
 Kolonie se staly centry {náboženské svobody} pro skupiny
-(například puritánů, anabaptistů, kvakerů), které čelily 
-ve Starém světě perzekuci.
+(například puritánů, anabaptistů, kvakerů), které ve Starém
+světě čelily perzekuci.
 
 @NATION0B
 @width=300
@@ -2076,7 +2076,7 @@ __Vzhledem k síle holandské ekonomiky a holandského úspěchu
 v námořní dopravě, obchodě a bankovnictví, získává hráč
 za Holandsko bonus při obchodování s Amsterdamem.
 {Ceny zboží} v Amsterdamu {nekolabují} tak rychle, jako
-v jiných Evropských přístavech a {zotavují} se rychleji.
+v jiných evropských přístavech a {zotavují} se rychleji.
 
 @PICKACARGO
 @width=190
@@ -3158,9 +3158,9 @@ mimo kolonii ho přetáhněte na ohradu (na obrázku kolonie vedle vody).
 
 @TUTORIAL5
 @width=220
-Excelence, v docích v {%STRING0} (Evropa) jsou {%STRING1}, kteří jsou
-připraveni připojit se k naší kolonii.  Když pošleme loď, odplují s námi
-a rádi se stanou užitečnými členy naší komunity.
+Excelence, v docích v {%STRING0} (Evropa) je {%STRING1}, který je
+připraven připojit se k naší kolonii.  Když pošleme loď, odpluje s námi
+a rád se stane užitečným členem naší komunity.
 
 @TUTORIAL6
 @width=220
@@ -3268,10 +3268,10 @@ a {vytvářet pole}.
 @y=10
 @smallfont
 Obrazovka Evropského statusu zobrazuje váš domovský přístav v %STRING0,
-%STRING1.  Jakmile přijedou noví imigranti, budou se řadit v docích a čekat
+%STRING1.  Jakmile přijdou noví imigranti, budou se řadit v docích a čekat
 na transport do Nového světa.  Nové imigranty můžete naverbovat stisknutím
-tlačítek {Nábor} nebo {Vyškolit}.  Když lodě dorazí do přístavu, jejich
-náklad lze prodat přetažením z nákladových prostor do modrých skladů
+tlačítek {Nábor} nebo {Vyškolit}.  Když lodě dorazí do přístavu, lze
+jejich náklad prodat přetažením z nákladových prostor do modrých skladů
 ve spodní části obrazovky.  Náklad lze také zakoupit přetažením ze skladu
 do nákladových prostor lodi.  V polích skladu první číslo označuje
 {nabídkovou cenu}, kterou přístav za daný typ nákladu zaplatí.  Druhé
@@ -3371,7 +3371,7 @@ vyrobit více, než máme kolonií čili ({%NUMBER0}).
 @BUILD2
 @width=310
 @y=30
-^^expedice velkého %STRING0,
+^^expedice velkého %STRING0
 ^^%STRING1,
 
 @BUILD3

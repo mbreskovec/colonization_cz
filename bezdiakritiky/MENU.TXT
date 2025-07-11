@@ -17,8 +17,8 @@
   Nastaveni zprav o koloniich
   Nastaveni zvuku
   Vyber hudby
-  Ulozit Hru
-  Nahrat Hru
+  Ulozit hru
+  Nahrat hru
   VYHLASIT NEZAVISLOST
   Skoncit
   Odchod do systemu
@@ -26,8 +26,8 @@
 @VIEW
 ~POHLED
   Jednotka na tahu (~M)
-  Zobrazit ~Vlastnosti
-  ~Evropsky status
+  Zobrazit vlastnosti (~V)
+  Evropsky status (~E)
   Najit kolonii
   Zoom In#   ~Z
   Zoom Out   ~X
@@ -40,7 +40,7 @@
 
 @ORDERS
 ~ROZKAZY
-  ~Aktivovat jednotku
+  Aktivovat jednotku (~A)
   Cekat na dalsi jednotku (~W)
   Opevnit (~F)
   Opevnit (~F)
@@ -48,24 +48,24 @@
   Postavit kolonii (~B)
   Pripojit se ke kolonii (~B)
   Vymytit les (~P)
-  Vytvorit ~pole
+  Vytvorit pole (~P)
   Postavit cestu (~R)
-  Na~lozit naklad
+  Nalozit naklad (~L)
   Vylozit naklad (~U)
   Znicit (~P)
   Jdi do pristavu (~G)
   Jdi do kolonie (~G)
   Zacni obchodni trasu (~T)
-  Nav~rat do Evropy
+  Navrat do Evropy (~R)
   Bez prikazu (~s~p~a~c~e~ bar)
-  H~odit naklad pres palubu
+  Hodit naklad pres palubu (~O)
   Rozpustit jednotku (~s~h~i~f~t~-~D)
 
 @REPORTS
 ~ZPRAVY
   ~F~1 Informace o terenu
   ~F~2 Nabozensky poradce
-  ~F~3 Kontinentalni Kongres
+  ~F~3 Kontinentalni kongres
   ~F~4 Pracovni poradce
   ~F~5 Ekonomicky poradce
   ~F~6 Poradce pro kolonie
@@ -89,7 +89,7 @@
   ~F~0~5 Vyber lidskeho hrace
   ~F~0~6 Zabit indiany
   ~F~0~7 Vyhlaseni revoluce
-  Test Hudby
+  Test hudby
   Stav pameti
   ~F~0~8 Ukaz strategii
   ~F~0~9 Ukaz kolonie

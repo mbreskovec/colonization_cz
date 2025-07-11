@@ -86,14 +86,14 @@ Tak nic
 @checkbox
 Herni nastaveni
 @options
-Ukazuj tahy ~Indianu
+Ukazuj tahy indianu (~I)
 Ukazuj tahy ostatnich (~F)
 Rychly pohyb na mape (~S)
-Kon~ec kola
-~Autoukladani
+Konec kola (~E)
+Autoukladani (~A)
 Bojova analyza (~C)
-Poh~yblive vlny na vode
-~Tutorial napoveda
+Pohyblive vlny na vode (~Y)
+Tutorial napoveda (~T)
 
 @COLONYOPTIONS
 @width=220
@@ -116,9 +116,9 @@ Zpravy o {prevaze rebelu}
 @checkbox
 Nastaveni zvuku
 @options
-Hud~ba na pozadi
+Hudba na pozadi  (~B)
 Hudba pri akcich (~E)
-~Zvukove efekty  (~S)
+Zvukove efekty   (~S)
 
 @SAVEGAME
 @width=190
@@ -160,7 +160,7 @@ Chyba pri nahravani hry %STRING0.
 
 @PICKNATION
 @default=1
-Vyber Evropskou mocnost
+Vyber evropskou mocnost
 
 Anglie
 Francie
@@ -788,7 +788,7 @@ Z vesnice slysite zlovestny zvuk {valecnych bubnu}.
 @INDIANWELCOME
 @width=190
 "Kmen {%STRING0} vas vita.
-Jsme slavny narod s {%NUMBER0 %STRING1}.
+Jsme slavny narod se {%NUMBER0 %STRING1}.
 Na pocest naseho pratelstvi vam slechetne
 darujeme zemi, kterou prave zabirate.
 Prijimate tuto smlouvu a budete
@@ -1743,11 +1743,11 @@ Vlhko
 
 @EUROPEARM
 @width=190
-Nastaveni Evropskeho doku:
+Nastaveni evropskeho doku:
 
 @EUROPESHIPCLICK
 @width=190
-Nastaveni Evropskeho pristavu pro {%STRING0}:
+Nastaveni evropskeho pristavu pro {%STRING0}:
 
 @ARMOPTIONS
 Nenastupovat na dalsi lod.
@@ -1980,8 +1980,8 @@ radu (1649-60) pod vedenim Olivera Cromwella.  S tolika
 nabozenskymi rozpory, nebyla anglicka vlada schopna vynutit
 si ve svych koloniich nabozenskou poslusnost.
 Kolonie se staly centry {nabozenske svobody} pro skupiny
-(napriklad puritanu, anabaptistu, kvakeru), ktere celily 
-ve Starem svete perzekuci.
+(napriklad puritanu, anabaptistu, kvakeru), ktere ve Starem
+svete celily perzekuci.
 
 @NATION0B
 @width=300
@@ -2076,7 +2076,7 @@ __Vzhledem k sile holandske ekonomiky a holandskeho uspechu
 v namorni doprave, obchode a bankovnictvi, ziskava hrac
 za Holandsko bonus pri obchodovani s Amsterdamem.
 {Ceny zbozi} v Amsterdamu {nekolabuji} tak rychle, jako
-v jinych Evropskych pristavech a {zotavuji} se rychleji.
+v jinych evropskych pristavech a {zotavuji} se rychleji.
 
 @PICKACARGO
 @width=190
@@ -3158,9 +3158,9 @@ mimo kolonii ho pretahnete na ohradu (na obrazku kolonie vedle vody).
 
 @TUTORIAL5
 @width=220
-Excelence, v docich v {%STRING0} (Evropa) jsou {%STRING1}, kteri jsou
-pripraveni pripojit se k nasi kolonii.  Kdyz posleme lod, odpluji s nami
-a radi se stanou uzitecnymi cleny nasi komunity.
+Excelence, v docich v {%STRING0} (Evropa) je {%STRING1}, ktery je
+pripraven pripojit se k nasi kolonii.  Kdyz posleme lod, odpluje s nami
+a rad se stane uzitecnym clenem nasi komunity.
 
 @TUTORIAL6
 @width=220
@@ -3268,10 +3268,10 @@ a {vytvaret pole}.
 @y=10
 @smallfont
 Obrazovka Evropskeho statusu zobrazuje vas domovsky pristav v %STRING0,
-%STRING1.  Jakmile prijedou novi imigranti, budou se radit v docich a cekat
+%STRING1.  Jakmile prijdou novi imigranti, budou se radit v docich a cekat
 na transport do Noveho sveta.  Nove imigranty muzete naverbovat stisknutim
-tlacitek {Nabor} nebo {Vyskolit}.  Kdyz lode dorazi do pristavu, jejich
-naklad lze prodat pretazenim z nakladovych prostor do modrych skladu
+tlacitek {Nabor} nebo {Vyskolit}.  Kdyz lode dorazi do pristavu, lze
+jejich naklad prodat pretazenim z nakladovych prostor do modrych skladu
 ve spodni casti obrazovky.  Naklad lze take zakoupit pretazenim ze skladu
 do nakladovych prostor lodi.  V polich skladu prvni cislo oznacuje
 {nabidkovou cenu}, kterou pristav za dany typ nakladu zaplati.  Druhe
@@ -3371,7 +3371,7 @@ vyrobit vice, nez mame kolonii cili ({%NUMBER0}).
 @BUILD2
 @width=310
 @y=30
-^^expedice velkeho %STRING0,
+^^expedice velkeho %STRING0
 ^^%STRING1,
 
 @BUILD3
