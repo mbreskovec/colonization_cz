@@ -316,11 +316,11 @@ zakládat na moři.
 
 @NOPORT
 @width=190
-Toto území nemá přístup k {oceánu},
-Vaše Excelence.  Jestliže zde vybudujete {kolonii},
-budeme muset k transportu zboží do {přístavu} použít
-{přepravní vozy}, které postavíme v
-nějaké kolonii.
+Vaše Excelence, toto území nemá přístup k
+{oceánu}.  Jestliže zde vybudujete {kolonii},
+budeme muset k transportu zboží do {přístavu}
+použít {přepravní vozy}, které postavíme v
+některé z kolonií.
 
 "Och, na to jsem zapomněl."
 "A to je přesně to, co chci."
@@ -1417,7 +1417,7 @@ s {%NUMBER2 %STRING0}.  Je to přijatelné?"
 @BUY1
 @width=190
 "Jsme unavení vaším neustálým smlouváním.  Výměnou
-za {%NUMBER0$} naplníme váš {%STRING1}
+za {%NUMBER0$} naplníme vaše {%STRING1}
 s {%NUMBER2 %STRING0}.  Je to přijatelné?"
 
 "Rádi zaplatíme {%NUMBER0$} (z {%NUMBER3$})."
@@ -2128,7 +2128,7 @@ bylo přidáno do stájí v kolonii.
 
 @HELLOFIRST
 @width=220
-"Buďte zdrávi %STRING0 a vítejte do {%STRING1}.
+"Buďte zdráv %STRING0 a vítejte do {%STRING1}.
 Právě jsme zabrali všechnu tuto zemi ve jménu
 {%STRING2} a jsme zde kvůli %STRING3.
 Prosím, nepřekážejte nám v této zbožné misi."
@@ -2178,10 +2178,10 @@ Papež
 Náš místodržící
 
 @GREATLEADER2
-královna
-král
-papež
-místodržící
+královny
+krále
+papeže
+místodržícího
 
 @MYLEADER
 král
@@ -2381,7 +2381,7 @@ plnit Boží vůli."
 
 @OLDPEACEMANLY
 @width=220
-"Ačkoli {%STRING0} na tuto polokoule nepatří,
+"Ačkoli {%STRING0} na tuto polokouli nepatří,
 rozhodli jsme se vás v tuto chvíli z Nového světa nevyhánět."
 
 "Jděte v míru, {%STRING1} bratři."
@@ -3096,8 +3096,8 @@ Poškozené %STRING0 %STRING1 bylo {zničeno}.
 ^^Colonization nápověda: Běh času
 ^
 V roce 1600 se {běh času} změní z jednoho tahu za rok na
-{dva tahy za rok}.  Od teď bude {jarní} a {podzimní}
-kolo v jednom roce.
+{dva tahy za rok}.  Od teď bude v jednom roce {jarní}
+a {podzimní} kolo.
 
 
 @TEACHCONVERT

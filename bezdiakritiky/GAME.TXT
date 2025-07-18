@@ -316,11 +316,11 @@ zakladat na mori.
 
 @NOPORT
 @width=190
-Toto uzemi nema pristup k {oceanu},
-Vase Excelence.  Jestlize zde vybudujete {kolonii},
-budeme muset k transportu zbozi do {pristavu} pouzit
-{nakladni vozy}, ktere postavime v
-nejake kolonii.
+Vase Excelence, toto uzemi nema pristup k
+{oceanu}.  Jestlize zde vybudujete {kolonii},
+budeme muset k transportu zbozi do {pristavu}
+pouzit {prepravni vozy}, ktere postavime v
+nektere z kolonii.
 
 "Och, na to jsem zapomnel."
 "A to je presne to, co chci."
@@ -1417,7 +1417,7 @@ s {%NUMBER2 %STRING0}.  Je to prijatelne?"
 @BUY1
 @width=190
 "Jsme unaveni vasim neustalym smlouvanim.  Vymenou
-za {%NUMBER0$} naplnime vas {%STRING1}
+za {%NUMBER0$} naplnime vase {%STRING1}
 s {%NUMBER2 %STRING0}.  Je to prijatelne?"
 
 "Radi zaplatime {%NUMBER0$} (z {%NUMBER3$})."
@@ -2128,7 +2128,7 @@ bylo pridano do staji v kolonii.
 
 @HELLOFIRST
 @width=220
-"Budte zdravi %STRING0 a vitejte do {%STRING1}.
+"Budte zdrav %STRING0 a vitejte do {%STRING1}.
 Prave jsme zabrali vsechnu tuto zemi ve jmenu
 {%STRING2} a jsme zde kvuli %STRING3.
 Prosim, neprekazejte nam v teto zbozne misi."
@@ -2178,10 +2178,10 @@ Papez
 Nas mistodrzici
 
 @GREATLEADER2
-kralovna
-kral
-papez
-mistodrzici
+kralovny
+krale
+papeze
+mistodrziciho
 
 @MYLEADER
 kral
@@ -2381,7 +2381,7 @@ plnit Bozi vuli."
 
 @OLDPEACEMANLY
 @width=220
-"Ackoli {%STRING0} na tuto polokoule nepatri,
+"Ackoli {%STRING0} na tuto polokouli nepatri,
 rozhodli jsme se vas v tuto chvili z Noveho sveta nevyhanet."
 
 "Jdete v miru, {%STRING1} bratri."
@@ -3096,8 +3096,8 @@ Poskozene %STRING0 %STRING1 bylo {zniceno}.
 ^^Colonization napoveda: Beh casu
 ^
 V roce 1600 se {beh casu} zmeni z jednoho tahu za rok na
-{dva tahy za rok}.  Od ted bude {jarni} a {podzimni}
-kolo v jednom roce.
+{dva tahy za rok}.  Od ted bude v jednom roce {jarni}
+a {podzimni} kolo.
 
 
 @TEACHCONVERT

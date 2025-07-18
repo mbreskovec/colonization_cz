@@ -29,7 +29,7 @@ Instalace prekladu
 
 Nejprve si zvolte, zda chcete preklad s diakritikou nebo bez diakritiky.
 
-Mozna se ptate, proc zvolit verzi bez diakritiky. Jde o to, ze fonty pouzite v Colonization jsou pomerne male a pridani diakritickych znamenek ma urcity dopad na citelnost textu, zvlaste pokud hrajete treba v DOSBoxu na velkem monitoru (pokud byste hrali na starem pocitaci s CRT monitorem, jako ja ;-), vypadaji texty mnohem lepe). Takze pokud zjistite, ze je pro vas citelnost textu s diakritikou prilis obtizna, zvolte verzi bez diakritiky.
+Mozna se ptate, proc zvolit verzi bez diakritiky. Jde o to, ze fonty pouzite v Colonization jsou pomerne male a pridani diakritickych znamenek ma urcity dopad na citelnost textu, zvlaste pokud hrajete treba v DOSBoxu s pouzitim antialiasingu na velkem monitoru. Takze pokud zjistite, ze je pro vas citelnost textu s diakritikou prilis obtizna, zvolte verzi bez diakritiky.
 
 
 Preklad s diakritikou

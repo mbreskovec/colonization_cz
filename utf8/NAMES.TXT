@@ -65,16 +65,16 @@ Neprozkoumáno
 Vytěžený důl,           6
 Oáza,                   3
 Pšenice,                4
-Bavlníková plantáž,     6
-Tabáková plantáž,       6
-Cukrová plantáž,        7
+Bavlník. plantáž,       6
+Tabák. plantáž,         6
+Cukr. plantáž,          7
 Minerály,               4
 Rybí loviště,           5
 Bobři,                  6
 Zvěř,                   6
-Prvotřídní dřevo,       6
-Prvotřídní dřevo,       6
-Ložisko stříbra,       12
+Kvalitní dřevo,         6
+Kvalitní dřevo,         6
+Žíla stříbra,          12
 Ložisko rudy,           6
 
 

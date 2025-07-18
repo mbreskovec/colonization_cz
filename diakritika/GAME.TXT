@@ -316,11 +316,11 @@ zakl`dat na moi.
 
 @NOPORT
 @width=190
-Toto zem nem` pstup k {oce`nu},
-Vae Excelence.  Jestlie zde vybudujete {kolonii},
-budeme muset k transportu zbo do {pstavu} pout
-{pepravn vozy}, kter postavme v
-njak kolonii.
+Vae Excelence, toto zem nem` pstup k
+{oce`nu}.  Jestlie zde vybudujete {kolonii},
+budeme muset k transportu zbo do {pstavu}
+pout {pepravn vozy}, kter postavme v
+nkter z koloni.
 
 "Och, na to jsem zapomnl."
 "A to je pesn to, co chci."
@@ -1417,7 +1417,7 @@ s {%NUMBER2 %STRING0}.  Je to pijateln?"
 @BUY1
 @width=190
 "Jsme unaven vam neust`lm smlouv`nm.  Vmnou
-za {%NUMBER0$} naplnme v` {%STRING1}
+za {%NUMBER0$} naplnme ve {%STRING1}
 s {%NUMBER2 %STRING0}.  Je to pijateln?"
 
 "R`di zaplatme {%NUMBER0$} (z {%NUMBER3$})."
@@ -1689,7 +1689,7 @@ Cena {%STRING0} v %STRING1 se snila na {%NUMBER0$}.
 
 @WHICHFREEDOM
 @width=190
-Vae Excelence, Kontinent`ln Kongres se bude pi dalm zased`n
+Vae Excelence, Kontinent`ln kongres se bude pi dalm zased`n
 roziovat.  Kterho z Otc zakladatel jmenujeme jeho dalm lenem?
 
 @FREEDOM
@@ -2128,7 +2128,7 @@ bylo pid`no do st`j v kolonii.
 
 @HELLOFIRST
 @width=220
-"Bute zdr`vi %STRING0 a vtejte do {%STRING1}.
+"Bute zdr`v %STRING0 a vtejte do {%STRING1}.
 Pr`v jsme zabrali vechnu tuto zemi ve jmnu
 {%STRING2} a jsme zde kvli %STRING3.
 Prosm, nepek`ejte n`m v tto zbon misi."
@@ -2178,10 +2178,10 @@ Pape
 N` mstodrc
 
 @GREATLEADER2
-kr`lovna
-kr`l
-pape
-mstodrc
+kr`lovny
+kr`le
+papee
+mstodrcho
 
 @MYLEADER
 kr`l
@@ -2381,7 +2381,7 @@ plnit Bo vli."
 
 @OLDPEACEMANLY
 @width=220
-"Akoli {%STRING0} na tuto polokoule nepat,
+"Akoli {%STRING0} na tuto polokouli nepat,
 rozhodli jsme se v`s v tuto chvli z Novho svta nevyh`nt."
 
 "Jdte v mru, {%STRING1} brati."
@@ -3096,8 +3096,8 @@ Pokozen %STRING0 %STRING1 bylo {znieno}.
 ^^Colonization n`povda: Bh asu
 ^
 V roce 1600 se {bh asu} zmn z jednoho tahu za rok na
-{dva tahy za rok}.  Od te bude {jarn} a {podzimn}
-kolo v jednom roce.
+{dva tahy za rok}.  Od te bude v jednom roce {jarn}
+a {podzimn} kolo.
 
 
 @TEACHCONVERT

@@ -22,7 +22,7 @@ Sid Meier's Colonization lze koupit na GOG.com [zde](https://www.gog.com/en/game
 ## Instalace překladu
 Nejprve si zvolte, zda chcete překlad **s diakritikou** nebo **bez diakritiky**.
 
-Možná se ptáte, proč zvolit verzi bez diakritiky. Jde o to, že fonty použité v Colonization jsou poměrně malé a přidání diakritických znamének má určitý dopad na čitelnost textu, zvláště pokud hrajete třeba v DOSBoxu na velkém monitoru (pokud byste hráli na starém počítači s CRT monitorem, jako já 😉, vypadají texty mnohem lépe). Takže pokud zjistíte, že je pro vás čitelnost textu s diakritikou příliš obtížná, zvolte verzi bez diakritiky.
+Možná se ptáte, proč zvolit verzi bez diakritiky. Jde o to, že fonty použité v Colonization jsou poměrně malé a přidání diakritických znamének má určitý dopad na čitelnost textu, zvláště pokud hrajete třeba v DOSBoxu s použitím antialiasingu na velkém monitoru. Takže pokud zjistíte, že je pro vás čitelnost textu s diakritikou příliš obtížná, zvolte verzi bez diakritiky.
 
 ### Překlad s diakritikou
 Zkopírujte obsah složky "**diakritika**" do složky s hrou a přepište tak následující soubory.

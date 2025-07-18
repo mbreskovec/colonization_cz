@@ -65,16 +65,16 @@ Neprozkoumano
 Vytezeny dul,           6
 Oaza,                   3
 Psenice,                4
-Bavlnikova plantaz,     6
-Tabakova plantaz,       6
-Cukrova plantaz,        7
+Bavlnik. plantaz,       6
+Tabak. plantaz,         6
+Cukr. plantaz,          7
 Mineraly,               4
 Rybi loviste,           5
 Bobri,                  6
 Zver,                   6
-Prvotridni drevo,       6
-Prvotridni drevo,       6
-Lozisko stribra,       12
+Kvalitni drevo,         6
+Kvalitni drevo,         6
+Zila stribra,          12
 Lozisko rudy,           6
 
 

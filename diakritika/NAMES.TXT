@@ -65,16 +65,16 @@ Neprozkoum`no
 Vyten dl,           6
 O`za,                   3
 Penice,                4
-Bavlnkov` plant`,     6
-Tab`kov` plant`,       6
-Cukrov` plant`,        7
+Bavlnk. plant`,       6
+Tab`k. plant`,         6
+Cukr. plant`,          7
 Miner`ly,               4
 Ryb lovit,           5
 Bobi,                  6
 Zv,                   6
-Prvotdn devo,       6
-Prvotdn devo,       6
-Loisko stbra,       12
+Kvalitn devo,         6
+Kvalitn devo,         6
+la stbra,          12
 Loisko rudy,           6
 
 
