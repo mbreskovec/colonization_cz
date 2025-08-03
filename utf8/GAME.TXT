@@ -2095,13 +2095,13 @@ do stavu {Kontinentální armáda}!
 
 @VETERAN
 @width=190
-Vaše Excelence, náš {%STRING0} byl povýšen
+Vaše Excelence, naši {%STRING0} byli povýšeni
 do stavu {veterán}!
 
 @VALOR
 @width=190
-Kvůli své udatnosti v bitvě, byli naši
-{%STRING0} vojáci povýšeni z {%STRING1}
+Díky své udatnosti v bitvě, byli naši
+{%STRING0} povýšeni z {%STRING1}
 do stavu {%STRING2}.
 
 @SCOUTCOLONY
@@ -2392,7 +2392,7 @@ rozhodli jsme se vás v tuto chvíli z Nového světa nevyhánět."
 
 @PEACEUSA
 @width=220
-"My {%STRING0} vítáme mír s svými politicky zaostalými
+"My {%STRING0} vítáme mír se svými politicky zaostalými
 {%STRING1} sousedy."
 
 "Jděte v míru, {%STRING1} bratři."
@@ -2499,21 +2499,21 @@ ve prospěch {%STRING2}.  Utrechtská smlouva určuje, že všechna
 @width=220
 Vaše Excelence, počet přívrženců Synů svobody v {%STRING0} vzrostl
 na %NUMBER0%%.  Většina kolonistů tak podporuje myšlenku nezávislosti
-na %STRING1!  Všichni kolonisté v %STRING0 získávají +1 k jejich
+na %STRING1!  Všichni kolonisté v %STRING0 získávají {+1} k jejich
 základním produkčním schopnostem.
 
 @REBELUNANIMOUS
 @width=220
 Vaše Excelence, počet přívrženců Synů svobody v {%STRING0} vzrostl na 100%%.
 Všichni kolonisté tak podporují myšlenku nezávislosti na %STRING1!
-Všichni kolonisté v %STRING0 získávají +2 k jejich základním produkčním
+Všichni kolonisté v %STRING0 získávají {+2} k jejich základním produkčním
 schopnostem.  Kolonisté zde mohou být také rychleji vzděláváni.
 
 @TORYMINORITY
 @width=220
 Vaše Excelence, počet přívrženců Synů svobody v {%STRING0} klesl ze 100%%
 na %NUMBER0%%.  Někteří kolonisté již nepodporují myšlenku nezávislosti
-na %STRING1.  Kolonisté v %STRING0 získávají jen +1 k jejich 
+na %STRING1.  Kolonisté v %STRING0 získávají jen {+1} k jejich 
 základním produkčním schopnostem.
 
 @TORYMAJORITY
@@ -2568,7 +2568,7 @@ Vaše Excelence, naši {zvědové} se zlepšili na {mistrovskou} úroveň.
 
 @KINGBUY
 @width=190
-Král zvyšuje vojenské výdaje.  {%STRING0} byl přidán do
+Král zvyšuje vojenské výdaje.  {%STRING0} byla přidána do
 Královské expediční armády.  Koloniální vůdcové vyhlašují poplach.
 
 @SEIZURE

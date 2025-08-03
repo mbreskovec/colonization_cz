@@ -407,12 +407,12 @@ ale zejmena v chladnejsich oblastech, kde se vyskytuje bobr.}
 @width=300
 ^{DREVO}
 Drevo je jednou z nejcennejsich komodit, kterou muzes vyprodukovat.
-Tvoji {tesari} potrebuji drevo k stavbe {budov, lodi, artilerie a opevneni}.
+Tvoji {tesari} potrebuji drevo ke stavbe {budov, lodi, artilerie a opevneni}.
 Drevo ziskas, kdyz prukopnici vycisti zalesnene pole, nebo kdyz tvoji
 drevorubci pracuji v lese.
 ^
 {Pro tezbu dreva jsou vhodne lesy vseho druhu a produkci dreva zvysuji
-cesty v lesich a pole s prvotridnim drevem.}
+cesty v lesich a mista s kvalitnim drevem.}
 
 @;
 @CARGO6
@@ -642,7 +642,7 @@ po mori je vzdy zapotrebi {galeona}.
 @width=300
 ^{ARTILERIE}
 Artilerii lze zakoupit v {Evrope}, nebo ji postavit ve zbrojnicich
-tvych kolonii. Artilerie je velmi ucinna pri {utocich na kolonie a
+tvych kolonii. Artilerie je velmi ucinna pri {utocich na kolonie, pri
 jejich obrane} a take pri utoku na opevnene jednotky a indianske osady.
 Nicmene, pri obrane v nechranenem terenu je velmi zranitelna a v utoku
 tamtez je neucinna. Delostrelecka jednotka, ktera je porazena v bitve,

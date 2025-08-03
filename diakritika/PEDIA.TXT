@@ -407,12 +407,12 @@ ale zejmna v chladnjch oblastech, kde se vyskytuje bobr.}
 @width=300
 ^{DEVO}
 Devo je jednou z nejcennjch komodit, kterou me vyprodukovat.
-Tvoji {tesai} potebuj devo k stavb {budov, lod, artilerie a opevnn}.
+Tvoji {tesai} potebuj devo ke stavb {budov, lod, artilerie a opevnn}.
 Devo zsk`, kdy prkopnci vyist zalesnn pole, nebo kdy tvoji
 devorubci pracuj v lese.
 ^
 {Pro tbu deva jsou vhodn lesy veho druhu a produkci deva zvyuj
-cesty v lesch a pole s prvotdnm devem.}
+cesty v lesch a msta s kvalitnm devem.}
 
 @;
 @CARGO6
@@ -642,7 +642,7 @@ po moi je vdy zapoteb {galeona}.
 @width=300
 ^{ARTILERIE}
 Artilerii lze zakoupit v {Evrop}, nebo ji postavit ve zbrojnicch
-tvch koloni. Artilerie je velmi inn` pi {tocch na kolonie a
+tvch koloni. Artilerie je velmi inn` pi {tocch na kolonie, pi
 jejich obran} a tak pi toku na opevnn jednotky a indi`nsk osady.
 Nicmn, pi obran v nechr`nnm ternu je velmi zraniteln` a v toku
 tamt je neinn`. Dlosteleck` jednotka, kter` je poraena v bitv,

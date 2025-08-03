@@ -2095,13 +2095,13 @@ do stavu {Kontinentalni armada}!
 
 @VETERAN
 @width=190
-Vase Excelence, nas {%STRING0} byl povysen
+Vase Excelence, nasi {%STRING0} byli povyseni
 do stavu {veteran}!
 
 @VALOR
 @width=190
-Kvuli sve udatnosti v bitve, byli nasi
-{%STRING0} vojaci povyseni z {%STRING1}
+Diky sve udatnosti v bitve, byli nasi
+{%STRING0} povyseni z {%STRING1}
 do stavu {%STRING2}.
 
 @SCOUTCOLONY
@@ -2392,7 +2392,7 @@ rozhodli jsme se vas v tuto chvili z Noveho sveta nevyhanet."
 
 @PEACEUSA
 @width=220
-"My {%STRING0} vitame mir s svymi politicky zaostalymi
+"My {%STRING0} vitame mir se svymi politicky zaostalymi
 {%STRING1} sousedy."
 
 "Jdete v miru, {%STRING1} bratri."
@@ -2499,21 +2499,21 @@ ve prospech {%STRING2}.  Utrechtska smlouva urcuje, ze vsechna
 @width=220
 Vase Excelence, pocet privrzencu Synu svobody v {%STRING0} vzrostl
 na %NUMBER0%%.  Vetsina kolonistu tak podporuje myslenku nezavislosti
-na %STRING1!  Vsichni koloniste v %STRING0 ziskavaji +1 k jejich
+na %STRING1!  Vsichni koloniste v %STRING0 ziskavaji {+1} k jejich
 zakladnim produkcnim schopnostem.
 
 @REBELUNANIMOUS
 @width=220
 Vase Excelence, pocet privrzencu Synu svobody v {%STRING0} vzrostl na 100%%.
 Vsichni koloniste tak podporuji myslenku nezavislosti na %STRING1!
-Vsichni koloniste v %STRING0 ziskavaji +2 k jejich zakladnim produkcnim
+Vsichni koloniste v %STRING0 ziskavaji {+2} k jejich zakladnim produkcnim
 schopnostem.  Koloniste zde mohou byt take rychleji vzdelavani.
 
 @TORYMINORITY
 @width=220
 Vase Excelence, pocet privrzencu Synu svobody v {%STRING0} klesl ze 100%%
 na %NUMBER0%%.  Nekteri koloniste jiz nepodporuji myslenku nezavislosti
-na %STRING1.  Koloniste v %STRING0 ziskavaji jen +1 k jejich 
+na %STRING1.  Koloniste v %STRING0 ziskavaji jen {+1} k jejich 
 zakladnim produkcnim schopnostem.
 
 @TORYMAJORITY
@@ -2568,7 +2568,7 @@ Vase Excelence, nasi {zvedove} se zlepsili na {mistrovskou} uroven.
 
 @KINGBUY
 @width=190
-Kral zvysuje vojenske vydaje.  {%STRING0} byl pridan do
+Kral zvysuje vojenske vydaje.  {%STRING0} byla pridana do
 Kralovske expedicni armady.  Kolonialni vudcove vyhlasuji poplach.
 
 @SEIZURE

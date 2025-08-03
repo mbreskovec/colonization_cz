@@ -66,7 +66,7 @@ Pozaduje
 Stada koni
 OK
 prodava
-pro
+za
 ZPRAVA PRACOVNIHO PORADCE
 ZPRAVA EKONOMICKEHO PORADCE
 ZPRAVA PORADCE PRO KOLONIE
@@ -91,8 +91,8 @@ Rebel
 Kralovsky
 Sentiment
 Popularita krale
-porazka
-porazky
+porazil
+porazil
 BOJOVA ANALYZA
 Unava
 Utocny bonus
@@ -219,7 +219,7 @@ Vudce
 Skore
 Colonization_Hodnoceni
 Primarni
-Poskozeny
+poskozena
 Tisk
 Nabidka/cena
 Poptavka/cena

@@ -2095,13 +2095,13 @@ do stavu {Kontinent`ln arm`da}!
 
 @VETERAN
 @width=190
-Vae Excelence, n` {%STRING0} byl poven
+Vae Excelence, nai {%STRING0} byli poveni
 do stavu {veter`n}!
 
 @VALOR
 @width=190
-Kvli sv udatnosti v bitv, byli nai
-{%STRING0} voj`ci poveni z {%STRING1}
+Dky sv udatnosti v bitv, byli nai
+{%STRING0} poveni z {%STRING1}
 do stavu {%STRING2}.
 
 @SCOUTCOLONY
@@ -2392,7 +2392,7 @@ rozhodli jsme se v`s v tuto chvli z Novho svta nevyh`nt."
 
 @PEACEUSA
 @width=220
-"My {%STRING0} vt`me mr s svmi politicky zaostalmi
+"My {%STRING0} vt`me mr se svmi politicky zaostalmi
 {%STRING1} sousedy."
 
 "Jdte v mru, {%STRING1} brati."
@@ -2499,21 +2499,21 @@ ve prospch {%STRING2}.  Utrechtsk` smlouva uruje, e vechna
 @width=220
 Vae Excelence, poet pvrenc Syn svobody v {%STRING0} vzrostl
 na %NUMBER0%%.  Vtina kolonist tak podporuje mylenku nez`vislosti
-na %STRING1!  Vichni kolonist v %STRING0 zsk`vaj +1 k jejich
+na %STRING1!  Vichni kolonist v %STRING0 zsk`vaj {+1} k jejich
 z`kladnm produknm schopnostem.
 
 @REBELUNANIMOUS
 @width=220
 Vae Excelence, poet pvrenc Syn svobody v {%STRING0} vzrostl na 100%%.
 Vichni kolonist tak podporuj mylenku nez`vislosti na %STRING1!
-Vichni kolonist v %STRING0 zsk`vaj +2 k jejich z`kladnm produknm
+Vichni kolonist v %STRING0 zsk`vaj {+2} k jejich z`kladnm produknm
 schopnostem.  Kolonist zde mohou bt tak rychleji vzdl`v`ni.
 
 @TORYMINORITY
 @width=220
 Vae Excelence, poet pvrenc Syn svobody v {%STRING0} klesl ze 100%%
 na %NUMBER0%%.  Nkte kolonist ji nepodporuj mylenku nez`vislosti
-na %STRING1.  Kolonist v %STRING0 zsk`vaj jen +1 k jejich 
+na %STRING1.  Kolonist v %STRING0 zsk`vaj jen {+1} k jejich 
 z`kladnm produknm schopnostem.
 
 @TORYMAJORITY
@@ -2568,7 +2568,7 @@ Vae Excelence, nai {zvdov} se zlepili na {mistrovskou} rove.
 
 @KINGBUY
 @width=190
-Kr`l zvyuje vojensk vdaje.  {%STRING0} byl pid`n do
+Kr`l zvyuje vojensk vdaje.  {%STRING0} byla pid`na do
 Kr`lovsk expedin arm`dy.  Koloni`ln vdcov vyhlauj poplach.
 
 @SEIZURE

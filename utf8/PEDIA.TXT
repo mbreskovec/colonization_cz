@@ -407,12 +407,12 @@ ale zejména v chladnějších oblastech, kde se vyskytuje bobr.}
 @width=300
 ^{DŘEVO}
 Dřevo je jednou z nejcennějších komodit, kterou můžeš vyprodukovat.
-Tvoji {tesaři} potřebují dřevo k stavbě {budov, lodí, artilerie a opevnění}.
+Tvoji {tesaři} potřebují dřevo ke stavbě {budov, lodí, artilerie a opevnění}.
 Dřevo získáš, když průkopníci vyčistí zalesněné pole, nebo když tvoji
 dřevorubci pracují v lese.
 ^
 {Pro těžbu dřeva jsou vhodné lesy všeho druhu a produkci dřeva zvyšují
-cesty v lesích a pole s prvotřídním dřevem.}
+cesty v lesích a místa s kvalitním dřevem.}
 
 @;
 @CARGO6
@@ -642,7 +642,7 @@ po moři je vždy zapotřebí {galeona}.
 @width=300
 ^{ARTILERIE}
 Artilerii lze zakoupit v {Evropě}, nebo ji postavit ve zbrojnicích
-tvých kolonií. Artilerie je velmi účinná při {útocích na kolonie a
+tvých kolonií. Artilerie je velmi účinná při {útocích na kolonie, při
 jejich obraně} a také při útoku na opevněné jednotky a indiánské osady.
 Nicméně, při obraně v nechráněném terénu je velmi zranitelná a v útoku
 tamtéž je neúčinná. Dělostřelecká jednotka, která je poražena v bitvě,
