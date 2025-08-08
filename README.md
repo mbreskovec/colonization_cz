@@ -98,9 +98,9 @@ V překladu je tedy správně uvedena položka "**O Editoru map**", ale logicky 
 
 ## Changelog
 
-- Verze 2.0 (07.2025) - Kompletní revize a přepis překladu, přidána verze s diakritikou a podpora Colonization v3.0.
-- Verze 1.1 (xx.2004) - Drobné korektury.
-- Verze 1.0 (xx.1998) - První verze překladu vzniklá během let 1997 a 1998.
+- Verze 2.0 (08. 08. 2025) - Kompletní revize a přepis překladu, přidána verze s diakritikou a podpora Colonization v3.0.
+- Verze 1.1 (xx. xx. 2004) - Drobné korektury.
+- Verze 1.0 (xx. xx. 1998) - První verze překladu vzniklá během let 1997 a 1998.
 
 ## Seznam složek a souborů
 

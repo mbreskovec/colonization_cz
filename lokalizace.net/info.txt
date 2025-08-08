@@ -120,9 +120,9 @@ Hra obvykle umistuje indianske vesnice nahodne.  Pokud vsak chces vytvorit treba
 Changelog
 ==========
 
-- Verze 2.0 (07.2025) - Kompletni revize a prepis prekladu, pridana verze s diakritikou a podpora Colonization v3.0.
-- Verze 1.1 (xx.2004) - Drobne korektury.
-- Verze 1.0 (xx.1998) - Prvni verze prekladu vznikla behem let 1997 a 1998.
+- Verze 2.0 (08. 08. 2025) - Kompletni revize a prepis prekladu, pridana verze s diakritikou a podpora Colonization v3.0.
+- Verze 1.1 (xx. xx. 2004) - Drobne korektury.
+- Verze 1.0 (xx. xx. 1998) - Prvni verze prekladu vznikla behem let 1997 a 1998.
 
 
 Seznam slozek a souboru
